@@ -1,0 +1,52 @@
+rules:
+  verified_positive:
+    graduation_2028: [graduate in 2028, graduating in 2028, graduation year 2028, "anticipated graduation date: Summer 2028", "completion time frame between June 2027 and July 2028", "completion timeframe between June 2027 and July 2028"]
+    penultimate_year: [penultimate year]
+    second_year: [second year, second-year, 2nd year, 2nd-year, year 2]
+    any_degree: [any degree, all degree disciplines, any discipline]
+    non_law: [non-law, non law]
+  likely_positive:
+    broad_undergraduate: [undergraduate students, current undergraduate, undergraduates]
+  hard_exclusions:
+    - graduates only
+    - completed degree required
+    - final year only
+    - law degree only
+    - llb required
+    - software engineer
+    - quantitative researcher
+    - machine learning engineer
+    - quantitative trader
+    - natural language processing
+    - machine learning internship
+    - software development internship
+    - software engineering internship
+    - data science internship
+    - quantitative research internship
+    - quantitative trading internship
+    - engineering internship
+    - computer science degree required
+    - engineering degree required
+    - mathematics degree required
+    - medical degree required
+    - laboratory scientist
+    - mba students only
+    - masters students only
+    - master's students only
+    - phd students only
+    - school leaver
+    - apprenticeship
+    - industrial placement year
+    - campus ambassador
+    - retail assistant
+    - hospitality assistant
+    - fundraising volunteer
+    - social media volunteer
+    - election campaign volunteer
+    - unpaid
+  law_vacation_scheme:
+    require_explicit_non_law_stage: true
+    reject_final_year_non_law_only: true
+  nationality:
+    known: [British, New Zealand]
+    never_assume: [residency, developed vetting, security clearance, background checks]

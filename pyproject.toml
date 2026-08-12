@@ -1,0 +1,52 @@
+[build-system]
+requires = ["hatchling==1.27.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "london-opportunity-radar"
+version = "0.1.0"
+description = "Breadth-first London opportunity finder with verified and possible-role tiers"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [{ name = "London Opportunity Radar contributors" }]
+dependencies = [
+  "httpx==0.28.1",
+  "socksio==1.0.0",
+  "pydantic==2.11.7",
+  "PyYAML==6.0.2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "mypy==1.17.1",
+  "pytest==8.4.1",
+  "pytest-asyncio==1.1.0",
+  "ruff==0.12.8",
+  "types-PyYAML==6.0.12.20250809",
+]
+
+[project.scripts]
+opportunity-radar = "opportunity_radar.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/opportunity_radar"]
+
+[tool.pytest.ini_options]
+addopts = "-q --strict-markers"
+testpaths = ["tests"]
+asyncio_mode = "auto"
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM", "RUF"]
+ignore = ["E501"]
+
+[tool.mypy]
+python_version = "3.12"
+strict = true
+packages = ["opportunity_radar"]
+exclude = ["site/generated"]

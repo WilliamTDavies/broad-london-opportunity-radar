@@ -1,0 +1,62 @@
+name: Daily digest
+
+on:
+  schedule:
+    - cron: "0 7,8 * * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: Render without sending or changing digest state
+        type: boolean
+        default: true
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-opportunity-digest
+  cancel-in-progress: false
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: python -m pip install -e .
+      - name: Check Europe/London delivery hour
+        id: clock
+        run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          from datetime import datetime
+          from zoneinfo import ZoneInfo
+          print(f"is_eight={str(datetime.now(ZoneInfo('Europe/London')).hour == 8).lower()}")
+          PY
+      - name: Render dry run
+        if: github.event_name == 'workflow_dispatch' && inputs.dry_run
+        run: python run.py digest --dry-run
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+      - name: Send digest
+        if: (github.event_name == 'schedule' && steps.clock.outputs.is_eight == 'true') || (github.event_name == 'workflow_dispatch' && !inputs.dry_run)
+        run: python run.py digest
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          RESEND_FROM_EMAIL: ${{ secrets.RESEND_FROM_EMAIL }}
+          TOKEN_SECRET: ${{ secrets.TOKEN_SECRET }}
+          SITE_URL: ${{ vars.SITE_URL }}
+      - name: Persist successful digest state
+        if: (github.event_name == 'schedule' && steps.clock.outputs.is_eight == 'true') || (github.event_name == 'workflow_dispatch' && !inputs.dry_run)
+        run: |
+          if git diff --quiet -- data/digest_state.json; then exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/digest_state.json
+          git commit -m "data: record daily digest state"
+          git pull --rebase
+          git push

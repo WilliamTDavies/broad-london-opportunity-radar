@@ -1,0 +1,1548 @@
+[
+  {
+    "all_source_urls": [
+      "https://targetjobs.co.uk/jobs/2027-summer-internship-program-231992",
+      "https://careers.blackrock.com/job/london/2027-summer-internship-program-emea/45831/97150826672",
+      "https://careers.blackrock.com/students-and-graduates-emea"
+    ],
+    "application_method": null,
+    "application_url": "https://careers.blackrock.com/job/london/2027-summer-internship-program-emea/45831/97150826672",
+    "approved_organisation": true,
+    "canonical_employer": "BlackRock",
+    "canonical_url": "https://careers.blackrock.com/job/london/2027-summer-internship-program-emea/45831/97150826672",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "employer_stated",
+    "deadline": "2026-09-30",
+    "degree_restrictions": [
+      "We welcome applications from candidates studying any degree subject."
+    ],
+    "description_excerpt": "Eight-week June-to-August internship with day-to-day analyst responsibilities, training, mentoring and networking across eligible BlackRock business functions.",
+    "division": "Multiple business functions; candidates select up to two functions",
+    "eligibility_evidence": [
+      {
+        "rule_id": "study.penultimate",
+        "source_url": "https://careers.blackrock.com/job/london/2027-summer-internship-program-emea/45831/97150826672",
+        "structured_field": "eligibility_text",
+        "text": "Candidates should be in their penultimate year of studies and graduating from an undergraduate or a master's degree program in 2028."
+      },
+      {
+        "rule_id": "degree.any",
+        "source_url": "https://careers.blackrock.com/job/london/2027-summer-internship-program-emea/45831/97150826672",
+        "structured_field": "eligibility_text",
+        "text": "We welcome applications from candidates studying any degree subject."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "study.penultimate",
+      "degree.any"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-11T04:35:50.345537Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [],
+    "id": "dac6171b2664419b",
+    "last_seen_at": "2026-08-11T19:36:18.980543Z",
+    "listing_publisher": null,
+    "location": "London, England (multi-location EMEA programme)",
+    "location_type": "multi_location",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 0,
+      "skill_alignment": 0,
+      "substantive_relevance": 12
+    },
+    "match_score": 57,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": null,
+    "organisation_type": "investment_manager",
+    "paid": true,
+    "paid_status_evidence": "The official listing links an EMEA 2027 internship salary-ranges document for applicable locations and business areas.",
+    "political_affiliation": null,
+    "primary_category": "Asset and Investment Management",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": "2026-06-30",
+    "relevance_reasons": [
+      "Falls within the approved Asset and Investment Management category"
+    ],
+    "relevance_status": "credible_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "ESG and Responsible Investment",
+      "Sustainable and Climate Finance"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "12232",
+    "source_registry_id": "blackrock",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "Candidates should be in their penultimate year of studies and graduating from an undergraduate or a master's degree program in 2028."
+    ],
+    "title": "2027 Summer Internship Program - EMEA"
+  },
+  {
+    "all_source_urls": [
+      "https://targetjobs.co.uk/jobs/2027-client-and-product-summer-internship-program-emea-234533",
+      "https://careers.blackrock.com/job/london/2027-client-and-product-summer-internship-program-emea/45831/97150826736",
+      "https://targetjobs.co.uk/jobs/2027-client-and-product-summer-internship-program-231970",
+      "https://careers.blackrock.com/students-and-graduates-emea"
+    ],
+    "application_method": null,
+    "application_url": "https://careers.blackrock.com/job/london/2027-client-and-product-summer-internship-program-emea/45831/97150826736",
+    "approved_organisation": true,
+    "canonical_employer": "BlackRock",
+    "canonical_url": "https://careers.blackrock.com/job/london/2027-client-and-product-summer-internship-program-emea/45831/97150826736",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "employer_stated",
+    "deadline": "2026-09-30",
+    "degree_restrictions": [],
+    "description_excerpt": "Eight-week June-to-August client and product internship with direct work in Global Product Solutions and the Client Business, senior-leader sessions and mentoring.",
+    "division": "Global Product Solutions and Client Business",
+    "eligibility_evidence": [
+      {
+        "rule_id": "study.penultimate",
+        "source_url": "https://careers.blackrock.com/job/london/2027-client-and-product-summer-internship-program-emea/45831/97150826736",
+        "structured_field": "eligibility_text",
+        "text": "Candidates should be in their penultimate year of studies and graduating from an undergraduate or a master's degree program in 2028."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "study.penultimate"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-11T04:35:50.345537Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [],
+    "id": "9ec5948a111c7a4c",
+    "last_seen_at": "2026-08-11T19:36:18.980543Z",
+    "listing_publisher": null,
+    "location": "London, England (multi-location EMEA programme)",
+    "location_type": "multi_location",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 0,
+      "skill_alignment": 0,
+      "substantive_relevance": 12
+    },
+    "match_score": 57,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": null,
+    "organisation_type": "investment_manager",
+    "paid": true,
+    "paid_status_evidence": "The official listing links an EMEA 2027 internship salary-ranges document for applicable locations and business areas.",
+    "political_affiliation": null,
+    "primary_category": "Asset and Investment Management",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": "2026-06-30",
+    "relevance_reasons": [
+      "Falls within the approved Asset and Investment Management category"
+    ],
+    "relevance_status": "credible_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Wealth Management and Private Banking",
+      "Business Development"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "12222",
+    "source_registry_id": "blackrock",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "Candidates should be in their penultimate year of studies and graduating from an undergraduate or a master's degree program in 2028."
+    ],
+    "title": "2027 Client and Product Summer Internship Program - EMEA"
+  },
+  {
+    "all_source_urls": [
+      "https://careers.bankofamerica.com/en-us/students/job-detail/14519/global-corporate-banking-2027-summer-analyst-x2013-london-london-united-kingdom",
+      "https://careers.bankofamerica.com/en-us/students/job-search"
+    ],
+    "application_method": null,
+    "application_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14519/global-corporate-banking-2027-summer-analyst-x2013-london-london-united-kingdom",
+    "approved_organisation": true,
+    "canonical_employer": "Bank of America",
+    "canonical_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14519/global-corporate-banking-2027-summer-analyst-x2013-london-london-united-kingdom",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "employer_stated",
+    "deadline": "2026-10-11",
+    "degree_restrictions": [],
+    "description_excerpt": "Summer analyst programme across the London corporate-banking teams, covering relationship management, credit analysis, financing, treasury, risk-management advice and live transactions.",
+    "division": "Global Corporate Banking",
+    "eligibility_evidence": [
+      {
+        "rule_id": "graduation.2028",
+        "source_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14519/global-corporate-banking-2027-summer-analyst-x2013-london-london-united-kingdom",
+        "structured_field": "eligibility_text",
+        "text": "Candidates must be pursuing a Bachelor's or Master's degree with a completion time frame between June 2027 and July 2028, be on track for at least a 2:1, and applications are accepted from a diverse range of degree disciplines including arts and humanities."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "graduation.2028"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-11T13:15:36.732779Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [
+      "Candidates must be pursuing a Bachelor's or Master's degree with a completion time frame between June 2027 and July 2028, be on track for at least a 2:1, and applications are accepted from a diverse range of degree disciplines including arts and humanities."
+    ],
+    "id": "b48a02b87bef83b9",
+    "last_seen_at": "2026-08-11T13:25:15.086654Z",
+    "listing_publisher": null,
+    "location": "London, United Kingdom",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 2,
+      "skill_alignment": 0,
+      "substantive_relevance": 35
+    },
+    "match_score": 82,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": null,
+    "organisation_type": "investment_bank",
+    "paid": true,
+    "paid_status_evidence": "The official listing states that the role offers a competitive salary and benefits package.",
+    "political_affiliation": null,
+    "primary_category": "Corporate and Commercial Banking",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": "2026-08-03",
+    "relevance_reasons": [
+      "Legal, compliance, regulatory or risk work aligns with prior experience",
+      "Uses research, analysis and written briefing skills",
+      "Provides substantive financial or commercial analysis",
+      "Falls within the approved Corporate and Commercial Banking category"
+    ],
+    "relevance_status": "strong_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Corporate Finance and Transactions"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "14519",
+    "source_registry_id": "bank-of-america",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [],
+    "title": "Global Corporate Banking 2027 Summer Analyst — London"
+  },
+  {
+    "all_source_urls": [
+      "https://careers.bankofamerica.com/en-us/students/job-detail/14521/global-capital-markets-2027-summer-analyst-dcm-ecm-leveraged-finance-and-ssg-london-london-united-kingdom",
+      "https://careers.bankofamerica.com/en-us/students/job-search"
+    ],
+    "application_method": null,
+    "application_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14521/global-capital-markets-2027-summer-analyst-dcm-ecm-leveraged-finance-and-ssg-london-london-united-kingdom",
+    "approved_organisation": true,
+    "canonical_employer": "Bank of America",
+    "canonical_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14521/global-capital-markets-2027-summer-analyst-dcm-ecm-leveraged-finance-and-ssg-london-london-united-kingdom",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "employer_stated",
+    "deadline": "2026-10-11",
+    "degree_restrictions": [],
+    "description_excerpt": "Summer analyst programme across debt and equity capital markets, leveraged finance and sustainable finance, with client analysis, transaction execution and market research.",
+    "division": "Global Capital Markets — DCM, ECM, Leveraged Finance and Sustainable Solutions Group",
+    "eligibility_evidence": [
+      {
+        "rule_id": "graduation.2028",
+        "source_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14521/global-capital-markets-2027-summer-analyst-dcm-ecm-leveraged-finance-and-ssg-london-london-united-kingdom",
+        "structured_field": "eligibility_text",
+        "text": "Candidates must be pursuing a Bachelor's or Master's degree with a completion time frame between June 2027 and July 2028, be on track for at least a 2:1, and applications are accepted from a diverse range of degree disciplines including arts and humanities."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "graduation.2028"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-11T13:15:36.732779Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [
+      "Candidates must be pursuing a Bachelor's or Master's degree with a completion time frame between June 2027 and July 2028, be on track for at least a 2:1, and applications are accepted from a diverse range of degree disciplines including arts and humanities."
+    ],
+    "id": "73560e57e34b4aeb",
+    "last_seen_at": "2026-08-11T13:25:15.086654Z",
+    "listing_publisher": null,
+    "location": "London, United Kingdom",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 2,
+      "skill_alignment": 5,
+      "substantive_relevance": 23
+    },
+    "match_score": 75,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": null,
+    "organisation_type": "investment_bank",
+    "paid": true,
+    "paid_status_evidence": "The official listing states that the role offers a competitive salary and benefits package.",
+    "political_affiliation": null,
+    "primary_category": "Corporate Finance and Transactions",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": "2026-08-03",
+    "relevance_reasons": [
+      "Uses research, analysis and written briefing skills",
+      "Uses relevant analytical, research or communication skills",
+      "Falls within the approved Corporate Finance and Transactions category"
+    ],
+    "relevance_status": "credible_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Sustainable and Climate Finance",
+      "ESG and Responsible Investment",
+      "Investment Banking",
+      "Market Research and Strategic Intelligence"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "14521",
+    "source_registry_id": "bank-of-america",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [],
+    "title": "Global Capital Markets 2027 Summer Analyst — London"
+  },
+  {
+    "all_source_urls": [
+      "https://careers.bankofamerica.com/en-us/students/job-detail/14522/global-investment-banking-2027-summer-analyst-london-london-united-kingdom",
+      "https://careers.bankofamerica.com/en-us/students/job-search"
+    ],
+    "application_method": null,
+    "application_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14522/global-investment-banking-2027-summer-analyst-london-london-united-kingdom",
+    "approved_organisation": true,
+    "canonical_employer": "Bank of America",
+    "canonical_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14522/global-investment-banking-2027-summer-analyst-london-london-united-kingdom",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "employer_stated",
+    "deadline": "2026-10-11",
+    "degree_restrictions": [],
+    "description_excerpt": "Summer analyst programme in investment-banking industry, product and country-coverage teams, with financial analysis, client materials and live transaction execution.",
+    "division": "Global Investment Banking",
+    "eligibility_evidence": [
+      {
+        "rule_id": "graduation.2028",
+        "source_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14522/global-investment-banking-2027-summer-analyst-london-london-united-kingdom",
+        "structured_field": "eligibility_text",
+        "text": "Candidates must be pursuing a Bachelor's or Master's degree with a completion time frame between June 2027 and July 2028, be available from June to August 2027, and be on track for at least a 2:1."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "graduation.2028"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-11T13:15:36.732779Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [
+      "Candidates must be pursuing a Bachelor's or Master's degree with a completion time frame between June 2027 and July 2028, be available from June to August 2027, and be on track for at least a 2:1."
+    ],
+    "id": "8027a5ba9212e153",
+    "last_seen_at": "2026-08-11T13:25:15.086654Z",
+    "listing_publisher": null,
+    "location": "London, United Kingdom",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 2,
+      "skill_alignment": 0,
+      "substantive_relevance": 35
+    },
+    "match_score": 82,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": null,
+    "organisation_type": "investment_bank",
+    "paid": true,
+    "paid_status_evidence": "The official listing states that the role offers a competitive salary and benefits package.",
+    "political_affiliation": null,
+    "primary_category": "Investment Banking",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": "2026-08-03",
+    "relevance_reasons": [
+      "Uses investment due diligence, valuation or financial-analysis skills",
+      "Uses research, analysis and written briefing skills",
+      "Provides substantive financial or commercial analysis",
+      "Falls within the approved Investment Banking category"
+    ],
+    "relevance_status": "strong_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Corporate Finance and Transactions",
+      "Energy and Commodities"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "14522",
+    "source_registry_id": "bank-of-america",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [],
+    "title": "Global Investment Banking 2027 Summer Analyst — London"
+  },
+  {
+    "all_source_urls": [
+      "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Private-Equity-Summer-Analyst--London-_43186"
+    ],
+    "application_method": null,
+    "application_url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Private-Equity-Summer-Analyst--London-_43186",
+    "approved_organisation": true,
+    "canonical_employer": "Blackstone",
+    "canonical_url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Private-Equity-Summer-Analyst--London-_43186",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "observed_first_seen",
+    "deadline": "2026-10-30",
+    "degree_restrictions": [],
+    "description_excerpt": "Ten-week in-person private-equity summer analyst programme involving investment research, due diligence, financial analysis and transaction work.",
+    "division": "Private Equity",
+    "eligibility_evidence": [
+      {
+        "rule_id": "graduation.2028",
+        "source_url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Private-Equity-Summer-Analyst--London-_43186",
+        "structured_field": "eligibility_text",
+        "text": "Anticipated graduation date: Summer 2028."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "graduation.2028"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-11T04:36:33.812893Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [
+      "Anticipated graduation date: Summer 2028."
+    ],
+    "id": "29a2c82722bec6a7",
+    "last_seen_at": "2026-08-11T13:25:14.199374Z",
+    "listing_publisher": null,
+    "location": "London",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 5,
+      "substantive_relevance": 35
+    },
+    "match_score": 90,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": null,
+    "organisation_type": "investment_manager",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Private Equity and Private Markets",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": null,
+    "relevance_reasons": [
+      "Uses investment due diligence, valuation or financial-analysis skills",
+      "Uses research, analysis and written briefing skills",
+      "Provides substantive financial or commercial analysis",
+      "Uses relevant analytical, research or communication skills",
+      "Falls within the approved Private Equity and Private Markets category"
+    ],
+    "relevance_status": "strong_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Corporate Finance and Transactions",
+      "Investigations and Corporate Intelligence"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "43186",
+    "source_registry_id": "blackstone",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "Currently enrolled as an undergraduate or masters student."
+    ],
+    "title": "2027 Blackstone Private Equity Summer Analyst (London)"
+  },
+  {
+    "all_source_urls": [
+      "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Private-Credit-Strategies-Summer-Analyst--London-_43864"
+    ],
+    "application_method": null,
+    "application_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Private-Credit-Strategies-Summer-Analyst--London-_43864",
+    "approved_organisation": true,
+    "canonical_employer": "Blackstone",
+    "canonical_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Private-Credit-Strategies-Summer-Analyst--London-_43864",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "observed_first_seen",
+    "deadline": "2026-10-30",
+    "degree_restrictions": [],
+    "description_excerpt": "Ten-week in-person private-credit internship covering European credit transactions and portfolio analysis for investment and stakeholder decisions.",
+    "division": "Credit and Insurance — Private Credit Strategies",
+    "eligibility_evidence": [
+      {
+        "rule_id": "graduation.2028",
+        "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Private-Credit-Strategies-Summer-Analyst--London-_43864",
+        "structured_field": "eligibility_text",
+        "text": "Anticipated graduation date: Summer 2028."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "graduation.2028"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-11T04:36:33.812893Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [
+      "Anticipated graduation date: Summer 2028."
+    ],
+    "id": "982033891fa8fd2b",
+    "last_seen_at": "2026-08-11T13:25:14.199374Z",
+    "listing_publisher": null,
+    "location": "Berkeley Square House, London",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 0,
+      "substantive_relevance": 35
+    },
+    "match_score": 85,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": null,
+    "organisation_type": "investment_manager",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Private Credit",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": null,
+    "relevance_reasons": [
+      "Uses research, analysis and written briefing skills",
+      "Provides substantive financial or commercial analysis",
+      "Uses stakeholder, programme or operational coordination skills",
+      "Falls within the approved Private Credit category"
+    ],
+    "relevance_status": "strong_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Asset and Investment Management",
+      "Corporate Finance and Transactions",
+      "Insurance and Reinsurance"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "43864",
+    "source_registry_id": "blackstone",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "Currently enrolled as an undergraduate or masters student."
+    ],
+    "title": "2027 Blackstone Credit and Insurance, Private Credit Strategies Summer Analyst (London)"
+  },
+  {
+    "all_source_urls": [
+      "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Infrastructure-and-Asset-Based-Credit-Summer-Analyst--London-_43862"
+    ],
+    "application_method": null,
+    "application_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Infrastructure-and-Asset-Based-Credit-Summer-Analyst--London-_43862",
+    "approved_organisation": true,
+    "canonical_employer": "Blackstone",
+    "canonical_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Infrastructure-and-Asset-Based-Credit-Summer-Analyst--London-_43862",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "observed_first_seen",
+    "deadline": "2026-10-30",
+    "degree_restrictions": [],
+    "description_excerpt": "Ten-week in-person credit internship involving due diligence, financial analysis and modelling, research, benchmarking, presentations and investment memoranda.",
+    "division": "Credit and Insurance — Infrastructure and Asset-Based Credit",
+    "eligibility_evidence": [
+      {
+        "rule_id": "graduation.2028",
+        "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Infrastructure-and-Asset-Based-Credit-Summer-Analyst--London-_43862",
+        "structured_field": "eligibility_text",
+        "text": "Anticipated graduation date: Summer 2028."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "graduation.2028"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-11T04:36:33.812893Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [
+      "Anticipated graduation date: Summer 2028."
+    ],
+    "id": "e78633864fc72f47",
+    "last_seen_at": "2026-08-11T13:25:14.199374Z",
+    "listing_publisher": null,
+    "location": "Berkeley Square House, London",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 5,
+      "substantive_relevance": 35
+    },
+    "match_score": 90,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": null,
+    "organisation_type": "investment_manager",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Private Credit",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": null,
+    "relevance_reasons": [
+      "Uses investment due diligence, valuation or financial-analysis skills",
+      "Uses research, analysis and written briefing skills",
+      "Provides substantive financial or commercial analysis",
+      "Uses relevant analytical, research or communication skills",
+      "Falls within the approved Private Credit category"
+    ],
+    "relevance_status": "strong_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Infrastructure Investment",
+      "Corporate Finance and Transactions",
+      "Insurance and Reinsurance",
+      "Investigations and Corporate Intelligence"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "43862",
+    "source_registry_id": "blackstone",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "Currently enrolled as an undergraduate or masters student."
+    ],
+    "title": "2027 Blackstone Credit and Insurance, Infrastructure and Asset-Based Credit Summer Analyst (London)"
+  },
+  {
+    "all_source_urls": [
+      "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Strategic-Partners-Private-Equity-Secondaries-Summer-Analyst--London-_43192"
+    ],
+    "application_method": null,
+    "application_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Strategic-Partners-Private-Equity-Secondaries-Summer-Analyst--London-_43192",
+    "approved_organisation": true,
+    "canonical_employer": "Blackstone",
+    "canonical_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Strategic-Partners-Private-Equity-Secondaries-Summer-Analyst--London-_43192",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "observed_first_seen",
+    "deadline": "2026-10-30",
+    "degree_restrictions": [],
+    "description_excerpt": "Ten-week in-person secondaries internship involving private-equity fund and portfolio valuation, financial modelling, transaction execution and investment-committee materials.",
+    "division": "Strategic Partners — Private Equity Secondaries",
+    "eligibility_evidence": [
+      {
+        "rule_id": "graduation.2028",
+        "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Strategic-Partners-Private-Equity-Secondaries-Summer-Analyst--London-_43192",
+        "structured_field": "eligibility_text",
+        "text": "Anticipated graduation date: Summer 2028."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "graduation.2028"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-11T04:36:33.812893Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [
+      "Anticipated graduation date: Summer 2028."
+    ],
+    "id": "d02a281484ee121d",
+    "last_seen_at": "2026-08-11T13:25:14.199374Z",
+    "listing_publisher": null,
+    "location": "Berkeley Square House, London",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 0,
+      "substantive_relevance": 35
+    },
+    "match_score": 85,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": null,
+    "organisation_type": "investment_manager",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Private Equity and Private Markets",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": null,
+    "relevance_reasons": [
+      "Uses investment due diligence, valuation or financial-analysis skills",
+      "Provides substantive financial or commercial analysis",
+      "Falls within the approved Private Equity and Private Markets category"
+    ],
+    "relevance_status": "strong_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Corporate Finance and Transactions",
+      "Asset and Investment Management"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "43192",
+    "source_registry_id": "blackstone",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "Currently enrolled as an undergraduate or masters student."
+    ],
+    "title": "2027 Blackstone Strategic Partners Private Equity Secondaries Summer Analyst (London)"
+  },
+  {
+    "all_source_urls": [
+      "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Strategic-Partners-Real-Estate-Secondaries-Summer-Analyst--London-_43623"
+    ],
+    "application_method": null,
+    "application_url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Strategic-Partners-Real-Estate-Secondaries-Summer-Analyst--London-_43623",
+    "approved_organisation": true,
+    "canonical_employer": "Blackstone",
+    "canonical_url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Strategic-Partners-Real-Estate-Secondaries-Summer-Analyst--London-_43623",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "observed_first_seen",
+    "deadline": "2026-10-30",
+    "degree_restrictions": [],
+    "description_excerpt": "Ten-week in-person real-estate secondaries internship involving valuation and financial modelling of funds and properties, transaction structures, investment-committee materials and market analysis.",
+    "division": "Strategic Partners — Real Estate Secondaries",
+    "eligibility_evidence": [
+      {
+        "rule_id": "graduation.2028",
+        "source_url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Strategic-Partners-Real-Estate-Secondaries-Summer-Analyst--London-_43623",
+        "structured_field": "eligibility_text",
+        "text": "Anticipated graduation date: Summer 2028."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "graduation.2028"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-11T04:44:24.936559Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [
+      "Anticipated graduation date: Summer 2028."
+    ],
+    "id": "daa5cd3a4b971cf3",
+    "last_seen_at": "2026-08-11T13:25:14.199374Z",
+    "listing_publisher": null,
+    "location": "Berkeley Square House, London",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 0,
+      "substantive_relevance": 35
+    },
+    "match_score": 85,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": null,
+    "organisation_type": "investment_manager",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Real Estate Investment and Advisory",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": null,
+    "relevance_reasons": [
+      "Uses investment due diligence, valuation or financial-analysis skills",
+      "Uses research, analysis and written briefing skills",
+      "Provides substantive financial or commercial analysis",
+      "Falls within the approved Real Estate Investment and Advisory category"
+    ],
+    "relevance_status": "strong_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Private Equity and Private Markets",
+      "Corporate Finance and Transactions"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "43623",
+    "source_registry_id": "blackstone",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "Currently enrolled as an undergraduate or masters student."
+    ],
+    "title": "2027 Blackstone Strategic Partners Real Estate Secondaries Summer Analyst (London)"
+  },
+  {
+    "all_source_urls": [
+      "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Real-Estate-Partners-Summer-Analyst---Acquisitions--Asset-Management--Capital-Markets-and-Core---London-_43155"
+    ],
+    "application_method": null,
+    "application_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Real-Estate-Partners-Summer-Analyst---Acquisitions--Asset-Management--Capital-Markets-and-Core---London-_43155",
+    "approved_organisation": true,
+    "canonical_employer": "Blackstone",
+    "canonical_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Real-Estate-Partners-Summer-Analyst---Acquisitions--Asset-Management--Capital-Markets-and-Core---London-_43155",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "observed_first_seen",
+    "deadline": "2026-10-30",
+    "degree_restrictions": [],
+    "description_excerpt": "Ten-week in-person real-estate investment internship spanning acquisitions, asset management, capital markets and Core+, with research, finance and due-diligence work.",
+    "division": "Real Estate Partners",
+    "eligibility_evidence": [
+      {
+        "rule_id": "graduation.2028",
+        "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Real-Estate-Partners-Summer-Analyst---Acquisitions--Asset-Management--Capital-Markets-and-Core---London-_43155",
+        "structured_field": "eligibility_text",
+        "text": "Anticipated graduation date: Summer 2028."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "graduation.2028"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-11T04:36:33.812893Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [
+      "Anticipated graduation date: Summer 2028."
+    ],
+    "id": "c08370636a5ef4a6",
+    "last_seen_at": "2026-08-11T13:25:14.199374Z",
+    "listing_publisher": null,
+    "location": "London",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 5,
+      "substantive_relevance": 35
+    },
+    "match_score": 90,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": null,
+    "organisation_type": "investment_manager",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Real Estate Investment and Advisory",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": null,
+    "relevance_reasons": [
+      "Uses investment due diligence, valuation or financial-analysis skills",
+      "Uses research, analysis and written briefing skills",
+      "Provides substantive financial or commercial analysis",
+      "Uses relevant analytical, research or communication skills",
+      "Falls within the approved Real Estate Investment and Advisory category"
+    ],
+    "relevance_status": "strong_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Asset and Investment Management",
+      "Corporate Finance and Transactions",
+      "Investment Banking",
+      "Investigations and Corporate Intelligence"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "43155",
+    "source_registry_id": "blackstone",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "Currently enrolled as an undergraduate or masters student."
+    ],
+    "title": "2027 Blackstone Real Estate Partners Summer Analyst — Acquisitions, Asset Management, Capital Markets and Core+ (London)"
+  },
+  {
+    "all_source_urls": [
+      "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Infrastructure-Partners-Summer-Analyst---Private-Equity-Infrastructure-Investment---Private-Equity-Infrastructure-Asset-Management--London-_43613"
+    ],
+    "application_method": null,
+    "application_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Infrastructure-Partners-Summer-Analyst---Private-Equity-Infrastructure-Investment---Private-Equity-Infrastructure-Asset-Management--London-_43613",
+    "approved_organisation": true,
+    "canonical_employer": "Blackstone",
+    "canonical_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Infrastructure-Partners-Summer-Analyst---Private-Equity-Infrastructure-Investment---Private-Equity-Infrastructure-Asset-Management--London-_43613",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "observed_first_seen",
+    "deadline": "2026-10-30",
+    "degree_restrictions": [],
+    "description_excerpt": "Ten-week in-person infrastructure investment and asset-management internship involving modelling, research, strategy, portfolio analysis, M&A support and investment memoranda.",
+    "division": "Infrastructure Partners — Investment and Asset Management",
+    "eligibility_evidence": [
+      {
+        "rule_id": "graduation.2028",
+        "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Infrastructure-Partners-Summer-Analyst---Private-Equity-Infrastructure-Investment---Private-Equity-Infrastructure-Asset-Management--London-_43613",
+        "structured_field": "eligibility_text",
+        "text": "Anticipated graduation date: Summer 2028."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "graduation.2028"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-11T04:36:33.812893Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [
+      "Anticipated graduation date: Summer 2028."
+    ],
+    "id": "663e22d23d3b5185",
+    "last_seen_at": "2026-08-11T13:25:14.199374Z",
+    "listing_publisher": null,
+    "location": "London",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 5,
+      "substantive_relevance": 35
+    },
+    "match_score": 90,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": null,
+    "organisation_type": "investment_manager",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Infrastructure Investment",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": null,
+    "relevance_reasons": [
+      "Uses research, analysis and written briefing skills",
+      "Provides substantive financial or commercial analysis",
+      "Uses relevant analytical, research or communication skills",
+      "Falls within the approved Infrastructure Investment category"
+    ],
+    "relevance_status": "strong_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Private Equity and Private Markets",
+      "Asset and Investment Management",
+      "Investment Banking"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "43613",
+    "source_registry_id": "blackstone",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "Currently enrolled as an undergraduate or masters student."
+    ],
+    "title": "2027 Blackstone Infrastructure Partners Summer Analyst — Investment and Asset Management (London)"
+  },
+  {
+    "all_source_urls": [
+      "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Real-Estate-Debt-Strategies-Summer-Analyst---Private-Investments---Capital-Markets--London-_43199"
+    ],
+    "application_method": null,
+    "application_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Real-Estate-Debt-Strategies-Summer-Analyst---Private-Investments---Capital-Markets--London-_43199",
+    "approved_organisation": true,
+    "canonical_employer": "Blackstone",
+    "canonical_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Real-Estate-Debt-Strategies-Summer-Analyst---Private-Investments---Capital-Markets--London-_43199",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "observed_first_seen",
+    "deadline": "2026-10-30",
+    "degree_restrictions": [],
+    "description_excerpt": "Ten-week in-person real-estate debt internship across private investments and capital markets, with investment analysis, due diligence and transaction support.",
+    "division": "Real Estate Debt Strategies",
+    "eligibility_evidence": [
+      {
+        "rule_id": "graduation.2028",
+        "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Real-Estate-Debt-Strategies-Summer-Analyst---Private-Investments---Capital-Markets--London-_43199",
+        "structured_field": "eligibility_text",
+        "text": "Anticipated graduation date: Summer 2028."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "graduation.2028"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-11T04:36:33.812893Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [
+      "Anticipated graduation date: Summer 2028."
+    ],
+    "id": "2cf0614b6340b235",
+    "last_seen_at": "2026-08-11T13:25:14.199374Z",
+    "listing_publisher": null,
+    "location": "London",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 0,
+      "substantive_relevance": 35
+    },
+    "match_score": 85,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": null,
+    "organisation_type": "investment_manager",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Real Estate Investment and Advisory",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": null,
+    "relevance_reasons": [
+      "Uses investment due diligence, valuation or financial-analysis skills",
+      "Uses research, analysis and written briefing skills",
+      "Provides substantive financial or commercial analysis",
+      "Falls within the approved Real Estate Investment and Advisory category"
+    ],
+    "relevance_status": "strong_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Private Credit",
+      "Corporate Finance and Transactions",
+      "Investment Banking",
+      "Investigations and Corporate Intelligence"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "43199",
+    "source_registry_id": "blackstone",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "Currently enrolled as an undergraduate or masters student."
+    ],
+    "title": "2027 Blackstone Real Estate Debt Strategies Summer Analyst — Private Investments and Capital Markets (London)"
+  },
+  {
+    "all_source_urls": [
+      "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Tactical-Opportunities-Summer-Analyst--London-_43179"
+    ],
+    "application_method": null,
+    "application_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Tactical-Opportunities-Summer-Analyst--London-_43179",
+    "approved_organisation": true,
+    "canonical_employer": "Blackstone",
+    "canonical_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Tactical-Opportunities-Summer-Analyst--London-_43179",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "observed_first_seen",
+    "deadline": "2026-10-30",
+    "degree_restrictions": [],
+    "description_excerpt": "Ten-week in-person opportunistic-investing internship supporting sourcing, due diligence, investment analysis and transaction execution across private-market opportunities.",
+    "division": "Tactical Opportunities",
+    "eligibility_evidence": [
+      {
+        "rule_id": "graduation.2028",
+        "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Tactical-Opportunities-Summer-Analyst--London-_43179",
+        "structured_field": "eligibility_text",
+        "text": "Anticipated graduation date: Summer 2028."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "graduation.2028"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-11T04:36:33.812893Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [
+      "Anticipated graduation date: Summer 2028."
+    ],
+    "id": "da22c5b138c4d27b",
+    "last_seen_at": "2026-08-11T13:25:14.199374Z",
+    "listing_publisher": null,
+    "location": "London",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 0,
+      "substantive_relevance": 35
+    },
+    "match_score": 85,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": null,
+    "organisation_type": "investment_manager",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Private Equity and Private Markets",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": null,
+    "relevance_reasons": [
+      "Uses investment due diligence, valuation or financial-analysis skills",
+      "Uses research, analysis and written briefing skills",
+      "Provides substantive financial or commercial analysis",
+      "Falls within the approved Private Equity and Private Markets category"
+    ],
+    "relevance_status": "strong_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Corporate Finance and Transactions",
+      "Asset and Investment Management",
+      "Investigations and Corporate Intelligence"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "43179",
+    "source_registry_id": "blackstone",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "Currently enrolled as an undergraduate or masters student."
+    ],
+    "title": "2027 Blackstone Tactical Opportunities Summer Analyst (London)"
+  },
+  {
+    "all_source_urls": [
+      "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Private-Wealth-Summer-Analyst--London-_43183"
+    ],
+    "application_method": null,
+    "application_url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Private-Wealth-Summer-Analyst--London-_43183",
+    "approved_organisation": true,
+    "canonical_employer": "Blackstone",
+    "canonical_url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Private-Wealth-Summer-Analyst--London-_43183",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "observed_first_seen",
+    "deadline": "2026-10-30",
+    "degree_restrictions": [],
+    "description_excerpt": "Ten-week in-person private-wealth internship providing exposure to Blackstone's private-market investment products, client work and analytical projects.",
+    "division": "Private Wealth",
+    "eligibility_evidence": [
+      {
+        "rule_id": "graduation.2028",
+        "source_url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Private-Wealth-Summer-Analyst--London-_43183",
+        "structured_field": "eligibility_text",
+        "text": "Anticipated graduation date: Summer 2028."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "graduation.2028"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-11T04:36:33.812893Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [
+      "Anticipated graduation date: Summer 2028."
+    ],
+    "id": "cfc2ccb19129811e",
+    "last_seen_at": "2026-08-11T13:25:14.199374Z",
+    "listing_publisher": null,
+    "location": "Berkeley Square House, London",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 0,
+      "substantive_relevance": 23
+    },
+    "match_score": 73,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": null,
+    "organisation_type": "investment_manager",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Wealth Management and Private Banking",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": null,
+    "relevance_reasons": [
+      "Provides substantive financial or commercial analysis",
+      "Falls within the approved Wealth Management and Private Banking category"
+    ],
+    "relevance_status": "credible_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Private Equity and Private Markets",
+      "Business Development"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "43183",
+    "source_registry_id": "blackstone",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "Currently enrolled as an undergraduate or masters student."
+    ],
+    "title": "2027 Blackstone Private Wealth Summer Analyst (London)"
+  },
+  {
+    "all_source_urls": [
+      "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Real-Estate-Institutional-Client-Solutions-Summer-Analyst--London-_43188"
+    ],
+    "application_method": null,
+    "application_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Real-Estate-Institutional-Client-Solutions-Summer-Analyst--London-_43188",
+    "approved_organisation": true,
+    "canonical_employer": "Blackstone",
+    "canonical_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Real-Estate-Institutional-Client-Solutions-Summer-Analyst--London-_43188",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "observed_first_seen",
+    "deadline": "2026-10-30",
+    "degree_restrictions": [],
+    "description_excerpt": "Ten-week in-person real-estate client-solutions internship combining private-market product knowledge, institutional client work, research and analytical support.",
+    "division": "Real Estate — Institutional Client Solutions",
+    "eligibility_evidence": [
+      {
+        "rule_id": "graduation.2028",
+        "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Real-Estate-Institutional-Client-Solutions-Summer-Analyst--London-_43188",
+        "structured_field": "eligibility_text",
+        "text": "Anticipated graduation date: Summer 2028."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "graduation.2028"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-11T04:36:33.812893Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [
+      "Anticipated graduation date: Summer 2028."
+    ],
+    "id": "b1650b5a257af54f",
+    "last_seen_at": "2026-08-11T13:25:14.199374Z",
+    "listing_publisher": null,
+    "location": "London",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 5,
+      "substantive_relevance": 35
+    },
+    "match_score": 90,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": null,
+    "organisation_type": "investment_manager",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Real Estate Investment and Advisory",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": null,
+    "relevance_reasons": [
+      "Uses research, analysis and written briefing skills",
+      "Provides substantive financial or commercial analysis",
+      "Uses relevant analytical, research or communication skills",
+      "Falls within the approved Real Estate Investment and Advisory category"
+    ],
+    "relevance_status": "strong_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Asset and Investment Management",
+      "Business Development"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "43188",
+    "source_registry_id": "blackstone",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "Currently enrolled as an undergraduate or masters student."
+    ],
+    "title": "2027 Blackstone Real Estate Institutional Client Solutions Summer Analyst (London)"
+  }
+]

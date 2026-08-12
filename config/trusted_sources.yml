@@ -1,0 +1,86 @@
+trusted_sources:
+  - id: w4mp
+    name: W4MP Jobs
+    authority: trusted_sector_board
+    url: https://www.w4mpjobs.org/searchjobs.aspx?search=alljobs
+    verified_on: 2026-08-10
+    scope: Paid jobs and internships in MP and parliamentary offices
+    publication_rule: Preserve the named MP or office as employer and W4MP as listing publisher.
+  - id: civil-service-jobs
+    name: Civil Service Jobs
+    authority: official_government_portal
+    url: https://www.civilservicejobs.service.gov.uk/
+    verified_on: 2026-08-10
+    scope: UK Civil Service vacancies
+    publication_rule: Official listing must establish pay, stage, relevance and geographic scope.
+  - id: nhs-jobs-london
+    name: NHS Jobs London
+    authority: official_government_portal
+    url: https://www.jobs.nhs.uk/candidate/search/results?location=London
+    verified_on: 2026-08-11
+    scope: London vacancies published on the official NHS recruitment service
+    publication_rule: Exclude explicitly clinical or specialist roles; incomplete study-stage evidence remains clearly labelled possible.
+  - id: work-hub-london
+    name: Find a Job (DWP Work Hub)
+    authority: official_government_portal
+    url: https://www.jobs.service.gov.uk/jobs/search
+    verified_on: 2026-08-11
+    scope: Public and private-sector London vacancies carried by the current official DWP job-search service
+    publication_rule: Attribute the listing to DWP Find a Job, preserve the advertised employer, search every configured query shard, and keep incomplete criteria in the possible layer.
+discovery_only_sources:
+  - id: higherin-london-internships
+    name: Higherin London Internships
+    authority: discovery_only_source
+    url: https://higherin.com/search-jobs/internships/london
+    verified_on: 2026-08-11
+    scope: Employer-agnostic London internship discovery
+    publication_rule: Display only in the possible-opportunities layer; require the candidate to verify the employer criteria before applying.
+  - id: charityjob-london
+    name: CharityJob London
+    authority: discovery_only_source
+    url: https://www.charityjob.co.uk/jobs/in-london
+    verified_on: 2026-08-11
+    scope: Employer-agnostic paid charity and non-profit roles in London
+    publication_rule: Display only plausibly junior, substantive leads in the possible layer and require source verification.
+  - id: jobs-ac-uk-london
+    name: jobs.ac.uk London
+    authority: discovery_only_source
+    url: https://www.jobs.ac.uk/search/location/london
+    verified_on: 2026-08-11
+    scope: London university, research, professional-services and related vacancies
+    publication_rule: Exclude senior academic, clinical and specialist research roles; display remaining plausible leads only in the possible layer.
+  - id: targetjobs-london-early-careers
+    name: targetjobs London Early Careers
+    authority: discovery_only_source
+    url: https://targetjobs.co.uk/internships/london
+    verified_on: 2026-08-11
+    scope: Open London internships, vacation schemes, insight programmes and work experience
+    publication_rule: Validate every advertised result, preserve the employer and application link, and display plausible records only in the possible layer.
+  - id: prospects-london
+    name: Prospects London
+    authority: discovery_only_source
+    url: https://www.prospects.ac.uk/browse-graduate-jobs/all-sectors/london-53
+    verified_on: 2026-08-11
+    scope: London work experience, internships, graduate jobs, schemes and apprenticeships across all sectors
+    publication_rule: Preserve the named employer, listing type, location and pay wording; allow only plausibly accessible paid records into the possible layer.
+  - id: legalcheek-noticeboard
+    name: Legal Cheek Hub Noticeboard
+    authority: discovery_only_source
+    url: https://hub.legalcheek.com/jobs
+    verified_on: 2026-08-11
+    scope: UK legal work experience, vacation schemes, open days, paralegal jobs and related opportunities
+    publication_rule: Treat every result as a discovery lead and require the candidate to verify pay, London availability and non-law study-stage eligibility.
+  - id: adzuna-london
+    name: Adzuna London API
+    authority: discovery_only_source
+    url: https://developer.adzuna.com/docs/search
+    verified_on: 2026-08-11
+    scope: London vacancies returned by the documented Adzuna API across the configured early-career query matrix
+    publication_rule: Activate only with user-supplied API credentials; deduplicate query overlap and keep every result in the possible layer pending employer-page verification.
+  - id: reed-london
+    name: Reed Jobseeker API
+    authority: discovery_only_source
+    url: https://www.reed.co.uk/developers/jobseeker
+    verified_on: 2026-08-11
+    scope: London vacancies returned by the documented Reed Jobseeker API across the configured early-career query matrix
+    publication_rule: Activate only with a user-supplied API key; preserve the named employer and keep every result in the possible layer pending employer-page verification.

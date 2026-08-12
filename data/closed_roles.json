@@ -1,0 +1,192 @@
+[
+  {
+    "all_source_urls": [
+      "https://targetjobs.co.uk/jobs/2027-client-and-product-summer-internship-program-emea-234533",
+      "https://careers.blackrock.com/job/london/2027-client-and-product-summer-internship-program-emea/45831/97150826736",
+      "https://targetjobs.co.uk/jobs/2027-client-and-product-summer-internship-program-231970"
+    ],
+    "application_method": "Apply on the employer site linked from targetjobs",
+    "application_url": "https://careers.blackrock.com/job/london/2027-client-and-product-summer-internship-program-emea/45831/97150826736",
+    "approved_organisation": true,
+    "canonical_employer": "BlackRock",
+    "canonical_url": "https://targetjobs.co.uk/jobs/2027-client-and-product-summer-internship-program-emea-234533",
+    "clearance_requirements": [],
+    "closed_at": "2026-08-11T19:34:48.713641Z",
+    "closure_evidence": "https://targetjobs.co.uk/jobs/2027-client-and-product-summer-internship-program-emea-234533",
+    "closure_reason": "Current official evidence no longer meets the publication boundary",
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "programme_dates",
+    "date_provenance": "observed_first_seen",
+    "deadline": "2026-09-30",
+    "degree_restrictions": [],
+    "description_excerpt": "Our Client & Product Summer Internship Programme is an exciting eight-week experience that helps provide insight into life as a BlackRock Analyst. As an Intern, you’ll work directly with Global Product Solutions and the Client Business while engaging in thought-provoking discussions hosted by senior leaders and connecting with mentors who can help guide you through these first steps of your career. You’ll also join events throughout the summer that will help you get to know the firm, your collea",
+    "division": null,
+    "eligibility_evidence": [
+      {
+        "rule_id": "source.discovery_only",
+        "source_url": "https://targetjobs.co.uk/jobs/2027-client-and-product-summer-internship-program-emea-234533",
+        "structured_field": null,
+        "text": "Eligibility is plausible but must be verified on the employer's application page"
+      },
+      {
+        "rule_id": "source.discovery_only",
+        "source_url": "https://targetjobs.co.uk/jobs/2027-client-and-product-summer-internship-program-231970",
+        "structured_field": null,
+        "text": "Eligibility is plausible but must be verified on the employer's application page"
+      }
+    ],
+    "eligibility_rule_ids": [
+      "source.discovery_only"
+    ],
+    "eligibility_status": "uncertain",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "approved",
+    "first_seen_at": "2026-08-11T04:35:50.345537Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [],
+    "id": "9ec5948a111c7a4c",
+    "last_seen_at": "2026-08-11T19:34:48.713641Z",
+    "listing_publisher": "targetjobs",
+    "location": "London",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 0,
+      "evidence_quality": 0,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 0,
+      "substantive_relevance": 0
+    },
+    "match_score": 25,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": null,
+    "organisation_type": "corporate",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Other Relevant",
+    "programme_end": null,
+    "programme_start": "2027-06-01",
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": true,
+    "published_date": null,
+    "relevance_reasons": [
+      "Substantive relevance requires manual review"
+    ],
+    "relevance_status": "borderline_relevance",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [],
+    "source_authority": "discovery_only_source",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "a20724c7-602e-4a6b-8c59-b505dd836059",
+    "source_registry_id": "targetjobs-london-early-careers",
+    "source_type": "targetjobs",
+    "status": "closed",
+    "study_year_restrictions": [
+      "Who can apply: Candidates should be in their penultimate year of studies and graduating from an undergraduate or a master’s degree program in 2028."
+    ],
+    "title": "2027 Client and Product Summer Internship Program - EMEA"
+  },
+  {
+    "all_source_urls": [
+      "https://targetjobs.co.uk/jobs/2027-summer-internship-program-231992",
+      "https://careers.blackrock.com/job/london/2027-summer-internship-program-emea/45831/97150826672"
+    ],
+    "application_method": "Apply on the employer site linked from targetjobs",
+    "application_url": "https://careers.blackrock.com/job/london/2027-summer-internship-program-emea/45831/97150826672",
+    "approved_organisation": true,
+    "canonical_employer": "Blackrock",
+    "canonical_url": "https://targetjobs.co.uk/jobs/2027-summer-internship-program-231992",
+    "clearance_requirements": [],
+    "closed_at": "2026-08-11T19:34:48.713641Z",
+    "closure_evidence": "https://targetjobs.co.uk/jobs/2027-summer-internship-program-231992",
+    "closure_reason": "Current official evidence no longer meets the publication boundary",
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "unknown",
+    "date_provenance": "observed_first_seen",
+    "deadline": "2026-09-30",
+    "degree_restrictions": [
+      "We welcome applications from candidates studying any degree subject."
+    ],
+    "description_excerpt": "Job description Our Summer Internship Programme is an eight-week internship taking place June through August. This programme is designed to provide students with a challenging, meaningful, and supportive internship experience that replicates, as closely as possible, the experience of being a full-time BlackRock Analyst. The programme begins with an orientation that offers a thorough overview of the firm and the opportunity to hear from a number of senior leaders. Following orientation, interns r",
+    "division": null,
+    "eligibility_evidence": [
+      {
+        "rule_id": "source.discovery_only",
+        "source_url": "https://targetjobs.co.uk/jobs/2027-summer-internship-program-231992",
+        "structured_field": null,
+        "text": "Eligibility is plausible but must be verified on the employer's application page"
+      }
+    ],
+    "eligibility_rule_ids": [
+      "source.discovery_only"
+    ],
+    "eligibility_status": "uncertain",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "approved",
+    "first_seen_at": "2026-08-11T04:35:50.345537Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [],
+    "id": "dac6171b2664419b",
+    "last_seen_at": "2026-08-11T19:34:48.713641Z",
+    "listing_publisher": "targetjobs",
+    "location": "London",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 0,
+      "evidence_quality": 0,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 5,
+      "substantive_relevance": 35
+    },
+    "match_score": 49,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": null,
+    "organisation_type": "corporate",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Private Equity and Private Markets",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": true,
+    "published_date": null,
+    "relevance_reasons": [
+      "Uses research, analysis and written briefing skills",
+      "Provides substantive financial or commercial analysis",
+      "Uses relevant analytical, research or communication skills",
+      "Falls within the approved Private Equity and Private Markets category"
+    ],
+    "relevance_status": "strong_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [],
+    "source_authority": "discovery_only_source",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "8f6ec572-c9ae-4d21-96bc-f24e29023436",
+    "source_registry_id": "targetjobs-london-early-careers",
+    "source_type": "targetjobs",
+    "status": "closed",
+    "study_year_restrictions": [
+      "Who can apply Candidates should be in their penultimate year of studies and graduating from an undergraduate or a master’s degree program in 2028."
+    ],
+    "title": "2027 Summer Internship Program"
+  }
+]

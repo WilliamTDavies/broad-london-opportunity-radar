@@ -1,0 +1,23 @@
+tiers:
+  priority:
+    description: User-priority or exceptional national/international organisation; never overrides role rules.
+  major:
+    description: Large, established employer, institution, regulator, law firm or professional organisation.
+  approved:
+    description: Maintainer-verified specialist organisation meeting quality criteria.
+  review:
+    description: Organisation scale or selectivity requires manual review.
+rules:
+  charity: &mission_rule
+    require_paid: true
+    require_substantive: true
+    require_selective: true
+    require_major_or_approved: true
+  ngo: *mission_rule
+  foundation: *mission_rule
+  nonprofit: *mission_rule
+  think_tank:
+    require_paid: true
+    require_substantive: true
+    require_selective: false
+    require_major_or_approved: true

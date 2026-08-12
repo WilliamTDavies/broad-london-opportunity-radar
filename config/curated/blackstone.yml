@@ -1,0 +1,200 @@
+# Production snapshot of distinct official Blackstone Workday records.
+# Verified against the linked pages on 2026-08-10. This is not fixture data.
+roles:
+  - source_identifier: "43186"
+    employer: Blackstone
+    title: 2027 Blackstone Private Equity Summer Analyst (London)
+    source_url: https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Private-Equity-Summer-Analyst--London-_43186
+    application_url: https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Private-Equity-Summer-Analyst--London-_43186
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_manager
+    division: Private Equity
+    location: London
+    description: Ten-week in-person private-equity summer analyst programme involving investment research, due diligence, financial analysis and transaction work.
+    deadline: 2026-10-30
+    eligibility_text: "Currently enrolled as an undergraduate or masters student. Anticipated graduation date: Summer 2028."
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    category_hint: Private Equity and Private Markets
+    secondary_tags: [Corporate Finance and Transactions]
+
+  - source_identifier: "43864"
+    employer: Blackstone
+    title: 2027 Blackstone Credit and Insurance, Private Credit Strategies Summer Analyst (London)
+    source_url: https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Private-Credit-Strategies-Summer-Analyst--London-_43864
+    application_url: https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Private-Credit-Strategies-Summer-Analyst--London-_43864
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_manager
+    division: Credit and Insurance — Private Credit Strategies
+    location: Berkeley Square House, London
+    description: Ten-week in-person private-credit internship covering European credit transactions and portfolio analysis for investment and stakeholder decisions.
+    deadline: 2026-10-30
+    eligibility_text: "Currently enrolled as an undergraduate or masters student. Anticipated graduation date: Summer 2028."
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    category_hint: Private Credit
+    secondary_tags: [Asset and Investment Management]
+
+  - source_identifier: "43862"
+    employer: Blackstone
+    title: 2027 Blackstone Credit and Insurance, Infrastructure and Asset-Based Credit Summer Analyst (London)
+    source_url: https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Infrastructure-and-Asset-Based-Credit-Summer-Analyst--London-_43862
+    application_url: https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Infrastructure-and-Asset-Based-Credit-Summer-Analyst--London-_43862
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_manager
+    division: Credit and Insurance — Infrastructure and Asset-Based Credit
+    location: Berkeley Square House, London
+    description: Ten-week in-person credit internship involving due diligence, financial analysis and modelling, research, benchmarking, presentations and investment memoranda.
+    deadline: 2026-10-30
+    eligibility_text: "Currently enrolled as an undergraduate or masters student. Anticipated graduation date: Summer 2028."
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    category_hint: Private Credit
+    secondary_tags: [Infrastructure Investment, Corporate Finance and Transactions]
+
+  - source_identifier: "43192"
+    employer: Blackstone
+    title: 2027 Blackstone Strategic Partners Private Equity Secondaries Summer Analyst (London)
+    source_url: https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Strategic-Partners-Private-Equity-Secondaries-Summer-Analyst--London-_43192
+    application_url: https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Strategic-Partners-Private-Equity-Secondaries-Summer-Analyst--London-_43192
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_manager
+    division: Strategic Partners — Private Equity Secondaries
+    location: Berkeley Square House, London
+    description: Ten-week in-person secondaries internship involving private-equity fund and portfolio valuation, financial modelling, transaction execution and investment-committee materials.
+    deadline: 2026-10-30
+    eligibility_text: "Currently enrolled as an undergraduate or masters student. Anticipated graduation date: Summer 2028."
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    category_hint: Private Equity and Private Markets
+    secondary_tags: [Corporate Finance and Transactions, Asset and Investment Management]
+
+  - source_identifier: "43623"
+    employer: Blackstone
+    title: 2027 Blackstone Strategic Partners Real Estate Secondaries Summer Analyst (London)
+    source_url: https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Strategic-Partners-Real-Estate-Secondaries-Summer-Analyst--London-_43623
+    application_url: https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Strategic-Partners-Real-Estate-Secondaries-Summer-Analyst--London-_43623
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_manager
+    division: Strategic Partners — Real Estate Secondaries
+    location: Berkeley Square House, London
+    description: Ten-week in-person real-estate secondaries internship involving valuation and financial modelling of funds and properties, transaction structures, investment-committee materials and market analysis.
+    deadline: 2026-10-30
+    eligibility_text: "Currently enrolled as an undergraduate or masters student. Anticipated graduation date: Summer 2028."
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    category_hint: Real Estate Investment and Advisory
+    secondary_tags: [Private Equity and Private Markets, Corporate Finance and Transactions]
+
+  - source_identifier: "43155"
+    employer: Blackstone
+    title: 2027 Blackstone Real Estate Partners Summer Analyst — Acquisitions, Asset Management, Capital Markets and Core+ (London)
+    source_url: https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Real-Estate-Partners-Summer-Analyst---Acquisitions--Asset-Management--Capital-Markets-and-Core---London-_43155
+    application_url: https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Real-Estate-Partners-Summer-Analyst---Acquisitions--Asset-Management--Capital-Markets-and-Core---London-_43155
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_manager
+    division: Real Estate Partners
+    location: London
+    description: Ten-week in-person real-estate investment internship spanning acquisitions, asset management, capital markets and Core+, with research, finance and due-diligence work.
+    deadline: 2026-10-30
+    eligibility_text: "Currently enrolled as an undergraduate or masters student. Anticipated graduation date: Summer 2028."
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    category_hint: Real Estate Investment and Advisory
+    secondary_tags: [Asset and Investment Management, Corporate Finance and Transactions]
+
+  - source_identifier: "43613"
+    employer: Blackstone
+    title: 2027 Blackstone Infrastructure Partners Summer Analyst — Investment and Asset Management (London)
+    source_url: https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Infrastructure-Partners-Summer-Analyst---Private-Equity-Infrastructure-Investment---Private-Equity-Infrastructure-Asset-Management--London-_43613
+    application_url: https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Infrastructure-Partners-Summer-Analyst---Private-Equity-Infrastructure-Investment---Private-Equity-Infrastructure-Asset-Management--London-_43613
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_manager
+    division: Infrastructure Partners — Investment and Asset Management
+    location: London
+    description: Ten-week in-person infrastructure investment and asset-management internship involving modelling, research, strategy, portfolio analysis, M&A support and investment memoranda.
+    deadline: 2026-10-30
+    eligibility_text: "Currently enrolled as an undergraduate or masters student. Anticipated graduation date: Summer 2028."
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    category_hint: Infrastructure Investment
+    secondary_tags: [Private Equity and Private Markets, Asset and Investment Management]
+
+  - source_identifier: "43199"
+    employer: Blackstone
+    title: 2027 Blackstone Real Estate Debt Strategies Summer Analyst — Private Investments and Capital Markets (London)
+    source_url: https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Real-Estate-Debt-Strategies-Summer-Analyst---Private-Investments---Capital-Markets--London-_43199
+    application_url: https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Real-Estate-Debt-Strategies-Summer-Analyst---Private-Investments---Capital-Markets--London-_43199
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_manager
+    division: Real Estate Debt Strategies
+    location: London
+    description: Ten-week in-person real-estate debt internship across private investments and capital markets, with investment analysis, due diligence and transaction support.
+    deadline: 2026-10-30
+    eligibility_text: "Currently enrolled as an undergraduate or masters student. Anticipated graduation date: Summer 2028."
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    category_hint: Real Estate Investment and Advisory
+    secondary_tags: [Private Credit, Corporate Finance and Transactions]
+
+  - source_identifier: "43179"
+    employer: Blackstone
+    title: 2027 Blackstone Tactical Opportunities Summer Analyst (London)
+    source_url: https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Tactical-Opportunities-Summer-Analyst--London-_43179
+    application_url: https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Tactical-Opportunities-Summer-Analyst--London-_43179
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_manager
+    division: Tactical Opportunities
+    location: London
+    description: Ten-week in-person opportunistic-investing internship supporting sourcing, due diligence, investment analysis and transaction execution across private-market opportunities.
+    deadline: 2026-10-30
+    eligibility_text: "Currently enrolled as an undergraduate or masters student. Anticipated graduation date: Summer 2028."
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    category_hint: Private Equity and Private Markets
+    secondary_tags: [Corporate Finance and Transactions, Asset and Investment Management]
+
+  - source_identifier: "43183"
+    employer: Blackstone
+    title: 2027 Blackstone Private Wealth Summer Analyst (London)
+    source_url: https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Private-Wealth-Summer-Analyst--London-_43183
+    application_url: https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Private-Wealth-Summer-Analyst--London-_43183
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_manager
+    division: Private Wealth
+    location: Berkeley Square House, London
+    description: Ten-week in-person private-wealth internship providing exposure to Blackstone's private-market investment products, client work and analytical projects.
+    deadline: 2026-10-30
+    eligibility_text: "Currently enrolled as an undergraduate or masters student. Anticipated graduation date: Summer 2028."
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    category_hint: Wealth Management and Private Banking
+    secondary_tags: [Private Equity and Private Markets, Business Development]
+
+  - source_identifier: "43188"
+    employer: Blackstone
+    title: 2027 Blackstone Real Estate Institutional Client Solutions Summer Analyst (London)
+    source_url: https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Real-Estate-Institutional-Client-Solutions-Summer-Analyst--London-_43188
+    application_url: https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Real-Estate-Institutional-Client-Solutions-Summer-Analyst--London-_43188
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_manager
+    division: Real Estate — Institutional Client Solutions
+    location: London
+    description: Ten-week in-person real-estate client-solutions internship combining private-market product knowledge, institutional client work, research and analytical support.
+    deadline: 2026-10-30
+    eligibility_text: "Currently enrolled as an undergraduate or masters student. Anticipated graduation date: Summer 2028."
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    category_hint: Real Estate Investment and Advisory
+    secondary_tags: [Asset and Investment Management, Business Development]

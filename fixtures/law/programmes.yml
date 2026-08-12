@@ -1,0 +1,31 @@
+roles:
+  - source_identifier: law-eligible
+    employer: Example City Law (fixture)
+    title: Summer Vacation Scheme 2027
+    source_url: https://example.invalid/law/eligible
+    application_url: https://example.invalid/law/eligible/apply
+    source_type: curated_yaml
+    source_authority: official_programme_page
+    organisation_type: law_firm
+    location: London
+    description: Paid legal and regulatory work for clients during Summer 2027.
+    eligibility_text: Open to penultimate-year non-law students and students from any degree discipline.
+    paid: true
+    paid_evidence: Official page states £500 per week.
+    cycle_hint: Summer 2027
+    category_hint: Law-Firm Vacation Schemes
+  - source_identifier: law-ineligible
+    employer: Example City Law (fixture)
+    title: Spring Vacation Scheme 2027
+    source_url: https://example.invalid/law/ineligible
+    source_type: curated_yaml
+    source_authority: official_programme_page
+    organisation_type: law_firm
+    location: London
+    description: Paid legal work during Spring 2027.
+    eligibility_text: Penultimate-year law students; final-year non-law students only.
+    paid: true
+    paid_evidence: Official page states £500 per week.
+    cycle_hint: Spring 2027
+    category_hint: Law-Firm Vacation Schemes
+

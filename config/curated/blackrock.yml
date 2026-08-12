@@ -1,0 +1,56 @@
+# Production snapshot of official BlackRock ATS records.
+# Verified against the linked pages on 2026-08-10. This is not fixture data.
+roles:
+  - source_identifier: "12232"
+    employer: BlackRock
+    title: 2027 Summer Internship Program - EMEA
+    source_url: https://careers.blackrock.com/job/london/2027-summer-internship-program-emea/45831/97150826672
+    application_url: https://careers.blackrock.com/job/london/2027-summer-internship-program-emea/45831/97150826672
+    all_source_urls:
+      - https://careers.blackrock.com/students-and-graduates-emea
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_manager
+    division: Multiple business functions; candidates select up to two functions
+    location: London, England (multi-location EMEA programme)
+    location_type: multi_location
+    description: Eight-week June-to-August internship with day-to-day analyst responsibilities, training, mentoring and networking across eligible BlackRock business functions.
+    published_date: 2026-06-30
+    deadline: 2026-09-30
+    paid: true
+    paid_evidence: The official listing links an EMEA 2027 internship salary-ranges document for applicable locations and business areas.
+    eligibility_text: Candidates should be in their penultimate year of studies and graduating from an undergraduate or a master's degree program in 2028. We welcome applications from candidates studying any degree subject.
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    date_provenance: employer_stated
+    category_hint: Asset and Investment Management
+    secondary_tags:
+      - ESG and Responsible Investment
+      - Sustainable and Climate Finance
+
+  - source_identifier: "12222"
+    employer: BlackRock
+    title: 2027 Client and Product Summer Internship Program - EMEA
+    source_url: https://careers.blackrock.com/job/london/2027-client-and-product-summer-internship-program-emea/45831/97150826736
+    application_url: https://careers.blackrock.com/job/london/2027-client-and-product-summer-internship-program-emea/45831/97150826736
+    all_source_urls:
+      - https://careers.blackrock.com/students-and-graduates-emea
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_manager
+    division: Global Product Solutions and Client Business
+    location: London, England (multi-location EMEA programme)
+    location_type: multi_location
+    description: Eight-week June-to-August client and product internship with direct work in Global Product Solutions and the Client Business, senior-leader sessions and mentoring.
+    published_date: 2026-06-30
+    deadline: 2026-09-30
+    paid: true
+    paid_evidence: The official listing links an EMEA 2027 internship salary-ranges document for applicable locations and business areas.
+    eligibility_text: Candidates should be in their penultimate year of studies and graduating from an undergraduate or a master's degree program in 2028.
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    date_provenance: employer_stated
+    category_hint: Asset and Investment Management
+    secondary_tags:
+      - Wealth Management and Private Banking
+      - Business Development

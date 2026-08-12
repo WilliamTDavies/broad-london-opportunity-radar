@@ -1,0 +1,227 @@
+radar:
+  - id: blackrock-emea-summer-internship-2027
+    employer: BlackRock
+    expected_programme_type: summer_internship_2027
+    expected_location: London, England (multi-location EMEA programme)
+    historical_opening_window: Open now; closes 30 September 2026
+    evidence_type: currently_open
+    source_url: https://careers.blackrock.com/job/london/2027-summer-internship-program-emea/45831/97150826672
+    last_verified: 2026-08-11
+    current_status: currently open
+
+  - id: blackstone-london-summer-analyst-2027
+    employer: Blackstone
+    expected_programme_type: summer_internship_2027
+    expected_location: London
+    historical_opening_window: Open now; multiple divisions close 30 October 2026
+    evidence_type: currently_open
+    source_url: https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers
+    last_verified: 2026-08-11
+    current_status: currently open
+
+  - id: bank-of-america-london-summer-analyst-2027
+    employer: Bank of America
+    expected_programme_type: summer_internship_2027
+    expected_location: London
+    historical_opening_window: Open now; verified roles close 11 October 2026
+    evidence_type: currently_open
+    source_url: https://careers.bankofamerica.com/en-us/students/job-search
+    last_verified: 2026-08-11
+    current_status: currently open
+
+  - id: goldman-sachs-emea-summer-analyst-2027
+    employer: Goldman Sachs
+    expected_programme_type: summer_internship_2027
+    expected_location: EMEA; confirm London in the application when it opens
+    historical_opening_window: 15 August 2026
+    evidence_type: official_future_opening_date
+    source_url: https://www.goldmansachs.com/careers/students/programs-and-internships/emea/summer-analyst-programme
+    last_verified: 2026-08-11
+    current_status: upcoming; application locations not yet listed
+    official_opening_date: 2026-08-15
+
+  - id: gchq-summer-placement-2027
+    employer: GCHQ
+    expected_programme_type: summer_internship_2027
+    expected_location: UK priority exception; placement location varies
+    historical_opening_window: 24 August 2026
+    evidence_type: official_future_opening_date
+    source_url: https://www.gchq-careers.co.uk/our-careers/early-careers/summer-placements.html
+    last_verified: 2026-08-11
+    current_status: upcoming; technical roles still require eligibility review
+    official_opening_date: 2026-08-24
+
+  - id: covington-summer-vacation-scheme-2027
+    employer: Covington & Burling
+    expected_programme_type: summer_vacation_scheme_2027
+    expected_location: London
+    historical_opening_window: 28 August 2026
+    evidence_type: official_future_opening_date
+    source_url: https://www.cov.com/en/careers/lawyers/london/our-opportunities/vacation-schemes
+    last_verified: 2026-08-11
+    current_status: upcoming; non-law study stage to recheck at launch
+    official_opening_date: 2026-08-28
+
+  - id: latham-summer-vacation-scheme-2027
+    employer: Latham & Watkins
+    expected_programme_type: summer_vacation_scheme_2027
+    expected_location: London
+    historical_opening_window: 1 September 2026
+    evidence_type: official_future_opening_date
+    source_url: https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/our-programmes
+    last_verified: 2026-08-11
+    current_status: upcoming; non-law study stage to recheck at launch
+    official_opening_date: 2026-09-01
+
+  - id: hogan-lovells-cadwalader-summer-vacation-scheme-2027
+    employer: Hogan Lovells Cadwalader
+    expected_programme_type: summer_vacation_scheme_2027
+    expected_location: London
+    historical_opening_window: 1 September 2026
+    evidence_type: official_future_opening_date
+    source_url: https://ukearlycareers.hlc.com/what-we-offer/vacation-scheme
+    last_verified: 2026-08-11
+    current_status: upcoming; non-law study stage to recheck at launch
+    official_opening_date: 2026-09-01
+
+  - id: slaughter-and-may-summer-work-experience-2027
+    employer: Slaughter and May
+    expected_programme_type: summer_vacation_scheme_2027
+    expected_location: London
+    historical_opening_window: 1 September 2026
+    evidence_type: official_future_opening_date
+    source_url: https://www.slaughterandmay.com/careers/early-careers/apply/
+    last_verified: 2026-08-11
+    current_status: upcoming; non-law study stage to recheck at launch
+    official_opening_date: 2026-09-01
+
+  - id: freshfields-summer-vacation-scheme-2027
+    employer: Freshfields
+    expected_programme_type: summer_vacation_scheme_2027
+    expected_location: London
+    historical_opening_window: Autumn 2026
+    evidence_type: employer_stated_opening_month
+    source_url: https://www.freshfields.com/en/your-career/united-kingdom/early-careers/vacation-schemes
+    last_verified: 2026-08-11
+    current_status: upcoming; applications currently closed
+
+  - id: withers-summer-vacation-scheme-2027
+    employer: Withers
+    expected_programme_type: summer_vacation_scheme_2027
+    expected_location: London
+    historical_opening_window: 1 October 2026
+    evidence_type: official_future_opening_date
+    source_url: https://www.withersworldwide.com/en-gb/careers/students-and-graduates/united-kingdom/london-vacation-schemes
+    last_verified: 2026-08-11
+    current_status: upcoming; right-to-work condition is neutral metadata
+    official_opening_date: 2026-10-01
+
+  - id: bank-of-england-internships-2027
+    employer: Bank of England
+    expected_programme_type: summer_internship_2027
+    expected_location: London or another selectable UK office
+    historical_opening_window: No verified 2027 opening window
+    evidence_type: no_reliable_estimate
+    source_url: https://www.bankofengland.co.uk/careers/future-talent/internships
+    last_verified: 2026-08-11
+    current_status: applications closed; register interest for 2027
+
+  - id: barclays-london-summer-internship-2027
+    employer: Barclays
+    expected_programme_type: summer_internship_2027
+    expected_location: London to be confirmed
+    historical_opening_window: No verified 2027 opening window
+    evidence_type: no_reliable_estimate
+    source_url: https://search.jobs.barclays/early-careers-roles
+    last_verified: 2026-08-11
+    current_status: monitoring; current official results contain no London 2027 internship
+
+  - id: millennium-summer-internship-2027
+    employer: Millennium Management
+    expected_programme_type: summer_internship_2027
+    expected_location: London to be confirmed
+    historical_opening_window: No verified 2027 opening window
+    evidence_type: no_reliable_estimate
+    source_url: https://www.mlp.com/careers/
+    last_verified: 2026-08-11
+    current_status: monitoring official careers page; no verified London 2027 role
+
+  - id: rothschild-summer-internship-2027
+    employer: Rothschild & Co
+    expected_programme_type: summer_internship_2027
+    expected_location: London to be confirmed
+    historical_opening_window: No verified 2027 opening window
+    evidence_type: no_reliable_estimate
+    source_url: https://www.rothschildandco.com/en/careers/students-and-graduates/internships/
+    last_verified: 2026-08-11
+    current_status: monitoring official internships page; no verified London 2027 role
+
+  - id: hsbc-summer-internship-2027
+    employer: HSBC
+    expected_programme_type: summer_internship_2027
+    expected_location: London to be confirmed
+    historical_opening_window: No verified 2027 opening window
+    evidence_type: no_reliable_estimate
+    source_url: https://www.hsbc.com/careers/students-and-graduates/internships
+    last_verified: 2026-08-11
+    current_status: monitoring official internships page; no verified London 2027 role
+
+  - id: houlihan-lokey-summer-internship-2027
+    employer: Houlihan Lokey
+    expected_programme_type: summer_internship_2027
+    expected_location: London
+    historical_opening_window: No verified 2027 opening window
+    evidence_type: no_reliable_estimate
+    source_url: https://hl.com/careers/early-careers/internships-europe/
+    last_verified: 2026-08-11
+    current_status: monitoring official London internships page; no verified 2027 listing
+
+  - id: lazard-summer-internship-2027
+    employer: Lazard
+    expected_programme_type: summer_internship_2027
+    expected_location: London to be confirmed
+    historical_opening_window: No verified 2027 opening window
+    evidence_type: no_reliable_estimate
+    source_url: https://www.lazard.com/careers/students/
+    last_verified: 2026-08-11
+    current_status: monitoring official student careers page; no verified London 2027 role
+
+  - id: linklaters-summer-vacation-scheme-2027
+    employer: Linklaters
+    expected_programme_type: summer_vacation_scheme_2027
+    expected_location: London
+    historical_opening_window: No verified 2027 opening window
+    evidence_type: no_reliable_estimate
+    source_url: https://www.linklaters.com/en/careers/early-careers/university-and-graduate-opportunities/vacation-schemes
+    last_verified: 2026-08-11
+    current_status: monitoring; current page does not clearly identify the 2027 cycle
+
+  - id: ao-shearman-summer-vacation-scheme-2027
+    employer: A&O Shearman
+    expected_programme_type: summer_vacation_scheme_2027
+    expected_location: London
+    historical_opening_window: No verified 2027 opening window
+    evidence_type: no_reliable_estimate
+    source_url: https://careers.aoshearman.com/en/london-vacation-schemes
+    last_verified: 2026-08-11
+    current_status: monitoring; winter scheme is final-year-only and excluded
+
+  - id: hsf-kramer-vacation-scheme-2027
+    employer: Herbert Smith Freehills Kramer
+    expected_programme_type: summer_vacation_scheme_2027
+    expected_location: London
+    historical_opening_window: September 2026
+    evidence_type: employer_stated_opening_month
+    source_url: https://careers.hsfkramer.com/global/en/uk/early-careers/vacation-schemes
+    last_verified: 2026-08-11
+    current_status: upcoming; non-law applicability to recheck at launch
+
+  - id: iiss-research-internships-2027
+    employer: International Institute for Strategic Studies
+    expected_programme_type: policy_research_internship
+    expected_location: London
+    historical_opening_window: No verified 2027 opening window
+    evidence_type: no_reliable_estimate
+    source_url: https://www.iiss.org/careers/
+    last_verified: 2026-08-11
+    current_status: monitoring official careers page; no verified 2027 internship

@@ -1,0 +1,86 @@
+# Production snapshot of official Bank of America student-role records.
+# Verified against the linked pages on 2026-08-11. This is not fixture data.
+roles:
+  - source_identifier: "14519"
+    employer: Bank of America
+    title: Global Corporate Banking 2027 Summer Analyst — London
+    source_url: https://careers.bankofamerica.com/en-us/students/job-detail/14519/global-corporate-banking-2027-summer-analyst-x2013-london-london-united-kingdom
+    application_url: https://careers.bankofamerica.com/en-us/students/job-detail/14519/global-corporate-banking-2027-summer-analyst-x2013-london-london-united-kingdom
+    all_source_urls:
+      - https://careers.bankofamerica.com/en-us/students/job-search
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_bank
+    division: Global Corporate Banking
+    location: London, United Kingdom
+    location_type: onsite
+    description: Summer analyst programme across the London corporate-banking teams, covering relationship management, credit analysis, financing, treasury, risk-management advice and live transactions.
+    published_date: 2026-08-03
+    deadline: 2026-10-11
+    paid: true
+    paid_evidence: The official listing states that the role offers a competitive salary and benefits package.
+    eligibility_text: Candidates must be pursuing a Bachelor's or Master's degree with a completion time frame between June 2027 and July 2028, be on track for at least a 2:1, and applications are accepted from a diverse range of degree disciplines including arts and humanities.
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    date_provenance: employer_stated
+    category_hint: Corporate and Commercial Banking
+    secondary_tags:
+      - Risk and Insurance
+      - Corporate Finance and Transactions
+      - Compliance, Legal and Regulatory
+
+  - source_identifier: "14521"
+    employer: Bank of America
+    title: Global Capital Markets 2027 Summer Analyst — London
+    source_url: https://careers.bankofamerica.com/en-us/students/job-detail/14521/global-capital-markets-2027-summer-analyst-dcm-ecm-leveraged-finance-and-ssg-london-london-united-kingdom
+    application_url: https://careers.bankofamerica.com/en-us/students/job-detail/14521/global-capital-markets-2027-summer-analyst-dcm-ecm-leveraged-finance-and-ssg-london-london-united-kingdom
+    all_source_urls:
+      - https://careers.bankofamerica.com/en-us/students/job-search
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_bank
+    division: Global Capital Markets — DCM, ECM, Leveraged Finance and Sustainable Solutions Group
+    location: London, United Kingdom
+    location_type: onsite
+    description: Summer analyst programme across debt and equity capital markets, leveraged finance and sustainable finance, with client analysis, transaction execution and market research.
+    published_date: 2026-08-03
+    deadline: 2026-10-11
+    paid: true
+    paid_evidence: The official listing states that the role offers a competitive salary and benefits package.
+    eligibility_text: Candidates must be pursuing a Bachelor's or Master's degree with a completion time frame between June 2027 and July 2028, be on track for at least a 2:1, and applications are accepted from a diverse range of degree disciplines including arts and humanities.
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    date_provenance: employer_stated
+    category_hint: Corporate Finance and Transactions
+    secondary_tags:
+      - Sustainable and Climate Finance
+      - ESG and Responsible Investment
+      - Banking, Financial Regulation and Central Banking
+
+  - source_identifier: "14522"
+    employer: Bank of America
+    title: Global Investment Banking 2027 Summer Analyst — London
+    source_url: https://careers.bankofamerica.com/en-us/students/job-detail/14522/global-investment-banking-2027-summer-analyst-london-london-united-kingdom
+    application_url: https://careers.bankofamerica.com/en-us/students/job-detail/14522/global-investment-banking-2027-summer-analyst-london-london-united-kingdom
+    all_source_urls:
+      - https://careers.bankofamerica.com/en-us/students/job-search
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_bank
+    division: Global Investment Banking
+    location: London, United Kingdom
+    location_type: onsite
+    description: Summer analyst programme in investment-banking industry, product and country-coverage teams, with financial analysis, client materials and live transaction execution.
+    published_date: 2026-08-03
+    deadline: 2026-10-11
+    paid: true
+    paid_evidence: The official listing states that the role offers a competitive salary and benefits package.
+    eligibility_text: Candidates must be pursuing a Bachelor's or Master's degree with a completion time frame between June 2027 and July 2028, be available from June to August 2027, and be on track for at least a 2:1.
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    date_provenance: employer_stated
+    category_hint: Investment Banking and Corporate Finance
+    secondary_tags:
+      - Corporate Finance and Transactions
+      - Energy and Commodities
+      - Healthcare and Pharmaceuticals

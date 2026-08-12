@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A breadth-first London opportunity finder for a penultimate-year non-law undergraduate graduating in 2028.">
+  <title>London 2027 Opportunity Radar</title>
+  <style>{{INLINE_STYLES}}</style>
+</head>
+<body>
+  <a class="skip-link" href="#opportunities">Skip to opportunities</a>
+  <header class="site-header">
+    <div class="wrap masthead">
+      <a class="brand" href="#top" aria-label="London 2027 Opportunity Radar home"><span>London 2027</span> Opportunity Radar</a>
+      <nav aria-label="Primary navigation"><a href="#opportunities">Jobs</a><a href="#radar">Opening soon</a><a href="#methodology">How it works</a><a href="#subscribe">Email alerts</a></nav>
+    </div>
+    <div class="wrap hero" id="top">
+      <div>
+        <p class="kicker">Broad discovery, honest confidence labels</p>
+        <h1>Find every plausible London opportunity.</h1>
+        <p class="lede">A breadth-first search for a penultimate-year, non-law undergraduate graduating in 2028. Verified roles and possible leads appear together; explicit conflicts stay out, and you decide what is worth applying for.</p>
+        <div class="hero-actions"><a class="button button-light" href="#opportunities">Browse {{OPEN_COUNT}} roles</a><a class="quiet-link" href="#radar">See what opens next</a></div>
+      </div>
+      <aside class="hero-note" aria-label="Tracker principles">
+        <p class="kicker">How to read the list</p>
+        <p><strong>Verified</strong> means the source establishes plausible study-stage eligibility.</p>
+        <p><strong>Possible</strong> means no clear conflict was found, but you must check the employer's full criteria. Closed, explicitly ineligible, unpaid and unsuitable specialist roles remain excluded.</p>
+        <p class="timestamps">Data <time>{{DATA_TIME}}</time><br>Site build <time>{{BUILD_TIME}}</time></p>
+      </aside>
+    </div>
+  </header>
+
+  <nav class="section-nav" aria-label="Dashboard sections"><div class="wrap">
+    <a href="#opportunities">Open roles</a><a href="#new-today">New</a><a href="#closing-soon">Closing soon</a><a href="#sectors">Sectors</a><a href="#cycle-unstated">Cycle unstated</a><a href="#radar">Drop radar</a><a href="#sources">Sources</a>
+  </div></nav>
+
+  <main>
+    <div class="wrap">{{DATA_MODE_BANNER}}</div>
+    <section class="wrap metrics" aria-label="Opportunity summary">
+      <article class="metric-primary"><strong>{{OPEN_COUNT}}</strong><span>All plausible open roles</span></article>
+      <article><strong>{{VERIFIED_COUNT}}</strong><span>Eligibility verified</span></article>
+      <article><strong>{{POSSIBLE_COUNT}}</strong><span>Possible — check criteria</span></article>
+      <article><strong>{{RADAR_COUNT}}</strong><span>Future programmes watched</span></article>
+    </section>
+    <section class="wrap coverage-strip" aria-label="Coverage details">
+      <span><strong>{{VACATION_COUNT}}</strong> vacation schemes</span>
+      <span><strong>{{POLICY_COUNT}}</strong> policy & Parliament</span>
+      <span><strong>{{ENVIRONMENT_COUNT}}</strong> climate & ESG</span>
+      <span><strong>{{DEVELOPMENT_COUNT}}</strong> development & institutions</span>
+      <span><strong>{{LISTINGS_SCANNED}}</strong> listings scanned this run</span>
+      <span><strong>{{PUBLISHING_SOURCE_COUNT}}</strong> role-producing sources</span>
+      <span><strong>{{WATCHED_PAGE_COUNT}}</strong> official pages watched</span>
+      <span><strong>{{REVIEW_COUNT}}</strong> held for review</span>
+    </section>
+    <div class="wrap warning" role="status"><strong>Coverage:</strong> {{COVERAGE_WARNING}}</div>
+
+    <section class="wrap opportunity-section" id="opportunities">
+      <div class="section-heading"><div><p class="kicker">Breadth first</p><h2>All plausible open jobs</h2><p>This combines verified opportunities with wider possible leads. Use the confidence filter if you want only verified roles, and always check the source before applying.</p></div><p class="result-count" id="result-count" aria-live="polite"></p></div>
+      <form class="filters" id="filters">
+        <div class="filter-primary">
+          <label class="search-label">Search roles<input id="search" type="search" placeholder="Try ‘risk’, ‘Blackstone’ or ‘policy’"></label>
+          <label>Sort by<select id="sort"><option value="newest">Newest first</option><option value="deadline">Deadline</option><option value="opening">Opening date</option><option value="employer">Employer</option><option value="category">Category</option><option value="score">Match score</option><option value="evidence">Evidence strength</option></select></label>
+          <label>Confidence<select data-filter="listing"><option value="">Verified + possible</option><option value="verified">Verified only</option><option value="possible">Possible only</option></select></label>
+          <label>Show<select id="saved-filter"><option value="">All roles</option><option value="saved">Saved only</option></select></label>
+          <button type="reset">Clear all</button>
+        </div>
+        <details class="advanced-filters">
+          <summary>More filters</summary>
+          <div class="filter-grid">
+            <label>Primary category<select data-filter="category"><option value="">All categories</option>{{CATEGORY_OPTIONS}}</select></label>
+            <label>Secondary tag<select data-filter="tags"><option value="">All tags</option>{{TAG_OPTIONS}}</select></label>
+            <label>Employer<select data-filter="employer"><option value="">All employers</option>{{EMPLOYER_OPTIONS}}</select></label>
+            <label>Employer type<select data-filter="organisation"><option value="">All types</option>{{ORGANISATION_OPTIONS}}</select></label>
+            <label>Programme<select data-filter="programme"><option value="">All programmes</option>{{PROGRAMME_OPTIONS}}</select></label>
+            <label>Eligibility<select data-filter="eligibility"><option value="">All statuses</option>{{ELIGIBILITY_OPTIONS}}</select></label>
+            <label>Relevance<select data-filter="relevance"><option value="">All matches</option>{{RELEVANCE_OPTIONS}}</select></label>
+            <label>Location<select data-filter="location"><option value="">All locations</option>{{LOCATION_OPTIONS}}</select></label>
+            <label>Geography<select data-filter="geography"><option value="">London + exceptions</option><option value="london">London</option><option value="uk_priority_exception">UK priority exception</option></select></label>
+            <label>Newly added<select data-filter="new"><option value="">Any</option><option value="true">New today</option></select></label>
+            <label>Closing soon<select data-filter="closing"><option value="">Any</option><option value="true">Closing soon</option></select></label>
+            <label>Paid status<select data-filter="paid"><option value="">Any</option><option value="paid">Paid confirmed</option><option value="unknown">Not stated</option></select></label>
+            <label>Open/upcoming<select data-filter="status"><option value="">Any</option><option value="open">Open</option><option value="upcoming">Upcoming</option></select></label>
+            <label>Cycle evidence<select data-filter="cycle"><option value="">Any</option><option value="employer_stated">Employer stated</option><option value="programme_dates">Programme dates</option><option value="official_recruitment_page">Official recruitment page</option><option value="cycle_unstated">Cycle unstated</option></select></label>
+            <label>Source authority<select data-filter="authority"><option value="">Any</option>{{AUTHORITY_OPTIONS}}</select></label>
+            <label>Nationality<select data-filter="nationality"><option value="">Any</option><option value="required">Requirement stated</option><option value="not-stated">Not stated</option></select></label>
+            <label>Employer tier<select data-filter="tier"><option value="">Any</option>{{TIER_OPTIONS}}</select></label>
+          </div>
+        </details>
+      </form>
+      <div class="view-bar">
+        <p><strong>Fast list:</strong> use View details for the full description, dates and eligibility evidence. More results load in groups of 100.</p>
+      </div>
+      <noscript><div class="demo-banner"><strong>JavaScript is off:</strong> the first 100 open jobs remain available below. The complete searchable list, filtering, details and saved roles need JavaScript.</div></noscript>
+      <div class="open-job-list" id="open-job-list">
+        <div class="table-scroll">
+          <table class="open-jobs-table">
+            <thead><tr><th>Employer and role</th><th>Area</th><th>Location</th><th>Deadline</th><th>Confidence</th><th>Actions</th></tr></thead>
+            <tbody id="role-table-body">{{ROLE_ROWS}}</tbody>
+          </table>
+        </div>
+      </div>
+      <div class="load-more-wrap" hidden><button class="button button-secondary" id="show-more" type="button" hidden>Show 100 more roles</button></div>
+      <div class="empty" id="empty-state" hidden><h3>No matching roles</h3><p>Clear one or more filters, or check the opening radar below.</p></div>
+      <aside class="role-detail-panel" id="role-detail-panel" role="dialog" aria-modal="false" aria-labelledby="role-detail-title" hidden>
+        <div class="detail-panel-head"><div><p class="kicker">Role details</p><h2 id="role-detail-title">Listing details</h2></div><button class="detail-close" id="detail-close" type="button" aria-label="Close role details">Close</button></div>
+        <div id="role-detail-content" aria-live="polite"></div>
+      </aside>
+    </section>
+
+    <section class="wrap discovery-links" aria-label="Quick role filters">
+      <article id="new-today"><span>{{NEW_DAY_COUNT}}</span><h2>New Today</h2><button class="text-button" data-quick-filter="new">Show newly observed roles</button></article>
+      <article id="closing-soon"><span>{{CLOSING_COUNT}}</span><h2>Closing Soon</h2><button class="text-button" data-quick-filter="closing">Show deadlines within seven days</button></article>
+      <article id="summer-2027"><span>{{SUMMER_COUNT}}</span><h2>Summer 2027 Internships</h2><button class="text-button" data-programme-filter="summer_internship_2027">Show Summer 2027 roles</button></article>
+      <article id="vacation-schemes"><span>{{VACATION_COUNT}}</span><h2>Vacation Schemes</h2><button class="text-button" data-programme-filter="vacation_scheme">Show eligible schemes</button></article>
+    </section>
+
+    <section class="wrap section-block" id="sectors"><div class="section-intro"><p class="kicker">Browse by work, not prestige</p><h2>Explore by sector</h2></div><div class="sector-grid">
+      <button data-category-filter="investment banking|corporate finance|markets|asset|wealth|private|venture|development finance|real estate|infrastructure|banking|financial regulation|sustainable">Finance and investment</button><button data-category-filter="risk|compliance|legal|vacation|insurance|assurance|investigations|crisis">Risk, law and compliance</button><button data-category-filter="consulting|strategy|corporate development|business development|commercial analysis|market research|programme">Consulting and strategy</button><button data-category-filter="public policy|government|civil service|regulators|parliament|government relations">Government, Parliament and policy</button><button data-category-filter="intelligence|national security">Intelligence and national security</button><button data-category-filter="think tanks|research institutes">Think tanks and political research</button><button data-category-filter="international development|humanitarian|monitoring, evaluation">Development and humanitarian affairs</button><button data-category-filter="international institutions|multilateral">International institutions</button><button data-category-filter="environmental|climate|esg|sustainability|geospatial">Environment, ESG and climate</button><button data-category-filter="energy|oil and gas">Energy and commodities</button><button data-category-filter="public and global health|health policy">Public and global health</button><button data-category-filter="pharmaceutical|market access|healthcare corporate">Healthcare and pharmaceuticals</button><button data-category-filter="geospatial">Geospatial analysis</button><button data-category-filter="supply chain|logistics|programme and project|business operations">Operations and supply chain</button>
+    </div></section>
+
+    <section class="wrap callout" id="cycle-unstated"><div><p class="kicker">Kept separate by design</p><h2>Recent Relevant Opportunities — Cycle Not Stated</h2><p>These roles may be useful, but the source does not call them Summer 2027 opportunities.</p></div><button class="button button-secondary" data-cycle-filter>Show cycle-unstated roles</button></section>
+
+    <section class="wrap section-block radar-section" id="radar"><div class="section-intro"><p class="kicker">{{RADAR_COUNT}} programmes across official pages</p><h2>Upcoming and drop radar</h2><p>This is intentionally broader than the open-jobs list. It includes current programmes, verified future opening dates and clearly labelled “no reliable estimate” watches. A watched page is not counted as an open job.</p></div><div class="table-scroll radar-table"><table><thead><tr><th>Employer</th><th>Programme</th><th>Location</th><th>Opening window</th><th>Evidence</th><th>Status</th><th>Official source</th></tr></thead><tbody>{{RADAR_ROWS}}</tbody></table></div></section>
+    <section class="wrap section-block" id="closed"><h2>Recently Closed</h2><ul class="closed-list">{{CLOSED_ROWS}}</ul></section>
+    <section class="wrap two-column section-block" id="methodology"><div><p class="kicker">Transparent decisions</p><h2>How roles qualify</h2><p>The scanner searches official sources and employer-agnostic boards. Roles with explicit conflicts are removed; the rest are labelled verified or possible according to the available eligibility evidence.</p><p><a href="METHODOLOGY.md">Read the full methodology</a></p></div><div class="soft-panel"><h2>Useful limits</h2><p>No scraper can guarantee every vacancy on the web. “Possible” is intentionally permissive, not an acceptance prediction: confirm degree, study year, work rights, pay and deadline on the application page.</p></div></section>
+    <section class="wrap section-block" id="sources"><details class="source-health"><summary><span><span class="kicker">Monitoring transparency</span><strong>Source health</strong></span><span>{{PUBLISHING_SOURCE_COUNT}} role sources · {{WATCHED_PAGE_COUNT}} page watches · {{HEALTHY_COUNT}} healthy this scan</span></summary><div class="source-explainer"><p><strong>Role sources</strong> include official feeds and broad discovery boards. <strong>Page watches</strong> only detect changes on official pages; they do not prove that a suitable job is open.</p></div><div class="table-scroll"><table><thead><tr><th>Source</th><th>Status</th><th>Listings scanned</th><th>Note</th></tr></thead><tbody>{{SOURCE_ROWS}}</tbody></table></div></details></section>
+    <section class="subscribe-section" id="privacy"><div class="wrap two-column"><div><p class="kicker">Private by default</p><h2>Save locally. Subscribe carefully.</h2><p>Saved roles stay in this browser and are never uploaded. Subscription records contain only an email address and minimal delivery state. There are no tracking pixels or advertising profiles.</p><p><a href="PRIVACY.md">Read the privacy notice</a></p></div><div class="subscribe-card" id="subscribe"><h2>Email alerts</h2><p>Get one digest on days when newly verified opportunities appear. Confirmation is required.</p><form id="subscribe-form" data-endpoint="{{SUBSCRIBE_ENDPOINT}}"><label>Email address<input type="email" name="email" autocomplete="email" required{{SUBSCRIBE_DISABLED}}></label><label class="honeypot" aria-hidden="true">Website<input name="website" tabindex="-1" autocomplete="off"></label><button class="button" type="submit"{{SUBSCRIBE_DISABLED}}>Send confirmation</button><p id="subscribe-status" aria-live="polite">{{SUBSCRIBE_STATUS}}</p></form></div></div></section>
+  </main>
+  <footer><div class="wrap"><p><strong>London 2027 Opportunity Radar</strong></p><p>Verify every deadline and requirement on the official source before applying.</p></div></footer>
+  <script>{{INLINE_SCRIPT}}</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "jobs": [
+    {
+      "id": 27001,
+      "title": "Summer 2027 Corporate Finance Internship",
+      "absolute_url": "https://example.invalid/jobs/27001?utm_source=test",
+      "location": {"name": "London, United Kingdom"},
+      "updated_at": "2026-08-10T09:00:00Z",
+      "content": "<p>Paid Summer 2027 internship in corporate finance and investment analysis. Open to penultimate-year students from any degree discipline.</p>"
+    },
+    {
+      "id": 27002,
+      "title": "Summer 2027 Software Engineering Internship",
+      "absolute_url": "https://example.invalid/jobs/27002",
+      "location": {"name": "London, United Kingdom"},
+      "updated_at": "2026-08-10T09:00:00Z",
+      "content": "<p>Software engineering role. Computer science degree required. Open to penultimate-year students.</p>"
+    }
+  ]
+}
+

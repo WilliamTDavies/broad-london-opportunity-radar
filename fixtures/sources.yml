@@ -1,0 +1,109 @@
+sources:
+  - id: fixture-greenhouse
+    canonical_name: Meridian Capital (fixture)
+    organisation_type: corporate
+    careers_url: https://example.invalid/fixture-greenhouse
+    ats_type: greenhouse
+    endpoint: https://example.invalid/fixture-greenhouse
+    source_authority: official_ats
+    enabled: false
+    priority_tier: major
+    relevant_categories: [Investment Banking]
+    source_health: disabled
+    notes: Test-only source; not a real employer or public endpoint.
+    manual_review_required: false
+    fixture: fixtures/ats/greenhouse.json
+  - id: fixture-law
+    canonical_name: Example City Law (fixture)
+    organisation_type: law_firm
+    careers_url: https://example.invalid/fixture-law
+    ats_type: curated_yaml
+    endpoint: https://example.invalid/fixture-law
+    source_authority: official_programme_page
+    enabled: false
+    priority_tier: major
+    source_health: disabled
+    notes: Test-only source; not a real employer or public endpoint.
+    manual_review_required: false
+    fixture: fixtures/law/programmes.yml
+  - id: fixture-w4mp
+    canonical_name: W4MP Jobs
+    organisation_type: trusted_board
+    careers_url: https://www.w4mpjobs.org/searchjobs.aspx
+    ats_type: trusted_board
+    endpoint: https://www.w4mpjobs.org/searchjobs.aspx
+    source_authority: trusted_sector_board
+    enabled: false
+    priority_tier: approved
+    source_health: disabled
+    notes: Saved structural fixture for the approved trusted board.
+    manual_review_required: false
+    fixture: fixtures/parliament/w4mp.html
+  - id: fixture-sectors
+    canonical_name: Fixture Sector Programmes
+    organisation_type: corporate
+    careers_url: https://example.invalid/fixture-sectors
+    ats_type: curated_yaml
+    endpoint: https://example.invalid/fixture-sectors
+    source_authority: official_programme_page
+    enabled: false
+    priority_tier: major
+    location_scope: uk_priority_exception
+    uk_priority_exception: true
+    exception_reason: Test-only approved national-programme fixture.
+    source_health: disabled
+    notes: Test-only multi-sector records.
+    manual_review_required: false
+    fixture: fixtures/trusted_boards/sectors.yml
+  - id: fixture-higherin
+    canonical_name: Higherin (fixture)
+    organisation_type: trusted_board
+    careers_url: https://example.invalid/higherin
+    ats_type: higherin
+    endpoint: https://example.invalid/higherin
+    source_authority: discovery_only_source
+    enabled: false
+    priority_tier: approved
+    source_health: disabled
+    notes: Saved test fixture for the possible-opportunities discovery layer.
+    manual_review_required: true
+    fixture: fixtures/discovery/higherin.html
+  - id: fixture-charityjob
+    canonical_name: CharityJob (fixture)
+    organisation_type: charity
+    careers_url: https://example.invalid/charityjob
+    ats_type: charityjob
+    endpoint: https://example.invalid/charityjob
+    source_authority: discovery_only_source
+    enabled: false
+    priority_tier: approved
+    source_health: disabled
+    notes: Saved structural fixture for the CharityJob discovery adapter.
+    manual_review_required: true
+    fixture: fixtures/discovery/charityjob.html
+  - id: fixture-nhs-jobs
+    canonical_name: NHS Jobs (fixture)
+    organisation_type: public_health
+    careers_url: https://example.invalid/nhs-jobs
+    ats_type: nhs_jobs
+    endpoint: https://example.invalid/nhs-jobs
+    source_authority: discovery_only_source
+    enabled: false
+    priority_tier: approved
+    source_health: disabled
+    notes: Saved structural fixture for the NHS Jobs discovery adapter.
+    manual_review_required: true
+    fixture: fixtures/discovery/nhs-jobs.html
+  - id: fixture-jobs-ac-uk
+    canonical_name: jobs.ac.uk (fixture)
+    organisation_type: higher_education
+    careers_url: https://example.invalid/jobs-ac-uk
+    ats_type: jobs_ac_uk
+    endpoint: https://example.invalid/jobs-ac-uk
+    source_authority: discovery_only_source
+    enabled: false
+    priority_tier: approved
+    source_health: disabled
+    notes: Saved structural fixture for the jobs.ac.uk discovery adapter.
+    manual_review_required: true
+    fixture: fixtures/discovery/jobs-ac-uk.html

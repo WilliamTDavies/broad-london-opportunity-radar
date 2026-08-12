@@ -1,0 +1,35 @@
+positive:
+  legal_risk: [legal, compliance, regulatory, risk, evidence review]
+  investment_diligence: [due diligence, financial analysis, valuation, financial modelling]
+  research_policy: [research, analysis, policy, parliament, briefing, economics, geopolitical]
+  climate_development: [climate, environmental risk, disaster, resilience, humanitarian, international development]
+  health: [public health, global health, health policy, health economics, healthcare consulting]
+  commercial: [investment, banking, insurance, real estate, commercial analysis]
+  operations: [stakeholder, programme management, project management, supply chain, procurement, logistics]
+  geospatial: [geospatial, GIS, QGIS, location intelligence]
+  communications: [strategic communications, stakeholder engagement, substantive advocacy, public affairs]
+skill_alignment:
+  analytical_tools: [Excel, Python, SPSS]
+  geospatial_tools: [QGIS, GIS]
+  research_communication: [research, writing, briefing, evidence review]
+  languages: [Cantonese, Mandarin]
+negative:
+  - advanced software engineering
+  - computer-science-only
+  - advanced quantitative finance
+  - specialist machine learning
+  - engineering-only
+  - clinical or laboratory requirements
+  - generic fundraising
+  - generic social-media marketing
+  - generic office administration
+  - election campaigning
+score_components:
+  eligibility_strength: 20
+  substantive_relevance: 35
+  skill_alignment: 10
+  organisation_quality: 10
+  geographic_fit: 10
+  recency: 5
+  deadline_urgency: 5
+  evidence_quality: 5

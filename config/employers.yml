@@ -1,0 +1,835 @@
+defaults: &defaults
+  aliases: []
+  organisation_type: corporate
+  careers_url: null
+  ats_type: html
+  endpoint: null
+  source_authority: official_careers_page
+  country_scope: United Kingdom
+  location_scope: london
+  enabled: false
+  priority_tier: major
+  relevant_categories: []
+  expected_window: null
+  window_evidence_url: null
+  last_successful_poll: null
+  source_health: disabled
+  notes: Official role endpoint requires manual verification before activation.
+  uk_priority_exception: false
+  exception_reason: null
+  requests_per_minute: 6
+  poll_interval_minutes: 0
+  result_cap: null
+  expected_min_items: 0
+  request_method: GET
+  request_body: null
+  required_env: []
+  monitor_only: false
+  manual_review_required: true
+  curated_file: null
+
+# One breadth-first query matrix is reused by every search API. Edit this list when you want to
+# widen or narrow discovery; the central eligibility/relevance rules still decide what appears.
+broad_search_queries: &broad_search_queries
+  - internship
+  - intern
+  - summer analyst
+  - vacation scheme
+  - insight programme
+  - work experience
+  - junior analyst
+  - research assistant
+  - policy assistant
+  - legal assistant
+  - legal internship
+  - paralegal
+  - finance assistant
+  - finance analyst
+  - investment intern
+  - investment analyst
+  - risk analyst
+  - consulting intern
+  - consulting analyst
+  - strategy analyst
+  - commercial analyst
+  - business analyst
+  - operations analyst
+  - project assistant
+  - programme assistant
+  - public affairs
+  - sustainability analyst
+  - ESG analyst
+  - communications assistant
+  - fundraising assistant
+
+employers:
+  - <<: *defaults
+    id: millennium-management
+    canonical_name: Millennium Management
+    careers_url: https://www.mlp.com/careers/
+    endpoint: https://www.mlp.com/careers/
+    enabled: true
+    priority_tier: priority
+    source_health: degraded
+    monitor_only: true
+    notes: Official careers-page change monitor verified 2026-08-11; it watches the page but does not publish role records without a verified listing endpoint.
+  - <<: *defaults
+    id: blackrock
+    canonical_name: BlackRock
+    organisation_type: investment_manager
+    careers_url: https://careers.blackrock.com/students-and-graduates-emea
+    ats_type: curated_yaml
+    endpoint: https://careers.blackrock.com/employment/london-england-united-kingdom-students-and-graduates-jobs/45831/9022304/2635167-6269131-2648110-2643743/4
+    source_authority: official_ats
+    enabled: true
+    priority_tier: priority
+    relevant_categories: [Asset and Investment Management, Wealth Management and Private Banking, ESG and Responsible Investment]
+    last_successful_poll: 2026-08-10T00:00:00Z
+    source_health: healthy
+    notes: Official London ATS records verified 2026-08-10 and preserved as a curated production snapshot; scheduled scans reprocess the snapshot, while closure and wording changes require official-page re-verification.
+    manual_review_required: false
+    curated_file: config/curated/blackrock.yml
+  - <<: *defaults
+    id: bank-of-america
+    canonical_name: Bank of America
+    careers_url: https://careers.bankofamerica.com/en-us/students/programs
+    ats_type: curated_yaml
+    endpoint: https://careers.bankofamerica.com/en-us/students/job-search
+    source_authority: official_ats
+    enabled: true
+    priority_tier: priority
+    relevant_categories: [Corporate and Commercial Banking, Investment Banking and Corporate Finance, Corporate Finance and Transactions]
+    last_successful_poll: 2026-08-11T00:00:00Z
+    source_health: healthy
+    notes: Three official London 2027 Summer Analyst records verified 2026-08-11 and preserved as a curated production snapshot; scheduled scans reprocess the snapshot, while closure and wording changes require official-page re-verification.
+    manual_review_required: false
+    curated_file: config/curated/bank-of-america.yml
+  - <<: *defaults
+    id: iiss
+    canonical_name: International Institute for Strategic Studies
+    organisation_type: think_tank
+    careers_url: https://www.iiss.org/careers/
+    endpoint: https://www.iiss.org/careers/
+    enabled: true
+    priority_tier: priority
+    source_health: degraded
+    monitor_only: true
+    notes: Official careers-page change monitor verified 2026-08-11; it cannot publish a role without role-level eligibility and date evidence.
+  - <<: *defaults
+    id: rothschild-and-co
+    canonical_name: Rothschild & Co
+    careers_url: https://www.rothschildandco.com/en/careers/students-and-graduates/internships/
+    endpoint: https://www.rothschildandco.com/en/careers/students-and-graduates/internships/
+    enabled: true
+    priority_tier: priority
+    source_health: degraded
+    monitor_only: true
+    notes: Official internships-page change monitor verified 2026-08-11; it does not publish roles until a London 2027 listing is verified.
+  - <<: *defaults
+    id: hsbc
+    canonical_name: HSBC
+    careers_url: https://www.hsbc.com/careers/students-and-graduates/internships
+    endpoint: https://www.hsbc.com/careers/students-and-graduates/internships
+    enabled: true
+    priority_tier: priority
+    source_health: degraded
+    monitor_only: true
+    notes: Official internships-page change monitor verified 2026-08-11; it does not publish roles until a London 2027 listing is verified.
+  - <<: *defaults
+    id: houlihan-lokey
+    canonical_name: Houlihan Lokey
+    careers_url: https://hl.com/careers/early-careers/internships-europe/
+    endpoint: https://hl.com/careers/early-careers/internships-europe/
+    enabled: true
+    priority_tier: priority
+    source_health: degraded
+    monitor_only: true
+    notes: Official London internship-page change monitor verified 2026-08-11; an employer-specific Workday request remains unverified.
+  - <<: *defaults
+    id: lazard
+    canonical_name: Lazard
+    careers_url: https://www.lazard.com/careers/students/
+    endpoint: https://www.lazard.com/careers/students/
+    enabled: true
+    priority_tier: priority
+    source_health: degraded
+    monitor_only: true
+    notes: Official student-careers page change monitor verified 2026-08-11; it does not publish roles until a London 2027 listing is verified.
+  - <<: *defaults
+    id: pwc
+    canonical_name: PwC
+    priority_tier: priority
+  - <<: *defaults
+    id: deloitte
+    canonical_name: Deloitte
+    priority_tier: priority
+  - <<: *defaults
+    id: ey
+    canonical_name: EY
+    priority_tier: priority
+  - <<: *defaults
+    id: blackstone
+    canonical_name: Blackstone
+    organisation_type: investment_manager
+    careers_url: https://www.blackstone.com/careers/students/
+    ats_type: curated_yaml
+    endpoint: https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers
+    source_authority: official_ats
+    enabled: true
+    priority_tier: priority
+    relevant_categories: [Private Equity and Private Markets, Private Credit, Infrastructure Investment, Real Estate Investment and Advisory, Wealth Management and Private Banking]
+    last_successful_poll: 2026-08-10T00:00:00Z
+    source_health: healthy
+    notes: Official Workday records verified 2026-08-10 and preserved as a curated production snapshot; scheduled scans reprocess the snapshot, while closure and wording changes require official-page re-verification.
+    manual_review_required: false
+    curated_file: config/curated/blackstone.yml
+  - <<: *defaults
+    id: gchq
+    canonical_name: GCHQ
+    organisation_type: government
+    careers_url: https://www.gchq-careers.co.uk/our-careers/early-careers/summer-placements.html
+    endpoint: https://www.gchq-careers.co.uk/our-careers/early-careers/summer-placements.html
+    source_authority: official_programme_page
+    enabled: true
+    priority_tier: priority
+    expected_window: Applications for the 2027 internship open 24 August 2026
+    window_evidence_url: https://www.gchq-careers.co.uk/our-careers/early-careers/summer-placements.html
+    source_health: degraded
+    monitor_only: true
+    notes: Official programme-page change monitor; technical schemes still require eligibility filtering and role-level manual review.
+    location_scope: uk_priority_exception
+    uk_priority_exception: true
+    exception_reason: Approved national-security priority organisation.
+  - <<: *defaults
+    id: mi5
+    canonical_name: MI5
+    organisation_type: government
+    priority_tier: priority
+    location_scope: uk_priority_exception
+    uk_priority_exception: true
+    exception_reason: Approved national-security priority organisation.
+  - <<: *defaults
+    id: pfizer
+    canonical_name: Pfizer
+    organisation_type: healthcare
+    priority_tier: priority
+  - <<: *defaults
+    id: macfarlanes
+    canonical_name: Macfarlanes
+    organisation_type: law_firm
+    priority_tier: priority
+  - <<: *defaults
+    id: gowling-wlg
+    canonical_name: Gowling WLG
+    organisation_type: law_firm
+    priority_tier: priority
+  - <<: *defaults
+    id: barclays
+    canonical_name: Barclays
+    organisation_type: investment_bank
+    careers_url: https://search.jobs.barclays/early-careers-roles
+    endpoint: https://search.jobs.barclays/early-careers-roles
+    source_authority: official_ats
+    enabled: true
+    priority_tier: priority
+    source_health: degraded
+    monitor_only: true
+    notes: Official early-careers search-page change monitor verified 2026-08-11; the current official results contain no London 2027 internship, so it publishes no role.
+  - <<: *defaults
+    id: jane-street
+    canonical_name: Jane Street
+    priority_tier: priority
+  - <<: *defaults
+    id: hines
+    canonical_name: Hines
+    organisation_type: real_estate
+    priority_tier: priority
+  - <<: *defaults
+    id: latham-watkins
+    canonical_name: Latham & Watkins
+    organisation_type: law_firm
+    careers_url: https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/our-programmes
+    endpoint: https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/our-programmes
+    source_authority: official_programme_page
+    enabled: true
+    priority_tier: priority
+    expected_window: 2027 Spring and Summer Vacation Scheme applications open 1 September 2026
+    window_evidence_url: https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/our-programmes
+    source_health: degraded
+    monitor_only: true
+    notes: Official programme-page change monitor verified 2026-08-11; publication waits for the live application and non-law study-stage verification.
+  - <<: *defaults
+    id: covington-burling
+    canonical_name: Covington & Burling
+    organisation_type: law_firm
+    careers_url: https://www.cov.com/en/careers/lawyers/london/our-opportunities/vacation-schemes
+    endpoint: https://www.cov.com/en/careers/lawyers/london/our-opportunities/vacation-schemes
+    source_authority: official_programme_page
+    enabled: true
+    priority_tier: priority
+    expected_window: 2027 Summer Scheme applications open 28 August 2026
+    window_evidence_url: https://www.cov.com/en/careers/lawyers/london/our-opportunities/vacation-schemes
+    source_health: degraded
+    monitor_only: true
+    notes: Official programme-page change monitor verified 2026-08-11; publication waits for the live application and non-law study-stage verification.
+  - <<: *defaults
+    id: hogan-lovells
+    canonical_name: Hogan Lovells Cadwalader
+    aliases: [Hogan Lovells, Cadwalader]
+    organisation_type: law_firm
+    careers_url: https://ukearlycareers.hlc.com/what-we-offer/vacation-scheme
+    endpoint: https://ukearlycareers.hlc.com/what-we-offer/vacation-scheme
+    source_authority: official_programme_page
+    enabled: true
+    priority_tier: priority
+    expected_window: 2027 Spring and Summer Vacation Scheme applications open 1 September 2026
+    window_evidence_url: https://ukearlycareers.hlc.com/what-we-offer/vacation-scheme
+    source_health: degraded
+    monitor_only: true
+    notes: Official combined-firm early-careers programme-page monitor verified 2026-08-11; publication waits for the live application and non-law study-stage verification.
+  - <<: *defaults
+    id: cadwalader
+    canonical_name: Cadwalader, Wickersham & Taft
+    organisation_type: law_firm
+    priority_tier: priority
+    notes: Legacy registry alias only; the combined firm is monitored under hogan-lovells.
+  - <<: *defaults
+    id: linklaters
+    canonical_name: Linklaters
+    organisation_type: law_firm
+    careers_url: https://www.linklaters.com/en/careers/early-careers/university-and-graduate-opportunities/vacation-schemes
+    endpoint: https://www.linklaters.com/en/careers/early-careers/university-and-graduate-opportunities/vacation-schemes
+    source_authority: official_programme_page
+    enabled: true
+    priority_tier: priority
+    source_health: degraded
+    monitor_only: true
+    notes: Official London vacation-scheme page change monitor verified 2026-08-11; the page currently lacks sufficiently clear 2027 cycle and stage evidence for publication.
+  - <<: *defaults
+    id: mayer-brown
+    canonical_name: Mayer Brown
+    organisation_type: law_firm
+    priority_tier: priority
+  - <<: *defaults
+    id: sefe-marketing-trading
+    canonical_name: SEFE Marketing & Trading
+    organisation_type: energy
+    priority_tier: priority
+  - <<: *defaults
+    id: equinor
+    canonical_name: Equinor
+    organisation_type: energy
+    priority_tier: priority
+  - <<: *defaults
+    id: simpson-thacher
+    canonical_name: Simpson Thacher & Bartlett
+    organisation_type: law_firm
+    priority_tier: priority
+  - <<: *defaults
+    id: allianz
+    canonical_name: Allianz
+    organisation_type: insurance
+    priority_tier: priority
+  - <<: *defaults
+    id: psc-unresolved
+    canonical_name: PSC — Politics/consulting (unresolved)
+    organisation_type: unresolved
+    priority_tier: priority
+    notes: Disabled. Provide the canonical employer and official careers URL before activation; no organisation has been guessed.
+
+  # Finance and investment
+  - <<: *defaults
+    id: goldman-sachs
+    canonical_name: Goldman Sachs
+    organisation_type: investment_bank
+    careers_url: https://www.goldmansachs.com/careers/students/programs-and-internships/emea/summer-analyst-programme
+    endpoint: https://www.goldmansachs.com/careers/students/programs-and-internships/emea/summer-analyst-programme
+    source_authority: official_programme_page
+    enabled: true
+    expected_window: 2027 EMEA Summer Analyst applications open 15 August 2026; locations are published in the application
+    window_evidence_url: https://www.goldmansachs.com/careers/students/programs-and-internships/emea/summer-analyst-programme
+    source_health: degraded
+    monitor_only: true
+    notes: Official 2027 EMEA programme-page change monitor verified 2026-08-11. It cannot publish a role until the application exposes a verified London listing.
+  - {<<: *defaults, id: morgan-stanley, canonical_name: Morgan Stanley}
+  - {<<: *defaults, id: jpmorganchase, canonical_name: JPMorganChase}
+  - {<<: *defaults, id: citi, canonical_name: Citi}
+  - {<<: *defaults, id: ubs, canonical_name: UBS}
+  - {<<: *defaults, id: deutsche-bank, canonical_name: Deutsche Bank}
+  - {<<: *defaults, id: bnp-paribas, canonical_name: BNP Paribas}
+  - {<<: *defaults, id: standard-chartered, canonical_name: Standard Chartered}
+  - {<<: *defaults, id: natwest, canonical_name: NatWest Group}
+  - {<<: *defaults, id: lloyds-banking-group, canonical_name: Lloyds Banking Group}
+  - {<<: *defaults, id: schroders, canonical_name: Schroders}
+  - {<<: *defaults, id: fidelity-international, canonical_name: Fidelity International}
+  - {<<: *defaults, id: legal-general, canonical_name: Legal & General}
+  - {<<: *defaults, id: aviva, canonical_name: Aviva, organisation_type: insurance}
+  - {<<: *defaults, id: apollo-global-management, canonical_name: Apollo Global Management}
+  - {<<: *defaults, id: kkr, canonical_name: KKR}
+  - <<: *defaults
+    id: carlyle
+    canonical_name: The Carlyle Group
+    aliases: [Carlyle]
+    organisation_type: investment_manager
+    careers_url: https://carlyle.wd1.myworkdayjobs.com/Carlyle
+    ats_type: workday
+    endpoint: https://carlyle.wd1.myworkdayjobs.com/wday/cxs/carlyle/Carlyle/jobs
+    source_authority: official_ats
+    enabled: true
+    priority_tier: priority
+    relevant_categories: [Private Credit, Private Equity and Private Markets, Asset and Investment Management]
+    last_successful_poll: 2026-08-11T00:00:00Z
+    source_health: healthy
+    requests_per_minute: 6
+    result_cap: 20
+    expected_min_items: 0
+    request_method: POST
+    request_body:
+      appliedFacets:
+        Job_Profile: [70b98b84a1c901bdcb31ee7263349516]
+        locations: [d8e3ff2f93b41000c9f30a80473f0000]
+      limit: 20
+      offset: 0
+      searchText: ""
+    manual_review_required: false
+    notes: Official London-intern Workday query and role-detail endpoint verified 2026-08-11. Search summaries are enriched from the official CXS detail API before classification; materially uncertain eligibility stays in the review queue.
+  - {<<: *defaults, id: brookfield, canonical_name: Brookfield}
+  - {<<: *defaults, id: ares-management, canonical_name: Ares Management}
+  - {<<: *defaults, id: man-group, canonical_name: Man Group}
+  - {<<: *defaults, id: brevan-howard, canonical_name: Brevan Howard}
+  - {<<: *defaults, id: point72, canonical_name: Point72}
+  - {<<: *defaults, id: bloomberg, canonical_name: Bloomberg}
+  - {<<: *defaults, id: sp-global, canonical_name: S&P Global}
+  - {<<: *defaults, id: moodys, canonical_name: Moody’s}
+  - {<<: *defaults, id: morningstar, canonical_name: Morningstar}
+  - {<<: *defaults, id: msci, canonical_name: MSCI}
+  - {<<: *defaults, id: morningstar-sustainalytics, canonical_name: Morningstar Sustainalytics}
+  - {<<: *defaults, id: iss, canonical_name: Institutional Shareholder Services}
+  - {<<: *defaults, id: british-international-investment, canonical_name: British International Investment, organisation_type: development_finance}
+  - {<<: *defaults, id: ebrd, canonical_name: European Bank for Reconstruction and Development, organisation_type: international_institution}
+  - {<<: *defaults, id: ifc, canonical_name: International Finance Corporation, organisation_type: international_institution}
+  - {<<: *defaults, id: bridges-fund-management, canonical_name: Bridges Fund Management}
+
+  # Insurance, risk, advisory and consulting
+  - {<<: *defaults, id: aon, canonical_name: Aon, organisation_type: insurance}
+  - {<<: *defaults, id: marsh-mclennan, canonical_name: Marsh McLennan, organisation_type: insurance}
+  - {<<: *defaults, id: willis-towers-watson, canonical_name: Willis Towers Watson, organisation_type: insurance}
+  - {<<: *defaults, id: lloyds, canonical_name: Lloyd’s, organisation_type: insurance}
+  - {<<: *defaults, id: swiss-re, canonical_name: Swiss Re, organisation_type: insurance}
+  - {<<: *defaults, id: munich-re, canonical_name: Munich Re, organisation_type: insurance}
+  - {<<: *defaults, id: zurich-insurance, canonical_name: Zurich Insurance, organisation_type: insurance}
+  - {<<: *defaults, id: control-risks, canonical_name: Control Risks, organisation_type: consultancy}
+  - {<<: *defaults, id: fti-consulting, canonical_name: FTI Consulting, organisation_type: consultancy}
+  - {<<: *defaults, id: kroll, canonical_name: Kroll, organisation_type: consultancy}
+  - {<<: *defaults, id: teneo, canonical_name: Teneo, organisation_type: consultancy}
+  - {<<: *defaults, id: brunswick-group, canonical_name: Brunswick Group, organisation_type: consultancy}
+  - {<<: *defaults, id: eurasia-group, canonical_name: Eurasia Group, organisation_type: consultancy, notes: Enable only if an official relevant London programme is verified.}
+  - {<<: *defaults, id: fgs-global, canonical_name: FGS Global, organisation_type: consultancy}
+  - {<<: *defaults, id: apco-worldwide, canonical_name: APCO Worldwide, organisation_type: consultancy}
+  - {<<: *defaults, id: edelman, canonical_name: Edelman, organisation_type: consultancy}
+  - {<<: *defaults, id: portland-communications, canonical_name: Portland Communications, organisation_type: consultancy}
+  - {<<: *defaults, id: fleishmanhillard, canonical_name: FleishmanHillard, organisation_type: consultancy}
+  - {<<: *defaults, id: burson, canonical_name: Burson, organisation_type: consultancy}
+  - {<<: *defaults, id: mckinsey, canonical_name: McKinsey & Company, organisation_type: consultancy}
+  - {<<: *defaults, id: bcg, canonical_name: Boston Consulting Group, organisation_type: consultancy}
+  - {<<: *defaults, id: bain, canonical_name: Bain & Company, organisation_type: consultancy}
+  - {<<: *defaults, id: oliver-wyman, canonical_name: Oliver Wyman, organisation_type: consultancy}
+  - {<<: *defaults, id: kearney, canonical_name: Kearney, organisation_type: consultancy}
+  - {<<: *defaults, id: accenture, canonical_name: Accenture, organisation_type: consultancy}
+  - {<<: *defaults, id: kpmg, canonical_name: KPMG, organisation_type: professional_services}
+  - {<<: *defaults, id: strategyand, canonical_name: Strategy&, organisation_type: consultancy}
+  - {<<: *defaults, id: alixpartners, canonical_name: AlixPartners, organisation_type: consultancy}
+  - {<<: *defaults, id: grant-thornton, canonical_name: Grant Thornton, organisation_type: professional_services}
+  - {<<: *defaults, id: baringa, canonical_name: Baringa, organisation_type: consultancy}
+  - {<<: *defaults, id: zs, canonical_name: ZS, organisation_type: consultancy}
+  - {<<: *defaults, id: iqvia, canonical_name: IQVIA, organisation_type: healthcare}
+  - {<<: *defaults, id: frontier-economics, canonical_name: Frontier Economics, organisation_type: consultancy}
+  - {<<: *defaults, id: compass-lexecon, canonical_name: Compass Lexecon, organisation_type: consultancy}
+  - {<<: *defaults, id: nera, canonical_name: NERA Economic Consulting, organisation_type: consultancy}
+  - {<<: *defaults, id: oxera, canonical_name: Oxera, organisation_type: consultancy}
+  - {<<: *defaults, id: london-economics, canonical_name: London Economics, organisation_type: consultancy}
+
+  # Energy, climate and environment
+  - {<<: *defaults, id: bp, canonical_name: bp, organisation_type: energy}
+  - {<<: *defaults, id: shell, canonical_name: Shell, organisation_type: energy}
+  - {<<: *defaults, id: totalenergies, canonical_name: TotalEnergies, organisation_type: energy}
+  - {<<: *defaults, id: centrica, canonical_name: Centrica, organisation_type: energy}
+  - {<<: *defaults, id: national-grid, canonical_name: National Grid, organisation_type: energy}
+  - {<<: *defaults, id: vitol, canonical_name: Vitol, organisation_type: energy}
+  - {<<: *defaults, id: trafigura, canonical_name: Trafigura, organisation_type: energy}
+  - {<<: *defaults, id: gunvor, canonical_name: Gunvor, organisation_type: energy}
+  - {<<: *defaults, id: glencore, canonical_name: Glencore, organisation_type: energy}
+  - {<<: *defaults, id: sefe, canonical_name: SEFE, organisation_type: energy}
+  - {<<: *defaults, id: rwe, canonical_name: RWE, organisation_type: energy}
+  - {<<: *defaults, id: edf-energy, canonical_name: EDF Energy, organisation_type: energy}
+  - {<<: *defaults, id: sse, canonical_name: SSE, organisation_type: energy}
+  - {<<: *defaults, id: orsted, canonical_name: Ørsted, organisation_type: energy}
+  - {<<: *defaults, id: vattenfall, canonical_name: Vattenfall, organisation_type: energy}
+  - {<<: *defaults, id: octopus-energy, canonical_name: Octopus Energy, organisation_type: energy}
+  - {<<: *defaults, id: drax, canonical_name: Drax, organisation_type: energy}
+  - {<<: *defaults, id: erm, canonical_name: ERM, organisation_type: consultancy}
+  - {<<: *defaults, id: anthesis, canonical_name: Anthesis, organisation_type: consultancy}
+  - {<<: *defaults, id: arup, canonical_name: Arup, organisation_type: consultancy}
+  - {<<: *defaults, id: wsp, canonical_name: WSP, organisation_type: consultancy}
+  - {<<: *defaults, id: aecom, canonical_name: AECOM, organisation_type: consultancy}
+  - {<<: *defaults, id: ricardo, canonical_name: Ricardo, organisation_type: consultancy}
+  - {<<: *defaults, id: ramboll, canonical_name: Ramboll, organisation_type: consultancy}
+  - {<<: *defaults, id: mott-macdonald, canonical_name: Mott MacDonald, organisation_type: consultancy}
+  - {<<: *defaults, id: slr-consulting, canonical_name: SLR Consulting, organisation_type: consultancy}
+  - {<<: *defaults, id: south-pole, canonical_name: South Pole, organisation_type: consultancy}
+  - {<<: *defaults, id: carbon-trust, canonical_name: Carbon Trust, organisation_type: nonprofit}
+  - {<<: *defaults, id: pri, canonical_name: Principles for Responsible Investment, organisation_type: nonprofit}
+  - {<<: *defaults, id: cdp, canonical_name: CDP, organisation_type: nonprofit}
+  - {<<: *defaults, id: sp-global-sustainable1, canonical_name: S&P Global Sustainable1}
+  - {<<: *defaults, id: bloombergnef, canonical_name: BloombergNEF}
+
+  # Law firms
+  - <<: *defaults
+    id: ao-shearman
+    canonical_name: A&O Shearman
+    organisation_type: law_firm
+    careers_url: https://careers.aoshearman.com/en/london-vacation-schemes
+    endpoint: https://careers.aoshearman.com/en/london-vacation-schemes
+    source_authority: official_programme_page
+    enabled: true
+    source_health: degraded
+    monitor_only: true
+    notes: Official London vacation-scheme page change monitor verified 2026-08-11; the open winter scheme is final-year-only and therefore excluded, while Summer 2027 has no verified official opening window yet.
+  - <<: *defaults
+    id: freshfields
+    canonical_name: Freshfields
+    organisation_type: law_firm
+    careers_url: https://www.freshfields.com/en/your-career/united-kingdom/early-careers/vacation-schemes
+    endpoint: https://www.freshfields.com/en/your-career/united-kingdom/early-careers/vacation-schemes
+    source_authority: official_programme_page
+    enabled: true
+    expected_window: Summer 2027 vacation scheme applications reopen in Autumn 2026
+    window_evidence_url: https://www.freshfields.com/en/your-career/united-kingdom/early-careers/vacation-schemes
+    source_health: degraded
+    monitor_only: true
+    notes: Official vacation-scheme page change monitor verified 2026-08-11. Radar only until applications reopen and stage eligibility is rechecked.
+  - <<: *defaults
+    id: slaughter-and-may
+    canonical_name: Slaughter and May
+    organisation_type: law_firm
+    careers_url: https://www.slaughterandmay.com/careers/early-careers/apply/
+    endpoint: https://www.slaughterandmay.com/careers/early-careers/apply/
+    source_authority: official_programme_page
+    enabled: true
+    expected_window: 2027 Summer Work Experience opens 1 September 2026 and closes 4 December 2026
+    window_evidence_url: https://www.slaughterandmay.com/careers/early-careers/apply/
+    source_health: degraded
+    monitor_only: true
+    notes: Official application-timetable change monitor verified 2026-08-11. Radar only until applications open and non-law study-stage eligibility is confirmed.
+  - <<: *defaults
+    id: hsf-kramer
+    canonical_name: Herbert Smith Freehills Kramer
+    organisation_type: law_firm
+    careers_url: https://careers.hsfkramer.com/global/en/uk/early-careers/vacation-schemes
+    endpoint: https://careers.hsfkramer.com/global/en/uk/early-careers/vacation-schemes
+    source_authority: official_programme_page
+    enabled: true
+    expected_window: Spring and Summer 2027 Vacation Scheme applications reopen in September 2026
+    window_evidence_url: https://careers.hsfkramer.com/global/en/uk/early-careers/vacation-schemes
+    source_health: degraded
+    monitor_only: true
+    notes: Official vacation-scheme page change monitor verified 2026-08-11; publication waits for the live application and explicit non-law applicability.
+  - {<<: *defaults, id: travers-smith, canonical_name: Travers Smith, organisation_type: law_firm}
+  - {<<: *defaults, id: white-case, canonical_name: White & Case, organisation_type: law_firm}
+  - {<<: *defaults, id: baker-mckenzie, canonical_name: Baker McKenzie, organisation_type: law_firm}
+  - {<<: *defaults, id: gibson-dunn, canonical_name: Gibson Dunn, organisation_type: law_firm}
+  - {<<: *defaults, id: kirkland-ellis, canonical_name: Kirkland & Ellis, organisation_type: law_firm}
+  - {<<: *defaults, id: sidley-austin, canonical_name: Sidley Austin, organisation_type: law_firm}
+  - {<<: *defaults, id: weil, canonical_name: "Weil, Gotshal & Manges", organisation_type: law_firm}
+  - {<<: *defaults, id: milbank, canonical_name: Milbank, organisation_type: law_firm}
+  - {<<: *defaults, id: sullivan-cromwell, canonical_name: Sullivan & Cromwell, organisation_type: law_firm}
+  - {<<: *defaults, id: davis-polk, canonical_name: Davis Polk & Wardwell, organisation_type: law_firm}
+  - {<<: *defaults, id: paul-weiss, canonical_name: "Paul, Weiss, Rifkind, Wharton & Garrison", organisation_type: law_firm}
+  - {<<: *defaults, id: vinson-elkins, canonical_name: Vinson & Elkins, organisation_type: law_firm}
+  - {<<: *defaults, id: winston-taylor-unresolved, canonical_name: Winston Taylor (unresolved), organisation_type: unresolved, notes: Disabled because the supplied name could not be safely resolved to a canonical law firm.}
+
+  # Government, Parliament and policy
+  - {<<: *defaults, id: uk-parliament, canonical_name: UK Parliament, organisation_type: government}
+  - {<<: *defaults, id: house-of-commons, canonical_name: House of Commons, organisation_type: government}
+  - {<<: *defaults, id: house-of-lords, canonical_name: House of Lords, organisation_type: government}
+  - <<: *defaults
+    id: w4mp
+    canonical_name: W4MP Jobs
+    organisation_type: trusted_board
+    careers_url: https://www.w4mpjobs.org/searchjobs.aspx?search=alljobs
+    endpoint: https://www.w4mpjobs.org/searchjobs.aspx?search=alljobs
+    ats_type: w4mp
+    source_authority: trusted_sector_board
+    enabled: true
+    priority_tier: approved
+    expected_min_items: 100
+    manual_review_required: true
+    notes: Complete W4MP search scraper. It follows every current pager target and passes all parsed listings to central classification; W4MP remains the listing publisher and the named office remains the employer.
+  - <<: *defaults
+    id: higherin-london-internships
+    canonical_name: Higherin
+    organisation_type: trusted_board
+    careers_url: https://higherin.com/search-jobs/internships/london
+    endpoint: https://higherin.com/search-jobs/internships/london
+    ats_type: higherin
+    source_authority: discovery_only_source
+    enabled: true
+    priority_tier: approved
+    result_cap: 100
+    expected_min_items: 20
+    manual_review_required: true
+    notes: Employer-agnostic London internship discovery feed. All result pages are scanned; roles remain clearly labelled possible leads until eligibility is verified on the employer application page.
+  - <<: *defaults
+    id: charityjob-london
+    canonical_name: CharityJob
+    organisation_type: charity
+    careers_url: https://www.charityjob.co.uk/jobs?location=London
+    endpoint: https://www.charityjob.co.uk/jobs?location=London
+    ats_type: charityjob
+    source_authority: discovery_only_source
+    enabled: true
+    priority_tier: approved
+    requests_per_minute: 60
+    poll_interval_minutes: 360
+    result_cap: 2000
+    expected_min_items: 800
+    manual_review_required: true
+    notes: Complete, newest-first London paid-job search. The adapter follows every advertised result page at a bounded rate, preserves each charity and salary line, and labels all records possible until the employer criteria are checked.
+  - <<: *defaults
+    id: nhs-jobs-london
+    canonical_name: NHS Jobs
+    organisation_type: public_health
+    careers_url: https://www.jobs.nhs.uk/candidate/search
+    endpoint: https://www.jobs.nhs.uk/candidate/search/results?location=London&language=en&searchFormType=sortBy&sort=publicationDateDesc&limit=100
+    ats_type: nhs_jobs
+    source_authority: official_government_portal
+    enabled: true
+    priority_tier: approved
+    requests_per_minute: 20
+    poll_interval_minutes: 360
+    result_cap: 1500
+    expected_min_items: 800
+    manual_review_required: true
+    notes: Complete date-sorted London result scan across NHS Jobs. It captures non-clinical as well as clinical listings, then the possible-role boundary removes clearly credentialed clinical professions and senior titles.
+  - <<: *defaults
+    id: jobs-ac-uk-london
+    canonical_name: jobs.ac.uk
+    organisation_type: higher_education
+    careers_url: https://www.jobs.ac.uk/search/
+    endpoint: https://www.jobs.ac.uk/search/?sortOrder=1&pageSize=25&startIndex=1&locationFacet%5B0%5D=london
+    ats_type: jobs_ac_uk
+    source_authority: discovery_only_source
+    enabled: true
+    priority_tier: approved
+    requests_per_minute: 10
+    poll_interval_minutes: 360
+    result_cap: 600
+    expected_min_items: 300
+    manual_review_required: true
+    notes: Complete date-placed London search across jobs.ac.uk. Actual university, title, location, salary and deadline are retained; academic posts with obvious advanced-qualification titles are excluded from the possible pool.
+  - <<: *defaults
+    id: targetjobs-london-early-careers
+    canonical_name: targetjobs
+    organisation_type: trusted_board
+    careers_url: https://targetjobs.co.uk/internships/london
+    endpoint: https://targetjobs.co.uk/ext/svc/inferno-search-service-1-0/search
+    ats_type: targetjobs
+    source_authority: discovery_only_source
+    enabled: true
+    priority_tier: approved
+    requests_per_minute: 10
+    poll_interval_minutes: 360
+    result_cap: 300
+    expected_min_items: 40
+    manual_review_required: true
+    notes: Public targetjobs search-service feed behind its robots-allowed London internship page. The adapter scans every advertised open Internship, Vacation scheme, Insight programme and Work experience result, retains the named employer and full listing text, and publishes only the plausible subset as possible leads.
+  - <<: *defaults
+    id: work-hub-london
+    canonical_name: Find a Job (DWP Work Hub)
+    organisation_type: trusted_board
+    careers_url: https://www.jobs.service.gov.uk/jobs/search
+    endpoint: https://www.jobs.service.gov.uk/jobs/search
+    ats_type: work_hub
+    source_authority: official_government_portal
+    enabled: true
+    priority_tier: approved
+    requests_per_minute: 20
+    poll_interval_minutes: 360
+    result_cap: 5000
+    expected_min_items: 20
+    request_body:
+      queries: *broad_search_queries
+      location: London
+      results_per_page: 30
+      max_pages_per_query: 10
+    manual_review_required: true
+    notes: Official DWP Work Hub search across the shared breadth-first query matrix. Robots explicitly allows /jobs and the service terms permit reasonable automated copying with DWP attribution. Every result retains its named employer and Find a Job as publisher; incomplete criteria stay in the possible layer.
+  - <<: *defaults
+    id: prospects-london
+    canonical_name: Prospects
+    organisation_type: trusted_board
+    careers_url: https://www.prospects.ac.uk/browse-graduate-jobs/all-sectors/london-53
+    endpoint: https://www.prospects.ac.uk/browse-graduate-jobs/all-sectors/london-53
+    ats_type: prospects
+    source_authority: discovery_only_source
+    enabled: true
+    priority_tier: approved
+    requests_per_minute: 6
+    poll_interval_minutes: 360
+    result_cap: 500
+    expected_min_items: 20
+    manual_review_required: true
+    notes: Public Prospects London browse page. The parser captures work experience as well as graduate and apprenticeship cards, preserves the named employer, location, listing type and pay wording, and lets central rules exclude clearly unsuitable results.
+  - <<: *defaults
+    id: legalcheek-noticeboard
+    canonical_name: Legal Cheek Hub
+    organisation_type: trusted_board
+    careers_url: https://hub.legalcheek.com/jobs
+    endpoint: https://hub.legalcheek.com/jobs
+    ats_type: legalcheek
+    source_authority: discovery_only_source
+    enabled: true
+    priority_tier: approved
+    requests_per_minute: 6
+    poll_interval_minutes: 360
+    result_cap: 200
+    expected_min_items: 0
+    manual_review_required: true
+    notes: Public law noticeboard for vacation schemes, work experience, open days, paralegal roles and related opportunities. It may legitimately contain no suitable current listing; any result remains a possible lead until pay and non-law study-stage criteria are checked.
+  - <<: *defaults
+    id: adzuna-london
+    canonical_name: Adzuna
+    organisation_type: trusted_board
+    careers_url: https://www.adzuna.co.uk/jobs
+    endpoint: https://api.adzuna.com/v1/api/jobs/gb/search
+    ats_type: adzuna
+    source_authority: discovery_only_source
+    enabled: true
+    priority_tier: approved
+    requests_per_minute: 60
+    poll_interval_minutes: 720
+    result_cap: 10000
+    expected_min_items: 20
+    request_body:
+      queries: *broad_search_queries
+      location: London
+      results_per_page: 50
+      max_pages_per_query: 5
+      max_age_days: 30
+    required_env: [ADZUNA_APP_ID, ADZUNA_APP_KEY]
+    manual_review_required: true
+    notes: Documented Adzuna search API. It activates automatically when both GitHub secrets are set, searches every shared query shard, deduplicates overlapping results and never writes credentials into URLs, logs or output records.
+  - <<: *defaults
+    id: reed-london
+    canonical_name: Reed
+    organisation_type: trusted_board
+    careers_url: https://www.reed.co.uk/jobs/jobs-in-london
+    endpoint: https://www.reed.co.uk/api/1.0/search
+    ats_type: reed
+    source_authority: discovery_only_source
+    enabled: true
+    priority_tier: approved
+    requests_per_minute: 60
+    poll_interval_minutes: 720
+    result_cap: 10000
+    expected_min_items: 20
+    request_body:
+      queries: *broad_search_queries
+      location: London
+      distance_miles: 10
+      results_per_page: 100
+      max_pages_per_query: 3
+    required_env: [REED_API_KEY]
+    manual_review_required: true
+    notes: Documented Reed Jobseeker API. It activates automatically when REED_API_KEY is set, uses HTTP Basic authentication, searches every shared query shard and preserves the real advertised employer wherever Reed supplies it.
+  - <<: *defaults
+    id: bank-of-england
+    canonical_name: Bank of England
+    organisation_type: regulator
+    careers_url: https://www.bankofengland.co.uk/careers/future-talent/internships
+    endpoint: https://www.bankofengland.co.uk/careers/future-talent/internships
+    source_authority: official_programme_page
+    enabled: true
+    expected_window: Register interest for 2027 opportunities; applications currently closed
+    window_evidence_url: https://www.bankofengland.co.uk/careers/future-talent/internships
+    source_health: degraded
+    monitor_only: true
+    location_scope: uk_priority_exception
+    uk_priority_exception: true
+    exception_reason: Approved national central-bank programme.
+    notes: Verified official programme-page change monitor; publication requires a curated role record or role endpoint.
+  - {<<: *defaults, id: fca, canonical_name: Financial Conduct Authority, organisation_type: regulator}
+  - {<<: *defaults, id: cma, canonical_name: Competition and Markets Authority, organisation_type: regulator}
+  - {<<: *defaults, id: civil-service, canonical_name: UK Civil Service, organisation_type: government}
+  - {<<: *defaults, id: hm-treasury, canonical_name: HM Treasury, organisation_type: government}
+  - {<<: *defaults, id: cabinet-office, canonical_name: Cabinet Office, organisation_type: government}
+  - {<<: *defaults, id: fcdo, canonical_name: "Foreign, Commonwealth & Development Office", organisation_type: government}
+  - {<<: *defaults, id: dbt, canonical_name: Department for Business and Trade, organisation_type: government}
+  - {<<: *defaults, id: desnz, canonical_name: Department for Energy Security and Net Zero, organisation_type: government}
+  - {<<: *defaults, id: defra, canonical_name: "Department for Environment, Food & Rural Affairs", organisation_type: government}
+  - {<<: *defaults, id: ukhsa, canonical_name: UK Health Security Agency, organisation_type: government}
+  - {<<: *defaults, id: gla, canonical_name: Greater London Authority, organisation_type: government}
+  - {<<: *defaults, id: london-assembly, canonical_name: London Assembly, organisation_type: government}
+  - {<<: *defaults, id: city-of-london, canonical_name: City of London Corporation, organisation_type: government}
+  - {<<: *defaults, id: chatham-house, canonical_name: Chatham House, organisation_type: think_tank}
+  - {<<: *defaults, id: rusi, canonical_name: Royal United Services Institute, organisation_type: think_tank}
+  - {<<: *defaults, id: institute-for-government, canonical_name: Institute for Government, organisation_type: think_tank}
+  - {<<: *defaults, id: rand-europe, canonical_name: RAND Europe, organisation_type: think_tank}
+  - {<<: *defaults, id: tony-blair-institute, canonical_name: Tony Blair Institute for Global Change, organisation_type: think_tank}
+  - {<<: *defaults, id: cer, canonical_name: Centre for European Reform, organisation_type: think_tank}
+  - {<<: *defaults, id: resolution-foundation, canonical_name: Resolution Foundation, organisation_type: think_tank}
+  - {<<: *defaults, id: ippr, canonical_name: Institute for Public Policy Research, organisation_type: think_tank}
+  - {<<: *defaults, id: policy-exchange, canonical_name: Policy Exchange, organisation_type: think_tank}
+  - {<<: *defaults, id: centre-for-policy-studies, canonical_name: Centre for Policy Studies, organisation_type: think_tank}
+  - {<<: *defaults, id: odi-global, canonical_name: ODI Global, organisation_type: think_tank}
+  - {<<: *defaults, id: british-chambers, canonical_name: British Chambers of Commerce, organisation_type: trade_association}
+  - {<<: *defaults, id: london-chamber, canonical_name: London Chamber of Commerce and Industry, organisation_type: trade_association}
+  - {<<: *defaults, id: cbi, canonical_name: Confederation of British Industry, organisation_type: trade_association}
+  - {<<: *defaults, id: thecityuk, canonical_name: TheCityUK, organisation_type: trade_association}
+  - {<<: *defaults, id: uk-finance, canonical_name: UK Finance, organisation_type: trade_association}
+  - {<<: *defaults, id: institute-of-directors, canonical_name: Institute of Directors, organisation_type: trade_association}
+  - {<<: *defaults, id: britishamerican-business, canonical_name: BritishAmerican Business, organisation_type: trade_association}
+
+  # International, humanitarian and health
+  - {<<: *defaults, id: un-agencies, canonical_name: United Nations agencies, organisation_type: international_institution}
+  - {<<: *defaults, id: world-bank-group, canonical_name: World Bank Group, organisation_type: international_institution}
+  - {<<: *defaults, id: imf, canonical_name: International Monetary Fund, organisation_type: international_institution}
+  - {<<: *defaults, id: oecd, canonical_name: OECD, organisation_type: international_institution}
+  - {<<: *defaults, id: nato, canonical_name: NATO, organisation_type: international_institution}
+  - {<<: *defaults, id: icrc, canonical_name: International Committee of the Red Cross, organisation_type: humanitarian}
+  - {<<: *defaults, id: ifrc, canonical_name: International Federation of Red Cross and Red Crescent Societies, organisation_type: humanitarian}
+  - {<<: *defaults, id: british-red-cross, canonical_name: British Red Cross, organisation_type: charity}
+  - {<<: *defaults, id: save-the-children-international, canonical_name: Save the Children International, organisation_type: ngo}
+  - {<<: *defaults, id: irc, canonical_name: International Rescue Committee, organisation_type: ngo}
+  - {<<: *defaults, id: mercy-corps, canonical_name: Mercy Corps, organisation_type: ngo}
+  - {<<: *defaults, id: wellcome, canonical_name: Wellcome, organisation_type: foundation}
+  - {<<: *defaults, id: gates-foundation, canonical_name: Gates Foundation, organisation_type: foundation, notes: Enable only if a relevant London programme is verified.}
+  - {<<: *defaults, id: msf-uk, canonical_name: Médecins Sans Frontières UK, organisation_type: ngo}
+  - {<<: *defaults, id: oxfam-gb, canonical_name: Oxfam GB, organisation_type: ngo}
+  - {<<: *defaults, id: gsk, canonical_name: GSK, organisation_type: healthcare}
+  - {<<: *defaults, id: astrazeneca, canonical_name: AstraZeneca, organisation_type: healthcare}
+  - {<<: *defaults, id: johnson-johnson, canonical_name: Johnson & Johnson, organisation_type: healthcare}
+  - {<<: *defaults, id: nhs-england, canonical_name: NHS England, organisation_type: public_health}
+  - {<<: *defaults, id: nice, canonical_name: National Institute for Health and Care Excellence, organisation_type: public_health}
+  - {<<: *defaults, id: dhsc, canonical_name: Department of Health and Social Care, organisation_type: government}
+
+  # Property, geospatial, corporate and consumer
+  - {<<: *defaults, id: cbre, canonical_name: CBRE, organisation_type: real_estate}
+  - {<<: *defaults, id: jll, canonical_name: JLL, organisation_type: real_estate}
+  - {<<: *defaults, id: savills, canonical_name: Savills, organisation_type: real_estate}
+  - {<<: *defaults, id: knight-frank, canonical_name: Knight Frank, organisation_type: real_estate}
+  - {<<: *defaults, id: cushman-wakefield, canonical_name: Cushman & Wakefield, organisation_type: real_estate}
+  - {<<: *defaults, id: esri-uk, canonical_name: Esri UK, organisation_type: geospatial}
+  - {<<: *defaults, id: ordnance-survey, canonical_name: Ordnance Survey, organisation_type: geospatial, location_scope: uk_priority_exception, uk_priority_exception: true, exception_reason: Approved major national geospatial organisation.}
+  - {<<: *defaults, id: mapbox, canonical_name: Mapbox, organisation_type: geospatial}
+  - {<<: *defaults, id: maxar, canonical_name: Maxar, organisation_type: geospatial, notes: Enable only if a relevant UK opportunity is verified.}
+  - {<<: *defaults, id: google, canonical_name: Google, organisation_type: technology}
+  - {<<: *defaults, id: microsoft, canonical_name: Microsoft, organisation_type: technology}
+  - {<<: *defaults, id: amazon, canonical_name: Amazon, organisation_type: technology}
+  - {<<: *defaults, id: meta, canonical_name: Meta, organisation_type: technology}
+  - {<<: *defaults, id: uber, canonical_name: Uber, organisation_type: technology}
+  - {<<: *defaults, id: unilever, canonical_name: Unilever}
+  - {<<: *defaults, id: procter-gamble, canonical_name: Procter & Gamble}
+  - {<<: *defaults, id: diageo, canonical_name: Diageo}
+  - {<<: *defaults, id: dhl, canonical_name: DHL, organisation_type: logistics}
+  - {<<: *defaults, id: maersk, canonical_name: Maersk, organisation_type: logistics}

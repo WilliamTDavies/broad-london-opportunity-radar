@@ -1,0 +1,148 @@
+categories:
+  Finance and investment:
+    - Investment Banking
+    - Corporate Finance and Transactions
+    - Markets, Sales and Trading
+    - Asset and Investment Management
+    - Wealth Management and Private Banking
+    - Private Equity and Private Markets
+    - Venture Capital
+    - Private Credit
+    - Development Finance and Impact Investment
+    - Real Estate Investment and Advisory
+    - Infrastructure Investment
+    - Corporate and Commercial Banking
+    - Financial Regulation and Central Banking
+    - Sustainable and Climate Finance
+  Risk, law and professional services:
+    - Enterprise and Operational Risk
+    - Climate and Catastrophe Risk
+    - Compliance and Financial Crime
+    - Legal and Regulatory
+    - Law-Firm Vacation Schemes
+    - Insurance and Reinsurance
+    - Insurance Broking and Underwriting
+    - Assurance and Audit
+    - Investigations and Corporate Intelligence
+    - Crisis, Resilience and Security Consulting
+  Consulting and corporate strategy:
+    - Management and Strategy Consulting
+    - Economic Consulting
+    - Risk Consulting
+    - Healthcare Consulting
+    - Sustainability and ESG Consulting
+    - Corporate Strategy
+    - Corporate Development
+    - Business Development
+    - Business Operations and Commercial Analysis
+    - Market Research and Strategic Intelligence
+    - Programme and Project Management
+  Government, politics and international affairs:
+    - Public Policy and Policy Research
+    - Government and Civil Service
+    - Regulators and Public Bodies
+    - Parliament and MP Offices
+    - Corporate Affairs and Government Relations
+    - Political and Geopolitical Risk
+    - Intelligence and National Security
+    - Think Tanks and Research Institutes
+    - Chambers of Commerce and Trade Associations
+    - International Institutions and Multilateral Organisations
+    - International Development
+    - Humanitarian Affairs and Emergency Response
+    - Monitoring, Evaluation, Research and Learning
+  Environment, energy and sustainability:
+    - Energy and Commodities
+    - Oil and Gas
+    - Energy Transition
+    - Environmental Risk Management
+    - Climate Strategy
+    - ESG and Responsible Investment
+    - Corporate Sustainability
+    - Geospatial Analysis and GIS
+  Health and life sciences:
+    - Public and Global Health
+    - Health Policy and Health Economics
+    - Pharmaceutical and Healthcare
+    - Market Access
+    - Healthcare Corporate Affairs
+  Operations and communications:
+    - Supply Chain and Procurement
+    - Logistics and Emergency Operations
+    - Communications and Stakeholder Engagement
+    - Advocacy and Public Affairs
+    - Corporate Responsibility and Social Impact
+    - General Corporate
+    - Other Relevant
+
+# Deterministic role-text vocabulary. A category hint supplied by a source is accepted only
+# when it is present in the taxonomy above; otherwise these rules decide the category.
+category_keywords:
+  Investment Banking: [investment banking, mergers and acquisitions, m&a, capital markets]
+  Corporate Finance and Transactions: [corporate finance, transaction advisory, transactions]
+  Markets, Sales and Trading: [sales and trading, global markets, trading]
+  Asset and Investment Management: [asset management, investment management, portfolio management]
+  Wealth Management and Private Banking: [wealth management, private banking]
+  Private Equity and Private Markets: [private equity, private markets]
+  Venture Capital: [venture capital]
+  Private Credit: [private credit]
+  Development Finance and Impact Investment: [development finance, impact investment, impact investing]
+  Real Estate Investment and Advisory: [real estate, property investment, property advisory]
+  Infrastructure Investment: [infrastructure investment, infrastructure finance]
+  Corporate and Commercial Banking: [commercial banking, corporate banking]
+  Financial Regulation and Central Banking: [central bank, financial regulation, prudential regulation]
+  Sustainable and Climate Finance: [sustainable finance, climate finance, green finance]
+  Enterprise and Operational Risk: [enterprise risk, operational risk]
+  Climate and Catastrophe Risk: [catastrophe risk, climate risk]
+  Compliance and Financial Crime: [compliance, financial crime, anti-money laundering]
+  Legal and Regulatory: [legal, regulatory, litigation]
+  Law-Firm Vacation Schemes: [vacation scheme]
+  Insurance and Reinsurance: [insurance, reinsurance]
+  Insurance Broking and Underwriting: [insurance broking, underwriting, broker]
+  Assurance and Audit: [assurance, audit]
+  Investigations and Corporate Intelligence: [corporate intelligence, investigations, due diligence]
+  Crisis, Resilience and Security Consulting: [crisis consulting, resilience consulting, security consulting]
+  Management and Strategy Consulting: [strategy consulting, management consulting]
+  Economic Consulting: [economic consulting, economist]
+  Risk Consulting: [risk consulting]
+  Healthcare Consulting: [healthcare consulting]
+  Sustainability and ESG Consulting: [sustainability consulting, esg consulting]
+  Corporate Strategy: [corporate strategy, business strategy]
+  Corporate Development: [corporate development]
+  Business Development: [business development]
+  Business Operations and Commercial Analysis: [commercial analysis, business operations, commercial analyst]
+  Market Research and Strategic Intelligence: [market research, strategic intelligence]
+  Programme and Project Management: [programme management, program management, project management]
+  Public Policy and Policy Research: [public policy, policy research]
+  Government and Civil Service: [civil service, government internship]
+  Regulators and Public Bodies: [regulator, public body]
+  Parliament and MP Offices: [parliament, member of parliament, mp office, westminster]
+  Corporate Affairs and Government Relations: [corporate affairs, government relations]
+  Political and Geopolitical Risk: [geopolitical, political risk]
+  Intelligence and National Security: [national security, intelligence analyst, intelligence research]
+  Think Tanks and Research Institutes: [think tank, research institute]
+  Chambers of Commerce and Trade Associations: [chamber of commerce, trade association]
+  International Institutions and Multilateral Organisations: [multilateral, international institution, world bank, united nations]
+  International Development: [international development, development programme, development program]
+  Humanitarian Affairs and Emergency Response: [humanitarian, emergency response, disaster risk]
+  Monitoring, Evaluation, Research and Learning: [monitoring and evaluation, "monitoring, evaluation and learning", mel]
+  Energy and Commodities: [energy trading, commodities]
+  Oil and Gas: [oil and gas, upstream, downstream energy]
+  Energy Transition: [energy transition, low-carbon, decarbonisation]
+  Environmental Risk Management: [environmental risk, environmental assessment]
+  Climate Strategy: [climate strategy, net zero strategy]
+  ESG and Responsible Investment: [esg, responsible investment]
+  Corporate Sustainability: [corporate sustainability, sustainability strategy]
+  Geospatial Analysis and GIS: [geospatial, qgis, gis, location intelligence]
+  Public and Global Health: [global health, public health]
+  Health Policy and Health Economics: [health policy, health economics]
+  Pharmaceutical and Healthcare: [pharmaceutical, healthcare]
+  Market Access: [market access]
+  Healthcare Corporate Affairs: [healthcare corporate affairs, pharmaceutical public affairs]
+  Supply Chain and Procurement: [supply chain, procurement]
+  Logistics and Emergency Operations: [logistics, emergency operations]
+  Communications and Stakeholder Engagement: [stakeholder engagement, strategic communications, communications internship, communications assistant]
+  Advocacy and Public Affairs: [advocacy, public affairs, campaigns assistant]
+  Corporate Responsibility and Social Impact: [corporate responsibility, social impact]
+  General Corporate: [general corporate, corporate internship, business internship, operations internship, marketing internship, human resources internship, hr internship, recruitment internship, project internship]
+  Other Relevant: []

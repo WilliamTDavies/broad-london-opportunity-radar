@@ -1,0 +1,31 @@
+{
+  "totalResults": 2,
+  "results": [
+    {
+      "jobId": 88001,
+      "employerName": "Fixture Legal Services",
+      "jobTitle": "Legal Assistant",
+      "locationName": "City of London",
+      "minimumSalary": 27000,
+      "maximumSalary": 30000,
+      "currency": "GBP",
+      "expirationDate": "2026-09-10T23:59:59Z",
+      "date": "2026-08-11T08:00:00Z",
+      "jobDescription": "Paid entry-level legal research and document support. Study stage is not stated.",
+      "jobUrl": "https://www.reed.co.uk/jobs/legal-assistant/88001"
+    },
+    {
+      "jobId": 88002,
+      "employerName": "Fixture Legal Services",
+      "jobTitle": "Senior Solicitor",
+      "locationName": "London",
+      "minimumSalary": 90000,
+      "maximumSalary": 110000,
+      "currency": "GBP",
+      "expirationDate": "2026-09-01T23:59:59Z",
+      "date": "2026-08-10T08:00:00Z",
+      "jobDescription": "Qualified solicitor with ten years of experience required.",
+      "jobUrl": "https://www.reed.co.uk/jobs/senior-solicitor/88002"
+    }
+  ]
+}

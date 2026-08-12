@@ -1,0 +1,23 @@
+programme_types:
+  - summer_internship_2027
+  - winter_vacation_scheme_2026
+  - spring_vacation_scheme_2027
+  - summer_vacation_scheme_2027
+  - selective_insight_programme
+  - short_professional_internship
+  - policy_research_internship
+  - parliamentary_office_internship
+  - international_institution_internship
+  - development_humanitarian_internship
+  - environmental_esg_internship
+  - healthcare_health_policy_internship
+  - commercial_operations_internship
+  - cycle_unstated_recent_role
+  - upcoming_announced_programme
+cycle_rules:
+  summer_2027_requires:
+    - explicit employer wording
+    - programme dates in summer 2027
+    - official recruitment page evidence
+  unstated_section: Recent relevant opportunities — cycle not stated
+
