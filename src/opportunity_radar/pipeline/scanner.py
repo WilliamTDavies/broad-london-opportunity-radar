@@ -415,7 +415,7 @@ async def scan(
     open_roles = [role for role in public if role.programme_type != ProgrammeType.CYCLE_UNSTATED]
     current_possible: list[RoleRecord] = []
     for role in roles:
-        if not is_possible_role(role):
+        if not is_possible_role(role, rules):
             continue
         previous = next(
             (
@@ -464,7 +464,7 @@ async def scan(
     retained_possible = [
         role
         for role in existing_possible
-        if is_possible_role(role)
+        if is_possible_role(role, rules)
         and role.source_registry_id not in replaceable_source_ids
         and not was_fetched_now(role)
     ]
@@ -480,7 +480,7 @@ async def scan(
         for role in roles
         if role.status != ProgrammeStatus.CLOSED
         and role.eligibility_status == EligibilityStatus.UNCERTAIN
-        and not is_possible_role(role)
+        and not is_possible_role(role, rules)
         and role.relevance_status.value != "irrelevant"
     ]
     retained_review = [

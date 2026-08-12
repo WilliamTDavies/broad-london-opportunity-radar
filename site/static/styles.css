@@ -319,7 +319,7 @@ summary {
 
 .filter-primary {
   display: grid;
-  grid-template-columns: minmax(260px, 1fr) 175px 180px 135px auto;
+  grid-template-columns: minmax(190px, 1.25fr) minmax(160px, 1fr) 145px 160px 115px auto;
   gap: 0.75rem;
   align-items: end;
   padding: 1rem;

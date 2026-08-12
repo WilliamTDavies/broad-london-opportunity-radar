@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
@@ -21,6 +21,10 @@ class ClassificationRules:
     require_paid_types: frozenset[str]
     require_selectivity_types: frozenset[str]
     approved_quality_tiers: frozenset[str]
+    possible_role_signals: tuple[str, ...] = ()
+    possible_role_exclusions: tuple[str, ...] = ()
+    contextual_role_exclusions: dict[str, tuple[str, ...]] = field(default_factory=dict)
+    excluded_discovery_employers: frozenset[str] = frozenset()
 
     @property
     def categories(self) -> frozenset[str]:
@@ -48,6 +52,16 @@ def _string_list(value: object, *, label: str) -> tuple[str, ...]:
     return tuple(value)
 
 
+def _filter_terms(value: object, *, label: str) -> tuple[str, ...]:
+    terms = _string_list(value, label=label)
+    if not terms or any(not term.strip() for term in terms):
+        raise ValueError(f"{label} must contain non-empty phrases")
+    folded = [term.strip().casefold() for term in terms]
+    if len(folded) != len(set(folded)):
+        raise ValueError(f"{label} contains duplicate phrases")
+    return terms
+
+
 def _read_mapping(path: Path) -> dict[str, Any]:
     try:
         value = yaml.safe_load(path.read_text(encoding="utf-8"))
@@ -61,6 +75,7 @@ def load_classification_rules(root: Path) -> ClassificationRules:
     eligibility = _read_mapping(root / "config" / "eligibility_rules.yml")
     relevance = _read_mapping(root / "config" / "relevance_rules.yml")
     tiers = _read_mapping(root / "config" / "organisation_tiers.yml")
+    job_filters = _read_mapping(root / "config" / "job_filters.yml")
 
     taxonomy = _mapping(categories.get("categories"), label="categories.categories")
     taxonomy_categories: set[str] = set()
@@ -77,6 +92,10 @@ def load_classification_rules(root: Path) -> ClassificationRules:
     rules = _mapping(eligibility.get("rules"), label="eligibility_rules.rules")
     tier_values = _mapping(tiers.get("tiers"), label="organisation_tiers.tiers")
     quality_rules = _mapping(tiers.get("rules"), label="organisation_tiers.rules")
+    contextual_filters = _mapping(
+        job_filters.get("contextual_title_exclusions"),
+        label="job_filters.contextual_title_exclusions",
+    )
     score_weights_raw = _mapping(
         relevance.get("score_components"), label="relevance_rules.score_components"
     )
@@ -116,8 +135,9 @@ def load_classification_rules(root: Path) -> ClassificationRules:
         likely_eligibility=_term_mapping(
             rules.get("likely_positive"), label="eligibility_rules.rules.likely_positive"
         ),
-        hard_exclusions=_string_list(
-            rules.get("hard_exclusions"), label="eligibility_rules.rules.hard_exclusions"
+        hard_exclusions=_filter_terms(
+            job_filters.get("always_exclude_if_text_contains"),
+            label="job_filters.always_exclude_if_text_contains",
         ),
         relevance_positive=_term_mapping(
             relevance.get("positive"), label="relevance_rules.positive"
@@ -133,4 +153,25 @@ def load_classification_rules(root: Path) -> ClassificationRules:
         require_paid_types=frozenset(require_paid_types),
         require_selectivity_types=frozenset(require_selectivity_types),
         approved_quality_tiers=frozenset(key for key in tier_values if key != "review"),
+        possible_role_signals=_filter_terms(
+            job_filters.get("possible_role_title_inclusions"),
+            label="job_filters.possible_role_title_inclusions",
+        ),
+        possible_role_exclusions=_filter_terms(
+            job_filters.get("possible_role_title_exclusions"),
+            label="job_filters.possible_role_title_exclusions",
+        ),
+        contextual_role_exclusions={
+            organisation_type: _filter_terms(
+                terms,
+                label=f"job_filters.contextual_title_exclusions.{organisation_type}",
+            )
+            for organisation_type, terms in contextual_filters.items()
+        },
+        excluded_discovery_employers=frozenset(
+            _filter_terms(
+                job_filters.get("excluded_discovery_employers"),
+                label="job_filters.excluded_discovery_employers",
+            )
+        ),
     )

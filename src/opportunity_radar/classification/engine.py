@@ -104,7 +104,15 @@ DEFAULT_RULES = ClassificationRules(
         "llb required",
         "software engineer",
         "quantitative researcher",
+        "quantitative research internship",
+        "quant researcher",
+        "quant research internship",
         "quantitative trader",
+        "quantitative trading internship",
+        "quant trader",
+        "quant trading internship",
+        "quantitative developer",
+        "quant developer",
         "machine learning engineer",
         "computer science degree required",
         "engineering degree required",
@@ -118,6 +126,19 @@ DEFAULT_RULES = ClassificationRules(
         "social media volunteer",
         "election campaign volunteer",
         "unpaid",
+        "c++ required",
+        "c++ is required",
+        "must have c++",
+        "proficiency in c++",
+        "proficient in c++",
+        "strong c++ skills",
+        "strong c++ programming skills",
+        "advanced c++",
+        "commercial c++ experience",
+        "professional c++ experience",
+        "c++ programming experience",
+        "experience programming in c++",
+        "experience with c++ required",
     ),
     relevance_positive={
         "legal_risk": ("legal", "compliance", "regulatory", "risk"),
@@ -206,7 +227,12 @@ def stable_role_id(raw: RawRole) -> str:
 
 
 def normalise_text(value: str) -> str:
-    return re.sub(r"[^a-z0-9]+", " ", value.casefold()).strip()
+    folded = value.casefold()
+    # Preserve language names that punctuation stripping would otherwise reduce
+    # to the dangerously broad single-letter terms "c" and "c".
+    folded = re.sub(r"\bc\s*\+\s*\+", " cplusplus ", folded)
+    folded = re.sub(r"\bc\s*#", " csharp ", folded)
+    return re.sub(r"[^a-z0-9]+", " ", folded).strip()
 
 
 EMPLOYER_DISPLAY_OVERRIDES = {
@@ -982,6 +1008,23 @@ POSSIBLE_ROLE_EXCLUSIONS = (
     "campus ambassador",
     "reception",
     "receptionist",
+    "front of house",
+    "front desk",
+    "switchboard",
+    "nursery",
+    "early years",
+    "childcare",
+    "child care",
+    "preschool",
+    "pre school",
+    "room leader",
+    "nanny",
+    "babysitter",
+    "playworker",
+    "play worker",
+    "teaching assistant",
+    "learning support assistant",
+    "classroom assistant",
     "kitchen assistant",
     "catering assistant",
     "assistant chef",
@@ -999,9 +1042,19 @@ POSSIBLE_ROLE_EXCLUSIONS = (
     "data science",
     "quant research",
     "quantitative research",
+    "quant researcher",
+    "quantitative researcher",
+    "quantitative analyst",
+    "quantitative finance",
     "quantitative strategies",
     "quantitative trading",
     "quant trading",
+    "quant trader",
+    "quantitative developer",
+    "quant developer",
+    "systematic researcher",
+    "systematic trading",
+    "algorithmic trading",
     "quants",
     "engineering internship",
     "engineering summer internship",
@@ -1094,16 +1147,24 @@ HIGHER_EDUCATION_ROLE_EXCLUSIONS = (
 )
 
 
-def is_possible_role(role: RoleRecord) -> bool:
+def is_possible_role(role: RoleRecord, rules: ClassificationRules | None = None) -> bool:
     """Select live, plausibly accessible roles for the recall-oriented dashboard layer."""
 
     if is_public_role(role):
         return False
+    active_rules = rules or DEFAULT_RULES
+    title_signals = active_rules.possible_role_signals or POSSIBLE_ROLE_SIGNALS
+    title_exclusions = active_rules.possible_role_exclusions or POSSIBLE_ROLE_EXCLUSIONS
+    contextual_rules = active_rules.contextual_role_exclusions
+    excluded_employers = active_rules.excluded_discovery_employers or frozenset(
+        NON_JOB_DISCOVERY_PROVIDERS
+    )
     title = normalise_text(role.title)
-    contextual_exclusions: tuple[str, ...] = ()
-    if role.organisation_type == "public_health":
+    full_text = normalise_text(f"{role.title} {role.description_excerpt}")
+    contextual_exclusions = contextual_rules.get(role.organisation_type, ())
+    if not contextual_exclusions and role.organisation_type == "public_health":
         contextual_exclusions = PUBLIC_HEALTH_ROLE_EXCLUSIONS
-    elif role.organisation_type == "higher_education":
+    elif not contextual_exclusions and role.organisation_type == "higher_education":
         contextual_exclusions = HIGHER_EDUCATION_ROLE_EXCLUSIONS
     relevance_ok = role.relevance_status in {
         RelevanceStatus.STRONG,
@@ -1120,14 +1181,16 @@ def is_possible_role(role: RoleRecord) -> bool:
     )
     fee_bearing_placement_provider = (
         role.source_authority == SourceAuthority.DISCOVERY_ONLY_SOURCE
-        and normalise_text(role.canonical_employer) in NON_JOB_DISCOVERY_PROVIDERS
+        and normalise_text(role.canonical_employer)
+        in {normalise_text(name) for name in excluded_employers}
     )
     return (
         role.status == ProgrammeStatus.OPEN
         and role.eligibility_status != EligibilityStatus.INELIGIBLE
         and relevance_ok
-        and _contains(title, POSSIBLE_ROLE_SIGNALS)
-        and not _contains(title, POSSIBLE_ROLE_EXCLUSIONS)
+        and _contains(title, title_signals)
+        and not _contains(title, title_exclusions)
+        and not _contains(full_text, active_rules.hard_exclusions)
         and not _contains(title, contextual_exclusions)
         and not gp_clinician
         and not fee_bearing_placement_provider

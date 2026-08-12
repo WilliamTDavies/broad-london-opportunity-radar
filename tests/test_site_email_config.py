@@ -37,6 +37,8 @@ async def test_static_site_generation_and_filter_assets(isolated_root: Path) -> 
     assert "Recent Relevant Opportunities — Cycle Not Stated" in html
     assert "localStorage" in javascript
     assert 'data-filter="category"' in html
+    assert 'id="company-search"' in html
+    assert 'id="employer-suggestions"' in html
     assert "Test preview:" in html
     assert "Employer type" in html
     assert "Organisation</dt>" not in html
@@ -50,6 +52,7 @@ async def test_static_site_generation_and_filter_assets(isolated_root: Path) -> 
     assert {item["id"] for item in index_data} == {
         item["id"] for item in [*public_data, *possible_data]
     }
+    assert all(item["dataset"].get("title") for item in index_data)
     assert set(detail_data) == {item["id"] for item in [*public_data, *possible_data]}
     assert all('class="role-card' in value for value in detail_data.values())
     assert "All plausible open jobs" in html
@@ -58,6 +61,25 @@ async def test_static_site_generation_and_filter_assets(isolated_root: Path) -> 
     assert all(
         item["eligibility_status"] not in {"uncertain", "ineligible"} for item in public_data
     )
+
+
+@pytest.mark.asyncio
+async def test_site_build_reapplies_editable_filters_to_stale_possible_data(
+    isolated_root: Path,
+) -> None:
+    await scan(isolated_root, fixture_mode=True)
+    possible_path = isolated_root / "build" / "fixture-data" / "possible_roles.json"
+    possible = json.loads(possible_path.read_text(encoding="utf-8"))
+    stale = {
+        **possible[0],
+        "id": "stale-front-of-house-role",
+        "source_identifier": "stale-front-of-house-role",
+        "title": "Front of House Assistant",
+    }
+    possible_path.write_text(json.dumps([*possible, stale]), encoding="utf-8")
+    output = build_site(isolated_root, fixture_mode=True)
+    generated = json.loads((output.parent / "possible-roles.json").read_text(encoding="utf-8"))
+    assert not any(item["id"] == stale["id"] for item in generated)
 
 
 @pytest.mark.asyncio
@@ -190,6 +212,17 @@ def test_repository_configuration_valid(project_root: Path) -> None:
 def test_malformed_configuration_fails(isolated_root: Path) -> None:
     (isolated_root / "config" / "manual_overrides.yml").write_text("overrides: not-a-list\n")
     with pytest.raises(ConfigurationError):
+        validate_all_config(isolated_root)
+
+
+def test_duplicate_editable_job_filter_fails_validation(isolated_root: Path) -> None:
+    path = isolated_root / "config" / "job_filters.yml"
+    text = path.read_text(encoding="utf-8")
+    path.write_text(
+        text.replace("  - graduates only\n", "  - graduates only\n  - Graduates Only\n", 1),
+        encoding="utf-8",
+    )
+    with pytest.raises(ConfigurationError, match="duplicate phrases"):
         validate_all_config(isolated_root)
 
 

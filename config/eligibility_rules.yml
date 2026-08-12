@@ -7,43 +7,8 @@ rules:
     non_law: [non-law, non law]
   likely_positive:
     broad_undergraduate: [undergraduate students, current undergraduate, undergraduates]
-  hard_exclusions:
-    - graduates only
-    - completed degree required
-    - final year only
-    - law degree only
-    - llb required
-    - software engineer
-    - quantitative researcher
-    - machine learning engineer
-    - quantitative trader
-    - natural language processing
-    - machine learning internship
-    - software development internship
-    - software engineering internship
-    - data science internship
-    - quantitative research internship
-    - quantitative trading internship
-    - engineering internship
-    - computer science degree required
-    - engineering degree required
-    - mathematics degree required
-    - medical degree required
-    - laboratory scientist
-    - mba students only
-    - masters students only
-    - master's students only
-    - phd students only
-    - school leaver
-    - apprenticeship
-    - industrial placement year
-    - campus ambassador
-    - retail assistant
-    - hospitality assistant
-    - fundraising volunteer
-    - social media volunteer
-    - election campaign volunteer
-    - unpaid
+  # Job-title inclusions and hard exclusions are intentionally kept together in
+  # config/job_filters.yml so non-technical users have only one file to edit.
   law_vacation_scheme:
     require_explicit_non_law_stage: true
     reject_final_year_non_law_only: true

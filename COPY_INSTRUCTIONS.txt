@@ -1,0 +1,30 @@
+LONDON OPPORTUNITY RADAR — FILTER AND SEARCH PATCH
+
+1. Open your existing london-opportunity-radar folder.
+2. Extract this ZIP directly into that folder.
+3. When Windows asks, choose "Replace the files in the destination".
+4. Commit and push all extracted files to GitHub.
+5. Run the Scan workflow once, then run the Deploy Pages workflow once.
+
+THE ONE FILE TO EDIT LATER
+
+config/job_filters.yml
+
+That file contains clearly labelled lists for:
+- hard exclusions found anywhere in a listing;
+- title words that allow a job into the broad Possible layer;
+- title words that block a job;
+- organisation-specific exclusions; and
+- placement-provider exclusions.
+
+Add one phrase per YAML line and keep the leading "-". Inclusion phrases do
+not override a hard exclusion. After editing the file, commit and push it, then
+run the Scan workflow. The normal automatic scan will also pick it up.
+
+SEARCH CHANGES
+
+The website now has separate "Job title or keyword" and "Company" boxes.
+Search is case-insensitive, punctuation-insensitive and tokenised, and exact
+title/company matches rank first.
+
+No data files or Supabase files need to be replaced for this patch.

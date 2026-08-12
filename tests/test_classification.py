@@ -1,9 +1,11 @@
 from __future__ import annotations
 
 from datetime import UTC, datetime
+from pathlib import Path
 
 import pytest
 
+from opportunity_radar.classification import load_classification_rules
 from opportunity_radar.classification.engine import (
     canonicalise_url,
     classify_role,
@@ -345,6 +347,12 @@ def test_possible_pool_accepts_broad_plausibly_accessible_titles(
         ("Architecture Intern (Paid Internship)", "corporate"),
         ("Marketing and Sales Internship - Summer 2026", "corporate"),
         ("Customer Service Receptionist", "corporate"),
+        ("Front of House Assistant", "corporate"),
+        ("Nursery Assistant", "corporate"),
+        ("Early Years Assistant", "corporate"),
+        ("Teaching Assistant", "corporate"),
+        ("Quantitative Research Analyst", "corporate"),
+        ("Quantitative Analyst", "corporate"),
         ("Kitchen Assistant", "corporate"),
         ("Sales Assistant", "corporate"),
         ("Locum Consultant Cardiologist", "corporate"),
@@ -408,6 +416,42 @@ def test_possible_pool_rejects_gp_reception_but_keeps_nonclinical_admin(
     )
     assert not is_possible_role(reception)
     assert is_possible_role(admin)
+
+
+def test_editable_job_filters_reject_required_cpp_but_not_optional_mention(
+    project_root: Path, employer: EmployerConfig
+) -> None:
+    rules = load_classification_rules(project_root)
+    source = employer.model_copy(
+        update={"manual_review_required": True, "priority_tier": "approved"}
+    )
+    required = classify_role(
+        raw(
+            title="Investment Research Intern",
+            description="Applicants must have strong C++ programming skills.",
+            eligibility_text="",
+            source_authority=SourceAuthority.DISCOVERY_ONLY_SOURCE,
+        ),
+        source,
+        observed_at=NOW,
+        rules=rules,
+    )
+    optional = classify_role(
+        raw(
+            source_identifier="role-optional-cpp",
+            title="Investment Research Intern",
+            description="Python is used; exposure to C++ is useful but optional.",
+            eligibility_text="",
+            source_authority=SourceAuthority.DISCOVERY_ONLY_SOURCE,
+        ),
+        source,
+        observed_at=NOW,
+        rules=rules,
+    )
+    assert required.eligibility_status == EligibilityStatus.INELIGIBLE
+    assert not is_possible_role(required, rules)
+    assert optional.eligibility_status != EligibilityStatus.INELIGIBLE
+    assert is_possible_role(optional, rules)
 
 
 def test_government_board_preserves_the_actual_listing_employer(

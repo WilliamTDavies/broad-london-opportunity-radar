@@ -271,16 +271,17 @@ Do not edit generated JSON or `site/generated/` by hand; the next scan or build 
 | Add finance, consulting, law or other search phrases | `broad_search_queries` in `config/employers.yml` |
 | Document trusted and discovery boards | `config/trusted_sources.yml` |
 | Change categories and category keywords | `config/categories.yml` |
-| Change verified eligibility and hard exclusions | `config/eligibility_rules.yml` |
+| Change verified study-stage eligibility phrases | `config/eligibility_rules.yml` |
+| Change hard exclusions or broad title inclusions/exclusions | `config/job_filters.yml` |
 | Change relevance vocabulary and score weights | `config/relevance_rules.yml` |
-| Change broad possible-role title signals or exclusions | `src/opportunity_radar/classification/engine.py` |
 | Correct one role using official evidence | `config/manual_overrides.yml` |
 | Change browser filters or sorting | `site/static/app.js` and `site/templates/index.html` |
 | Add or repair an employer/board scraper | `src/opportunity_radar/adapters/parsers.py` |
 | Repair DWP, Prospects, Legal Cheek, Adzuna or Reed | `src/opportunity_radar/adapters/broad_sources.py` |
 
-Receptionist, kitchen/catering, generic retail sales, locum and other obvious specialist-service
-false positives are explicitly excluded. Broad words such as `assistant`, `analyst` and
+Receptionist, nursery/early-years, heavy quant, required-C++, kitchen/catering, generic retail
+sales, locum and other obvious specialist-service false positives are explicitly excluded. Broad
+words such as `assistant`, `analyst` and
 `operations` remain accepted because removing them would hide many relevant junior roles. Add a
 specific exclusion and a regression test when a new repeated false-positive title appears.
 

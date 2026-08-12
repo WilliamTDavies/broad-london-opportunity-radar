@@ -105,6 +105,7 @@ def validate_all_config(root: Path) -> list[str]:
         "programmes.yml",
         "eligibility_rules.yml",
         "relevance_rules.yml",
+        "job_filters.yml",
     ]
     for filename in required:
         load_yaml(root / "config" / filename)

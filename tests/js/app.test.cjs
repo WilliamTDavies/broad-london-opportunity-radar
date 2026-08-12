@@ -1,6 +1,15 @@
 const test = require("node:test");
 const assert = require("node:assert/strict");
-const { categoryMatches, compareCards, readSaved, visiblePage, writeSaved } = require("../../site/static/app.js");
+const {
+  categoryMatches,
+  compareCards,
+  matchesSearch,
+  normaliseSearch,
+  readSaved,
+  searchScore,
+  visiblePage,
+  writeSaved,
+} = require("../../site/static/app.js");
 
 test("corrupt local storage fails safely", () => {
   const storage = { getItem: () => "not-json" };
@@ -33,4 +42,29 @@ test("large result sets render in bounded pages without losing roles", () => {
   assert.equal(visiblePage(roles, 100).length, 100);
   assert.equal(visiblePage(roles, 800).length, 757);
   assert.deepEqual(visiblePage(roles, -1), []);
+});
+
+test("search is case, punctuation, accent and word-order tolerant", () => {
+  assert.equal(normaliseSearch("A&O — Crédit"), "a and o credit");
+  assert.equal(matchesSearch("Private Credit Intern", "credit private"), true);
+  assert.equal(matchesSearch("The Carlyle Group", "carlyle group"), true);
+  assert.equal(matchesSearch("Blackstone", "BlackRock"), false);
+});
+
+test("exact title and company matches rank ahead of broad description matches", () => {
+  const exact = {
+    dataset: {
+      title: "Private Credit Intern",
+      employer: "The Carlyle Group",
+      search: "Private Credit Intern The Carlyle Group",
+    },
+  };
+  const broad = {
+    dataset: {
+      title: "Finance Assistant",
+      employer: "Example Employer",
+      search: "Finance Assistant supporting a private credit team",
+    },
+  };
+  assert.ok(searchScore(exact, "Private Credit Intern", "Carlyle") > searchScore(broad, "Private Credit Intern", "Carlyle"));
 });

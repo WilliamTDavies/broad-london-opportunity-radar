@@ -1,0 +1,291 @@
+# JOB FILTERS — THIS IS THE MAIN FILE TO EDIT
+#
+# After changing this file, run a new scan and rebuild the site. The rules are
+# deliberately plain text: add one phrase per line, keeping the leading "-".
+# Matching ignores capitalisation and punctuation and matches whole phrases.
+#
+# Inclusion terms only make a title eligible for the broad "Possible" layer.
+# They never override an exclusion, location rule, unpaid flag, or explicit
+# candidate-ineligibility evidence.
+
+# If any phrase below appears in a title, description, or eligibility text, the
+# role is ineligible and cannot appear in either the Verified or Possible layer.
+# Use this for genuinely hard conflicts, especially explicit requirements.
+always_exclude_if_text_contains:
+  - graduates only
+  - completed degree required
+  - final year only
+  - law degree only
+  - llb required
+  - software engineer
+  - quantitative researcher
+  - quantitative research internship
+  - quant researcher
+  - quant research internship
+  - quantitative trader
+  - quantitative trading internship
+  - quant trader
+  - quant trading internship
+  - quantitative developer
+  - quant developer
+  - machine learning engineer
+  - natural language processing
+  - machine learning internship
+  - software development internship
+  - software engineering internship
+  - data science internship
+  - engineering internship
+  - computer science degree required
+  - engineering degree required
+  - mathematics degree required
+  - medical degree required
+  - laboratory scientist
+  - mba students only
+  - masters students only
+  - master's students only
+  - phd students only
+  - school leaver
+  - apprenticeship
+  - industrial placement year
+  - campus ambassador
+  - retail assistant
+  - hospitality assistant
+  - fundraising volunteer
+  - social media volunteer
+  - election campaign volunteer
+  - unpaid
+  # C++ is excluded only when the wording indicates it is a requirement.
+  # An incidental or optional mention of C++ is not enough by itself.
+  - C++ required
+  - C++ is required
+  - must have C++
+  - proficiency in C++
+  - proficient in C++
+  - strong C++ skills
+  - strong C++ programming skills
+  - advanced C++
+  - commercial C++ experience
+  - professional C++ experience
+  - C++ programming experience
+  - experience programming in C++
+  - experience with C++ required
+
+# A broad job-board result must contain at least one of these phrases in its
+# TITLE to enter the Possible layer. Add a phrase here to widen discovery.
+possible_role_title_inclusions:
+  - intern
+  - internship
+  - vacation scheme
+  - insight programme
+  - insight program
+  - work experience
+  - summer analyst
+  - trainee
+  - assistant
+  - caseworker
+  - researcher
+  - coordinator
+  - officer
+  - organiser
+  - administrator
+  - analyst
+  - associate
+  - adviser
+  - advisor
+  - executive
+  - consultant
+  - project support
+  - programme support
+  - program support
+  - programme
+  - program
+  - paralegal
+  - placement
+  - admin
+  - administrative
+  - support
+  - clerk
+  - facilitator
+  - tutor
+  - secretary
+  - customer service
+  - communications
+  - marketing
+  - fundraising
+  - finance
+  - research
+  - policy
+  - operations
+  - business
+  - commercial
+  - governance
+  - compliance
+  - risk
+  - development
+  - events
+  - engagement
+  - outreach
+  - admissions
+  - registry
+  - careers
+  - welfare
+  - co ordinator
+
+# If any phrase below appears in the TITLE, the role is removed from the broad
+# Possible layer. Add a phrase here to block an unwanted job family quickly.
+possible_role_title_exclusions:
+  - graduate
+  - graduate scheme
+  - graduate programme
+  - graduate program
+  - graduate job
+  - manager
+  - senior
+  - head of
+  - director
+  - chief
+  - principal
+  - supervisor
+  - lead
+  - leader
+  - apprentice
+  - school leaver
+  - campus ambassador
+  - reception
+  - receptionist
+  - front of house
+  - front desk
+  - switchboard
+  - nursery
+  - early years
+  - childcare
+  - child care
+  - preschool
+  - pre school
+  - room leader
+  - nanny
+  - babysitter
+  - playworker
+  - play worker
+  - teaching assistant
+  - learning support assistant
+  - classroom assistant
+  - kitchen assistant
+  - catering assistant
+  - assistant chef
+  - sales assistant
+  - gas engineer
+  - java developer
+  - locum
+  - business studies teacher
+  - pharmacy assistant
+  - therapy assistant
+  - machine learning
+  - natural language processing
+  - software engineer
+  - software developer
+  - data science
+  - quant research
+  - quantitative research
+  - quant researcher
+  - quantitative researcher
+  - quantitative analyst
+  - quantitative finance
+  - quantitative strategies
+  - quantitative trading
+  - quant trading
+  - quant trader
+  - quantitative developer
+  - quant developer
+  - systematic researcher
+  - systematic trading
+  - algorithmic trading
+  - quants
+  - engineering internship
+  - engineering summer internship
+  - solutions engineer
+  - architecture intern
+  - actuarial
+  - professor
+  - lecturer
+  - lecturers
+  - research fellow
+  - research fellows
+  - clinical fellow
+  - doctor
+  - nurse
+  - midwife
+  - radiographer
+  - psychologist
+  - psychotherapist
+  - therapist
+  - pharmacist
+  - physiotherapist
+  - occupational therapist
+  - dentist
+  - medical prescriber
+  - healthcare assistant
+  - care assistant
+  - solicitor
+  - volunteer
+  - palliative care
+  - clinical advisor
+  - clinical adviser
+  - 12 month placement
+  - industrial placement
+  - year in industry
+  - summer 2026
+  - start date march april 2026
+
+# Extra title exclusions that apply only to a particular organisation type.
+contextual_title_exclusions:
+  public_health:
+    - consultant
+    - locum
+    - general practitioner
+    - psychiatrist
+    - surgeon
+    - anaesthetist
+    - pathologist
+    - cardiologist
+    - ophthalmologist
+    - neurologist
+    - dermatologist
+    - paediatric
+    - gynaecologist
+    - orthopaedic
+    - nursing
+    - physiotherapy
+    - radiograph
+    - pharmacy
+    - kitchen assistant
+    - housekeeping assistant
+    - catering assistant
+    - activities assistant
+    - care support assistant
+    - allied health professional
+    - practitioner
+    - psychological
+    - therapy
+    - radiographic
+    - support worker
+    - catering
+    - engineer
+    - surgical
+    - physician
+    - medical officer
+  higher_education:
+    - postdoctoral
+    - post doctoral
+    - research associate
+    - dean
+    - reader
+    - programme leader
+    - program leader
+    - subject lead
+
+# Discovery companies that sell placements rather than advertising a normal
+# employer vacancy. Names are matched exactly after punctuation normalisation.
+excluded_discovery_employers:
+  - Beyond Academy
+  - The Intern Group

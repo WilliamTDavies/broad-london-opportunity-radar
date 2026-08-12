@@ -58,7 +58,9 @@
       <div class="section-heading"><div><p class="kicker">Breadth first</p><h2>All plausible open jobs</h2><p>This combines verified opportunities with wider possible leads. Use the confidence filter if you want only verified roles, and always check the source before applying.</p></div><p class="result-count" id="result-count" aria-live="polite"></p></div>
       <form class="filters" id="filters">
         <div class="filter-primary">
-          <label class="search-label">Search roles<input id="search" type="search" placeholder="Try ‘risk’, ‘Blackstone’ or ‘policy’"></label>
+          <label class="search-label">Job title or keyword<input id="search" type="search" placeholder="Try ‘policy analyst’ or ‘private credit’" autocomplete="off"></label>
+          <label class="search-label">Company<input id="company-search" type="search" placeholder="Try ‘Carlyle’ or ‘Blackstone’" list="employer-suggestions" autocomplete="off"></label>
+          <datalist id="employer-suggestions">{{EMPLOYER_SUGGESTIONS}}</datalist>
           <label>Sort by<select id="sort"><option value="newest">Newest first</option><option value="deadline">Deadline</option><option value="opening">Opening date</option><option value="employer">Employer</option><option value="category">Category</option><option value="score">Match score</option><option value="evidence">Evidence strength</option></select></label>
           <label>Confidence<select data-filter="listing"><option value="">Verified + possible</option><option value="verified">Verified only</option><option value="possible">Possible only</option></select></label>
           <label>Show<select id="saved-filter"><option value="">All roles</option><option value="saved">Saved only</option></select></label>

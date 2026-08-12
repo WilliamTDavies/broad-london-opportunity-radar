@@ -38,7 +38,50 @@
     return items.slice(0, Math.max(0, limit));
   }
 
-  const testingApi = { readSaved, writeSaved, compareCards, categoryMatches, visiblePage };
+  function normaliseSearch(value) {
+    return String(value || "")
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/\bc\s*\+\s*\+/gi, " cplusplus ")
+      .replace(/&/g, " and ")
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, " ")
+      .trim();
+  }
+
+  function matchesSearch(value, query) {
+    const words = normaliseSearch(query).split(" ").filter(Boolean);
+    const candidate = normaliseSearch(value);
+    return !words.length || words.every(word => candidate.includes(word));
+  }
+
+  function fieldSearchScore(value, query) {
+    const candidate = normaliseSearch(value);
+    const phrase = normaliseSearch(query);
+    if (!phrase) return 0;
+    if (candidate === phrase) return 100;
+    if (candidate.startsWith(phrase)) return 75;
+    if (candidate.includes(phrase)) return 50;
+    return matchesSearch(candidate, phrase) ? 20 : 0;
+  }
+
+  function searchScore(item, keywordQuery, companyQuery) {
+    const titleScore = fieldSearchScore(item.dataset.title, keywordQuery);
+    const broadScore = fieldSearchScore(item.dataset.search, keywordQuery);
+    const companyScore = fieldSearchScore(item.dataset.employer, companyQuery);
+    return (titleScore * 2) + broadScore + (companyScore * 3);
+  }
+
+  const testingApi = {
+    readSaved,
+    writeSaved,
+    compareCards,
+    categoryMatches,
+    visiblePage,
+    normaliseSearch,
+    matchesSearch,
+    searchScore,
+  };
   if (typeof module !== "undefined" && module.exports) module.exports = testingApi;
   if (typeof globalThis !== "undefined") globalThis.OpportunityRadar = testingApi;
   if (typeof document === "undefined") return;
@@ -49,6 +92,7 @@
   const count = document.querySelector("#result-count");
   const empty = document.querySelector("#empty-state");
   const search = document.querySelector("#search");
+  const companySearch = document.querySelector("#company-search");
   const sort = document.querySelector("#sort");
   const savedFilter = document.querySelector("#saved-filter");
   const showMore = document.querySelector("#show-more");
@@ -79,15 +123,20 @@
 
   function apply(resetPage = true) {
     if (resetPage) visibleLimit = pageSize;
-    const query = search.value.trim().toLowerCase();
+    const query = search.value;
+    const companyQuery = companySearch.value;
     const active = [...filters.querySelectorAll("select[data-filter]")].filter(el => el.value);
     const shown = roleItems.filter(item => {
-      if (query && !item.dataset.search.includes(query)) return false;
+      if (!matchesSearch(item.dataset.search, query)) return false;
+      if (!matchesSearch(item.dataset.employer, companyQuery)) return false;
       if (savedFilter.value === "saved" && !saved.has(item.id)) return false;
       if (!categoryMatches(item.dataset.category, quickCategories)) return false;
-      return active.every(el => (item.dataset[el.dataset.filter] || "").includes(el.value.toLowerCase()));
+      return active.every(el => normaliseSearch(item.dataset[el.dataset.filter]).includes(normaliseSearch(el.value)));
     });
-    shown.sort((a, b) => compareCards(sort.value, a, b));
+    shown.sort((a, b) => {
+      const scoreDifference = searchScore(b, query, companyQuery) - searchScore(a, query, companyQuery);
+      return scoreDifference || compareCards(sort.value, a, b);
+    });
     const visible = visiblePage(shown, visibleLimit);
     tableBody.innerHTML = visible.map(item => item.html).join("");
     updateSaveButtons();
@@ -202,10 +251,12 @@
     const requested = button.dataset.programmeFilter;
     if (requested === "vacation_scheme") {
       search.value = "vacation scheme";
+      companySearch.value = "";
       select.value = "";
     } else {
       select.value = requested;
       search.value = "";
+      companySearch.value = "";
     }
     apply();
     document.querySelector("#opportunities").scrollIntoView();
@@ -213,6 +264,7 @@
   document.querySelectorAll("[data-category-filter]").forEach(button => button.addEventListener("click", () => {
     quickCategories = button.dataset.categoryFilter.split("|");
     search.value = "";
+    companySearch.value = "";
     apply();
     document.querySelector("#opportunities").scrollIntoView();
   }));

@@ -9,6 +9,7 @@ from collections.abc import Callable
 from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 
+from opportunity_radar.classification import is_possible_role, load_classification_rules
 from opportunity_radar.config import load_employers, load_radar
 from opportunity_radar.models import (
     ProgrammeStatus,
@@ -102,6 +103,7 @@ def _role_filter_data(role: RoleRecord, now: datetime, listing_tier: str) -> dic
     new = role.first_seen_at >= now - timedelta(hours=24)
     closing = bool(role.deadline and role.deadline <= now.date() + timedelta(days=7))
     return {
+        "title": role.title,
         "search": " ".join(
             value
             for value in (
@@ -282,6 +284,8 @@ def build_site(
         *store.read_models("recent_roles.json", RoleRecord),
     ]
     possible_roles = store.read_models("possible_roles.json", RoleRecord)
+    rules = load_classification_rules(root)
+    possible_roles = [role for role in possible_roles if is_possible_role(role, rules)]
     verified_ids = {role.id for role in verified_roles}
     possible_roles = [role for role in possible_roles if role.id not in verified_ids]
     roles = [*verified_roles, *possible_roles]
@@ -450,6 +454,10 @@ def build_site(
         "CATEGORY_OPTIONS": _options(roles, "primary_category", labeler=_identity),
         "TAG_OPTIONS": _options(roles, "secondary_tags", labeler=_identity),
         "EMPLOYER_OPTIONS": _options(roles, "canonical_employer", labeler=_identity),
+        "EMPLOYER_SUGGESTIONS": "".join(
+            f'<option value="{html.escape(employer)}"></option>'
+            for employer in sorted({role.canonical_employer for role in roles}, key=str.casefold)
+        ),
         "ORGANISATION_OPTIONS": _options(roles, "organisation_type", labeler=_organisation_label),
         "PROGRAMME_OPTIONS": _options(roles, "programme_type"),
         "ELIGIBILITY_OPTIONS": _options(roles, "eligibility_status"),

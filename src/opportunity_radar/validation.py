@@ -9,7 +9,11 @@ from typing import Any
 import yaml
 from pydantic import ValidationError
 
-from opportunity_radar.classification import is_possible_role, is_public_role
+from opportunity_radar.classification import (
+    is_possible_role,
+    is_public_role,
+    load_classification_rules,
+)
 from opportunity_radar.models import RadarEntry, RoleRecord, SourceHealth
 
 SECRET_PATTERNS = {
@@ -174,6 +178,7 @@ def validate_generated_site(root: Path, *, fixture_mode: bool = False) -> list[s
     if "localStorage" not in javascript or "readSaved" not in javascript:
         raise ValueError("Generated dashboard lacks safe local saved-role behaviour")
     public_roles = _load_json(generated / "roles.json")
+    rules = load_classification_rules(root)
     for item in public_roles:
         role = RoleRecord.model_validate(item)
         if item.get("eligibility_status") in {"uncertain", "ineligible"}:
@@ -193,7 +198,7 @@ def validate_generated_site(root: Path, *, fixture_mode: bool = False) -> list[s
             raise ValueError(
                 "Internal manual-override data leaked into possible-opportunities data"
             )
-        if not is_possible_role(role):
+        if not is_possible_role(role, rules):
             raise ValueError("Role outside the possible publication boundary leaked into data")
     if {item["id"] for item in public_roles} & {item["id"] for item in possible_roles}:
         raise ValueError("A role is duplicated across verified and possible public datasets")
