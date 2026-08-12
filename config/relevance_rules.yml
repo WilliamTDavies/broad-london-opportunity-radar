@@ -14,11 +14,15 @@ skill_alignment:
   research_communication: [research, writing, briefing, evidence review]
   languages: [Cantonese, Mandarin]
 negative:
-  - advanced software engineering
+  - software engineering
   - computer-science-only
   - advanced quantitative finance
-  - specialist machine learning
-  - engineering-only
+  - machine learning
+  - engineering
+  - data science
+  - mathematics
+  - quant
+  - C++
   - clinical or laboratory requirements
   - generic fundraising
   - generic social-media marketing
