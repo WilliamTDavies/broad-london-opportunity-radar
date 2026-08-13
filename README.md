@@ -21,7 +21,9 @@ two evidence tiers:
 ## Current snapshot
 
 The checked-in data was captured on 12 August 2026. It is a reproducible snapshot, not a guarantee
-that every linked role remains open.
+that every linked role remains open. 
+
+Live link: https://williamtdavies.github.io/broad-london-opportunity-radar/ 
 
 | Measure | Snapshot |
 | --- | ---: |
