@@ -54,8 +54,8 @@ always_exclude_if_text_contains:
   - social media volunteer
   - election campaign volunteer
   - unpaid
-  # C++ is excluded only when the wording indicates it is a requirement.
-  # An incidental or optional mention of C++ is not enough by itself.
+  - full time role
+  - full-time role
   - C++ required
   - C++ is required
   - must have C++
@@ -106,9 +106,7 @@ possible_role_title_inclusions:
   - support
   - clerk
   - facilitator
-  - tutor
   - secretary
-  - customer service
   - communications
   - marketing
   - fundraising
@@ -123,12 +121,6 @@ possible_role_title_inclusions:
   - risk
   - development
   - events
-  - engagement
-  - outreach
-  - admissions
-  - registry
-  - careers
-  - welfare
   - co ordinator
 
 # If any phrase below appears in the TITLE, the role is removed from the broad
