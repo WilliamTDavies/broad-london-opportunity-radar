@@ -112,7 +112,6 @@ always_exclude_if_text_contains:
   - leisure
   - law degree
   - law student
-  -
 
 # A broad job-board result must contain at least one of these phrases in its
 # TITLE to enter the Possible layer. Add a phrase here to widen discovery.
