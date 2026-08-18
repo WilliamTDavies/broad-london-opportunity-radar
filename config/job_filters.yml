@@ -56,6 +56,8 @@ always_exclude_if_text_contains:
   - unpaid
   - full time role
   - full-time role
+  - full time
+  - full-time
   - C++ required
   - C++ is required
   - must have C++
@@ -69,6 +71,48 @@ always_exclude_if_text_contains:
   - C++ programming experience
   - experience programming in C++
   - experience with C++ required
+  - CAD
+  - sales
+  - 12-month
+  - 12 months
+  - 12-month contract
+  - 12 months contract
+  - 12-months contract
+  - 6-month
+  - 6 months
+  - 6-month contract
+  - 6 months contract
+  - 6-months contract
+  - social media
+  - executive
+  - designer
+  - design
+  - creative
+  - housekeeping
+  - house keeping
+  - one year
+  - checkout
+  - check out
+  - Sr.
+  - senior
+  - media
+  - care
+  - engineer
+  - UI
+  - UX
+  - UI/UX
+  - warehouse
+  - ware house
+  - SQL
+  - linux
+  - support worker
+  - barista
+  - cafe
+  - host
+  - leisure
+  - law degree
+  - law student
+  -
 
 # A broad job-board result must contain at least one of these phrases in its
 # TITLE to enter the Possible layer. Add a phrase here to widen discovery.
@@ -228,6 +272,11 @@ possible_role_title_exclusions:
   - year in industry
   - summer 2026
   - start date march april 2026
+  - 12-month
+  - 12-month contract
+  - 6-month
+  - 6-month contract
+  - social media
 
 # Extra title exclusions that apply only to a particular organisation type.
 contextual_title_exclusions:
