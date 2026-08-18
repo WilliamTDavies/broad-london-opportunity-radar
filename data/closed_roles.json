@@ -1,64 +1,71 @@
 [
   {
     "all_source_urls": [
-      "https://targetjobs.co.uk/jobs/2027-client-and-product-summer-internship-program-emea-234533",
       "https://careers.blackrock.com/job/london/2027-client-and-product-summer-internship-program-emea/45831/97150826736",
-      "https://targetjobs.co.uk/jobs/2027-client-and-product-summer-internship-program-231970"
+      "https://careers.blackrock.com/students-and-graduates-emea",
+      "https://targetjobs.co.uk/jobs/2027-client-and-product-summer-internship-program-231970",
+      "https://targetjobs.co.uk/jobs/2027-client-and-product-summer-internship-program-emea-234533"
     ],
     "application_method": "Apply on the employer site linked from targetjobs",
     "application_url": "https://careers.blackrock.com/job/london/2027-client-and-product-summer-internship-program-emea/45831/97150826736",
     "approved_organisation": true,
     "canonical_employer": "BlackRock",
-    "canonical_url": "https://targetjobs.co.uk/jobs/2027-client-and-product-summer-internship-program-emea-234533",
+    "canonical_url": "https://careers.blackrock.com/job/london/2027-client-and-product-summer-internship-program-emea/45831/97150826736",
     "clearance_requirements": [],
-    "closed_at": "2026-08-11T19:34:48.713641Z",
-    "closure_evidence": "https://targetjobs.co.uk/jobs/2027-client-and-product-summer-internship-program-emea-234533",
+    "closed_at": "2026-08-18T00:32:44.099580Z",
+    "closure_evidence": "https://careers.blackrock.com/job/london/2027-client-and-product-summer-internship-program-emea/45831/97150826736",
     "closure_reason": "Current official evidence no longer meets the publication boundary",
     "consecutive_missing_count": 0,
-    "cycle_provenance": "programme_dates",
-    "date_provenance": "observed_first_seen",
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "employer_stated",
     "deadline": "2026-09-30",
     "degree_restrictions": [],
-    "description_excerpt": "Our Client & Product Summer Internship Programme is an exciting eight-week experience that helps provide insight into life as a BlackRock Analyst. As an Intern, you’ll work directly with Global Product Solutions and the Client Business while engaging in thought-provoking discussions hosted by senior leaders and connecting with mentors who can help guide you through these first steps of your career. You’ll also join events throughout the summer that will help you get to know the firm, your collea",
-    "division": null,
+    "description_excerpt": "Eight-week June-to-August client and product internship with direct work in Global Product Solutions and the Client Business, senior-leader sessions and mentoring.",
+    "division": "Global Product Solutions and Client Business",
     "eligibility_evidence": [
       {
-        "rule_id": "source.discovery_only",
-        "source_url": "https://targetjobs.co.uk/jobs/2027-client-and-product-summer-internship-program-emea-234533",
-        "structured_field": null,
-        "text": "Eligibility is plausible but must be verified on the employer's application page"
+        "rule_id": "exclusion.senior",
+        "source_url": "https://careers.blackrock.com/job/london/2027-client-and-product-summer-internship-program-emea/45831/97150826736",
+        "structured_field": "description",
+        "text": "Eight-week June-to-August client and product internship with direct work in Global Product Solutions and the Client Business, senior-leader sessions and mentoring."
       },
       {
-        "rule_id": "source.discovery_only",
+        "rule_id": "exclusion.senior",
         "source_url": "https://targetjobs.co.uk/jobs/2027-client-and-product-summer-internship-program-231970",
-        "structured_field": null,
-        "text": "Eligibility is plausible but must be verified on the employer's application page"
+        "structured_field": "description",
+        "text": "As an Intern, you'll work directly with Global Product Solutions and the Client Business while engaging in thought-provoking discussions hosted by senior leaders and connecting with mentors who can help guide you through these first steps of your career."
+      },
+      {
+        "rule_id": "exclusion.senior",
+        "source_url": "https://targetjobs.co.uk/jobs/2027-client-and-product-summer-internship-program-emea-234533",
+        "structured_field": "description",
+        "text": "As an Intern, you’ll work directly with Global Product Solutions and the Client Business while engaging in thought-provoking discussions hosted by senior leaders and connecting with mentors who can help guide you through these first steps of your career."
       }
     ],
     "eligibility_rule_ids": [
-      "source.discovery_only"
+      "exclusion.senior"
     ],
-    "eligibility_status": "uncertain",
+    "eligibility_status": "ineligible",
     "email_approved": false,
     "employer_alias": null,
-    "employer_quality_tier": "approved",
+    "employer_quality_tier": "priority",
     "first_seen_at": "2026-08-11T04:35:50.345537Z",
     "geographic_exception_reason": null,
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "9ec5948a111c7a4c",
-    "last_seen_at": "2026-08-11T19:34:48.713641Z",
+    "last_seen_at": "2026-08-18T00:32:44.099580Z",
     "listing_publisher": "targetjobs",
-    "location": "London",
-    "location_type": "onsite",
+    "location": "London, England (multi-location EMEA programme)",
+    "location_type": "multi_location",
     "manual_override": null,
     "match_components": {
       "deadline_urgency": 0,
       "eligibility_strength": 0,
-      "evidence_quality": 0,
+      "evidence_quality": 5,
       "geographic_fit": 10,
       "organisation_quality": 10,
-      "recency": 5,
+      "recency": 0,
       "skill_alignment": 0,
       "substantive_relevance": 0
     },
@@ -67,31 +74,34 @@
     "nationality_assessment": null,
     "nationality_requirements": [],
     "opening_date": null,
-    "organisation_type": "corporate",
-    "paid": null,
-    "paid_status_evidence": null,
+    "organisation_type": "investment_manager",
+    "paid": true,
+    "paid_status_evidence": "The official listing links an EMEA 2027 internship salary-ranges document for applicable locations and business areas.",
     "political_affiliation": null,
-    "primary_category": "Other Relevant",
+    "primary_category": "Asset and Investment Management",
     "programme_end": null,
-    "programme_start": "2027-06-01",
+    "programme_start": null,
     "programme_type": "summer_internship_2027",
-    "publication_review_required": true,
-    "published_date": null,
+    "publication_review_required": false,
+    "published_date": "2026-06-30",
     "relevance_reasons": [
-      "Substantive relevance requires manual review"
+      "Excluded work: senior"
     ],
-    "relevance_status": "borderline_relevance",
+    "relevance_status": "irrelevant",
     "residency_requirements": [],
     "salary": null,
-    "secondary_tags": [],
-    "source_authority": "discovery_only_source",
+    "secondary_tags": [
+      "Wealth Management and Private Banking",
+      "Business Development"
+    ],
+    "source_authority": "official_ats",
     "source_health_at_last_check": "healthy",
-    "source_identifier": "a20724c7-602e-4a6b-8c59-b505dd836059",
-    "source_registry_id": "targetjobs-london-early-careers",
-    "source_type": "targetjobs",
+    "source_identifier": "12222",
+    "source_registry_id": "blackrock",
+    "source_type": "curated_yaml",
     "status": "closed",
     "study_year_restrictions": [
-      "Who can apply: Candidates should be in their penultimate year of studies and graduating from an undergraduate or a master’s degree program in 2028."
+      "Candidates should be in their penultimate year of studies and graduating from an undergraduate or a master's degree program in 2028."
     ],
     "title": "2027 Client and Product Summer Internship Program - EMEA"
   },
