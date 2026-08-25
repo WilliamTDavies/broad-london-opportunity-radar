@@ -4,7 +4,7 @@ Original audit date: 11 August 2026 (America/Chicago). Broad-source remediation 
 
 Specification audited: `Pasted markdown(20260811-002308).md`, 1,838 lines, SHA-256 `e37c236ffb82e86b5b058465f7f760596fcf1934858a520b32ffb1d4f9e7876e`.
 
-This is an evidence record, not a completeness claim. After the original audit, the product objective was explicitly changed to favour breadth: plausibly accessible roles must be visible even when eligibility wording is incomplete. The current snapshot keeps 16 verified roles and 982 possible roles across 570 employers. It adds a 30-shard DWP Work Hub scan (4,182 result appearances, 1,475 unique roles), 86 Prospects cards and the current Legal Cheek noticeboard to the earlier complete broad-board captures. Adzuna and Reed are implemented but correctly inactive until their API secrets are supplied. Supabase, Resend, GitHub Actions and Pages have not been deployed from this environment. Counts and conclusions elsewhere in this document dated 11 August are historical unless this addendum supersedes them.
+This is an evidence record, not a completeness claim. The 22 August remediation narrows publication to short internships, vacation/insight/winter programmes and relevant professional roles with explicit term-compatible hours. The checked-in snapshot now contains 25 verified roles and 82 possible roles across 47 employers after reclassifying the stored broad-board results. A focused 37-query matrix replaces generic assistant/analyst queries; long placements, ordinary full-time work, clinical/scientific research and hard technical conflicts are excluded. Adzuna and Reed are implemented but require their API secrets for future live scans. Supabase, Resend, GitHub Actions and Pages have not been deployed from this environment. Counts and conclusions elsewhere in this document dated 11 August are historical unless this addendum supersedes them.
 
 ## Breadth-remediation addendum (current)
 
@@ -47,7 +47,7 @@ The release gate is rerun after every audit correction. The final authoritative 
 | Requirement | Status | Concrete evidence and qualification |
 |---|---|---|
 | Track the stated London Summer 2027, law vacation-scheme, paid policy/parliamentary and exceptional programme scope | partially implemented | Production contains 16 verified records and 789 possible records; `config/radar.yml` tracks 22 evidence-labelled programmes. A currently open, verified non-law vacation scheme is not present. |
-| Poll sources, detect new roles, classify, deduplicate, close cautiously, build a site/radar and select a daily digest | implemented and verified | `pipeline/scanner.py`, `pipeline/changes.py`, `pipeline/deduplication.py`, `pipeline/lifecycle.py`, `site/builder.py`, and `email/digest.py`; fixture E2E `test_complete_fixture_pipeline`; command `python run.py scan --fixtures` produced 28 observations, 12 public roles, 5 possible roles and 3 review items. |
+| Poll sources, detect new roles, classify, deduplicate, close cautiously, build a site/radar and select a daily digest | implemented and verified | `pipeline/scanner.py`, `pipeline/changes.py`, `pipeline/deduplication.py`, `pipeline/lifecycle.py`, `site/builder.py`, and `email/digest.py`; fixture E2E `test_complete_fixture_pipeline`; command `python run.py scan --fixtures` produced 28 observations, 9 public roles, 1 possible role and 1 review item under the stricter rules. |
 | Do not become a technology/prestige-only tracker | implemented and verified | Hard exclusions and organisation rules in `config/eligibility_rules.yml` and `organisation_tiers.yml`; tests `test_hard_exclusions_cannot_be_overridden_by_priority`, `test_priority_employer_monitoring_does_not_automatically_include`, and `test_department_and_basic_coding_do_not_create_stem_eligibility`. |
 | Distinguish verified facts from inference and preserve exact evidence | implemented and verified | `Evidence` and provenance enums in `models/records.py`; exact fragments are built in `classification/engine.py`; `test_eligibility_evidence_is_exact_source_text` and `test_date_and_cycle_provenance_follow_source_authority`. |
 
@@ -100,7 +100,7 @@ The release gate is rerun after every audit correction. The final authoritative 
 |---|---|---|
 | Seed the specified employer groups and resolve aliases/metadata | implemented and verified | `config/employers.yml` validates 231 unique entries: 28 enabled and 203 disabled. The enabled set has three curated official snapshots, Carlyle Workday, six broad London feeds and eighteen official page-change monitors. |
 | Verify URLs/endpoints before enabling and do not invent PSC/Winston Taylor identities | implemented and verified | `SOURCES.md` and disabled `psc-unresolved`; `test_repository_configuration_valid`. Official BoE, GCHQ, W4MP and Civil Service pages were checked independently on 10 August 2026. |
-| Provide broad live coverage beyond the registry | partially implemented | CharityJob, NHS Jobs, jobs.ac.uk, W4MP, Higherin and targetjobs discover employers independently of the seeded employer list and produced 789 visible possible roles across 488 employers in complete count-validated captures. Some major boards and proprietary ATSs remain inaccessible or disabled, so web-wide completeness cannot be claimed. |
+| Provide broad live coverage beyond the registry | partially implemented | CharityJob, NHS Jobs, jobs.ac.uk, W4MP, Higherin, targetjobs, DWP Work Hub, Prospects, Legal Cheek, Adzuna and Reed can discover employers independently of the seeded list. Stored results are now filtered to 82 possible roles rather than publishing ordinary jobs. Some major boards and proprietary ATSs remain inaccessible or disabled, so web-wide completeness cannot be claimed. |
 
 ### 8. Data acquisition and adapters
 
@@ -113,7 +113,7 @@ The release gate is rerun after every audit correction. The final authoritative 
 | Async bounded concurrency, host throttling, retries/backoff, timeouts, robots and source-health isolation | implemented and verified | `adapters/base.py` and `pipeline/scanner.py`; `test_http_request_errors_are_retried`, source failure/cap/parser-change tests. |
 | Official page monitoring without pretending a page is a job feed | implemented and verified | `monitor_only` config and `HtmlMonitorAdapter`; `test_monitor_only_html_source_tracks_page_without_claiming_roles`. |
 | Oracle HCM, SuccessFactors and iCIMS adapters | intentionally excluded with a valid reason | No verified priority endpoint required them. `SOURCES.md` explicitly declines to claim support until a safe employer-specific fixture exists. |
-| Live role-level retrieval from enabled sources | implemented and verified | Three curated sources publish 16 verified records. Complete live source-filtered scans passed through the production adapters and classifiers for CharityJob (1,235), NHS Jobs (1,106), jobs.ac.uk (433), W4MP (151), Higherin (69), targetjobs (79) and Carlyle (`R-00234`). The workspace required the explicit local curl transport; GitHub scheduled execution remains an external deployment step. |
+| Live role-level retrieval from enabled sources | implemented and verified | Four curated sources publish 25 verified records, including nine official Goldman Sachs London Summer Analyst roles. Previous complete source-filtered scans exercised CharityJob, NHS Jobs, jobs.ac.uk, W4MP, Higherin, targetjobs and Carlyle (`R-00234`). The current environment reverified the local/fixture paths; the next GitHub run is required to refresh every live source. |
 
 ### 9. Job record and provenance
 
@@ -192,7 +192,7 @@ The release gate is rerun after every audit correction. The final authoritative 
 
 | Requirement | Status | Concrete evidence and qualification |
 |---|---|---|
-| Four named workflows, schedules/manual dispatch, locks, caching, diagnostics and least-privilege permissions | implemented and verified | `.github/workflows/*.yml`; `validation.validate_yaml_and_workflows`; CI assertions. Scan is every 30 minutes; digest uses 07:00/08:00 UTC runs plus a London-hour guard. |
+| Four named workflows, schedules/manual dispatch, locks, caching, diagnostics and least-privilege permissions | implemented and verified | `.github/workflows/*.yml`; `validation.validate_yaml_and_workflows`; CI assertions. Whole-registry scan is every three hours, while large sources respect six- or twelve-hour per-source cadence; scan and digest share a write lock and retry rebased pushes. |
 | Pages supported artifact/deployment and separate data/code timestamps | implemented and verified | `deploy-pages.yml`, builder metrics/template. |
 | CI format/lint/type/test/JS/config/state/workflow/hygiene/fixture E2E | implemented and verified | `ci.yml` command list; every local equivalent passed. |
 | Actual hosted workflow execution and Pages deployment | blocked by unavailable credentials or external access | No GitHub repository/Actions run/Pages environment was available. Workflow YAML was structurally parsed, not run by GitHub; `actionlint` was unavailable. |
@@ -303,12 +303,12 @@ Substantive audit corrections include:
 25. added complete advertised-count CharityJob, NHS Jobs and jobs.ac.uk pagination, six-hour responsible polling, source-scoped review retention, broader junior-title acceptance, clinical/academic exclusions and a lazy 100-row dashboard that keeps every possible role usable without duplicating every detail card in the initial page; and
 26. added the robots-allowed public targetjobs London early-career service, complete result-count validation, external-ATS requisition dedupe, discovery-copy protection for stronger official records, placement-provider exclusions and verified employer-name repair for erroneous indexed tenants; and
 27. normalised source-provided employer display names by collapsing stray whitespace, repairing common UK/acronym casing and merging the duplicate `Transport For London`/`Transport for London` filter entries without changing employer identity.
-28. added a shared 30-query finance/consulting/law/policy/research matrix, official DWP Work Hub pagination, Prospects and Legal Cheek public parsers, and optional credential-safe Adzuna/Reed APIs; and
+28. added a shared focused finance/consulting/law/policy/research query matrix, official DWP Work Hub pagination, Prospects and Legal Cheek public parsers, and optional credential-safe Adzuna/Reed APIs; and
 29. corrected capped-source retention so freshly rejected and rule-invalid stale records disappear without sacrificing unseen-role protection, removed repeated receptionist/service/specialist false positives, failed robots checks closed, and redacted vacancy contact emails from committed public state.
 
 ## Residual gaps and blockers
 
-- **Live source coverage:** 16 roles remain verified. A further 982 possible roles across 570 employers are visible. Current health represents 7,359 listing appearances, including 4,182 DWP query-result appearances (1,475 unique DWP roles), 86 Prospects cards and the current Legal Cheek card in addition to the earlier broad feeds. Web-wide completeness is impossible to guarantee; 203 registry entries remain disabled and curated snapshots still require official re-verification.
+- **Live source coverage:** 25 roles are verified and 82 wider leads remain visible across 47 employers. Source health retains 17,317 historical listing appearances, most of which are correctly filtered out. Web-wide completeness is impossible to guarantee; 203 registry entries remain disabled and curated snapshots still require official re-verification.
 - **Credentialed aggregators:** Adzuna and Reed are fully configured, fixture-tested and secret-safe, but no live API success is claimed because `ADZUNA_APP_ID`, `ADZUNA_APP_KEY` and `REED_API_KEY` were unavailable.
 - **Live services:** Supabase migration/functions, Resend delivery, GitHub Actions and Pages require accounts, secrets and deployment authority that were unavailable.
 - **Browser/Deno integration:** the Playwright package exists but its Chromium binary is unavailable; Deno/Supabase local runtime is also unavailable. Static semantics, inline CSS presence, responsive rules, duplicate IDs, public boundaries, JavaScript logic and pure subscription state were tested instead.
@@ -342,13 +342,13 @@ editable build/install + pip check    -> pass; package installed; no broken requ
 ruff format --check .                 -> pass (34 files)
 ruff check .                          -> pass
 mypy                                  -> pass (26 source files)
-pytest                                -> pass (175 tests)
-node --test tests/js/*.test.*         -> pass (9 tests)
+pytest                                -> pass (220 tests)
+node --test tests/js/*.test.*         -> pass (11 tests)
 key CSS contrast calculation          -> pass (minimum checked pair 5.46:1)
-python run.py scan --fixtures         -> 8 attempted, 8 succeeded, 28 observations, 12 verified, 5 possible, 3 review
+python run.py scan --fixtures         -> 8 attempted, 8 succeeded, 28 observations, 9 verified, 1 possible, 1 review
 python run.py build-site --fixtures   -> pass
 python run.py validate --fixtures     -> pass
-python run.py digest --dry-run --fixtures -> 12 roles, HTML and text previews, 0 real sends
+python run.py digest --dry-run --fixtures -> 9 roles, HTML and text previews, 0 real sends
 python run.py build-site              -> pass
 python run.py validate                -> pass
 captured live Higherin validation     -> 69 listings across 4 pages

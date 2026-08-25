@@ -1,0 +1,191 @@
+# Production snapshot of official Goldman Sachs student-role pages.
+# Verified against the linked higher.gs.com listings on 2026-08-22.
+roles:
+  - source_identifier: "170152"
+    employer: Goldman Sachs
+    title: 2027 | EMEA | London | Compliance | Summer Analyst
+    source_url: https://higher.gs.com/roles/170152
+    application_url: https://higher.gs.com/roles/170152
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_bank
+    division: Compliance
+    location: London, Greater London, England, United Kingdom
+    location_type: onsite
+    description: Nine-to-ten-week Summer Analyst internship in the Compliance division with training and day-to-day responsibilities.
+    opening_date: 2026-08-15
+    paid: null
+    eligibility_text: Students pursuing a bachelor's or graduate degree. The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year.
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    date_provenance: official_programme_page
+    category_hint: Compliance and Financial Crime
+    secondary_tags: [Legal and Regulatory, Financial Regulation and Central Banking]
+
+  - source_identifier: "170160"
+    employer: Goldman Sachs
+    title: 2027 | EMEA | London | Office of Regulatory Relations | Summer Analyst
+    source_url: https://higher.gs.com/roles/170160
+    application_url: https://higher.gs.com/roles/170160
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_bank
+    division: Office of Regulatory Relations
+    location: London, Greater London, England, United Kingdom
+    location_type: onsite
+    description: Nine-to-ten-week Summer Analyst internship supporting regulatory relations, risk, governance and stakeholder work.
+    opening_date: 2026-08-15
+    paid: null
+    eligibility_text: Students pursuing a bachelor's or graduate degree. The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year.
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    date_provenance: official_programme_page
+    category_hint: Financial Regulation and Central Banking
+    secondary_tags: [Compliance and Financial Crime, Legal and Regulatory]
+
+  - source_identifier: "170163"
+    employer: Goldman Sachs
+    title: 2027 | EMEA | London | Controllers | Summer Analyst
+    source_url: https://higher.gs.com/roles/170163
+    application_url: https://higher.gs.com/roles/170163
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_bank
+    division: Controllers
+    location: London, Greater London, England, United Kingdom
+    location_type: onsite
+    description: Nine-to-ten-week Summer Analyst internship in financial control, reporting, valuation, capital and regulatory work.
+    opening_date: 2026-08-15
+    paid: null
+    eligibility_text: Students pursuing a bachelor's or graduate degree. The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year.
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    date_provenance: official_programme_page
+    category_hint: Corporate Finance and Transactions
+    secondary_tags: [Compliance and Financial Crime, Financial Regulation and Central Banking]
+
+  - source_identifier: "172894"
+    employer: Goldman Sachs
+    title: 2027 | EMEA | London | Risk | Summer Analyst
+    source_url: https://higher.gs.com/roles/172894
+    application_url: https://higher.gs.com/roles/172894
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_bank
+    division: Risk
+    location: London, Greater London, England, United Kingdom
+    location_type: onsite
+    description: Nine-to-ten-week Summer Analyst internship in financial risk analysis and risk management.
+    opening_date: 2026-08-15
+    paid: null
+    eligibility_text: Students pursuing a bachelor's or graduate degree. The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year.
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    date_provenance: official_programme_page
+    category_hint: Financial Regulation and Central Banking
+    secondary_tags: [Compliance and Financial Crime, Investment Banking]
+
+  - source_identifier: "170929"
+    employer: Goldman Sachs
+    title: 2027 | EMEA | London | Investment Banking, Classic | Summer Analyst
+    source_url: https://higher.gs.com/roles/170929
+    application_url: https://higher.gs.com/roles/170929
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_bank
+    division: Investment Banking
+    location: London, Greater London, England, United Kingdom
+    location_type: onsite
+    description: Nine-to-ten-week Summer Analyst internship covering strategic advice, mergers and acquisitions, financing and risk management transactions.
+    opening_date: 2026-08-15
+    paid: null
+    eligibility_text: Students pursuing a bachelor's or graduate degree. The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year.
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    date_provenance: official_programme_page
+    category_hint: Investment Banking
+    secondary_tags: [Corporate Finance and Transactions]
+
+  - source_identifier: "181882"
+    employer: Goldman Sachs
+    title: 2027 | EMEA | London | Internal Audit | Summer Analyst
+    source_url: https://higher.gs.com/roles/181882
+    application_url: https://higher.gs.com/roles/181882
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_bank
+    division: Internal Audit
+    location: London, Greater London, England, United Kingdom
+    location_type: onsite
+    description: Nine-to-ten-week Summer Analyst internship assessing financial controls, regulatory compliance and risk-management processes.
+    opening_date: 2026-08-15
+    paid: null
+    eligibility_text: Students pursuing a bachelor's or graduate degree. The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year.
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    date_provenance: official_programme_page
+    category_hint: Audit and Assurance
+    secondary_tags: [Compliance and Financial Crime, Financial Regulation and Central Banking]
+
+  - source_identifier: "173050"
+    employer: Goldman Sachs
+    title: 2027 | EMEA | London | Asset Management, Private Investing | Summer Analyst
+    source_url: https://higher.gs.com/roles/173050
+    application_url: https://higher.gs.com/roles/173050
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_bank
+    division: Asset Management, Private Investing
+    location: London, Greater London, England, United Kingdom
+    location_type: onsite
+    description: Nine-to-ten-week Summer Analyst internship in private investing and asset management for institutional and individual clients.
+    opening_date: 2026-08-15
+    paid: null
+    eligibility_text: Students pursuing a bachelor's or graduate degree. The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year.
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    date_provenance: official_programme_page
+    category_hint: Asset and Investment Management
+    secondary_tags: [Private Equity and Private Markets]
+
+  - source_identifier: "170158"
+    employer: Goldman Sachs
+    title: 2027 | EMEA | London | Operations | Summer Analyst
+    source_url: https://higher.gs.com/roles/170158
+    application_url: https://higher.gs.com/roles/170158
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_bank
+    division: Operations
+    location: London, Greater London, England, United Kingdom
+    location_type: onsite
+    description: Nine-to-ten-week Summer Analyst internship supporting banking, trading and asset-management transactions, controls and operational risk.
+    opening_date: 2026-08-15
+    paid: null
+    eligibility_text: Students pursuing a bachelor's or graduate degree. The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year.
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    date_provenance: official_programme_page
+    category_hint: Operations and Business Services
+    secondary_tags: [Investment Banking, Financial Regulation and Central Banking]
+
+  - source_identifier: "162040"
+    employer: Goldman Sachs
+    title: 2027 | EMEA | London | Transaction Banking (TxB), Coverage | Summer Analyst
+    source_url: https://higher.gs.com/roles/162040
+    application_url: https://higher.gs.com/roles/162040
+    source_type: curated_yaml
+    source_authority: official_ats
+    organisation_type: investment_bank
+    division: Transaction Banking
+    location: London, Greater London, England, United Kingdom
+    location_type: onsite
+    description: Nine-to-ten-week Summer Analyst internship supporting treasury clients, payments, liquidity, product risk and new-business research.
+    opening_date: 2026-08-15
+    paid: null
+    eligibility_text: Students pursuing a bachelor's or graduate degree. The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year.
+    cycle_hint: Summer 2027
+    cycle_provenance: employer_stated
+    date_provenance: official_programme_page
+    category_hint: Corporate and Commercial Banking
+    secondary_tags: [Corporate Finance and Transactions, Financial Regulation and Central Banking]

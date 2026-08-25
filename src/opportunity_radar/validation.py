@@ -185,7 +185,7 @@ def validate_generated_site(root: Path, *, fixture_mode: bool = False) -> list[s
             raise ValueError("Uncertain or ineligible role leaked into public dashboard data")
         if "manual_override" in item:
             raise ValueError("Internal manual-override data leaked into public dashboard data")
-        if not is_public_role(role):
+        if not is_public_role(role, rules):
             raise ValueError(
                 "Role outside the verified publication boundary leaked into roles.json"
             )

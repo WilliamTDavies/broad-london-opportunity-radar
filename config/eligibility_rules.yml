@@ -1,7 +1,7 @@
 rules:
   verified_positive:
     graduation_2028: [graduate in 2028, graduating in 2028, graduation year 2028, "anticipated graduation date: Summer 2028", "completion time frame between June 2027 and July 2028", "completion timeframe between June 2027 and July 2028"]
-    penultimate_year: [penultimate year]
+    penultimate_year: [penultimate year, penultimate or final year]
     second_year: [second year, second-year, 2nd year, 2nd-year, year 2]
     any_degree: [any degree, all degree disciplines, any discipline]
     non_law: [non-law, non law]

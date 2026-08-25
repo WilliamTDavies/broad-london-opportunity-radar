@@ -21,10 +21,18 @@ class ClassificationRules:
     require_paid_types: frozenset[str]
     require_selectivity_types: frozenset[str]
     approved_quality_tiers: frozenset[str]
-    possible_role_signals: tuple[str, ...] = ()
+    programme_role_signals: tuple[str, ...] = ()
+    term_time_role_signals: tuple[str, ...] = ()
+    term_time_availability_signals: tuple[str, ...] = ()
+    long_duration_signals: tuple[str, ...] = ()
+    ordinary_job_signals: tuple[str, ...] = ()
+    research_role_signals: tuple[str, ...] = ()
+    allowed_research_contexts: tuple[str, ...] = ()
+    allowed_research_employers: frozenset[str] = frozenset()
     possible_role_exclusions: tuple[str, ...] = ()
     contextual_role_exclusions: dict[str, tuple[str, ...]] = field(default_factory=dict)
     excluded_discovery_employers: frozenset[str] = frozenset()
+    review_queue_limit: int = 500
 
     @property
     def categories(self) -> frozenset[str]:
@@ -117,6 +125,10 @@ def load_classification_rules(root: Path) -> ClassificationRules:
     if set(score_weights) != expected_components or sum(score_weights.values()) != 100:
         raise ValueError("Score components must contain the eight required keys and total 100")
 
+    review_queue_limit = job_filters.get("review_queue_limit", 500)
+    if not isinstance(review_queue_limit, int) or review_queue_limit < 0:
+        raise ValueError("job_filters.review_queue_limit must be a non-negative int")
+
     controlled_types: set[str] = set()
     require_paid_types: set[str] = set()
     require_selectivity_types: set[str] = set()
@@ -153,9 +165,39 @@ def load_classification_rules(root: Path) -> ClassificationRules:
         require_paid_types=frozenset(require_paid_types),
         require_selectivity_types=frozenset(require_selectivity_types),
         approved_quality_tiers=frozenset(key for key in tier_values if key != "review"),
-        possible_role_signals=_filter_terms(
-            job_filters.get("possible_role_title_inclusions"),
-            label="job_filters.possible_role_title_inclusions",
+        programme_role_signals=_filter_terms(
+            job_filters.get("programme_title_inclusions"),
+            label="job_filters.programme_title_inclusions",
+        ),
+        term_time_role_signals=_filter_terms(
+            job_filters.get("part_time_professional_title_inclusions"),
+            label="job_filters.part_time_professional_title_inclusions",
+        ),
+        term_time_availability_signals=_filter_terms(
+            job_filters.get("part_time_availability_evidence"),
+            label="job_filters.part_time_availability_evidence",
+        ),
+        long_duration_signals=_filter_terms(
+            job_filters.get("long_duration_exclusions"),
+            label="job_filters.long_duration_exclusions",
+        ),
+        ordinary_job_signals=_filter_terms(
+            job_filters.get("ordinary_job_exclusions"),
+            label="job_filters.ordinary_job_exclusions",
+        ),
+        research_role_signals=_filter_terms(
+            job_filters.get("research_title_signals"),
+            label="job_filters.research_title_signals",
+        ),
+        allowed_research_contexts=_filter_terms(
+            job_filters.get("allowed_research_title_contexts"),
+            label="job_filters.allowed_research_title_contexts",
+        ),
+        allowed_research_employers=frozenset(
+            _filter_terms(
+                job_filters.get("allowed_research_employers"),
+                label="job_filters.allowed_research_employers",
+            )
         ),
         possible_role_exclusions=_filter_terms(
             job_filters.get("possible_role_title_exclusions"),
@@ -174,4 +216,5 @@ def load_classification_rules(root: Path) -> ClassificationRules:
                 label="job_filters.excluded_discovery_employers",
             )
         ),
+        review_queue_limit=review_queue_limit,
     )

@@ -1,4 +1,4 @@
-LONDON OPPORTUNITY RADAR — FILTER AND SEARCH PATCH
+LONDON OPPORTUNITY RADAR - AVAILABILITY AND WORKFLOW UPDATE
 
 1. Open your existing london-opportunity-radar folder.
 2. Extract this ZIP directly into that folder.
@@ -10,16 +10,19 @@ THE ONE FILE TO EDIT LATER
 
 config/job_filters.yml
 
-That file contains clearly labelled lists for:
-- hard exclusions found anywhere in a listing;
-- title words that allow a job into the broad Possible layer;
-- title words that block a job;
-- organisation-specific exclusions; and
-- placement-provider exclusions.
+That file contains clearly labelled lists for break programmes, part-time
+professional areas, availability evidence, long-duration exclusions, allowed
+research contexts, title exclusions and hard conflicts.
 
 Add one phrase per YAML line and keep the leading "-". Inclusion phrases do
 not override a hard exclusion. After editing the file, commit and push it, then
-run the Scan workflow. The normal automatic scan will also pick it up.
+run the Scan workflow. To apply a rule change locally without scraping, run:
+
+python run.py prune-candidates
+python run.py validate
+
+The scheduled workflow starts every three hours; large boards keep their own
+six- or twelve-hour cadence.
 
 SEARCH CHANGES
 

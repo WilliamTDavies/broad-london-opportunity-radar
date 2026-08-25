@@ -21,6 +21,7 @@ from opportunity_radar.models import (
     ProgrammeType,
     RawRole,
     RelevanceStatus,
+    RoleRecord,
     SourceAuthority,
 )
 
@@ -46,7 +47,7 @@ def raw(**updates: object) -> RawRole:
     return RawRole.model_validate(data)
 
 
-def classify(employer: EmployerConfig, **updates: object):
+def classify(employer: EmployerConfig, **updates: object) -> RoleRecord:
     return classify_role(raw(**updates), employer, observed_at=NOW)
 
 
@@ -168,7 +169,9 @@ def test_final_year_non_law_vacation_scheme_rejected(employer: EmployerConfig) -
     assert role.eligibility_status == EligibilityStatus.INELIGIBLE
 
 
-def test_paid_parliamentary_research_role_accepted(employer: EmployerConfig) -> None:
+def test_parliamentary_research_outside_current_research_scope(
+    employer: EmployerConfig,
+) -> None:
     role = classify(
         employer,
         title="Paid Parliamentary Research Intern",
@@ -177,7 +180,7 @@ def test_paid_parliamentary_research_role_accepted(employer: EmployerConfig) -> 
         cycle_hint="2026-27",
     )
     assert role.programme_type == ProgrammeType.PARLIAMENTARY
-    assert is_public_role(role)
+    assert not is_public_role(role)
 
 
 def test_unpaid_political_campaign_rejected(employer: EmployerConfig) -> None:
@@ -309,7 +312,7 @@ def test_priority_employer_monitoring_does_not_automatically_include(
         "Programme Specialist",
     ],
 )
-def test_possible_pool_accepts_broad_plausibly_accessible_titles(
+def test_possible_pool_rejects_generic_titles_without_availability_evidence(
     employer: EmployerConfig, title: str
 ) -> None:
     source = employer.model_copy(
@@ -321,7 +324,210 @@ def test_possible_pool_accepts_broad_plausibly_accessible_titles(
         source_authority=SourceAuthority.DISCOVERY_ONLY_SOURCE,
         eligibility_text="",
     )
+    assert not is_possible_role(role)
+
+
+def test_possible_pool_keeps_full_time_summer_compliance_internship(
+    employer: EmployerConfig,
+) -> None:
+    source = employer.model_copy(
+        update={"manual_review_required": True, "priority_tier": "approved"}
+    )
+    role = classify(
+        source,
+        title="2027 EMEA London Compliance Summer Analyst",
+        description="Full-time nine-week summer internship in compliance and financial crime.",
+        eligibility_text="",
+        source_authority=SourceAuthority.DISCOVERY_ONLY_SOURCE,
+    )
+    assert role.eligibility_status != EligibilityStatus.INELIGIBLE
     assert is_possible_role(role)
+
+
+def test_possible_pool_requires_part_time_evidence_for_ordinary_compliance_role(
+    employer: EmployerConfig,
+) -> None:
+    source = employer.model_copy(
+        update={"manual_review_required": True, "priority_tier": "approved"}
+    )
+    full_time = classify(
+        source,
+        title="Compliance Analyst",
+        description="Permanent full-time compliance and regulatory role.",
+        eligibility_text="",
+        source_authority=SourceAuthority.DISCOVERY_ONLY_SOURCE,
+    )
+    part_time = classify(
+        source,
+        source_identifier="part-time-compliance",
+        title="Compliance Analyst",
+        description="Part-time role for 16 hours per week in compliance and regulatory risk.",
+        eligibility_text="",
+        source_authority=SourceAuthority.DISCOVERY_ONLY_SOURCE,
+    )
+    assert not is_possible_role(full_time)
+    assert is_possible_role(part_time)
+
+
+@pytest.mark.parametrize(
+    ("schedule", "expected"),
+    [
+        ("Contracted hours: 42.5 hours per week.", False),
+        ("Part-time schedule of 20 hrs/week.", True),
+        ("Work up to 24 hours weekly.", True),
+        ("This is a 25 hour week.", False),
+    ],
+)
+def test_term_time_hour_parser_does_not_truncate_decimal_hours(
+    employer: EmployerConfig, schedule: str, expected: bool
+) -> None:
+    source = employer.model_copy(
+        update={"manual_review_required": True, "priority_tier": "approved"}
+    )
+    role = classify(
+        source,
+        title="Financial Reporting Assistant",
+        description=f"{schedule} Finance and regulatory reporting work.",
+        eligibility_text="",
+        source_authority=SourceAuthority.DISCOVERY_ONLY_SOURCE,
+    )
+    assert is_possible_role(role) is expected
+
+
+@pytest.mark.parametrize(
+    "title",
+    [
+        "Compliance Internship - 12 Month Contract",
+        "Risk Off-Cycle Internship",
+        "Policy Research Internship",
+        "Clinical Research Internship",
+        "Winter Vacation Scheme for Final-Year University Students and Recent Graduates",
+    ],
+)
+def test_possible_pool_rejects_long_or_out_of_scope_internships(
+    employer: EmployerConfig, title: str
+) -> None:
+    source = employer.model_copy(
+        update={"manual_review_required": True, "priority_tier": "approved"}
+    )
+    role = classify(
+        source,
+        title=title,
+        description="Paid internship with analytical and research work.",
+        eligibility_text="",
+        source_authority=SourceAuthority.DISCOVERY_ONLY_SOURCE,
+    )
+    assert not is_possible_role(role)
+
+
+def test_possible_pool_keeps_financial_research_internship(
+    employer: EmployerConfig,
+) -> None:
+    source = employer.model_copy(
+        update={"manual_review_required": True, "priority_tier": "approved"}
+    )
+    role = classify(
+        source,
+        title="Credit Research Internship",
+        description="Paid internship in financial credit and risk research.",
+        eligibility_text="",
+        source_authority=SourceAuthority.DISCOVERY_ONLY_SOURCE,
+    )
+    assert is_possible_role(role)
+
+
+def test_finance_employer_context_keeps_global_research_internship(
+    project_root: Path, employer: EmployerConfig
+) -> None:
+    rules = load_classification_rules(project_root)
+    source = employer.model_copy(
+        update={"manual_review_required": True, "priority_tier": "approved"}
+    )
+    finance = classify_role(
+        raw(
+            employer="UBS",
+            title="Global Research (HOLT) Summer Internship 2027",
+            description="Paid analytical summer internship.",
+            eligibility_text="",
+            source_authority=SourceAuthority.DISCOVERY_ONLY_SOURCE,
+        ),
+        source,
+        observed_at=NOW,
+        rules=rules,
+    )
+    science = classify_role(
+        raw(
+            source_identifier="science-research",
+            employer="Example Biotech",
+            title="Global Research Summer Internship 2027",
+            description="Paid scientific summer internship.",
+            eligibility_text="",
+            source_authority=SourceAuthority.DISCOVERY_ONLY_SOURCE,
+        ),
+        source,
+        observed_at=NOW,
+        rules=rules,
+    )
+    assert is_possible_role(finance, rules)
+    assert not is_possible_role(science, rules)
+
+
+@pytest.mark.parametrize(
+    ("title", "description"),
+    [
+        ("Group Financial Controller", "Contracted hours: 42.5 hours per week."),
+        ("PA to Internal Audit Directors", "Part-time role for 21 hours per week."),
+        ("Legal Counsel", "Part-time role for three days per week."),
+        ("Commercial Property Legal Secretary", "Flexible part-time hours."),
+        ("Legal Cashier", "Part-time role for 21 hours per week."),
+        ("Internship Program Coordinator", "Part-time university programme administration."),
+        ("Careers Coordinator Work Experience", "Part-time education role."),
+        ("Student Construction Ambassador & Industry Insight Programme", "Paid programme."),
+        ("Quantitative Strategies and Data Group Internship", "Paid summer internship."),
+        ("Global Markets Digital Office Internship (Quants & Strats)", "Paid internship."),
+        ("Compliance Officer", "Seeking an experienced compliance professional."),
+    ],
+)
+def test_semantically_misleading_titles_are_rejected(
+    employer: EmployerConfig, title: str, description: str
+) -> None:
+    source = employer.model_copy(
+        update={"manual_review_required": True, "priority_tier": "approved"}
+    )
+    role = classify(
+        source,
+        title=title,
+        description=f"{description} Includes financial analysis and compliance work.",
+        eligibility_text="",
+        source_authority=SourceAuthority.DISCOVERY_ONLY_SOURCE,
+    )
+    assert not is_possible_role(role)
+
+
+@pytest.mark.parametrize(
+    "description",
+    [
+        "Paid compliance internship lasting four months.",
+        "Paid risk internship on a five-month placement.",
+        "Part-time compliance role on a nine month fixed-term contract.",
+        "Part-time finance role; contract duration is twelve months.",
+        "HR internship on a 13 months graduate contract.",
+    ],
+)
+def test_written_and_reordered_long_durations_are_rejected(
+    employer: EmployerConfig, description: str
+) -> None:
+    source = employer.model_copy(
+        update={"manual_review_required": True, "priority_tier": "approved"}
+    )
+    role = classify(
+        source,
+        title="Compliance Internship",
+        description=description,
+        eligibility_text="",
+        source_authority=SourceAuthority.DISCOVERY_ONLY_SOURCE,
+    )
+    assert not is_possible_role(role)
 
 
 @pytest.mark.parametrize(
@@ -394,7 +600,7 @@ def test_possible_pool_rejects_fee_bearing_placement_provider_products(
     assert not is_possible_role(role)
 
 
-def test_possible_pool_rejects_gp_reception_but_keeps_nonclinical_admin(
+def test_possible_pool_rejects_gp_reception_and_ordinary_admin(
     employer: EmployerConfig,
 ) -> None:
     source = employer.model_copy(
@@ -415,7 +621,7 @@ def test_possible_pool_rejects_gp_reception_but_keeps_nonclinical_admin(
         eligibility_text="",
     )
     assert not is_possible_role(reception)
-    assert is_possible_role(admin)
+    assert not is_possible_role(admin)
 
 
 def test_editable_job_filters_reject_required_cpp_but_not_optional_mention(

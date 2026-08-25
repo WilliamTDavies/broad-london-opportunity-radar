@@ -29,7 +29,7 @@ Employer/source configuration owns endpoints and rate limits. Unsupported propri
 
 ## Review queue and state
 
-Verified, possible, closed and residual-review records are persisted separately. Possible-role replacement is source-aware: a failed, capped or structurally changed source cannot erase records that were not returned, while a record that was fetched and now fails the publication filter is removed immediately. Manual overrides require role ID, dated decision, reason and official evidence URL. Digest state records successful runs and previously sent verified role IDs. Observations preserve source ID, external identifier, URL and observation time.
+Verified, possible, closed and residual-review records are persisted separately. Rules are reapplied to both possible and review records, so a newly allowed internship can be promoted without waiting for its source to run again. The diagnostic review queue retains only non-cycle-unstated programme candidates and is capped at 500 records. Possible-role replacement is source-aware: a failed, capped or structurally changed source cannot erase records that were not returned, while a record that was fetched and now fails the publication filter is removed immediately. Manual overrides require role ID, dated decision, reason and official evidence URL. Digest state records successful runs and previously sent verified role IDs. Observations preserve source ID, external identifier, URL and observation time.
 
 ## Dashboard
 

@@ -1,11 +1,849 @@
 [
   {
     "all_source_urls": [
+      "https://higher.gs.com/roles/170152"
+    ],
+    "application_method": null,
+    "application_url": "https://higher.gs.com/roles/170152",
+    "approved_organisation": true,
+    "canonical_employer": "Goldman Sachs",
+    "canonical_url": "https://higher.gs.com/roles/170152",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "official_programme_page",
+    "deadline": null,
+    "degree_restrictions": [],
+    "description_excerpt": "Nine-to-ten-week Summer Analyst internship in the Compliance division with training and day-to-day responsibilities.",
+    "division": "Compliance",
+    "eligibility_evidence": [
+      {
+        "rule_id": "study.penultimate",
+        "source_url": "https://higher.gs.com/roles/170152",
+        "structured_field": "eligibility_text",
+        "text": "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "study.penultimate"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-23T02:54:36.593236Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [],
+    "id": "1149ea93489d57cd",
+    "last_seen_at": "2026-08-23T03:03:37.675406Z",
+    "listing_publisher": null,
+    "location": "London, Greater London, England, United Kingdom",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 0,
+      "substantive_relevance": 23
+    },
+    "match_score": 73,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": "2026-08-15",
+    "organisation_type": "investment_bank",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Compliance and Financial Crime",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": null,
+    "relevance_reasons": [
+      "Legal, compliance, regulatory or risk work aligns with prior experience",
+      "Falls within the approved Compliance and Financial Crime category"
+    ],
+    "relevance_status": "credible_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Legal and Regulatory",
+      "Financial Regulation and Central Banking"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "170152",
+    "source_registry_id": "goldman-sachs-current-roles",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+    ],
+    "title": "2027 | EMEA | London | Compliance | Summer Analyst"
+  },
+  {
+    "all_source_urls": [
+      "https://higher.gs.com/roles/170160"
+    ],
+    "application_method": null,
+    "application_url": "https://higher.gs.com/roles/170160",
+    "approved_organisation": true,
+    "canonical_employer": "Goldman Sachs",
+    "canonical_url": "https://higher.gs.com/roles/170160",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "official_programme_page",
+    "deadline": null,
+    "degree_restrictions": [],
+    "description_excerpt": "Nine-to-ten-week Summer Analyst internship supporting regulatory relations, risk, governance and stakeholder work.",
+    "division": "Office of Regulatory Relations",
+    "eligibility_evidence": [
+      {
+        "rule_id": "study.penultimate",
+        "source_url": "https://higher.gs.com/roles/170160",
+        "structured_field": "eligibility_text",
+        "text": "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "study.penultimate"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-23T02:54:36.593236Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [],
+    "id": "25e448039da4ec7b",
+    "last_seen_at": "2026-08-23T03:03:37.675406Z",
+    "listing_publisher": null,
+    "location": "London, Greater London, England, United Kingdom",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 0,
+      "substantive_relevance": 35
+    },
+    "match_score": 85,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": "2026-08-15",
+    "organisation_type": "investment_bank",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Financial Regulation and Central Banking",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": null,
+    "relevance_reasons": [
+      "Legal, compliance, regulatory or risk work aligns with prior experience",
+      "Uses stakeholder, programme or operational coordination skills",
+      "Falls within the approved Financial Regulation and Central Banking category"
+    ],
+    "relevance_status": "strong_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Compliance and Financial Crime",
+      "Legal and Regulatory"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "170160",
+    "source_registry_id": "goldman-sachs-current-roles",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+    ],
+    "title": "2027 | EMEA | London | Office of Regulatory Relations | Summer Analyst"
+  },
+  {
+    "all_source_urls": [
+      "https://higher.gs.com/roles/170163"
+    ],
+    "application_method": null,
+    "application_url": "https://higher.gs.com/roles/170163",
+    "approved_organisation": true,
+    "canonical_employer": "Goldman Sachs",
+    "canonical_url": "https://higher.gs.com/roles/170163",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "official_programme_page",
+    "deadline": null,
+    "degree_restrictions": [],
+    "description_excerpt": "Nine-to-ten-week Summer Analyst internship in financial control, reporting, valuation, capital and regulatory work.",
+    "division": "Controllers",
+    "eligibility_evidence": [
+      {
+        "rule_id": "study.penultimate",
+        "source_url": "https://higher.gs.com/roles/170163",
+        "structured_field": "eligibility_text",
+        "text": "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "study.penultimate"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-23T02:54:36.593236Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [],
+    "id": "f38d73f1e4fcf70e",
+    "last_seen_at": "2026-08-23T03:03:37.675406Z",
+    "listing_publisher": null,
+    "location": "London, Greater London, England, United Kingdom",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 0,
+      "substantive_relevance": 35
+    },
+    "match_score": 85,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": "2026-08-15",
+    "organisation_type": "investment_bank",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Corporate Finance and Transactions",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": null,
+    "relevance_reasons": [
+      "Legal, compliance, regulatory or risk work aligns with prior experience",
+      "Uses investment due diligence, valuation or financial-analysis skills",
+      "Falls within the approved Corporate Finance and Transactions category"
+    ],
+    "relevance_status": "strong_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Compliance and Financial Crime",
+      "Financial Regulation and Central Banking",
+      "Legal and Regulatory"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "170163",
+    "source_registry_id": "goldman-sachs-current-roles",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+    ],
+    "title": "2027 | EMEA | London | Controllers | Summer Analyst"
+  },
+  {
+    "all_source_urls": [
+      "https://higher.gs.com/roles/172894"
+    ],
+    "application_method": null,
+    "application_url": "https://higher.gs.com/roles/172894",
+    "approved_organisation": true,
+    "canonical_employer": "Goldman Sachs",
+    "canonical_url": "https://higher.gs.com/roles/172894",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "official_programme_page",
+    "deadline": null,
+    "degree_restrictions": [],
+    "description_excerpt": "Nine-to-ten-week Summer Analyst internship in financial risk analysis and risk management.",
+    "division": "Risk",
+    "eligibility_evidence": [
+      {
+        "rule_id": "study.penultimate",
+        "source_url": "https://higher.gs.com/roles/172894",
+        "structured_field": "eligibility_text",
+        "text": "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "study.penultimate"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-23T02:54:36.593236Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [],
+    "id": "b2a8262ad6d46efb",
+    "last_seen_at": "2026-08-23T03:03:37.675406Z",
+    "listing_publisher": null,
+    "location": "London, Greater London, England, United Kingdom",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 0,
+      "substantive_relevance": 35
+    },
+    "match_score": 85,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": "2026-08-15",
+    "organisation_type": "investment_bank",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Financial Regulation and Central Banking",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": null,
+    "relevance_reasons": [
+      "Legal, compliance, regulatory or risk work aligns with prior experience",
+      "Uses research, analysis and written briefing skills",
+      "Falls within the approved Financial Regulation and Central Banking category"
+    ],
+    "relevance_status": "strong_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Compliance and Financial Crime",
+      "Investment Banking"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "172894",
+    "source_registry_id": "goldman-sachs-current-roles",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+    ],
+    "title": "2027 | EMEA | London | Risk | Summer Analyst"
+  },
+  {
+    "all_source_urls": [
+      "https://higher.gs.com/roles/170929"
+    ],
+    "application_method": null,
+    "application_url": "https://higher.gs.com/roles/170929",
+    "approved_organisation": true,
+    "canonical_employer": "Goldman Sachs",
+    "canonical_url": "https://higher.gs.com/roles/170929",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "official_programme_page",
+    "deadline": null,
+    "degree_restrictions": [],
+    "description_excerpt": "Nine-to-ten-week Summer Analyst internship covering strategic advice, mergers and acquisitions, financing and risk management transactions.",
+    "division": "Investment Banking",
+    "eligibility_evidence": [
+      {
+        "rule_id": "study.penultimate",
+        "source_url": "https://higher.gs.com/roles/170929",
+        "structured_field": "eligibility_text",
+        "text": "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "study.penultimate"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-23T02:54:36.593236Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [],
+    "id": "e59050ea5d6e8ceb",
+    "last_seen_at": "2026-08-23T03:03:37.675406Z",
+    "listing_publisher": null,
+    "location": "London, Greater London, England, United Kingdom",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 0,
+      "substantive_relevance": 35
+    },
+    "match_score": 85,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": "2026-08-15",
+    "organisation_type": "investment_bank",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Investment Banking",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": null,
+    "relevance_reasons": [
+      "Legal, compliance, regulatory or risk work aligns with prior experience",
+      "Provides substantive financial or commercial analysis",
+      "Falls within the approved Investment Banking category"
+    ],
+    "relevance_status": "strong_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Corporate Finance and Transactions"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "170929",
+    "source_registry_id": "goldman-sachs-current-roles",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+    ],
+    "title": "2027 | EMEA | London | Investment Banking, Classic | Summer Analyst"
+  },
+  {
+    "all_source_urls": [
+      "https://higher.gs.com/roles/181882"
+    ],
+    "application_method": null,
+    "application_url": "https://higher.gs.com/roles/181882",
+    "approved_organisation": true,
+    "canonical_employer": "Goldman Sachs",
+    "canonical_url": "https://higher.gs.com/roles/181882",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "official_programme_page",
+    "deadline": null,
+    "degree_restrictions": [],
+    "description_excerpt": "Nine-to-ten-week Summer Analyst internship assessing financial controls, regulatory compliance and risk-management processes.",
+    "division": "Internal Audit",
+    "eligibility_evidence": [
+      {
+        "rule_id": "study.penultimate",
+        "source_url": "https://higher.gs.com/roles/181882",
+        "structured_field": "eligibility_text",
+        "text": "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "study.penultimate"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-23T03:03:37.675406Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [],
+    "id": "762de6ccadcbe14f",
+    "last_seen_at": "2026-08-23T03:03:37.675406Z",
+    "listing_publisher": null,
+    "location": "London, Greater London, England, United Kingdom",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 0,
+      "substantive_relevance": 23
+    },
+    "match_score": 73,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": "2026-08-15",
+    "organisation_type": "investment_bank",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Assurance and Audit",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": null,
+    "relevance_reasons": [
+      "Legal, compliance, regulatory or risk work aligns with prior experience",
+      "Falls within the approved Assurance and Audit category"
+    ],
+    "relevance_status": "credible_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Compliance and Financial Crime",
+      "Financial Regulation and Central Banking",
+      "Legal and Regulatory"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "181882",
+    "source_registry_id": "goldman-sachs-current-roles",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+    ],
+    "title": "2027 | EMEA | London | Internal Audit | Summer Analyst"
+  },
+  {
+    "all_source_urls": [
+      "https://higher.gs.com/roles/173050"
+    ],
+    "application_method": null,
+    "application_url": "https://higher.gs.com/roles/173050",
+    "approved_organisation": true,
+    "canonical_employer": "Goldman Sachs",
+    "canonical_url": "https://higher.gs.com/roles/173050",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "official_programme_page",
+    "deadline": null,
+    "degree_restrictions": [],
+    "description_excerpt": "Nine-to-ten-week Summer Analyst internship in private investing and asset management for institutional and individual clients.",
+    "division": "Asset Management, Private Investing",
+    "eligibility_evidence": [
+      {
+        "rule_id": "study.penultimate",
+        "source_url": "https://higher.gs.com/roles/173050",
+        "structured_field": "eligibility_text",
+        "text": "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "study.penultimate"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-23T03:03:37.675406Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [],
+    "id": "14d4abd23acf4cee",
+    "last_seen_at": "2026-08-23T03:03:37.675406Z",
+    "listing_publisher": null,
+    "location": "London, Greater London, England, United Kingdom",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 0,
+      "substantive_relevance": 12
+    },
+    "match_score": 62,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": "2026-08-15",
+    "organisation_type": "investment_bank",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Asset and Investment Management",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": null,
+    "relevance_reasons": [
+      "Falls within the approved Asset and Investment Management category"
+    ],
+    "relevance_status": "credible_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Private Equity and Private Markets"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "173050",
+    "source_registry_id": "goldman-sachs-current-roles",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+    ],
+    "title": "2027 | EMEA | London | Asset Management, Private Investing | Summer Analyst"
+  },
+  {
+    "all_source_urls": [
+      "https://higher.gs.com/roles/170158"
+    ],
+    "application_method": null,
+    "application_url": "https://higher.gs.com/roles/170158",
+    "approved_organisation": true,
+    "canonical_employer": "Goldman Sachs",
+    "canonical_url": "https://higher.gs.com/roles/170158",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "official_programme_page",
+    "deadline": null,
+    "degree_restrictions": [],
+    "description_excerpt": "Nine-to-ten-week Summer Analyst internship supporting banking, trading and asset-management transactions, controls and operational risk.",
+    "division": "Operations",
+    "eligibility_evidence": [
+      {
+        "rule_id": "study.penultimate",
+        "source_url": "https://higher.gs.com/roles/170158",
+        "structured_field": "eligibility_text",
+        "text": "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "study.penultimate"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-23T03:03:37.675406Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [],
+    "id": "211c99fee9a5463f",
+    "last_seen_at": "2026-08-23T03:03:37.675406Z",
+    "listing_publisher": null,
+    "location": "London, Greater London, England, United Kingdom",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 0,
+      "substantive_relevance": 35
+    },
+    "match_score": 85,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": "2026-08-15",
+    "organisation_type": "investment_bank",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Markets, Sales and Trading",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": null,
+    "relevance_reasons": [
+      "Legal, compliance, regulatory or risk work aligns with prior experience",
+      "Provides substantive financial or commercial analysis",
+      "Falls within the approved Markets, Sales and Trading category"
+    ],
+    "relevance_status": "strong_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Investment Banking",
+      "Financial Regulation and Central Banking",
+      "Corporate Finance and Transactions",
+      "Asset and Investment Management",
+      "Enterprise and Operational Risk"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "170158",
+    "source_registry_id": "goldman-sachs-current-roles",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+    ],
+    "title": "2027 | EMEA | London | Operations | Summer Analyst"
+  },
+  {
+    "all_source_urls": [
+      "https://higher.gs.com/roles/162040"
+    ],
+    "application_method": null,
+    "application_url": "https://higher.gs.com/roles/162040",
+    "approved_organisation": true,
+    "canonical_employer": "Goldman Sachs",
+    "canonical_url": "https://higher.gs.com/roles/162040",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "employer_stated",
+    "date_provenance": "official_programme_page",
+    "deadline": null,
+    "degree_restrictions": [],
+    "description_excerpt": "Nine-to-ten-week Summer Analyst internship supporting treasury clients, payments, liquidity, product risk and new-business research.",
+    "division": "Transaction Banking",
+    "eligibility_evidence": [
+      {
+        "rule_id": "study.penultimate",
+        "source_url": "https://higher.gs.com/roles/162040",
+        "structured_field": "eligibility_text",
+        "text": "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+      }
+    ],
+    "eligibility_rule_ids": [
+      "study.penultimate"
+    ],
+    "eligibility_status": "verified_eligible",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "priority",
+    "first_seen_at": "2026-08-23T03:03:37.675406Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [],
+    "id": "e7e06b9b03ad69bc",
+    "last_seen_at": "2026-08-23T03:03:37.675406Z",
+    "listing_publisher": null,
+    "location": "London, Greater London, England, United Kingdom",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 20,
+      "evidence_quality": 5,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 5,
+      "substantive_relevance": 35
+    },
+    "match_score": 90,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": "2026-08-15",
+    "organisation_type": "investment_bank",
+    "paid": null,
+    "paid_status_evidence": null,
+    "political_affiliation": null,
+    "primary_category": "Corporate and Commercial Banking",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": false,
+    "published_date": null,
+    "relevance_reasons": [
+      "Legal, compliance, regulatory or risk work aligns with prior experience",
+      "Uses research, analysis and written briefing skills",
+      "Provides substantive financial or commercial analysis",
+      "Uses relevant analytical, research or communication skills",
+      "Falls within the approved Corporate and Commercial Banking category"
+    ],
+    "relevance_status": "strong_match",
+    "residency_requirements": [],
+    "salary": null,
+    "secondary_tags": [
+      "Corporate Finance and Transactions",
+      "Financial Regulation and Central Banking"
+    ],
+    "source_authority": "official_ats",
+    "source_health_at_last_check": "healthy",
+    "source_identifier": "162040",
+    "source_registry_id": "goldman-sachs-current-roles",
+    "source_type": "curated_yaml",
+    "status": "open",
+    "study_year_restrictions": [
+      "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+    ],
+    "title": "2027 | EMEA | London | Transaction Banking (TxB), Coverage | Summer Analyst"
+  },
+  {
+    "all_source_urls": [
       "https://targetjobs.co.uk/jobs/2027-summer-internship-program-231992",
       "https://careers.blackrock.com/job/london/2027-summer-internship-program-emea/45831/97150826672",
       "https://careers.blackrock.com/students-and-graduates-emea"
     ],
-    "application_method": "Apply on the employer site linked from targetjobs",
+    "application_method": null,
     "application_url": "https://careers.blackrock.com/job/london/2027-summer-internship-program-emea/45831/97150826672",
     "approved_organisation": true,
     "canonical_employer": "BlackRock",
@@ -35,12 +873,6 @@
         "source_url": "https://careers.blackrock.com/job/london/2027-summer-internship-program-emea/45831/97150826672",
         "structured_field": "eligibility_text",
         "text": "We welcome applications from candidates studying any degree subject."
-      },
-      {
-        "rule_id": "exclusion.full_time",
-        "source_url": "https://targetjobs.co.uk/jobs/2027-summer-internship-program-231992",
-        "structured_field": "description",
-        "text": "This programme is designed to provide students with a challenging, meaningful, and supportive internship experience that replicates, as closely as possible, the experience of being a full-time BlackRock Analyst."
       }
     ],
     "eligibility_rule_ids": [
@@ -56,8 +888,8 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "dac6171b2664419b",
-    "last_seen_at": "2026-08-25T21:40:51.281538Z",
-    "listing_publisher": "targetjobs",
+    "last_seen_at": "2026-08-23T01:46:54.720321Z",
+    "listing_publisher": null,
     "location": "London, England (multi-location EMEA programme)",
     "location_type": "multi_location",
     "manual_override": null,
@@ -114,7 +946,7 @@
       "https://targetjobs.co.uk/jobs/2027-client-and-product-summer-internship-program-231970",
       "https://targetjobs.co.uk/jobs/2027-client-and-product-summer-internship-program-emea-234533"
     ],
-    "application_method": "Apply on the employer site linked from targetjobs",
+    "application_method": null,
     "application_url": "https://careers.blackrock.com/job/london/2027-client-and-product-summer-internship-program-emea/45831/97150826736",
     "approved_organisation": true,
     "canonical_employer": "BlackRock",
@@ -136,18 +968,6 @@
         "source_url": "https://careers.blackrock.com/job/london/2027-client-and-product-summer-internship-program-emea/45831/97150826736",
         "structured_field": "eligibility_text",
         "text": "Candidates should be in their penultimate year of studies and graduating from an undergraduate or a master's degree program in 2028."
-      },
-      {
-        "rule_id": "source.discovery_only",
-        "source_url": "https://targetjobs.co.uk/jobs/2027-client-and-product-summer-internship-program-231970",
-        "structured_field": null,
-        "text": "Eligibility is plausible but must be verified on the employer's application page"
-      },
-      {
-        "rule_id": "source.discovery_only",
-        "source_url": "https://targetjobs.co.uk/jobs/2027-client-and-product-summer-internship-program-emea-234533",
-        "structured_field": null,
-        "text": "Eligibility is plausible but must be verified on the employer's application page"
       }
     ],
     "eligibility_rule_ids": [
@@ -162,8 +982,8 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "9ec5948a111c7a4c",
-    "last_seen_at": "2026-08-25T21:40:51.281538Z",
-    "listing_publisher": "targetjobs",
+    "last_seen_at": "2026-08-23T01:46:54.720321Z",
+    "listing_publisher": null,
     "location": "London, England (multi-location EMEA programme)",
     "location_type": "multi_location",
     "manual_override": null,
@@ -256,7 +1076,7 @@
       "Candidates must be pursuing a Bachelor's or Master's degree with a completion time frame between June 2027 and July 2028, be on track for at least a 2:1, and applications are accepted from a diverse range of degree disciplines including arts and humanities."
     ],
     "id": "b48a02b87bef83b9",
-    "last_seen_at": "2026-08-25T21:40:51.281538Z",
+    "last_seen_at": "2026-08-23T01:46:54.720321Z",
     "listing_publisher": null,
     "location": "London, United Kingdom",
     "location_type": "onsite",
@@ -350,7 +1170,7 @@
       "Candidates must be pursuing a Bachelor's or Master's degree with a completion time frame between June 2027 and July 2028, be on track for at least a 2:1, and applications are accepted from a diverse range of degree disciplines including arts and humanities."
     ],
     "id": "73560e57e34b4aeb",
-    "last_seen_at": "2026-08-25T21:40:51.281538Z",
+    "last_seen_at": "2026-08-23T01:46:54.720321Z",
     "listing_publisher": null,
     "location": "London, United Kingdom",
     "location_type": "onsite",
@@ -446,7 +1266,7 @@
       "Candidates must be pursuing a Bachelor's or Master's degree with a completion time frame between June 2027 and July 2028, be available from June to August 2027, and be on track for at least a 2:1."
     ],
     "id": "8027a5ba9212e153",
-    "last_seen_at": "2026-08-25T21:40:51.281538Z",
+    "last_seen_at": "2026-08-23T01:46:54.720321Z",
     "listing_publisher": null,
     "location": "London, United Kingdom",
     "location_type": "onsite",
@@ -540,7 +1360,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "29a2c82722bec6a7",
-    "last_seen_at": "2026-08-25T21:40:51.281538Z",
+    "last_seen_at": "2026-08-23T01:46:54.720321Z",
     "listing_publisher": null,
     "location": "London",
     "location_type": "onsite",
@@ -637,7 +1457,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "982033891fa8fd2b",
-    "last_seen_at": "2026-08-25T21:40:51.281538Z",
+    "last_seen_at": "2026-08-23T01:46:54.720321Z",
     "listing_publisher": null,
     "location": "Berkeley Square House, London",
     "location_type": "onsite",
@@ -734,7 +1554,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "e78633864fc72f47",
-    "last_seen_at": "2026-08-25T21:40:51.281538Z",
+    "last_seen_at": "2026-08-23T01:46:54.720321Z",
     "listing_publisher": null,
     "location": "Berkeley Square House, London",
     "location_type": "onsite",
@@ -833,7 +1653,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "d02a281484ee121d",
-    "last_seen_at": "2026-08-25T21:40:51.281538Z",
+    "last_seen_at": "2026-08-23T01:46:54.720321Z",
     "listing_publisher": null,
     "location": "Berkeley Square House, London",
     "location_type": "onsite",
@@ -928,7 +1748,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "daa5cd3a4b971cf3",
-    "last_seen_at": "2026-08-25T21:40:51.281538Z",
+    "last_seen_at": "2026-08-23T01:46:54.720321Z",
     "listing_publisher": null,
     "location": "Berkeley Square House, London",
     "location_type": "onsite",
@@ -1024,7 +1844,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "c08370636a5ef4a6",
-    "last_seen_at": "2026-08-25T21:40:51.281538Z",
+    "last_seen_at": "2026-08-23T01:46:54.720321Z",
     "listing_publisher": null,
     "location": "London",
     "location_type": "onsite",
@@ -1123,7 +1943,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "663e22d23d3b5185",
-    "last_seen_at": "2026-08-25T21:40:51.281538Z",
+    "last_seen_at": "2026-08-23T01:46:54.720321Z",
     "listing_publisher": null,
     "location": "London",
     "location_type": "onsite",
@@ -1220,7 +2040,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "2cf0614b6340b235",
-    "last_seen_at": "2026-08-25T21:40:51.281538Z",
+    "last_seen_at": "2026-08-23T01:46:54.720321Z",
     "listing_publisher": null,
     "location": "London",
     "location_type": "onsite",
@@ -1318,7 +2138,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "da22c5b138c4d27b",
-    "last_seen_at": "2026-08-25T21:40:51.281538Z",
+    "last_seen_at": "2026-08-23T01:46:54.720321Z",
     "listing_publisher": null,
     "location": "London",
     "location_type": "onsite",
@@ -1415,7 +2235,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "cfc2ccb19129811e",
-    "last_seen_at": "2026-08-25T21:40:51.281538Z",
+    "last_seen_at": "2026-08-23T01:46:54.720321Z",
     "listing_publisher": null,
     "location": "Berkeley Square House, London",
     "location_type": "onsite",
@@ -1509,7 +2329,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "b1650b5a257af54f",
-    "last_seen_at": "2026-08-25T21:40:51.281538Z",
+    "last_seen_at": "2026-08-23T01:46:54.720321Z",
     "listing_publisher": null,
     "location": "London",
     "location_type": "onsite",

@@ -8,7 +8,7 @@ Live site: https://williamtdavies.github.io/broad-london-opportunity-radar/
 
 ## What It Does
 
-The tracker is designed for breadth. It is not only a list of selected employers; it also searches broad job boards for any plausibly relevant London opportunity the candidate might be able to apply for.
+The tracker searches beyond a fixed employer list, but publication is deliberately limited to work that can fit around university: short internships and break programmes, or relevant roles with explicit part-time/term-time evidence.
 
 Listings are split into two layers:
 
@@ -40,7 +40,9 @@ Classification is deterministic. The project does not use an LLM to decide wheth
 Rules check:
 
 - London, remote-UK and approved UK-wide locations;
-- internship, spring week, vacation scheme and junior-role wording;
+- internship, spring week, vacation scheme and winter-project wording;
+- explicit part-time/term-time availability for ordinary professional roles;
+- long placements, fixed-term contracts and permanent/full-time job wording;
 - graduation-year and study-stage requirements;
 - degree restrictions;
 - citizenship, nationality, residency and security-clearance wording;
@@ -53,7 +55,7 @@ Hard inclusions and exclusions are editable in:
 config/job_filters.yml
 ```
 
-This is the main file to edit if too many irrelevant jobs appear, such as receptionist, nursery, heavy quant or C++-required roles.
+This is the main file to edit. It separates break-programme titles, part-time professional areas, availability evidence, long-duration exclusions, research contexts and hard exclusions. Generic words such as `assistant`, `analyst` and `officer` do not qualify a role by themselves.
 
 ## Dashboard
 
@@ -72,7 +74,7 @@ Saved roles stay in local browser storage and are not uploaded anywhere.
 
 ## Automation
 
-GitHub Actions runs the scanner on a schedule. When new role data is found, it commits the updated JSON files and rebuilds the same GitHub Pages URL.
+GitHub Actions starts a scan every three hours. Expensive boards still respect their six- or twelve-hour per-source cadence. When role data changes, the workflow commits the JSON files and GitHub Pages rebuilds at the same URL.
 
 The main workflow is:
 
@@ -136,6 +138,13 @@ python run.py scan
 python run.py validate
 python run.py build-site
 python -m http.server 8000 --directory site/generated
+```
+
+After changing only `config/job_filters.yml`, you can reapply the rules without making network requests:
+
+```bash
+python run.py prune-candidates
+python run.py validate
 ```
 
 Then open:

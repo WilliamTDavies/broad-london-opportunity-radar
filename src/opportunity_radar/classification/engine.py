@@ -88,7 +88,7 @@ DEFAULT_RULES = ClassificationRules(
             "completion time frame between june 2027 and july 2028",
             "completion timeframe between june 2027 and july 2028",
         ),
-        "penultimate_year": ("penultimate year",),
+        "penultimate_year": ("penultimate year", "penultimate or final year"),
         "second_year": ("second year",),
         "any_degree": ("any degree", "all degree disciplines", "any discipline"),
         "non_law": ("non law",),
@@ -100,6 +100,8 @@ DEFAULT_RULES = ClassificationRules(
         "graduates only",
         "completed degree required",
         "final year only",
+        "final year university students and recent graduates",
+        "designed for final year university students",
         "law degree only",
         "llb required",
         "software engineer",
@@ -139,6 +141,7 @@ DEFAULT_RULES = ClassificationRules(
         "c++ programming experience",
         "experience programming in c++",
         "experience with c++ required",
+        "experienced compliance professional",
     ),
     relevance_positive={
         "legal_risk": ("legal", "compliance", "regulatory", "risk"),
@@ -908,7 +911,51 @@ def classify_role(
     )
 
 
-def is_public_role(role: RoleRecord) -> bool:
+def _fits_candidate_availability(
+    role: RoleRecord, rules: ClassificationRules = DEFAULT_RULES
+) -> bool:
+    title = normalise_text(role.title)
+    raw_text = f"{role.title} {role.description_excerpt}".casefold()
+    full_text = normalise_text(f"{role.title} {role.description_excerpt}")
+    programme_role = _contains(title, rules.programme_role_signals or PROGRAMME_ROLE_SIGNALS)
+    availability_evidence = _contains(
+        full_text,
+        rules.term_time_availability_signals or TERM_TIME_AVAILABILITY_SIGNALS,
+    ) or _has_term_time_hours(raw_text)
+    term_time_role = (
+        _contains(title, rules.term_time_role_signals or TERM_TIME_ROLE_SIGNALS)
+        and availability_evidence
+    )
+    research_context_ok = (
+        not _contains(title, rules.research_role_signals or RESEARCH_ROLE_SIGNALS)
+        or _contains(title, rules.allowed_research_contexts or ALLOWED_RESEARCH_CONTEXTS)
+        or normalise_text(role.canonical_employer)
+        in {
+            normalise_text(name)
+            for name in (rules.allowed_research_employers or ALLOWED_RESEARCH_EMPLOYERS)
+        }
+    )
+    contextual_exclusions = rules.contextual_role_exclusions.get(role.organisation_type, ())
+    if not contextual_exclusions and role.organisation_type == "public_health":
+        contextual_exclusions = PUBLIC_HEALTH_ROLE_EXCLUSIONS
+    elif not contextual_exclusions and role.organisation_type == "higher_education":
+        contextual_exclusions = HIGHER_EDUCATION_ROLE_EXCLUSIONS
+    return (
+        (programme_role or term_time_role)
+        and not _contains(title, rules.possible_role_exclusions or POSSIBLE_ROLE_EXCLUSIONS)
+        and not _contains(full_text, rules.hard_exclusions)
+        and not _has_long_duration(full_text, rules.long_duration_signals or LONG_DURATION_SIGNALS)
+        and (
+            programme_role
+            or availability_evidence
+            or not _contains(full_text, rules.ordinary_job_signals or ORDINARY_JOB_SIGNALS)
+        )
+        and research_context_ok
+        and not _contains(title, contextual_exclusions)
+    )
+
+
+def is_public_role(role: RoleRecord, rules: ClassificationRules = DEFAULT_RULES) -> bool:
     eligibility_ok = role.eligibility_status in {
         EligibilityStatus.VERIFIED,
         EligibilityStatus.LIKELY,
@@ -925,67 +972,163 @@ def is_public_role(role: RoleRecord) -> bool:
         and role.geographic_scope in {GeographicScope.LONDON, GeographicScope.UK_PRIORITY_EXCEPTION}
         and role.source_authority != SourceAuthority.DISCOVERY_ONLY_SOURCE
         and role.paid is not False
+        and _fits_candidate_availability(role, rules)
     )
 
 
-POSSIBLE_ROLE_SIGNALS = (
+PROGRAMME_ROLE_SIGNALS = (
     "intern",
     "internship",
     "vacation scheme",
+    "spring week",
+    "spring insight",
+    "insight week",
     "insight programme",
     "insight program",
+    "insight day",
     "work experience",
     "summer analyst",
-    "trainee",
-    "assistant",
-    "caseworker",
-    "researcher",
-    "coordinator",
-    "officer",
-    "organiser",
-    "administrator",
-    "analyst",
-    "associate",
-    "adviser",
-    "advisor",
-    "executive",
-    "consultant",
-    "project support",
-    "programme support",
-    "program support",
-    "programme",
-    "program",
-    "paralegal",
-    "placement",
-    "admin",
-    "administrative",
-    "support",
-    "clerk",
-    "facilitator",
-    "tutor",
-    "secretary",
-    "customer service",
-    "communications",
-    "marketing",
-    "fundraising",
-    "finance",
-    "research",
-    "policy",
-    "operations",
-    "business",
-    "commercial",
-    "governance",
+    "summer associate",
+    "summer placement",
+    "winter internship",
+    "winter project",
+    "winter programme",
+    "winter program",
+    "micro internship",
+)
+
+TERM_TIME_ROLE_SIGNALS = (
     "compliance",
+    "anti money laundering",
+    "aml",
+    "know your customer",
+    "kyc",
+    "financial crime",
     "risk",
-    "development",
-    "events",
-    "engagement",
-    "outreach",
-    "admissions",
-    "registry",
-    "careers",
-    "welfare",
-    "co ordinator",
+    "regulatory",
+    "internal audit",
+    "governance",
+    "finance",
+    "financial",
+    "accounting",
+    "investment",
+    "asset management",
+    "wealth management",
+    "banking",
+    "credit",
+    "legal",
+    "paralegal",
+    "law",
+    "consulting",
+    "consultancy",
+    "strategy",
+    "policy",
+    "public affairs",
+    "government affairs",
+    "corporate affairs",
+    "economics",
+    "economic",
+    "due diligence",
+    "commercial analysis",
+    "research",
+)
+
+TERM_TIME_AVAILABILITY_SIGNALS = (
+    "part time",
+    "term time",
+    "weekend only",
+    "weekends only",
+    "evenings only",
+    "casual contract",
+    "zero hours",
+    "flexible part time",
+    "part time considered",
+    "job share",
+    "0.5 fte",
+    "0.4 fte",
+    "0.3 fte",
+    "0.2 fte",
+)
+
+LONG_DURATION_SIGNALS = (
+    "4 month internship",
+    "intern for 4 months",
+    "4 months ftc",
+    "5 month internship",
+    "intern for 5 months",
+    "5 months ftc",
+    "6 month internship",
+    "intern for 6 months",
+    "6 months ftc",
+    "9 month internship",
+    "intern for 9 months",
+    "9 months ftc",
+    "12 month internship",
+    "intern for 12 months",
+    "12 months ftc",
+    "one year internship",
+    "6 month contract",
+    "12 month contract",
+    "one year contract",
+    "12 month placement",
+    "one year placement",
+    "one year work placement",
+    "industrial placement",
+    "year in industry",
+    "off cycle",
+    "offcycle",
+)
+
+ORDINARY_JOB_SIGNALS = ("full time", "permanent")
+RESEARCH_ROLE_SIGNALS = ("research", "researcher")
+ALLOWED_RESEARCH_CONTEXTS = (
+    "finance",
+    "financial",
+    "investment",
+    "credit",
+    "risk",
+    "compliance",
+    "regulatory",
+    "economics",
+    "economic",
+    "market",
+    "markets",
+    "equity",
+    "debt",
+    "banking",
+    "insurance",
+    "capital",
+    "forensic accounting",
+)
+ALLOWED_RESEARCH_EMPLOYERS = frozenset(
+    {
+        "Bank of America",
+        "Barclays",
+        "BlackRock",
+        "Bloomberg",
+        "BNP Paribas",
+        "Citi",
+        "Deutsche Bank",
+        "Financial Conduct Authority",
+        "Fitch Ratings",
+        "Goldman Sachs",
+        "HSBC",
+        "JPMorgan Chase",
+        "JPMorganChase",
+        "Lazard",
+        "London Stock Exchange Group",
+        "LSEG",
+        "Morgan Stanley",
+        "Moody's",
+        "Morningstar",
+        "MSCI",
+        "Nomura",
+        "Rothschild & Co",
+        "S&P Global",
+        "Standard Chartered",
+        "UBS",
+        "Bank of England",
+    }
 )
 
 POSSIBLE_ROLE_EXCLUSIONS = (
@@ -1029,6 +1172,8 @@ POSSIBLE_ROLE_EXCLUSIONS = (
     "catering assistant",
     "assistant chef",
     "sales assistant",
+    "customer service",
+    "tutor",
     "gas engineer",
     "java developer",
     "locum",
@@ -1067,6 +1212,15 @@ POSSIBLE_ROLE_EXCLUSIONS = (
     "research fellow",
     "research fellows",
     "clinical fellow",
+    "clinical research",
+    "medical research",
+    "medical communications",
+    "health research",
+    "biomedical research",
+    "neuroscience research",
+    "laboratory research",
+    "research technician",
+    "research scientist",
     "doctor",
     "nurse",
     "midwife",
@@ -1091,6 +1245,21 @@ POSSIBLE_ROLE_EXCLUSIONS = (
     "year in industry",
     "summer 2026",
     "start date march april 2026",
+    "social media",
+    "social creative",
+    "systems analyst",
+    "expert",
+    "construction ambassador",
+    "financial controller",
+    "legal counsel",
+    "legal secretary",
+    "legal cashier",
+    "personal assistant",
+    "pa to",
+    "internship program coordinator",
+    "internship programme coordinator",
+    "careers coordinator work experience",
+    "work experience coordinator",
 )
 
 NON_JOB_DISCOVERY_PROVIDERS = {
@@ -1147,25 +1316,71 @@ HIGHER_EDUCATION_ROLE_EXCLUSIONS = (
 )
 
 
-def is_possible_role(role: RoleRecord, rules: ClassificationRules | None = None) -> bool:
-    """Select live, plausibly accessible roles for the recall-oriented dashboard layer."""
+def _has_term_time_hours(text: str) -> bool:
+    """Recognise an explicit weekly schedule that can fit alongside university."""
 
-    if is_public_role(role):
-        return False
+    patterns = (
+        r"(?<![a-z0-9.])(\d{1,2}(?:\.\d+)?)\s*(?:hours?|hrs?)\s*(?:per|a|/)\s*week(?![a-z0-9])",
+        r"(?<![a-z0-9.])(\d{1,2}(?:\.\d+)?)\s*(?:hour|hr)\s*week(?![a-z0-9])",
+        r"(?<![a-z0-9.])up to\s+(\d{1,2}(?:\.\d+)?)\s*(?:hours?|hrs?)\s*(?:weekly|(?:per|a|/)\s*week)(?![a-z0-9])",
+    )
+    for pattern in patterns:
+        for match in re.finditer(pattern, text):
+            if 1 <= float(match.group(1)) <= 24:
+                return True
+    return False
+
+
+_DURATION_MONTHS = {
+    "four": 4,
+    "five": 5,
+    "six": 6,
+    "seven": 7,
+    "eight": 8,
+    "nine": 9,
+    "ten": 10,
+    "eleven": 11,
+    "twelve": 12,
+}
+
+
+def _has_long_duration(text: str, configured_signals: tuple[str, ...]) -> bool:
+    """Catch numeric and written long durations even when word order varies."""
+
+    if _contains(text, configured_signals):
+        return True
+    for match in re.finditer(
+        r"(?<![a-z0-9])(?P<duration>[4-9]|[1-9][0-9]|four|five|six|seven|eight|nine|ten|eleven|twelve)\s+months?(?![a-z0-9])",
+        text,
+    ):
+        raw_duration = match.group("duration")
+        months = int(raw_duration) if raw_duration.isdigit() else _DURATION_MONTHS[raw_duration]
+        if months > 60:
+            continue
+        window = text[max(0, match.start() - 60) : match.end() + 60]
+        if months >= 4 and _contains(window, ("intern", "internship", "placement")):
+            return True
+        if months >= 6 and _contains(window, ("contract", "fixed term", "ftc")):
+            return True
+    for match in re.finditer(r"(?<![a-z0-9])(?:one|1)\s+year(?![a-z0-9])", text):
+        window = text[max(0, match.start() - 60) : match.end() + 60]
+        if _contains(
+            window, ("intern", "internship", "placement", "contract", "fixed term", "ftc")
+        ):
+            return True
+    return False
+
+
+def is_possible_role(role: RoleRecord, rules: ClassificationRules | None = None) -> bool:
+    """Select break-based programmes and genuinely term-compatible professional work."""
+
     active_rules = rules or DEFAULT_RULES
-    title_signals = active_rules.possible_role_signals or POSSIBLE_ROLE_SIGNALS
-    title_exclusions = active_rules.possible_role_exclusions or POSSIBLE_ROLE_EXCLUSIONS
-    contextual_rules = active_rules.contextual_role_exclusions
+    if is_public_role(role, active_rules):
+        return False
     excluded_employers = active_rules.excluded_discovery_employers or frozenset(
         NON_JOB_DISCOVERY_PROVIDERS
     )
     title = normalise_text(role.title)
-    full_text = normalise_text(f"{role.title} {role.description_excerpt}")
-    contextual_exclusions = contextual_rules.get(role.organisation_type, ())
-    if not contextual_exclusions and role.organisation_type == "public_health":
-        contextual_exclusions = PUBLIC_HEALTH_ROLE_EXCLUSIONS
-    elif not contextual_exclusions and role.organisation_type == "higher_education":
-        contextual_exclusions = HIGHER_EDUCATION_ROLE_EXCLUSIONS
     relevance_ok = role.relevance_status in {
         RelevanceStatus.STRONG,
         RelevanceStatus.CREDIBLE,
@@ -1188,10 +1403,7 @@ def is_possible_role(role: RoleRecord, rules: ClassificationRules | None = None)
         role.status == ProgrammeStatus.OPEN
         and role.eligibility_status != EligibilityStatus.INELIGIBLE
         and relevance_ok
-        and _contains(title, title_signals)
-        and not _contains(title, title_exclusions)
-        and not _contains(full_text, active_rules.hard_exclusions)
-        and not _contains(title, contextual_exclusions)
+        and _fits_candidate_availability(role, active_rules)
         and not gp_clinician
         and not fee_bearing_placement_provider
         and role.geographic_scope in {GeographicScope.LONDON, GeographicScope.UK_PRIORITY_EXCEPTION}

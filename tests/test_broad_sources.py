@@ -36,7 +36,14 @@ def discovery_source(employer: EmployerConfig, adapter: str) -> EmployerConfig:
 
 
 @pytest.mark.parametrize(
-    ("adapter", "adapter_name", "fixture", "expected_title", "expected_employer"),
+    (
+        "adapter",
+        "adapter_name",
+        "fixture",
+        "expected_title",
+        "expected_employer",
+        "expected_possible",
+    ),
     [
         (
             WorkHubAdapter,
@@ -44,6 +51,7 @@ def discovery_source(employer: EmployerConfig, adapter: str) -> EmployerConfig:
             "work-hub.html",
             "Junior Commercial Analyst",
             "Fixture Advisory LLP",
+            False,
         ),
         (
             ProspectsAdapter,
@@ -51,6 +59,7 @@ def discovery_source(employer: EmployerConfig, adapter: str) -> EmployerConfig:
             "prospects.html",
             "Summer Finance Internship 2027",
             "Fixture Markets Ltd",
+            True,
         ),
         (
             LegalCheekAdapter,
@@ -58,6 +67,7 @@ def discovery_source(employer: EmployerConfig, adapter: str) -> EmployerConfig:
             "legalcheek.html",
             "London Winter Vacation Scheme 2026",
             "Fixture City Law LLP",
+            True,
         ),
         (
             AdzunaAdapter,
@@ -65,6 +75,7 @@ def discovery_source(employer: EmployerConfig, adapter: str) -> EmployerConfig:
             "adzuna.json",
             "Consulting Summer Intern",
             "Fixture Consulting Ltd",
+            True,
         ),
         (
             ReedAdapter,
@@ -72,6 +83,7 @@ def discovery_source(employer: EmployerConfig, adapter: str) -> EmployerConfig:
             "reed.json",
             "Legal Assistant",
             "Fixture Legal Services",
+            False,
         ),
     ],
 )
@@ -81,6 +93,7 @@ def test_new_broad_adapters_parse_structural_fixtures(
     fixture: str,
     expected_title: str,
     expected_employer: str,
+    expected_possible: bool,
     project_root: Path,
     employer: EmployerConfig,
 ) -> None:
@@ -90,7 +103,7 @@ def test_new_broad_adapters_parse_structural_fixtures(
     assert roles[0].title == expected_title
     assert roles[0].employer == expected_employer
     assert roles[0].listing_publisher == "Fixture listing board"
-    assert is_possible_role(classify_role(roles[0], source))
+    assert is_possible_role(classify_role(roles[0], source)) is expected_possible
 
 
 def test_work_hub_infers_health_and_university_contexts(employer: EmployerConfig) -> None:
@@ -302,6 +315,37 @@ async def test_reed_api_uses_basic_auth_and_offset_pagination(
     assert requests[1].url.params["resultsToSkip"] == "100"
 
 
+def test_reed_recovers_hiring_firm_from_efinancialcareers_title(
+    employer: EmployerConfig,
+) -> None:
+    source = discovery_source(employer, "reed")
+    payload = {
+        "totalResults": 2,
+        "results": [
+            {
+                "jobId": 1,
+                "employerName": "eFinancialCareers",
+                "jobTitle": "Investment Internship - Tikehau Capital",
+                "locationName": "London",
+                "jobDescription": "Paid investment internship.",
+                "jobUrl": "https://www.reed.co.uk/jobs/1",
+            },
+            {
+                "jobId": 2,
+                "employerName": "eFinancialCareers",
+                "jobTitle": "FRA - Business Development / Go-to-Market intern",
+                "locationName": "London",
+                "jobDescription": "Paid internship.",
+                "jobUrl": "https://www.reed.co.uk/jobs/2",
+            },
+        ],
+    }
+    roles = ReedAdapter(source).parse(json.dumps(payload).encode())
+    assert roles[0].employer == "Tikehau Capital"
+    assert roles[0].title == "Investment Internship"
+    assert roles[1].employer == "eFinancialCareers"
+
+
 @pytest.mark.asyncio
 async def test_missing_api_credentials_do_not_make_network_requests(
     employer: EmployerConfig, monkeypatch: pytest.MonkeyPatch
@@ -380,7 +424,7 @@ async def test_degraded_scan_removes_freshly_rejected_role_but_retains_unseen_ro
             + '<nav><a aria-label="Page 1">1</a><a aria-label="Page 2">2</a></nav></body></html>'
         )
 
-    first_page = page(("fresh-1", "Policy Assistant"), ("missing-2", "Research Assistant"))
+    first_page = page(("fresh-1", "Policy Internship"), ("missing-2", "Risk Internship"))
     second_page = page(("fresh-1", "Senior Policy Manager"))
     listing_requests = 0
 
@@ -409,13 +453,44 @@ async def test_rule_change_removes_stale_possible_role_even_when_source_is_not_s
     await scan(isolated_root, fixture_mode=True)
     possible_path = isolated_root / "build" / "fixture-data" / "possible_roles.json"
     possible = json.loads(possible_path.read_text())
-    stale = next(item for item in possible if "Policy Administrator" in item["title"])
+    stale = possible[0]
+    stale_id = stale["id"]
     stale["title"] = "Receptionist / Administrator"
     possible_path.write_text(json.dumps(possible), encoding="utf-8")
 
     await scan(isolated_root, fixture_mode=True, source_filter="fixture-greenhouse")
     refreshed = json.loads(possible_path.read_text())
-    assert not any(item["title"] == "Receptionist / Administrator" for item in refreshed)
+    assert not any(item["id"] == stale_id for item in refreshed)
+
+
+@pytest.mark.asyncio
+async def test_rule_change_promotes_review_role_even_when_source_is_not_scanned(
+    isolated_root: Path,
+) -> None:
+    await scan(isolated_root, fixture_mode=True)
+    review_path = isolated_root / "build" / "fixture-data" / "review_queue.json"
+    assert any(
+        "Policy Research Internship" in item["title"]
+        for item in json.loads(review_path.read_text())
+    )
+
+    filters_path = isolated_root / "config" / "job_filters.yml"
+    filters_path.write_text(
+        filters_path.read_text().replace(
+            "  - forensic accounting\n",
+            "  - forensic accounting\n  - policy\n",
+            1,
+        ),
+        encoding="utf-8",
+    )
+    await scan(isolated_root, fixture_mode=True, source_filter="fixture-greenhouse")
+
+    possible = json.loads(
+        (isolated_root / "build" / "fixture-data" / "possible_roles.json").read_text()
+    )
+    review = json.loads(review_path.read_text())
+    assert any("Policy Research Internship" in item["title"] for item in possible)
+    assert not any("Policy Research Internship" in item["title"] for item in review)
 
 
 @pytest.mark.parametrize(

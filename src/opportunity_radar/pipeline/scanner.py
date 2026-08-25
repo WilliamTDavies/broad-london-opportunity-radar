@@ -29,6 +29,7 @@ from opportunity_radar.models import (
     ProgrammeStatus,
     ProgrammeType,
     RawRole,
+    RelevanceStatus,
     RoleRecord,
     SourceAuthority,
     SourceHealth,
@@ -123,7 +124,9 @@ def _load_fixture_sources(root: Path) -> list[EmployerConfig]:
 def _poll_due(source: EmployerConfig, previous: SourceHealth | None, *, now: datetime) -> bool:
     if source.poll_interval_minutes == 0 or previous is None:
         return True
-    if previous.status != SourceHealthStatus.HEALTHY or not previous.parser_ok or previous.capped:
+    if previous.status in {SourceHealthStatus.FAILED, SourceHealthStatus.DISABLED}:
+        return True
+    if not previous.parser_ok:
         return True
     return previous.checked_at + timedelta(minutes=source.poll_interval_minutes) <= now
 
@@ -149,6 +152,71 @@ def _policy_close_match(fresh: RoleRecord, existing_public: list[RoleRecord]) ->
         ),
         None,
     )
+
+
+def reconcile_stored_candidates(root: Path) -> dict[str, int]:
+    """Reapply editable rules to stored candidates without contacting any source."""
+
+    store = JsonStore(root)
+    rules = load_classification_rules(root)
+    open_public = [
+        role
+        for role in store.read_models("open_roles.json", RoleRecord)
+        if is_public_role(role, rules)
+    ]
+    recent_public = [
+        role
+        for role in store.read_models("recent_roles.json", RoleRecord)
+        if is_public_role(role, rules)
+    ]
+    public = [*open_public, *recent_public]
+    public_ids = {role.id for role in public}
+    candidates = deduplicate(
+        [
+            *store.read_models("possible_roles.json", RoleRecord),
+            *store.read_models("review_queue.json", RoleRecord),
+        ]
+    )
+    possible = [
+        role
+        for role in candidates
+        if role.id not in public_ids
+        and not any(dedupe_keys(role) & dedupe_keys(item) for item in public)
+        and is_possible_role(role, rules)
+    ]
+    possible_ids = {role.id for role in possible}
+    review = [
+        role
+        for role in candidates
+        if role.id not in possible_ids
+        and role.id not in public_ids
+        and role.status != ProgrammeStatus.CLOSED
+        and role.eligibility_status == EligibilityStatus.UNCERTAIN
+        and role.programme_type != ProgrammeType.CYCLE_UNSTATED
+        and role.relevance_status != RelevanceStatus.IRRELEVANT
+    ]
+    review.sort(
+        key=lambda role: (role.published_date or role.first_seen_at.date(), role.last_seen_at),
+        reverse=True,
+    )
+    review = review[: rules.review_queue_limit]
+    changed = int(store.write("possible_roles.json", possible))
+    changed += store.write("review_queue.json", review)
+    metrics = store.read("metrics.json", {})
+    if isinstance(metrics, dict):
+        metrics["open_verified_roles"] = len(open_public)
+        metrics["recent_cycle_unstated"] = len(recent_public)
+        metrics["possible_roles"] = len(possible)
+        metrics["review_queue"] = len(review)
+        metrics["coverage_warning"] = (
+            f"{len(public)} verified roles and {len(possible)} possible roles from "
+            f"{metrics.get('publishing_sources', 0)} role-producing sources; "
+            f"{metrics.get('monitor_only_sources', 0)} additional official pages are "
+            "change-monitored but cannot publish roles by themselves. Coverage is selective, "
+            "not comprehensive; curated records require scheduled official-page re-verification."
+        )
+        changed += store.write("metrics.json", metrics)
+    return {"possible_roles": len(possible), "review_items": len(review), "changed_files": changed}
 
 
 async def _retrieve_one(
@@ -317,13 +385,14 @@ async def scan(
     roles = deduplicate(classified)
     existing_possible = store.read_models("possible_roles.json", RoleRecord)
     existing_review = store.read_models("review_queue.json", RoleRecord)
+    existing_candidates = [*existing_possible, *existing_review]
     existing_closed = store.read_models("closed_roles.json", RoleRecord)
     existing_public = [
         *store.read_models("open_roles.json", RoleRecord),
         *store.read_models("recent_roles.json", RoleRecord),
     ]
     existing_all = [*existing_public, *existing_closed]
-    comparison_existing = [*existing_all, *existing_possible]
+    comparison_existing = [*existing_all, *existing_candidates]
     raw_observations: list[dict[str, object]] = []
     for role in roles:
         previous = next(
@@ -353,7 +422,7 @@ async def scan(
     lifecycle_candidates = [
         role
         for role in roles
-        if is_public_role(role.model_copy(update={"status": ProgrammeStatus.OPEN}))
+        if is_public_role(role.model_copy(update={"status": ProgrammeStatus.OPEN}), rules)
     ]
     selected_source_ids = {source.id for source in selected}
     lifecycle_health = (
@@ -375,7 +444,7 @@ async def scan(
         role
         for role in roles
         if role.status != ProgrammeStatus.CLOSED
-        and not is_public_role(role.model_copy(update={"status": ProgrammeStatus.OPEN}))
+        and not is_public_role(role.model_copy(update={"status": ProgrammeStatus.OPEN}), rules)
     ]
     policy_closed: list[RoleRecord] = []
     for fresh in non_public_fresh:
@@ -420,7 +489,7 @@ async def scan(
         previous = next(
             (
                 old
-                for old in existing_possible
+                for old in existing_candidates
                 if (
                     (
                         old.source_registry_id == role.source_registry_id
@@ -463,7 +532,7 @@ async def scan(
 
     retained_possible = [
         role
-        for role in existing_possible
+        for role in existing_candidates
         if is_possible_role(role, rules)
         and role.source_registry_id not in replaceable_source_ids
         and not was_fetched_now(role)
@@ -480,15 +549,24 @@ async def scan(
         for role in roles
         if role.status != ProgrammeStatus.CLOSED
         and role.eligibility_status == EligibilityStatus.UNCERTAIN
+        and role.programme_type != ProgrammeType.CYCLE_UNSTATED
         and not is_possible_role(role, rules)
         and role.relevance_status.value != "irrelevant"
     ]
     retained_review = [
         role
         for role in existing_review
-        if role.source_registry_id not in replaceable_source_ids and not was_fetched_now(role)
+        if not is_possible_role(role, rules)
+        and role.programme_type != ProgrammeType.CYCLE_UNSTATED
+        and role.source_registry_id not in replaceable_source_ids
+        and not was_fetched_now(role)
     ]
     review = deduplicate([*retained_review, *current_review])
+    review.sort(
+        key=lambda role: (role.published_date or role.first_seen_at.date(), role.last_seen_at),
+        reverse=True,
+    )
+    review = review[: rules.review_queue_limit]
     changed = 0
     changed += store.write("open_roles.json", open_roles)
     changed += store.write("recent_roles.json", recent)

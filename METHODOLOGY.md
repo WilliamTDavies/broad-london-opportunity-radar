@@ -6,7 +6,7 @@
 
 `verified_eligible` means official wording explicitly establishes graduation year 2028, penultimate/second year, any-degree eligibility, or another unambiguous condition that includes the target audience. `likely_eligible` is used for broad undergraduate wording without a contradictory restriction. `manual_approved` requires a dated maintainer decision and official evidence.
 
-The dashboard has two publication tiers. **Verified** requires acceptable evidence on eligibility, relevance, location, source and status. **Possible — check criteria** is intentionally recall-oriented: it accepts uncertainty when the title is plausibly junior, the role is London/in-scope, and no explicit ineligibility, unsuitable specialist work, unpaid status or closure is found. Possible records live in a separate JSON file and never enter the verified digest.
+The dashboard has two publication tiers. **Verified** requires acceptable evidence on eligibility, relevance, location, source and status. **Possible - check criteria** accepts uncertainty only when the listing is an internship/break programme or a relevant professional role with explicit part-time/term-time evidence. Generic junior-sounding titles are insufficient. Long placements, off-cycle internships, ordinary permanent/full-time work and incompatible specialist fields are excluded. Possible records live in a separate JSON file and never enter the verified digest.
 
 Eligibility is not relevance. Relevance separately classifies strong, credible, borderline or irrelevant alignment. Borderline relevance can appear only in the possible layer when a junior-access signal exists. Only verified or manually approved roles enter email by default.
 
@@ -26,7 +26,7 @@ Known British or New Zealand citizenship is used only where official wording imp
 
 ## Relevance
 
-Deterministic positive rules identify substantive legal/risk work, research, policy, investment/commercial analysis, climate and catastrophe risk, development/humanitarian work, health policy, geospatial analysis, supply chain, programme management and strategic stakeholder work. Negative rules exclude specialist software, quantitative/ML, clinical/lab work, generic administration, fundraising, social media and campaigning. Components are displayed as reasons, not acceptance probabilities.
+Deterministic positive rules identify substantive legal/risk work, investment/commercial analysis, consulting, compliance, regulation and related professional work. Research titles must also state a finance, markets, economics, compliance or risk context; medical and scientific research is outside the current tracker scope. Negative rules exclude specialist software, heavy quantitative/ML, clinical/lab work, generic administration, fundraising, social media and campaigning. Components are displayed as reasons, not acceptance probabilities.
 
 The candidate’s degree is Global Humanitarian Studies. Its department does not turn it into mathematics, physics, engineering or computer science. Python and HTML are ordinary analytical/presentation skills and do not establish specialist technical eligibility.
 
@@ -38,4 +38,4 @@ Deduplication prefers employer plus ATS ID, then canonical application/source UR
 
 ## Automation limits
 
-Rules can miss novel wording, dynamic pages can change, and an employer can close early. Source failures are isolated and visible. Unexpected caps, rate limits and parser changes suppress missing-count updates. The possible layer deliberately favours recall and can include roles that the candidate later rejects. Applicants must verify every requirement and deadline on the linked source.
+Rules can miss novel wording, dynamic pages can change, and an employer can close early. Source failures are isolated and visible. Unexpected caps, rate limits and parser changes suppress missing-count updates. The possible layer favours useful recall within the university-availability boundary and can still include roles the candidate later rejects. Applicants must verify every requirement and deadline on the linked source.

@@ -13,6 +13,7 @@ from typing import Protocol
 
 import httpx
 
+from opportunity_radar.classification import is_public_role, load_classification_rules
 from opportunity_radar.models import (
     EligibilityStatus,
     GeographicScope,
@@ -246,6 +247,7 @@ def run_digest(
 ) -> DigestResult:
     data_directory = root / "build" / "fixture-data" if fixture_mode else root / "data"
     store = JsonStore(root, data_directory)
+    rules = load_classification_rules(root)
     state = store.read(
         "digest_state.json",
         {"sent_role_ids": [], "successful_runs": [], "last_successful_digest_at": None},
@@ -255,7 +257,8 @@ def run_digest(
     candidate_roles = [
         role
         for role in _load_roles(store)
-        if last_success is None or role.last_seen_at > last_success
+        if is_public_role(role, rules)
+        and (last_success is None or role.last_seen_at > last_success)
     ]
     message = build_digest(
         candidate_roles,

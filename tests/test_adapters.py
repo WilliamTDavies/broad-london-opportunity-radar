@@ -114,7 +114,7 @@ def test_higherin_parses_real_employer_and_structured_stage(
     classified = classify_role(roles[0], source)
     assert classified.canonical_employer == "Fixture Policy Employer"
     assert classified.eligibility_status == EligibilityStatus.UNCERTAIN
-    assert is_possible_role(classified)
+    assert not is_possible_role(classified)
     assert not is_public_role(classified)
 
 
@@ -138,7 +138,7 @@ def test_w4mp_live_parser_preserves_all_records_for_central_classification(
     ]
     manager, caseworker = (classify_role(item, source) for item in roles)
     assert not is_possible_role(manager)
-    assert is_possible_role(caseworker)
+    assert not is_possible_role(caseworker)
     assert roles[1].employer == "Jessica Toale MP (Bournemouth West)"
     assert roles[1].listing_publisher == "W4MP Jobs"
     assert roles[1].organisation_type == "parliamentary_office"
@@ -199,7 +199,7 @@ def test_broad_discovery_adapters_preserve_real_employers_and_paid_status(
     assert roles[0].listing_publisher == "Discovery board"
     classified = classify_role(roles[0], source)
     assert classified.eligibility_status == EligibilityStatus.UNCERTAIN
-    assert is_possible_role(classified)
+    assert not is_possible_role(classified)
     assert not is_public_role(classified)
 
 
@@ -222,7 +222,7 @@ def test_nhs_jobs_uses_official_portal_authority_and_preserves_trust(
     assert role.source_authority == SourceAuthority.OFFICIAL_GOVERNMENT_PORTAL
     assert classified.canonical_employer == "Example NHS Trust"
     assert classified.listing_publisher == "NHS Jobs"
-    assert is_possible_role(classified)
+    assert not is_possible_role(classified)
 
 
 def test_targetjobs_preserves_employer_application_and_count(
@@ -248,7 +248,7 @@ def test_targetjobs_preserves_employer_application_and_count(
     assert roles[0].application_url == "https://employer.example/apply/policy-intern"
     assert roles[0].deadline and roles[0].deadline.isoformat() == "2026-09-30"
     assert roles[0].paid is True
-    assert is_possible_role(classify_role(roles[0], source))
+    assert not is_possible_role(classify_role(roles[0], source))
     assert (
         TargetJobsAdapter._employer(
             {

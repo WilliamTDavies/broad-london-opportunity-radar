@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from collections.abc import Iterable
 from urllib.parse import parse_qs, urlsplit
 
@@ -15,9 +16,27 @@ AUTHORITY_RANK = {
     SourceAuthority.DISCOVERY_ONLY_SOURCE: 0,
 }
 
+CORPORATE_SUFFIXES = ("limited", "ltd", "plc", "llp")
+LISTING_PUBLISHERS = {"adzuna", "efinancialcareers", "reed"}
+
+
+def _dedupe_employer(value: str) -> str:
+    tokens = normalise_text(value).split()
+    while tokens and tokens[-1] in CORPORATE_SUFFIXES:
+        tokens.pop()
+    return " ".join(tokens)
+
+
+def _programme_signature(value: str) -> str:
+    text = normalise_text(value).replace("programme", "program")
+    text = re.sub(r"\bregister your interest\b", " ", text)
+    text = re.sub(r"\b20(?:2[6-9]|3[0-5])\b", " ", text)
+    text = re.sub(r"\b(?:emea|london|uk|program)\b", " ", text)
+    return re.sub(r"\s+", " ", text).strip()
+
 
 def dedupe_keys(role: RoleRecord) -> set[str]:
-    employer = normalise_text(role.canonical_employer)
+    employer = _dedupe_employer(role.canonical_employer)
     title = normalise_text(role.title)
     location = normalise_text(role.location)
     keys = {
@@ -27,6 +46,18 @@ def dedupe_keys(role: RoleRecord) -> set[str]:
         f"official:{canonicalise_url(role.canonical_url)}",
         f"natural:{employer}:{title}:{location}:{normalise_text(role.division or '')}",
     }
+    if any(term in location for term in ("london", "westminster")):
+        keys.add(f"london-natural:{employer}:{title}:{normalise_text(role.division or '')}")
+    if any(
+        term in title
+        for term in ("intern", "internship", "summer analyst", "vacation scheme", "spring insight")
+    ):
+        signature = _programme_signature(role.title)
+        if signature:
+            keys.add(f"programme-title:{employer}:{signature}")
+    description_prefix = normalise_text(role.description_excerpt)[:180]
+    if len(description_prefix) >= 80:
+        keys.add(f"content:{title}:{description_prefix}")
     application_parts = urlsplit(role.application_url)
     application_host = application_parts.netloc.casefold().removeprefix("www.")
     ats_host = any(
@@ -58,11 +89,16 @@ def dedupe_keys(role: RoleRecord) -> set[str]:
 
 
 def _merge(left: RoleRecord, right: RoleRecord) -> RoleRecord:
-    preferred, other = (
-        (left, right)
-        if AUTHORITY_RANK[left.source_authority] >= AUTHORITY_RANK[right.source_authority]
-        else (right, left)
-    )
+    left_is_publisher = normalise_text(left.canonical_employer) in LISTING_PUBLISHERS
+    right_is_publisher = normalise_text(right.canonical_employer) in LISTING_PUBLISHERS
+    if left_is_publisher != right_is_publisher:
+        preferred, other = (right, left) if left_is_publisher else (left, right)
+    else:
+        preferred, other = (
+            (left, right)
+            if AUTHORITY_RANK[left.source_authority] >= AUTHORITY_RANK[right.source_authority]
+            else (right, left)
+        )
     data = preferred.model_dump()
     data["all_source_urls"] = list(
         dict.fromkeys([*preferred.all_source_urls, *other.all_source_urls])

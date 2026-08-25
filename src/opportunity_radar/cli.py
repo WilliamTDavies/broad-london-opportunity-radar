@@ -16,7 +16,7 @@ from opportunity_radar.classification import is_public_role
 from opportunity_radar.config import validate_all_config
 from opportunity_radar.email import run_digest
 from opportunity_radar.models import EligibilityStatus, ManualOverride, RelevanceStatus, RoleRecord
-from opportunity_radar.pipeline import scan
+from opportunity_radar.pipeline import reconcile_stored_candidates, scan
 from opportunity_radar.site import build_site
 from opportunity_radar.storage import JsonStore
 from opportunity_radar.validation import validate_repository
@@ -62,6 +62,7 @@ def parser() -> argparse.ArgumentParser:
     )
     approve.add_argument("--email-approved", action="store_true")
     sub.add_parser("review-queue")
+    sub.add_parser("prune-candidates")
     build = sub.add_parser("build-site")
     build.add_argument("--fixtures", action="store_true")
     digest = sub.add_parser("digest")
@@ -130,6 +131,8 @@ def main(argv: list[str] | None = None) -> int:
                 print(
                     f"{role.id}\t{role.eligibility_status}\t{role.canonical_employer}\t{role.title}"
                 )
+        elif args.command == "prune-candidates":
+            print(json.dumps(reconcile_stored_candidates(root), indent=2))
         elif args.command == "approve":
             role = _find_role(store, args.role_id)
             if not args.reason or not args.evidence_url:

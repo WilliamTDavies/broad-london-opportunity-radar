@@ -24,6 +24,7 @@ from opportunity_radar.pipeline.scanner import (
     _poll_due,
     compare_source_health,
     reconcile_source_health,
+    reconcile_stored_candidates,
     scan,
 )
 
@@ -98,6 +99,66 @@ def test_deduplication_collapses_same_external_ats_requisition_across_board_alia
             "application_url": (
                 "https://example.wd1.myworkdayjobs.com/Careers/job/GBR-London/Internship_REQ12345"
             ),
+        }
+    )
+    assert len(deduplicate([first, second])) == 1
+
+
+def test_deduplication_collapses_london_board_copies_and_company_suffixes(
+    employer: EmployerConfig,
+) -> None:
+    first = make_role(employer, "board-one", "https://board.invalid/jobs/one").model_copy(
+        update={
+            "canonical_employer": "Example Investments Limited",
+            "location": "London, UK",
+            "source_registry_id": "board-one",
+        }
+    )
+    second = make_role(employer, "board-two", "https://board.invalid/jobs/two").model_copy(
+        update={
+            "canonical_employer": "Example Investments",
+            "location": "City of London",
+            "source_registry_id": "board-two",
+        }
+    )
+    assert len(deduplicate([first, second])) == 1
+
+
+def test_deduplication_uses_matching_content_for_syndicated_employer_alias(
+    employer: EmployerConfig,
+) -> None:
+    description = "A distinctive syndicated description " * 12
+    first = make_role(employer, "board-one", "https://board.invalid/jobs/one").model_copy(
+        update={
+            "canonical_employer": "eFinancialCareers",
+            "title": "FRA Business Development Go-to-Market Intern",
+            "description_excerpt": description,
+            "source_registry_id": "reed-london",
+        }
+    )
+    second = make_role(employer, "board-two", "https://board.invalid/jobs/two").model_copy(
+        update={
+            "canonical_employer": "S&P Global",
+            "title": "FRA Business Development Go-to-Market Intern",
+            "description_excerpt": description,
+            "source_registry_id": "adzuna-london",
+        }
+    )
+    result = deduplicate([first, second])
+    assert len(result) == 1
+    assert result[0].canonical_employer == "S&P Global"
+
+
+def test_deduplication_normalises_register_interest_programme_wording(
+    employer: EmployerConfig,
+) -> None:
+    first = make_role(employer, "official", "https://official.invalid/one").model_copy(
+        update={"title": "2027 Client and Product Summer Internship Program - EMEA"}
+    )
+    second = make_role(employer, "board", "https://board.invalid/two").model_copy(
+        update={
+            "title": "Register Your Interest - Client and Product Summer Internship Programme 2027",
+            "source_registry_id": "discovery-board",
         }
     )
     assert len(deduplicate([first, second])) == 1
@@ -216,6 +277,10 @@ def test_expensive_board_poll_cadence_skips_until_due(employer: EmployerConfig) 
     )
     old = recent.model_copy(update={"checked_at": datetime(2026, 8, 11, 5, 0, tzinfo=UTC)})
     assert not _poll_due(source, recent, now=now)
+    capped = recent.model_copy(
+        update={"status": SourceHealthStatus.DEGRADED, "capped": True, "parser_ok": True}
+    )
+    assert not _poll_due(source, capped, now=now)
     assert _poll_due(source, old, now=now)
     assert _poll_due(
         source,
@@ -223,6 +288,38 @@ def test_expensive_board_poll_cadence_skips_until_due(employer: EmployerConfig) 
         now=now,
     )
     assert _poll_due(source.model_copy(update={"poll_interval_minutes": 0}), recent, now=now)
+
+
+def test_candidate_reconciliation_refreshes_counts_and_coverage_warning(
+    isolated_root: Path,
+) -> None:
+    metrics_path = isolated_root / "data" / "metrics.json"
+    metrics_path.write_text(
+        json.dumps(
+            {
+                "open_verified_roles": 25,
+                "recent_cycle_unstated": 4,
+                "possible_roles": 104,
+                "review_queue": 12,
+                "publishing_sources": 16,
+                "monitor_only_sources": 18,
+                "coverage_warning": "stale",
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    result = reconcile_stored_candidates(isolated_root)
+    metrics = json.loads(metrics_path.read_text(encoding="utf-8"))
+
+    assert result["possible_roles"] == 0
+    assert metrics["open_verified_roles"] == 0
+    assert metrics["recent_cycle_unstated"] == 0
+    assert metrics["possible_roles"] == 0
+    assert metrics["review_queue"] == 0
+    assert metrics["coverage_warning"].startswith(
+        "0 verified roles and 0 possible roles from 16 role-producing sources"
+    )
 
 
 @pytest.mark.asyncio
@@ -239,13 +336,14 @@ async def test_complete_fixture_pipeline(isolated_root: Path) -> None:
     possible = json.loads((fixture_data / "possible_roles.json").read_text())
     assert any("Corporate Finance" in item["title"] for item in open_roles)
     assert any("Vacation Scheme" in item["title"] for item in open_roles)
-    assert any(item["programme_type"] == "cycle_unstated_recent_role" for item in recent)
+    assert recent == []
     assert all(item["eligibility_status"] == "uncertain" for item in review)
     assert any(item["eligibility_status"] == "uncertain" for item in possible)
-    assert any("Policy Research Internship" in item["title"] for item in possible)
-    assert any("Policy Administrator" in item["title"] for item in possible)
-    assert any("Policy Support Officer" in item["title"] for item in possible)
-    assert any("Research and Policy Assistant" in item["title"] for item in possible)
+    assert any("National Security Policy Internship" in item["title"] for item in possible)
+    assert any("Policy Research Internship" in item["title"] for item in review)
+    assert not any("Policy Administrator" in item["title"] for item in possible)
+    assert not any("Policy Support Officer" in item["title"] for item in possible)
+    assert not any("Research and Policy Assistant" in item["title"] for item in possible)
     assert not any("Registered Nurse" in item["title"] for item in possible)
     assert not any("Assistant Professor" in item["title"] for item in possible)
     assert not any("Machine Learning" in item["title"] for item in possible)

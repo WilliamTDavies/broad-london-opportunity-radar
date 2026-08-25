@@ -28,39 +28,47 @@ defaults: &defaults
   manual_review_required: true
   curated_file: null
 
-# One breadth-first query matrix is reused by every search API. Edit this list when you want to
-# widen or narrow discovery; the central eligibility/relevance rules still decide what appears.
+# One university-compatible query matrix is reused by every search API. Generic
+# assistant/analyst searches are intentionally absent: they produced thousands
+# of ordinary full-time jobs and hid specialist internships behind result caps.
 broad_search_queries: &broad_search_queries
   - internship
   - intern
+  - summer internship 2027
+  - winter internship
+  - winter project
   - summer analyst
   - vacation scheme
+  - spring week
   - insight programme
   - work experience
-  - junior analyst
-  - research assistant
-  - policy assistant
-  - legal assistant
+  - compliance internship
+  - compliance summer analyst
+  - AML internship
+  - financial crime internship
+  - regulatory internship
+  - risk internship
+  - internal audit internship
+  - finance internship
+  - investment internship
+  - banking internship
+  - credit internship
   - legal internship
-  - paralegal
-  - finance assistant
-  - finance analyst
-  - investment intern
-  - investment analyst
-  - risk analyst
+  - law vacation scheme
   - consulting intern
-  - consulting analyst
-  - strategy analyst
-  - commercial analyst
-  - business analyst
-  - operations analyst
-  - project assistant
-  - programme assistant
-  - public affairs
-  - sustainability analyst
-  - ESG analyst
-  - communications assistant
-  - fundraising assistant
+  - strategy internship
+  - economics internship
+  - public affairs internship
+  - policy internship
+  - governance internship
+  - forensic accounting internship
+  - part time compliance
+  - part time risk
+  - part time finance
+  - part time investment
+  - part time legal
+  - part time policy
+  - part time public affairs
 
 employers:
   - <<: *defaults
@@ -351,6 +359,19 @@ employers:
     source_health: degraded
     monitor_only: true
     notes: Official 2027 EMEA programme-page change monitor verified 2026-08-11. It cannot publish a role until the application exposes a verified London listing.
+  - <<: *defaults
+    id: goldman-sachs-current-roles
+    canonical_name: Goldman Sachs
+    organisation_type: investment_bank
+    careers_url: https://higher.gs.com/results
+    endpoint: https://higher.gs.com/results
+    ats_type: curated_yaml
+    source_authority: official_ats
+    enabled: true
+    priority_tier: priority
+    manual_review_required: false
+    curated_file: config/curated/goldman-sachs.yml
+    notes: Official London student-role snapshot verified 2026-08-22. Broad API queries provide automated discovery; this snapshot requires periodic official-page re-verification.
   - {<<: *defaults, id: morgan-stanley, canonical_name: Morgan Stanley}
   - {<<: *defaults, id: jpmorganchase, canonical_name: JPMorganChase}
   - {<<: *defaults, id: citi, canonical_name: Citi}
@@ -661,7 +682,7 @@ employers:
       queries: *broad_search_queries
       location: London
       results_per_page: 30
-      max_pages_per_query: 10
+      max_pages_per_query: 3
     manual_review_required: true
     notes: Official DWP Work Hub search across the shared breadth-first query matrix. Robots explicitly allows /jobs and the service terms permit reasonable automated copying with DWP attribution. Every result retains its named employer and Find a Job as publisher; incomplete criteria stay in the possible layer.
   - <<: *defaults
@@ -714,7 +735,7 @@ employers:
       queries: *broad_search_queries
       location: London
       results_per_page: 50
-      max_pages_per_query: 5
+      max_pages_per_query: 3
       max_age_days: 30
     required_env: [ADZUNA_APP_ID, ADZUNA_APP_KEY]
     manual_review_required: true
@@ -738,7 +759,7 @@ employers:
       location: London
       distance_miles: 10
       results_per_page: 100
-      max_pages_per_query: 3
+      max_pages_per_query: 2
     required_env: [REED_API_KEY]
     manual_review_required: true
     notes: Documented Reed Jobseeker API. It activates automatically when REED_API_KEY is set, uses HTTP Basic authentication, searches every shared query shard and preserves the real advertised employer wherever Reed supplies it.

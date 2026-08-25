@@ -1,158 +1,251 @@
-# JOB FILTERS — THIS IS THE MAIN FILE TO EDIT
+# JOB FILTERS - THIS IS THE MAIN FILE TO EDIT
 #
-# After changing this file, run a new scan and rebuild the site. The rules are
-# deliberately plain text: add one phrase per line, keeping the leading "-".
-# Matching ignores capitalisation and punctuation and matches whole phrases.
+# The dashboard admits only:
+#   1. internships, vacation schemes, insight programmes and other short breaks; or
+#   2. relevant professional roles with explicit part-time or term-time evidence.
 #
-# Inclusion terms only make a title eligible for the broad "Possible" layer.
-# They never override an exclusion, location rule, unpaid flag, or explicit
+# Matching ignores capitalisation and punctuation and uses whole phrases. An
+# inclusion never overrides an exclusion, location rule, unpaid flag or explicit
 # candidate-ineligibility evidence.
 
-# If any phrase below appears in a title, description, or eligibility text, the
-# role is ineligible and cannot appear in either the Verified or Possible layer.
-# Use this for genuinely hard conflicts, especially explicit requirements.
+# Hard conflicts checked against title, description and eligibility. Keep this
+# list limited to wording that is incompatible in every context.
 always_exclude_if_text_contains:
   - graduates only
   - completed degree required
   - final year only
+  - final year university students and recent graduates
+  - designed for final year university students
   - law degree only
   - llb required
-  - software engineer
-  - quantitative researcher
-  - quantitative research internship
-  - quant researcher
-  - quant research internship
-  - quantitative trader
-  - quantitative trading internship
-  - quant trader
-  - quant trading internship
-  - quantitative developer
-  - quant developer
-  - machine learning engineer
-  - natural language processing
-  - machine learning internship
-  - software development internship
-  - software engineering internship
-  - data science internship
-  - engineering internship
   - computer science degree required
   - engineering degree required
   - mathematics degree required
   - medical degree required
-  - laboratory scientist
   - mba students only
   - masters students only
   - master's students only
   - phd students only
   - school leaver
   - apprenticeship
-  - industrial placement year
-  - campus ambassador
-  - retail assistant
-  - hospitality assistant
-  - fundraising volunteer
-  - social media volunteer
-  - election campaign volunteer
   - unpaid
-  - full time role
-  - full-time role
-  - full time
-  - full-time
+  - software engineering internship
+  - software development internship
+  - machine learning internship
+  - data science internship
+  - quantitative research internship
+  - quant research internship
+  - quantitative trading internship
+  - quant trading internship
+  - quantitative developer internship
+  - quant developer internship
+  - actuarial internship
+  - engineering internship
+  - clinical research internship
+  - laboratory research internship
+  - phd intern
+  - bioinformatics
+  - synthetic biology
+  - metabolomic
+  - quantum error correction
+  - strong C++ programming skills
   - C++ required
   - C++ is required
   - must have C++
   - proficiency in C++
   - proficient in C++
-  - strong C++ skills
-  - strong C++ programming skills
   - advanced C++
   - commercial C++ experience
   - professional C++ experience
-  - C++ programming experience
-  - experience programming in C++
+  - C++ programming experience required
   - experience with C++ required
-  - CAD
-  - 12-month
-  - 12 months
-  - 12-month contract
-  - 12 months contract
-  - 12-months contract
-  - 6-month
-  - 6 months
-  - 6-month contract
-  - 6 months contract
-  - 6-months contract
-  - one year
-  - check out
-  - UX
-  - UI/UX
-  - SQL
-  - linux
-  - leisure
-  - law degree
-  - law student
+  - experienced compliance professional
 
-# A broad job-board result must contain at least one of these phrases in its
-# TITLE to enter the Possible layer. Add a phrase here to widen discovery.
-possible_role_title_inclusions:
+# These title phrases establish that the work is designed around a university
+# break or is a short early-career programme. A summer internship may say it is
+# full-time; that is valid because it runs during a break.
+programme_title_inclusions:
   - intern
   - internship
   - vacation scheme
+  - spring week
+  - spring insight
+  - insight week
   - insight programme
   - insight program
+  - insight day
   - work experience
   - summer analyst
-  - trainee
-  - assistant
-  - caseworker
-  - researcher
-  - coordinator
-  - officer
-  - organiser
-  - administrator
-  - analyst
-  - associate
-  - adviser
-  - advisor
-  - executive
-  - consultant
-  - project support
-  - programme support
-  - program support
-  - programme
-  - program
-  - paralegal
-  - placement
-  - admin
-  - administrative
-  - support
-  - clerk
-  - facilitator
-  - secretary
-  - communications
-  - marketing
-  - fundraising
-  - finance
-  - research
-  - policy
-  - operations
-  - business
-  - commercial
-  - governance
-  - compliance
-  - risk
-  - development
-  - events
-  - co ordinator
+  - summer associate
+  - summer placement
+  - winter internship
+  - winter project
+  - winter programme
+  - winter program
+  - micro internship
 
-# If any phrase below appears in the TITLE, the role is removed from the broad
-# Possible layer. Add a phrase here to block an unwanted job family quickly.
+# An ordinary role must contain one of these professional areas in its TITLE and
+# must also contain availability evidence from the next list. Generic titles such
+# as "assistant", "analyst" and "officer" no longer qualify by themselves.
+part_time_professional_title_inclusions:
+  - compliance
+  - anti money laundering
+  - aml
+  - know your customer
+  - kyc
+  - financial crime
+  - risk
+  - regulatory
+  - internal audit
+  - governance
+  - finance
+  - financial
+  - accounting
+  - investment
+  - asset management
+  - wealth management
+  - banking
+  - credit
+  - legal
+  - paralegal
+  - law
+  - consulting
+  - consultancy
+  - strategy
+  - policy
+  - public affairs
+  - government affairs
+  - corporate affairs
+  - economics
+  - economic
+  - due diligence
+  - commercial analysis
+  - research
+
+# Evidence that an ordinary professional role can fit alongside university.
+# The code also recognises explicit schedules of 24 hours per week or fewer.
+part_time_availability_evidence:
+  - part time
+  - term time
+  - weekend only
+  - weekends only
+  - evenings only
+  - casual contract
+  - zero hours
+  - flexible part time
+  - part time considered
+  - job share
+  - 0.5 fte
+  - 0.4 fte
+  - 0.3 fte
+  - 0.2 fte
+
+# Long placements and contracts are incompatible even when their titles say
+# internship or part-time. Use duration wording here, not bare numbers.
+long_duration_exclusions:
+  - 4 month internship
+  - 4 months internship
+  - intern for 4 months
+  - 4 months ftc
+  - 5 month internship
+  - 5 months internship
+  - intern for 5 months
+  - 5 months ftc
+  - 6 month internship
+  - 6 months internship
+  - intern for 6 months
+  - 6 months ftc
+  - 9 month internship
+  - 9 months internship
+  - intern for 9 months
+  - 9 months ftc
+  - 12 month internship
+  - 12 months internship
+  - intern for 12 months
+  - 12 months ftc
+  - one year internship
+  - 6 month contract
+  - 6 months contract
+  - 12 month contract
+  - 12 months contract
+  - one year contract
+  - 12 month placement
+  - 12 months placement
+  - one year placement
+  - one year work placement
+  - industrial placement
+  - year in industry
+  - off cycle
+  - offcycle
+
+# These describe ordinary employment. They exclude non-programme roles only, so
+# "full-time summer internship" remains valid.
+ordinary_job_exclusions:
+  - full time
+  - permanent
+
+# Research is admitted only when the TITLE also establishes a finance, markets,
+# economics, compliance or risk context. This removes medical and science noise.
+research_title_signals:
+  - research
+  - researcher
+
+allowed_research_title_contexts:
+  - finance
+  - financial
+  - investment
+  - credit
+  - risk
+  - compliance
+  - regulatory
+  - economics
+  - economic
+  - market
+  - markets
+  - equity
+  - debt
+  - banking
+  - insurance
+  - capital
+  - forensic accounting
+
+# A title such as "Global Research (HOLT)" does not itself say finance even
+# though the employer makes the context unambiguous. Keep this exact-name list
+# narrow: it is only used for titles containing "research" or "researcher".
+allowed_research_employers:
+  - Bank of America
+  - Barclays
+  - BlackRock
+  - Bloomberg
+  - BNP Paribas
+  - Citi
+  - Deutsche Bank
+  - Financial Conduct Authority
+  - Fitch Ratings
+  - Goldman Sachs
+  - HSBC
+  - JPMorgan Chase
+  - JPMorganChase
+  - Lazard
+  - London Stock Exchange Group
+  - LSEG
+  - Morgan Stanley
+  - Moody's
+  - Morningstar
+  - MSCI
+  - Nomura
+  - Rothschild & Co
+  - S&P Global
+  - Standard Chartered
+  - UBS
+  - Bank of England
+
+# Clear title-level mismatches. These apply to both programme and part-time paths.
 possible_role_title_exclusions:
   - graduate
   - graduate scheme
   - graduate programme
   - graduate program
-  - graduate job
   - manager
   - senior
   - head of
@@ -176,7 +269,6 @@ possible_role_title_exclusions:
   - child care
   - preschool
   - pre school
-  - room leader
   - nanny
   - babysitter
   - playworker
@@ -186,46 +278,43 @@ possible_role_title_exclusions:
   - classroom assistant
   - kitchen assistant
   - catering assistant
-  - assistant chef
   - sales assistant
-  - gas engineer
-  - java developer
-  - locum
-  - business studies teacher
-  - pharmacy assistant
-  - therapy assistant
-  - machine learning
-  - natural language processing
+  - customer service
+  - tutor
+  - volunteer
   - software engineer
   - software developer
+  - machine learning
+  - natural language processing
   - data science
   - quant research
   - quantitative research
-  - quant researcher
-  - quantitative researcher
   - quantitative analyst
-  - quantitative finance
-  - quantitative strategies
   - quantitative trading
   - quant trading
   - quant trader
   - quantitative developer
   - quant developer
-  - systematic researcher
+  - systematic research
   - systematic trading
   - algorithmic trading
-  - quants
-  - engineering internship
-  - engineering summer internship
-  - solutions engineer
-  - architecture intern
   - actuarial
+  - engineer
+  - engineering
+  - architecture intern
   - professor
   - lecturer
-  - lecturers
   - research fellow
-  - research fellows
   - clinical fellow
+  - clinical research
+  - medical research
+  - medical communications
+  - health research
+  - biomedical research
+  - neuroscience research
+  - laboratory research
+  - research technician
+  - research scientist
   - doctor
   - nurse
   - midwife
@@ -241,22 +330,28 @@ possible_role_title_exclusions:
   - healthcare assistant
   - care assistant
   - solicitor
-  - volunteer
   - palliative care
-  - clinical advisor
-  - clinical adviser
-  - 12 month placement
-  - industrial placement
-  - year in industry
   - summer 2026
   - start date march april 2026
-  - 12-month
-  - 12-month contract
-  - 6-month
-  - 6-month contract
   - social media
+  - social creative
+  - systems analyst
+  - expert
+  - quantitative strategies
+  - quants and strats
+  - quants
+  - construction ambassador
+  - financial controller
+  - legal counsel
+  - legal secretary
+  - legal cashier
+  - personal assistant
+  - pa to
+  - internship program coordinator
+  - internship programme coordinator
+  - careers coordinator work experience
+  - work experience coordinator
 
-# Extra title exclusions that apply only to a particular organisation type.
 contextual_title_exclusions:
   public_health:
     - consultant
@@ -277,34 +372,28 @@ contextual_title_exclusions:
     - physiotherapy
     - radiograph
     - pharmacy
-    - kitchen assistant
-    - housekeeping assistant
-    - catering assistant
-    - activities assistant
-    - care support assistant
-    - allied health professional
     - practitioner
     - psychological
     - therapy
-    - radiographic
     - support worker
-    - catering
-    - engineer
     - surgical
     - physician
     - medical officer
   higher_education:
     - postdoctoral
     - post doctoral
-    - research associate
     - dean
     - reader
     - programme leader
     - program leader
     - subject lead
+    - research technician
+    - research scientist
 
-# Discovery companies that sell placements rather than advertising a normal
-# employer vacancy. Names are matched exactly after punctuation normalisation.
 excluded_discovery_employers:
   - Beyond Academy
   - The Intern Group
+
+# Review records are diagnostic and are not shown publicly. Capping this file
+# prevents multi-megabyte rewrites on every scheduled scan.
+review_queue_limit: 500

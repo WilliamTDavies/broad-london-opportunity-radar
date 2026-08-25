@@ -102,10 +102,10 @@ async def test_verified_production_snapshots_publish_real_official_roles(
     assert all(item["eligibility_status"] == "verified_eligible" for item in roles)
     assert all("fixture" not in item["canonical_employer"].casefold() for item in roles)
     metrics = json.loads((isolated_root / "data" / "metrics.json").read_text())
-    assert metrics["employers_monitored"] == 33
-    assert metrics["publishing_sources"] == 15
+    assert metrics["employers_monitored"] == 34
+    assert metrics["publishing_sources"] == 16
     assert metrics["monitor_only_sources"] == 18
-    assert "15 role-producing sources" in metrics["coverage_warning"]
+    assert "16 role-producing sources" in metrics["coverage_warning"]
 
     output = build_site(isolated_root, build_time=datetime(2026, 8, 10, 15, tzinfo=UTC))
     html = output.read_text(encoding="utf-8")
@@ -114,6 +114,23 @@ async def test_verified_production_snapshots_publish_real_official_roles(
     assert "Verified snapshot" in html
     assert html.count('class="role-row"') == 16
     assert "22 programmes across official pages" in html
+
+
+@pytest.mark.asyncio
+async def test_goldman_sachs_compliance_and_risk_summer_roles_are_published(
+    isolated_root: Path,
+) -> None:
+    summary = await scan(isolated_root, source_filter="goldman-sachs-current-roles")
+    roles = json.loads((isolated_root / "data" / "open_roles.json").read_text())
+    titles = {item["title"] for item in roles}
+    assert summary.public_roles == 9
+    assert "2027 | EMEA | London | Compliance | Summer Analyst" in titles
+    assert "2027 | EMEA | London | Risk | Summer Analyst" in titles
+    assert "2027 | EMEA | London | Internal Audit | Summer Analyst" in titles
+    assert "2027 | EMEA | London | Asset Management, Private Investing | Summer Analyst" in titles
+    assert "2027 | EMEA | London | Operations | Summer Analyst" in titles
+    assert "2027 | EMEA | London | Transaction Banking (TxB), Coverage | Summer Analyst" in titles
+    assert all(item["canonical_employer"] == "Goldman Sachs" for item in roles)
 
 
 @pytest.mark.asyncio
@@ -165,7 +182,7 @@ def test_repository_configuration_valid(project_root: Path) -> None:
     assert len(employers) >= 150
     assert any(item.id == "psc-unresolved" and not item.enabled for item in employers)
     assert all(item.endpoint for item in employers if item.enabled)
-    assert sum(item.enabled and not item.monitor_only for item in employers) == 15
+    assert sum(item.enabled and not item.monitor_only for item in employers) == 16
     assert sum(item.enabled and item.monitor_only for item in employers) == 18
     assert any(item.id == "w4mp" and item.enabled and item.ats_type == "w4mp" for item in employers)
     assert any(

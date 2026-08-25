@@ -9,7 +9,11 @@ from collections.abc import Callable
 from datetime import UTC, date, datetime, timedelta
 from pathlib import Path
 
-from opportunity_radar.classification import is_possible_role, load_classification_rules
+from opportunity_radar.classification import (
+    is_possible_role,
+    is_public_role,
+    load_classification_rules,
+)
 from opportunity_radar.config import load_employers, load_radar
 from opportunity_radar.models import (
     ProgrammeStatus,
@@ -279,13 +283,24 @@ def build_site(
     now = build_time or datetime.now(UTC)
     data_directory = root / "build" / "fixture-data" if fixture_mode else root / "data"
     store = JsonStore(root, data_directory)
-    verified_roles = [
-        *store.read_models("open_roles.json", RoleRecord),
-        *store.read_models("recent_roles.json", RoleRecord),
-    ]
-    possible_roles = store.read_models("possible_roles.json", RoleRecord)
     rules = load_classification_rules(root)
-    possible_roles = [role for role in possible_roles if is_possible_role(role, rules)]
+    verified_roles = [
+        role
+        for role in [
+            *store.read_models("open_roles.json", RoleRecord),
+            *store.read_models("recent_roles.json", RoleRecord),
+        ]
+        if is_public_role(role, rules)
+    ]
+    possible_candidates = [
+        *store.read_models("possible_roles.json", RoleRecord),
+        *store.read_models("review_queue.json", RoleRecord),
+    ]
+    possible_roles = [
+        role
+        for role in {role.id: role for role in possible_candidates}.values()
+        if is_possible_role(role, rules)
+    ]
     verified_ids = {role.id for role in verified_roles}
     possible_roles = [role for role in possible_roles if role.id not in verified_ids]
     roles = [*verified_roles, *possible_roles]

@@ -44,6 +44,25 @@ def _public_description(value: str) -> str:
     return re.sub(r"\s+", " ", EMAIL_PATTERN.sub("[contact email on source]", value)).strip()
 
 
+def _reed_listing_identity(employer: str, title: str) -> tuple[str, str]:
+    """Recover the hiring firm when a syndicator is supplied as Reed's employer."""
+
+    if re.sub(r"[^a-z0-9]+", "", employer.casefold()) != "efinancialcareers":
+        return employer, title
+    parts = re.split(r"\s+[\u2013\u2014-]\s+", title)
+    candidate = parts[-1].strip()
+    folded = candidate.casefold()
+    firm_signals = ("capital", "investments", "partners", "group", "& co", "bank")
+    role_signals = ("intern", "analyst", "associate", "manager", "director", "officer")
+    if (
+        1 <= len(candidate.split()) <= 7
+        and any(signal in folded for signal in firm_signals)
+        and not any(signal in folded for signal in role_signals)
+    ):
+        return candidate, " - ".join(parts[:-1]).strip()
+    return employer, title
+
+
 def _positive_integer(configuration: dict[str, Any], key: str, default: int) -> int:
     value = configuration.get(key, default)
     if not isinstance(value, int) or isinstance(value, bool) or value < 1:
@@ -800,11 +819,14 @@ class ReedAdapter(BaseAdapter):
                 job.get("minimumSalary"), job.get("maximumSalary"), currency=currency
             )
             location = str(job.get("locationName") or "Unknown")
+            advertised_employer, advertised_title = _reed_listing_identity(
+                str(job.get("employerName") or "Employer not stated"), clean_html(title)
+            )
             roles.append(
                 self.role(
                     identifier=identifier,
-                    employer=str(job.get("employerName") or "Employer not stated"),
-                    title=clean_html(title),
+                    employer=advertised_employer,
+                    title=advertised_title,
                     url=target,
                     location=location,
                     location_type=_location_type(location),

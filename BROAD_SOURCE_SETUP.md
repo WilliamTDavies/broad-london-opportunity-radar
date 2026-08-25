@@ -8,7 +8,7 @@ their keys. Supabase and Resend are not required for job scanning or the dashboa
 
 | Source | Coverage | Setup |
 | --- | --- | --- |
-| DWP Find a Job / Work Hub | Broad London search over 30 finance, consulting, law, policy, research and junior-role queries | None |
+| DWP Find a Job / Work Hub | London search over 37 internship, insight, compliance/risk and part-time professional queries | None |
 | Prospects London | Work experience, internships, schemes, graduate roles and apprenticeships across all sectors | None |
 | Legal Cheek Hub | Legal work experience, vacation schemes, open days, paralegal roles and related opportunities | None |
 | targetjobs | London internships, vacation schemes, insight programmes and work experience | None |
@@ -17,8 +17,8 @@ their keys. Supabase and Resend are not required for job scanning or the dashboa
 | NHS Jobs | London vacancies, with clinical and specialist roles filtered out | None |
 | jobs.ac.uk | London university, research and professional-services vacancies | None |
 | W4MP | Parliamentary and political-office vacancies | None |
-| Adzuna | Broad London aggregator search over the same 30-query matrix | Free API credentials |
-| Reed | Broad London aggregator search over the same 30-query matrix | Free API key |
+| Adzuna | London aggregator search over the same 37-query matrix | Free API credentials |
+| Reed | London aggregator search over the same 37-query matrix | Free API key |
 | Employer ATS and official pages | Workday plus existing employer-specific ATS records and page watches | None for configured sources |
 
 ## Add the optional Adzuna and Reed APIs
@@ -77,13 +77,13 @@ Adzuna and Reed. Add a phrase on its own line, for example:
 ```yaml
   - restructuring intern
   - tax internship
-  - competition law assistant
+  - competition law internship
 ```
 
-The current list already covers internships, summer analysts, vacation schemes, insight and work
-experience, research, policy, legal and paralegal work, finance, investment, risk, consulting,
-strategy, commercial, business, operations, projects, public affairs, sustainability, ESG,
-communications and fundraising.
+The current list covers general internships and break programmes plus dedicated compliance, AML,
+financial-crime, regulatory, risk, internal-audit, finance, investment, banking, credit, legal,
+consulting, economics, policy, governance and public-affairs internship searches. It also searches
+those professional areas with explicit part-time wording.
 
 Each matrix source also has `max_pages_per_query`, `result_cap`, `requests_per_minute` and
 `poll_interval_minutes` settings in the same file. Raising page caps increases coverage, runtime
