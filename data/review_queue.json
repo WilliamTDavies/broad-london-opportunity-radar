@@ -2,11 +2,9 @@
   {
     "all_source_urls": [
       "https://higherin.com/jobs/43914/bank-of-america/global-risk-summer-2027-analyst-london",
-      "https://higherin.com/jobs/43878/bank-of-america/global-risk-summer-2027-analyst-london",
-      "https://targetjobs.co.uk/jobs/global-risk-summer-2027-analyst-london-237635",
-      "https://ad.doubleclick.net/ddm/clk/648774156;454500844;r"
+      "https://higherin.com/jobs/43878/bank-of-america/global-risk-summer-2027-analyst-london"
     ],
-    "application_method": "Apply on the employer site linked from targetjobs",
+    "application_method": null,
     "application_url": "https://higherin.com/jobs/43914/bank-of-america/global-risk-summer-2027-analyst-london",
     "approved_organisation": true,
     "canonical_employer": "Bank of America",
@@ -34,12 +32,6 @@
         "source_url": "https://higherin.com/jobs/43878/bank-of-america/global-risk-summer-2027-analyst-london",
         "structured_field": null,
         "text": "Eligibility is plausible but must be verified on the employer's application page"
-      },
-      {
-        "rule_id": "source.discovery_only",
-        "source_url": "https://targetjobs.co.uk/jobs/global-risk-summer-2027-analyst-london-237635",
-        "structured_field": null,
-        "text": "Eligibility is plausible but must be verified on the employer's application page"
       }
     ],
     "eligibility_rule_ids": [
@@ -49,12 +41,12 @@
     "email_approved": false,
     "employer_alias": null,
     "employer_quality_tier": "approved",
-    "first_seen_at": "2026-09-02T20:31:08.108884Z",
+    "first_seen_at": "2026-09-02T21:06:36.171074Z",
     "geographic_exception_reason": null,
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "787f44a70ceb0240",
-    "last_seen_at": "2026-09-02T20:31:08.108884Z",
+    "last_seen_at": "2026-09-02T21:06:36.171074Z",
     "listing_publisher": "Higherin",
     "location": "London",
     "location_type": "onsite",
@@ -90,9 +82,7 @@
     "relevance_status": "credible_match",
     "residency_requirements": [],
     "salary": null,
-    "secondary_tags": [
-      "Compliance and Financial Crime"
-    ],
+    "secondary_tags": [],
     "source_authority": "discovery_only_source",
     "source_health_at_last_check": "healthy",
     "source_identifier": "43914",
@@ -137,12 +127,12 @@
     "email_approved": false,
     "employer_alias": null,
     "employer_quality_tier": "approved",
-    "first_seen_at": "2026-09-02T20:31:08.108884Z",
+    "first_seen_at": "2026-09-02T21:06:36.171074Z",
     "geographic_exception_reason": null,
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "e7bd2ad2e7472b30",
-    "last_seen_at": "2026-09-02T20:31:08.108884Z",
+    "last_seen_at": "2026-09-02T21:06:36.171074Z",
     "listing_publisher": "Higherin",
     "location": "London",
     "location_type": "onsite",
@@ -223,12 +213,12 @@
     "email_approved": false,
     "employer_alias": null,
     "employer_quality_tier": "approved",
-    "first_seen_at": "2026-09-02T20:31:08.108884Z",
+    "first_seen_at": "2026-09-02T21:06:36.171074Z",
     "geographic_exception_reason": null,
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "12389ba2862afc71",
-    "last_seen_at": "2026-09-02T20:31:08.108884Z",
+    "last_seen_at": "2026-09-02T21:06:36.171074Z",
     "listing_publisher": "Higherin",
     "location": "London",
     "location_type": "onsite",
@@ -276,11 +266,9 @@
   },
   {
     "all_source_urls": [
-      "https://higherin.com/jobs/43915/bank-of-america/corporate-audit-summer-2027-analyst-london",
-      "https://targetjobs.co.uk/jobs/corporate-audit-summer-2027-analyst-london-237561",
-      "https://ad.doubleclick.net/ddm/clk/648774150;454500838;o"
+      "https://higherin.com/jobs/43915/bank-of-america/corporate-audit-summer-2027-analyst-london"
     ],
-    "application_method": "Apply on the employer site linked from targetjobs",
+    "application_method": null,
     "application_url": "https://higherin.com/jobs/43915/bank-of-america/corporate-audit-summer-2027-analyst-london",
     "approved_organisation": true,
     "canonical_employer": "Bank of America",
@@ -302,12 +290,6 @@
         "source_url": "https://higherin.com/jobs/43915/bank-of-america/corporate-audit-summer-2027-analyst-london",
         "structured_field": null,
         "text": "Eligibility is plausible but must be verified on the employer's application page"
-      },
-      {
-        "rule_id": "source.discovery_only",
-        "source_url": "https://targetjobs.co.uk/jobs/corporate-audit-summer-2027-analyst-london-237561",
-        "structured_field": null,
-        "text": "Eligibility is plausible but must be verified on the employer's application page"
       }
     ],
     "eligibility_rule_ids": [
@@ -317,12 +299,12 @@
     "email_approved": false,
     "employer_alias": null,
     "employer_quality_tier": "approved",
-    "first_seen_at": "2026-09-02T20:31:08.108884Z",
+    "first_seen_at": "2026-09-02T21:06:36.171074Z",
     "geographic_exception_reason": null,
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "3c2aa685840da787",
-    "last_seen_at": "2026-09-02T20:31:08.108884Z",
+    "last_seen_at": "2026-09-02T21:06:36.171074Z",
     "listing_publisher": "Higherin",
     "location": "London",
     "location_type": "onsite",
@@ -403,12 +385,12 @@
     "email_approved": false,
     "employer_alias": null,
     "employer_quality_tier": "approved",
-    "first_seen_at": "2026-09-02T20:31:08.108884Z",
+    "first_seen_at": "2026-09-02T21:06:36.171074Z",
     "geographic_exception_reason": null,
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "f4241ed79bcadb5a",
-    "last_seen_at": "2026-09-02T20:31:08.108884Z",
+    "last_seen_at": "2026-09-02T21:06:36.171074Z",
     "listing_publisher": "Higherin",
     "location": "London",
     "location_type": "onsite",
@@ -489,12 +471,12 @@
     "email_approved": false,
     "employer_alias": null,
     "employer_quality_tier": "approved",
-    "first_seen_at": "2026-09-02T20:31:08.108884Z",
+    "first_seen_at": "2026-09-02T21:06:36.171074Z",
     "geographic_exception_reason": null,
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "5292a3993e409193",
-    "last_seen_at": "2026-09-02T20:31:08.108884Z",
+    "last_seen_at": "2026-09-02T21:06:36.171074Z",
     "listing_publisher": "Higherin",
     "location": "London",
     "location_type": "onsite",

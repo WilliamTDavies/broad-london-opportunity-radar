@@ -4,2426 +4,6 @@
       "newly_published"
     ],
     "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "6320ac0ce5faf15b",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43887",
-    "source_url": "https://higherin.com/jobs/43887/bank-of-america/investment-banking-2027-analyst-off-cycle-internship-uk-ireland-investment-banking-emea-corporate-broking-london"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "3b04e5255d9652e9",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43885",
-    "source_url": "https://higherin.com/jobs/43885/bank-of-america/investment-banking-2027-off-cycle-analyst-real-estate-gaming-and-leisure-emea-regl-london"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "dbe2a804268bc626",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43886",
-    "source_url": "https://higherin.com/jobs/43886/bank-of-america/investment-banking-2027-analyst-off-cycle-internship-technology-media-and-telecommunications-tmt-london-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "676948706889774d",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43883",
-    "source_url": "https://higherin.com/jobs/43883/bank-of-america/investment-banking-2027-analyst-off-cycle-internship-consumer-and-retail-core-london"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "f5341a946cbc4ee3",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43783",
-    "source_url": "https://higherin.com/jobs/43783/ubs/2027-off-cycle-internship-global-banking-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "9465e105acc53351",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43785",
-    "source_url": "https://higherin.com/jobs/43785/ubs/2027-summer-internship-global-banking-ugb-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "24d440bce82831c6",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43786",
-    "source_url": "https://higherin.com/jobs/43786/ubs/2027-summer-internship-global-markets-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "bbd88632f150468b",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43784",
-    "source_url": "https://higherin.com/jobs/43784/ubs/2027-summer-internship-global-banking-london"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "89b4635d40ad7732",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43988",
-    "source_url": "https://higherin.com/jobs/43988/ubs/2027-off-cycle-internship-investment-bank-quants-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "b8254cd4c99e3361",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43990",
-    "source_url": "https://higherin.com/jobs/43990/ubs/2027-summer-internship-global-wealth-management-london"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "d3b1876ff6580693",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43989",
-    "source_url": "https://higherin.com/jobs/43989/ubs/2027-off-cycle-internship-group-legal-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "83d8e26bbe123312",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43992",
-    "source_url": "https://higherin.com/jobs/43992/ubs/2027-summer-internship-global-equity-research-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "a5dffc95fac96983",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43993",
-    "source_url": "https://higherin.com/jobs/43993/ubs/2027-summer-internship-internal-audit-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "e2b6b874d954cbc0",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43995",
-    "source_url": "https://higherin.com/jobs/43995/ubs/2027-summer-internship-global-research-holt-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "2699006d769831f1",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43996",
-    "source_url": "https://higherin.com/jobs/43996/ubs/2027-summer-internship-group-finance-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "7ff1b1716096b5fb",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43997",
-    "source_url": "https://higherin.com/jobs/43997/ubs/2027-summer-internship-human-resources-london"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "97d34685c064ce3a",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43999",
-    "source_url": "https://higherin.com/jobs/43999/ubs/2027-off-cycle-internship-global-banking-pfg-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "93372537c2386e8a",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43950",
-    "source_url": "https://higherin.com/jobs/43950/bank-of-america/global-infrastructure-credit-2027-summer-analyst-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "70854e3d29c74775",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43951",
-    "source_url": "https://higherin.com/jobs/43951/bank-of-america/gcib-credit-2027-summer-analyst-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "d5eb6686071aeb68",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43952",
-    "source_url": "https://higherin.com/jobs/43952/bank-of-america/leasing-credit-global-vendor-finance-and-international-asset-finance-summer-analyst-london-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "1a6f6d3d1afb4c08",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43945",
-    "source_url": "https://higherin.com/jobs/43945/bank-of-america/opportunities-in-global-banking-and-global-markets"
-  },
-  {
-    "changes": [
-      "eligibility_wording_changed"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "5fa06895f9e6f4a0",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43948",
-    "source_url": "https://higherin.com/jobs/43948/bank-of-america/gm-credit-2027-summer-analyst-london"
-  },
-  {
-    "changes": [
-      "eligibility_wording_changed"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "63a880aa3c9c42d2",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43879",
-    "source_url": "https://higherin.com/jobs/43879/bank-of-america/global-payment-solutions-2027-summer-analyst-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "8205def047e4d07f",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43891",
-    "source_url": "https://higherin.com/jobs/43891/bank-of-america/global-markets-sales-trading-private-side-summer-analyst-rotational-internship-programme-2027-london"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "5cac75665f9d6ed0",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43896",
-    "source_url": "https://higherin.com/jobs/43896/bank-of-america/global-operations-operations-analyst-summer-2027-bromley"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "e64e9457917f90a7",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43946",
-    "source_url": "https://higherin.com/jobs/43946/bank-of-america/opportunties-in-business-support-functions-internships"
-  },
-  {
-    "changes": [
-      "eligibility_wording_changed"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "787f44a70ceb0240",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43914",
-    "source_url": "https://higherin.com/jobs/43914/bank-of-america/global-risk-summer-2027-analyst-london"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "25bb1c283a3bd3bf",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43947",
-    "source_url": "https://higherin.com/jobs/43947/bank-of-america/opportunities-in-global-technology-internships"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "e7bd2ad2e7472b30",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43897",
-    "source_url": "https://higherin.com/jobs/43897/bank-of-america/global-operations-operations-analyst-summer-2027-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "12389ba2862afc71",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43910",
-    "source_url": "https://higherin.com/jobs/43910/bank-of-america/global-quantitative-data-analytics-summer-2027-analyst-london"
-  },
-  {
-    "changes": [
-      "eligibility_wording_changed"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "3c2aa685840da787",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43915",
-    "source_url": "https://higherin.com/jobs/43915/bank-of-america/corporate-audit-summer-2027-analyst-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "ddadfd6310e91169",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43874",
-    "source_url": "https://higherin.com/jobs/43874/bank-of-america/global-capital-markets-2027-summer-analyst-dcm-ecm-leveraged-finance-and-ssg-london"
-  },
-  {
-    "changes": [
-      "eligibility_wording_changed"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "767f4c881ad41d43",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43882",
-    "source_url": "https://higherin.com/jobs/43882/bank-of-america/global-research-2027-summer-analyst-london"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "b3c8b98cf71eb962",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43909",
-    "source_url": "https://higherin.com/jobs/43909/bank-of-america/global-technology-software-engineer-summer-2027-analyst-bromley"
-  },
-  {
-    "changes": [
-      "eligibility_wording_changed"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "1911adf7b768d43f",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43881",
-    "source_url": "https://higherin.com/jobs/43881/bank-of-america/global-markets-sales-trading-rotational-programme-2027-summer-analyst-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "924f010aea96f82f",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43877",
-    "source_url": "https://higherin.com/jobs/43877/bank-of-america/corporate-audit-2027-summer-analyst-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "fe82b5db99a94509",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43833",
-    "source_url": "https://higherin.com/jobs/43833/rothschild-co/redburn-sales-summer-internship-2027-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "a16c3e6debc00ece",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43831",
-    "source_url": "https://higherin.com/jobs/43831/rothschild-co/redburn-execution-services-summer-internship-2027-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "f1465d3b7157d3b5",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43832",
-    "source_url": "https://higherin.com/jobs/43832/rothschild-co/redburn-research-summer-internship-2027-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "f4241ed79bcadb5a",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43648",
-    "source_url": "https://higherin.com/jobs/43648/g-research/natural-language-processing-internship-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "451bcac70308018c",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43647",
-    "source_url": "https://higherin.com/jobs/43647/g-research/machine-learning-research-internship-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "2db270b2d8b8e07d",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43646",
-    "source_url": "https://higherin.com/jobs/43646/g-research/quant-research-internship-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "7382fb97009640ce",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43542",
-    "source_url": "https://higherin.com/jobs/43542/blackrock/off-cycle-internship-programme-emea-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "7006b14bcc5e1814",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43649",
-    "source_url": "https://higherin.com/jobs/43649/g-research/data-science-internship-2027"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "47bfe619b7729ec4",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43666",
-    "source_url": "https://higherin.com/jobs/43666/ubs/register-your-interest-group-technology-office-gto-summer-internship-2027-london"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "69b7030c4f72cae0",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43812",
-    "source_url": "https://higherin.com/jobs/43812/financial-conduct-authority-fca/register-your-interest-data-digital-and-technology-data-science-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "5619e6c906a48e09",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43672",
-    "source_url": "https://higherin.com/jobs/43672/ubs/register-your-interest-global-research-evidence-lab-summer-internship-2027-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "7722a1aad0ff408f",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43673",
-    "source_url": "https://higherin.com/jobs/43673/ubs/register-your-interest-asset-management-summer-internship-2027-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "bf75a333c0e54431",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43665",
-    "source_url": "https://higherin.com/jobs/43665/ubs/register-your-interest-group-internal-consulting-summer-internship-2027-london"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "c9483b9ff07207d6",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43811",
-    "source_url": "https://higherin.com/jobs/43811/financial-conduct-authority-fca/register-your-interest-accountancy-finance-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "44630a6643ba5d47",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43813",
-    "source_url": "https://higherin.com/jobs/43813/financial-conduct-authority-fca/register-your-interest-people-change-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "de1f0b4afaf15547",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43572",
-    "source_url": "https://higherin.com/jobs/43572/bank-of-america/register-your-interest-enterprise-credit-summer-analyst-internship-2027"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "5c082aca412c59cb",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43564",
-    "source_url": "https://higherin.com/jobs/43564/bank-of-america/register-your-interest-global-banking-markets-internship-2027"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "136262e2ac7a4fd4",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43565",
-    "source_url": "https://higherin.com/jobs/43565/bank-of-america/register-your-interest-business-support-functions-internship-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "a6a530cf5553dd3f",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43399",
-    "source_url": "https://higherin.com/jobs/43399/arcadis/register-your-interest-building-surveyor-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "95be0a68bdbf5564",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43250",
-    "source_url": "https://higherin.com/jobs/43250/centrica/register-your-interest-electrical-engineering-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "d695e8f33481c335",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43603",
-    "source_url": "https://higherin.com/jobs/43603/transport-for-london/register-your-interest-civil-engineering-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "f5eaa9a8b1eabb07",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43396",
-    "source_url": "https://higherin.com/jobs/43396/arcadis/register-your-interest-structural-bridge-engineer-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "35ffd220c91be87a",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43397",
-    "source_url": "https://higherin.com/jobs/43397/arcadis/register-your-interest-civil-engineer-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "46221ab45954bf59",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43398",
-    "source_url": "https://higherin.com/jobs/43398/arcadis/register-your-interest-quantity-surveyor-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "3efd53651d6e0c0b",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "42904",
-    "source_url": "https://higherin.com/jobs/42904/hymans-robertson/register-your-interest-pensions-governance-investment-consulting-summer-internship-programme-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "927be2b9f414d4e4",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43334",
-    "source_url": "https://higherin.com/jobs/43334/nomura/register-your-interest-global-markets-digital-office-summer-internship-2027-quants-strats"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "dff770463b96ef20",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43332",
-    "source_url": "https://higherin.com/jobs/43332/nomura/register-your-interest-investment-banking-summer-internship-2027-coverage-advisory-teams"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "de85291c48c38c2c",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43335",
-    "source_url": "https://higherin.com/jobs/43335/nomura/register-your-interest-global-markets-investment-banking-womens-immersion-programme-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "00096fe07488f979",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43318",
-    "source_url": "https://higherin.com/jobs/43318/network-rail/register-your-interest-electrical-engineering-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "722ae315df600ebb",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43310",
-    "source_url": "https://higherin.com/jobs/43310/network-rail/register-your-interest-civil-engineering-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "6dff1e0ac417cc55",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43315",
-    "source_url": "https://higherin.com/jobs/43315/network-rail/register-your-interest-network-strategy-planning-and-analysis-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "dd94de62f83db63f",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43255",
-    "source_url": "https://higherin.com/jobs/43255/centrica/register-your-interest-business-management-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "58e12d222fff3b70",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "42996",
-    "source_url": "https://higherin.com/jobs/42996/valero/register-your-interest-trading-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "19b3ba3271287e57",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43331",
-    "source_url": "https://higherin.com/jobs/43331/nomura/register-your-interest-investment-banking-summer-internship-2027-client-financing-solutions"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "3a2f71d7e5801464",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43249",
-    "source_url": "https://higherin.com/jobs/43249/centrica/register-your-interest-process-engineering-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "f86cbfdf81242061",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43319",
-    "source_url": "https://higherin.com/jobs/43319/network-rail/register-your-interest-mechanical-engineering-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "300c7c293befed17",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43253",
-    "source_url": "https://higherin.com/jobs/43253/centrica/register-your-interest-people-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "6c3c037b58b9afea",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43313",
-    "source_url": "https://higherin.com/jobs/43313/network-rail/register-your-interest-project-management-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "0466ef19e7817b9d",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43602",
-    "source_url": "https://higherin.com/jobs/43602/transport-for-london/register-your-interest-engineering-technology-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "422d62f823677ea4",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43333",
-    "source_url": "https://higherin.com/jobs/43333/nomura/register-your-interest-global-markets-summer-internship-2027-sales-trading-structuring-research"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "550ccf5499f0b5da",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43017",
-    "source_url": "https://higherin.com/jobs/43017/visa/register-your-interest-consulting-analytics-internship-2027-implementation-services"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "60b4af719ad5ed21",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43016",
-    "source_url": "https://higherin.com/jobs/43016/visa/register-your-interest-consulting-analytics-internship-2027"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "3020e65ddfbc58da",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43322",
-    "source_url": "https://higherin.com/jobs/43322/network-rail/register-your-interest-finance-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "5292a3993e409193",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43206",
-    "source_url": "https://higherin.com/jobs/43206/fidelity-international/register-your-interest-2027-summer-internships"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "5d17304ce00be411",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43377",
-    "source_url": "https://higherin.com/jobs/43377/ey/register-your-interest-tax-summer-internships-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "5ad363bb578e1a3b",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "42903",
-    "source_url": "https://higherin.com/jobs/42903/hymans-robertson/register-your-interest-actuarial-consulting-analytics-summer-internship-programme-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "8f87b1ad05893b70",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43381",
-    "source_url": "https://higherin.com/jobs/43381/ey/register-your-interest-audit-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "4b62cdcc9c6bf8d6",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43325",
-    "source_url": "https://higherin.com/jobs/43325/network-rail/register-your-interest-internship-programme-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "049aee04786befb7",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43388",
-    "source_url": "https://higherin.com/jobs/43388/grant-thornton/register-your-interest-summer-internships-2027"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "c4c4f7c621fc1305",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43266",
-    "source_url": "https://higherin.com/jobs/43266/dla-piper/register-your-interest-law-summer-internship-2027-london"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "4ec192bc925b33d8",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43561",
-    "source_url": "https://higherin.com/jobs/43561/bdo/register-your-interest-summer-internship-programme-2027"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "7177b326d33c4fa5",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "42997",
-    "source_url": "https://higherin.com/jobs/42997/valero/register-your-interest-public-and-government-affairs-summer-internship-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "8ffeb5acd6c9d811",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43380",
-    "source_url": "https://higherin.com/jobs/43380/ey/register-your-interest-consulting-summer-internships-2027"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "73d9ce53db9dd132",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "43015",
-    "source_url": "https://higherin.com/jobs/43015/visa/register-your-interest-government-affairs-internship-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "169320a63c236b4d",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "42860",
-    "source_url": "https://higherin.com/jobs/42860/british-airways/register-your-interest-summer-internships-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "cd4ec4e1e0dd3bf0",
-    "source_id": "higherin-london-internships",
-    "source_identifier": "42909",
-    "source_url": "https://higherin.com/jobs/42909/loreal/register-your-interest-summer-internships-2027"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "b3f252331ee0fa38",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082434",
-    "source_url": "https://www.charityjob.co.uk/jobs/national-aids-trust-nat-/world-aids-day-project-assistant/1082434?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "ecaae576e463e7a7",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082423",
-    "source_url": "https://www.charityjob.co.uk/jobs/women-s-association-for-networking-and-development-wand-uk-/lifelong-learning-coordinator/1082423?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "68091e8b047b0d7f",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082422",
-    "source_url": "https://www.charityjob.co.uk/jobs/women-s-association-for-networking-and-development-wand-uk-/chief-executive-officer/1082422?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "103ce02d878da427",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082421",
-    "source_url": "https://www.charityjob.co.uk/jobs/spear-inspiring-work/lead-coach/1082421?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "e61f581838027ec6",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082413",
-    "source_url": "https://www.charityjob.co.uk/jobs/refugee-support-group/advice-programme-manager-iaa-level-3-/1082413?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "b132d02b3018a4ae",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082433",
-    "source_url": "https://www.charityjob.co.uk/jobs/ethical-property-foundation/general-practice-surveyor/1082433?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "05c80c7ff0533b28",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082432",
-    "source_url": "https://www.charityjob.co.uk/jobs/ethical-property-foundation/national-project-manager/1082432?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "c074231f95fb6797",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082431",
-    "source_url": "https://www.charityjob.co.uk/jobs/ethical-property-foundation/building-surveyor/1082431?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "7c0823f20caf6ec9",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082430",
-    "source_url": "https://www.charityjob.co.uk/jobs/goodwork/senior-programme-officer/1082430?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "3270ecdf47980dc9",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082429",
-    "source_url": "https://www.charityjob.co.uk/jobs/rspca-surrey-east-branch/charity-shop-manager/1082429?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "4e50578e7e7f69c7",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082427",
-    "source_url": "https://www.charityjob.co.uk/jobs/tpp-recruitment/head-of-assessment/1082427?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "ebec1fd4e54b8932",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082424",
-    "source_url": "https://www.charityjob.co.uk/jobs/symphony-collective/chief-growth-officer/1082424?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "88c4388dd7f5e4e6",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082419",
-    "source_url": "https://www.charityjob.co.uk/jobs/public-sector/supported-housing-services-manager/1082419?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "a0e612a016209eed",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082416",
-    "source_url": "https://www.charityjob.co.uk/jobs/talkback-uk/interim-ceo-talkback/1082416?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "0b07334ac1e95ccb",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082414",
-    "source_url": "https://www.charityjob.co.uk/jobs/hestia/peer-support-worker-part-time/1082414?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "ff46bb9b46690903",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082406",
-    "source_url": "https://www.charityjob.co.uk/jobs/st-john-red-cross-dmws/head-of-frontline-welfare-and-wellbeing-services/1082406?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "deeb58ef6e0408cc",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082404",
-    "source_url": "https://www.charityjob.co.uk/jobs/refugee-support-group/iaa-adviser-level-2/1082404?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "e010e9bee2ff0bce",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082402",
-    "source_url": "https://www.charityjob.co.uk/jobs/south-east-london-mind/sessional-hearing-voices-co-facilitator/1082402?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "dd8a4f264c467ea3",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082394",
-    "source_url": "https://www.charityjob.co.uk/jobs/richmond-advice-and-information-on-disability-raid-/money-advisor/1082394?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "0dc1333d969ada7d",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082411",
-    "source_url": "https://www.charityjob.co.uk/jobs/bethlehem-care-and-hospice-trust/trusts-foundations-fundraiser/1082411?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "dce9fd78b8d94641",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082410",
-    "source_url": "https://www.charityjob.co.uk/jobs/institute-of-registered-case-managers/operations-coordinator/1082410?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "5e4658ba5d100d1f",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082408",
-    "source_url": "https://www.charityjob.co.uk/jobs/ataxia-uk/research-manager/1082408?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "f54e286362cb958f",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082400",
-    "source_url": "https://www.charityjob.co.uk/jobs/anna-freud/training-conferences-and-events-assistant/1082400?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "6ecdde7e1fe60e5e",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082399",
-    "source_url": "https://www.charityjob.co.uk/jobs/samaritans/public-affairs-and-campaigns-manager/1082399?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "dc58e467c46a811c",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082397",
-    "source_url": "https://www.charityjob.co.uk/jobs/cruse-bereavement-support/individual-giving-manager/1082397?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "793f863ee4d729f7",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082393",
-    "source_url": "https://www.charityjob.co.uk/jobs/hestia/group-activities-coordinator/1082393?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "8ffa7e849ac8ac52",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082392",
-    "source_url": "https://www.charityjob.co.uk/jobs/premier-christian-communications/financial-controller/1082392?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "cc4169b74b8df823",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082390",
-    "source_url": "https://www.charityjob.co.uk/jobs/asthma-lung-uk/neighbourhood-development-manager/1082390?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "8e97abde838cca7a",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082388",
-    "source_url": "https://www.charityjob.co.uk/jobs/cruse-bereavement-support/new-business-and-sales-manager/1082388?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "60accbdded4ca737",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082386",
-    "source_url": "https://www.charityjob.co.uk/jobs/action-for-humanity-/regional-fundraising-manager-london-/1082386?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "0bd61341d01a9824",
-    "source_id": "nhs-jobs-london",
-    "source_identifier": "B0657-26-0005",
-    "source_url": "https://www.jobs.nhs.uk/candidate/jobadvert/B0657-26-0005?location=London&language=en&searchFormType=sortBy&sort=publicationDateDesc&limit=100&country=GB-ENG"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "7d14becb120f6798",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082380",
-    "source_url": "https://www.charityjob.co.uk/jobs/the-photographers-gallery/crm-data-manager-part-time-fixed-term-/1082380?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "e27c43cc0f0a1e88",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082377",
-    "source_url": "https://www.charityjob.co.uk/jobs/motability-foundation/policy-manager/1082377?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "7245474b5daafeda",
-    "source_id": "work-hub-london",
-    "source_identifier": "6a982751374f01b9810b8b49",
-    "source_url": "https://www.jobs.service.gov.uk/jobs/6a982751374f01b9810b8b49"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "d5137e5285d88171",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082384",
-    "source_url": "https://www.charityjob.co.uk/jobs/ashby-jenkins-recruitment/head-of-fundraising/1082384?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "cead55819f0fdf9f",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082382",
-    "source_url": "https://www.charityjob.co.uk/jobs/mcr-pathways/senior-policy-and-public-affairs-officer/1082382?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "465d434505543757",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082381",
-    "source_url": "https://www.charityjob.co.uk/jobs/action-for-family-carers/carer-support-team-lead/1082381?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "e25dd8fa29709b2d",
-    "source_id": "charityjob-london",
-    "source_identifier": "1079776",
-    "source_url": "https://www.charityjob.co.uk/jobs/loughborough-community-centre-lcc-/early-years-professional-senior-practitioner-l3-/1079776?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "3d72c44d70867a05",
-    "source_id": "charityjob-london",
-    "source_identifier": "1081711",
-    "source_url": "https://www.charityjob.co.uk/jobs/the-baobab-centre-for-young-survivors-in-exile/therapeutic-community-caseworker/1081711?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "367a745a6f6f3d08",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082370",
-    "source_url": "https://www.charityjob.co.uk/jobs/action-tutoring/london-programme-coordinator/1082370?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "a71c5de55bdf2a91",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082363",
-    "source_url": "https://www.charityjob.co.uk/jobs/holocaust-educational-trust/education-officer/1082363?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "ae30b0b5cd0cc527",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082358",
-    "source_url": "https://www.charityjob.co.uk/jobs/shelter/business-intelligence-analyst/1082358?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "5ea5da7e4e603cdc",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082351",
-    "source_url": "https://www.charityjob.co.uk/jobs/cruse-bereavement-support/trainer/1082351?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "4bb93c43a158840a",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082346",
-    "source_url": "https://www.charityjob.co.uk/jobs/her-centre/housing-idva-maternity-cover-6-months-/1082346?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "a5b9af4594e16dfb",
-    "source_id": "work-hub-london",
-    "source_identifier": "6a7c3b17a158fef5a36f7863",
-    "source_url": "https://www.jobs.service.gov.uk/jobs/6a7c3b17a158fef5a36f7863"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "610be37623b97eec",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082343",
-    "source_url": "https://www.charityjob.co.uk/jobs/design-for-good/finance-operations-lead/1082343?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "694821b50955c1fc",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082340",
-    "source_url": "https://www.charityjob.co.uk/jobs/south-london-refugee-association/ceo/1082340?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "202276bc2067b11d",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082327",
-    "source_url": "https://www.charityjob.co.uk/jobs/the-royal-marsden-cancer-charity/website-and-analytics-manager/1082327?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "5fe94c45564e3ac9",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082324",
-    "source_url": "https://www.charityjob.co.uk/jobs/single-homeless-project/sports-coordinator/1082324?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "304522906e029e2e",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082323",
-    "source_url": "https://www.charityjob.co.uk/jobs/parkrun/head-of-international-growth/1082323?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "2a2eb2c8e8de8010",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082322",
-    "source_url": "https://www.charityjob.co.uk/jobs/progressive-judaism/hr-administrator-maternity-cover-part-time-/1082322?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "f299dab5447b23c7",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082339",
-    "source_url": "https://www.charityjob.co.uk/jobs/royal-college-of-paediatrics-and-child-health/digital-learning-administrator/1082339?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "8e86108c24d18436",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082336",
-    "source_url": "https://www.charityjob.co.uk/jobs/the-royal-college-of-psychiatrists/divisions-events-manager/1082336?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "85a921984a381a6b",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082335",
-    "source_url": "https://www.charityjob.co.uk/jobs/kidney-care-uk/regional-manager-patient-support-scotland-and-northern-ireland/1082335?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "e6689ca34159e65c",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082331",
-    "source_url": "https://www.charityjob.co.uk/jobs/ymca-downslink-group/supported-housing-support-worker/1082331?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "cbaa81d406508c0a",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082320",
-    "source_url": "https://www.charityjob.co.uk/jobs/hestia/children-families-worker/1082320?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "5cc9327c187fa2e3",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082319",
-    "source_url": "https://www.charityjob.co.uk/jobs/home-start-medway/volunteer-co-ordinator/1082319?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "90adc378e7f5f745",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082318",
-    "source_url": "https://www.charityjob.co.uk/jobs/galop/senior-counsellor-triage-and-pathway-oversight-/1082318?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "d9dd5236bc1e6f96",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082306",
-    "source_url": "https://www.charityjob.co.uk/jobs/westway-trust/social-media-officer/1082306?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "e5ed0fb64a4c0d9f",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082299",
-    "source_url": "https://www.charityjob.co.uk/jobs/victim-support/independent-domestic-violence-advisor-/1082299?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "ddfcc89ae60a0b1e",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082292",
-    "source_url": "https://www.charityjob.co.uk/jobs/age-uk/legal-adviser-/1082292?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "854d1f79a18c4272",
-    "source_id": "charityjob-london",
-    "source_identifier": "1081646",
-    "source_url": "https://www.charityjob.co.uk/jobs/arthritis-action/head-of-services-and-engagement-maternity-cover-/1081646?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "c0dfb33378875abd",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082317",
-    "source_url": "https://www.charityjob.co.uk/jobs/prospectus-/send-senior-delivery-coordinator/1082317?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "9a1b038c9ae037a0",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082316",
-    "source_url": "https://www.charityjob.co.uk/jobs/prospectus-/senior-trusts-and-foundations-officer/1082316?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "9276477ff503638a",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082314",
-    "source_url": "https://www.charityjob.co.uk/jobs/voluntary-action-surrey-east/community-insight-and-partnerships-officer/1082314?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "6114f278d6f09f06",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082313",
-    "source_url": "https://www.charityjob.co.uk/jobs/charity-people/head-of-finance-2-days-a-week-fully-remote/1082313?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "fec7edf417e23363",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082312",
-    "source_url": "https://www.charityjob.co.uk/jobs/care-international-uk/talent-and-culture-business-partner/1082312?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "760de31e98d55a7d",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082309",
-    "source_url": "https://www.charityjob.co.uk/jobs/outside-edge-theatre-company/development-coordinator/1082309?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "80f8dd50e7919533",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082307",
-    "source_url": "https://www.charityjob.co.uk/jobs/galop/national-lgbt-children-and-young-people-s-advocate/1082307?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "a9070146f2062ba6",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082301",
-    "source_url": "https://www.charityjob.co.uk/jobs/the-national-lottery-community-fund/stakeholder-engagement-manager-rheolwr-ymgysylltu-rhanddeiliaid/1082301?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "7a53de2a34695fe9",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082294",
-    "source_url": "https://www.charityjob.co.uk/jobs/toynbee-hall/senior-advice-manager/1082294?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "d1c79f73f17fd754",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082287",
-    "source_url": "https://www.charityjob.co.uk/jobs/ageuk/senior-email-marketing-executive-fundraising/1082287?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "e0c0f3b4efc781ec",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082285",
-    "source_url": "https://www.charityjob.co.uk/jobs/asthma-lung-uk/people-operations-advisor/1082285?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "43b1954ea6377f94",
-    "source_id": "charityjob-london",
-    "source_identifier": "1080530",
-    "source_url": "https://www.charityjob.co.uk/jobs/worker-support-centre/fundraising-manager/1080530?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "7502ac6738185564",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082271",
-    "source_url": "https://www.charityjob.co.uk/jobs/english-speaking-union/competition-lead/1082271?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "e63ab591118b7889",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082268",
-    "source_url": "https://www.charityjob.co.uk/jobs/national-federation-of-womens-institutes/innovation-and-project-officer/1082268?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "bb4de3c1f6962bae",
-    "source_id": "charityjob-london",
-    "source_identifier": "1081944",
-    "source_url": "https://www.charityjob.co.uk/jobs/anna-freud/quantitative-research-fellow/1081944?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "a06cc217c8f8a44a",
-    "source_id": "charityjob-london",
-    "source_identifier": "1081875",
-    "source_url": "https://www.charityjob.co.uk/jobs/the-advocacy-project/senior-advocate-practice-lead-/1081875?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "b2130fb95d4761d9",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082279",
-    "source_url": "https://www.charityjob.co.uk/jobs/macular-society/community-engagement-manager/1082279?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "77e1eb94a056a029",
-    "source_id": "nhs-jobs-london",
-    "source_identifier": "B0603-26-0009",
-    "source_url": "https://www.jobs.nhs.uk/candidate/jobadvert/B0603-26-0009?location=London&language=en&searchFormType=sortBy&sort=publicationDateDesc&limit=100&country=GB-ENG"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "b461af390c16e8ce",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082275",
-    "source_url": "https://www.charityjob.co.uk/jobs/young-futures/children-young-people-s-practitioners-children-s-home/1082275?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "0463ab1945c4d682",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082274",
-    "source_url": "https://www.charityjob.co.uk/jobs/princess-alice-hospice/senior-occupational-therapist/1082274?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "a3bce135470b7922",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082273",
-    "source_url": "https://www.charityjob.co.uk/jobs/princess-alice-hospice/community-fundraising-officer/1082273?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "c1b175a5339f67db",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082272",
-    "source_url": "https://www.charityjob.co.uk/jobs/students-union-ucl/academic-representation-communities-coordinator/1082272?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "b683f3ca9e447285",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082270",
-    "source_url": "https://www.charityjob.co.uk/jobs/prospectus-/head-of-fundraising-membership/1082270?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "d9c9518f37d58bea",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082262",
-    "source_url": "https://www.charityjob.co.uk/jobs/movember/mass-participation-events-manager/1082262?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "5bdb58a13b38a700",
-    "source_id": "charityjob-london",
-    "source_identifier": "1081731",
-    "source_url": "https://www.charityjob.co.uk/jobs/the-purple-elephant-project/community-events-fundraiser/1081731?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "79f863ea7acb98d9",
-    "source_id": "charityjob-london",
-    "source_identifier": "1081359",
-    "source_url": "https://www.charityjob.co.uk/jobs/save-the-children/employee-relations-advisor/1081359?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "607073e9c5eeaaee",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082254",
-    "source_url": "https://www.charityjob.co.uk/jobs/london-youth/facilities-manager/1082254?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "90a6b9ce11b61517",
-    "source_id": "charityjob-london",
-    "source_identifier": "1081251",
-    "source_url": "https://www.charityjob.co.uk/jobs/the-money-charity/education-officer-children-young-people/1081251?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "40571b782bad2870",
-    "source_id": "charityjob-london",
-    "source_identifier": "1080755",
-    "source_url": "https://www.charityjob.co.uk/jobs/compassion-in-world-farming-international-ciwf-/european-food-business-manager-ftc-/1080755?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "5c5fe4362cb0ea71",
-    "source_id": "charityjob-london",
-    "source_identifier": "1080716",
-    "source_url": "https://www.charityjob.co.uk/jobs/london-legal-support-trust/communications-information-officer/1080716?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "d36051dbbae0d488",
-    "source_id": "charityjob-london",
-    "source_identifier": "1080672",
-    "source_url": "https://www.charityjob.co.uk/jobs/providence-row-ha-/support-worker/1080672?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "a8ef305aad111b0e",
-    "source_id": "charityjob-london",
-    "source_identifier": "1080625",
-    "source_url": "https://www.charityjob.co.uk/jobs/on-purpose/on-purpose-associate-a-leadership-programme-for-social-environmental-impact/1080625?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "76f94d70bd002d5e",
-    "source_id": "charityjob-london",
-    "source_identifier": "1080596",
-    "source_url": "https://www.charityjob.co.uk/jobs/act-build-change/lead-community-organiser/1080596?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "dbcf270c44c19990",
-    "source_id": "charityjob-london",
-    "source_identifier": "1079966",
-    "source_url": "https://www.charityjob.co.uk/jobs/foodrise/media-and-communications-manager/1079966?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "1917dda18b96b1b3",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082260",
-    "source_url": "https://www.charityjob.co.uk/jobs/alzheimers-society/technology-business-partner/1082260?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "9486da61f79373d2",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082258",
-    "source_url": "https://www.charityjob.co.uk/jobs/the-royal-parks/senior-estates-manager/1082258?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "0d0548ad59d95c63",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082257",
-    "source_url": "https://www.charityjob.co.uk/jobs/harris-hill-charity-recruitment-specialists/technical-product-manager-/1082257?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "2452236065a7f65f",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082256",
-    "source_url": "https://www.charityjob.co.uk/jobs/the-royal-parks/project-manager-capital-works-/1082256?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "96a58b84185dbd55",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082253",
-    "source_url": "https://www.charityjob.co.uk/jobs/allen-lane-interim-permanent-recruitment-/head-of-people-business-partnering/1082253?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "4a25d56cab46e77b",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082252",
-    "source_url": "https://www.charityjob.co.uk/jobs/refuge/philanthropy-manager/1082252?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "f768c251683ab509",
-    "source_id": "charityjob-london",
-    "source_identifier": "1081562",
-    "source_url": "https://www.charityjob.co.uk/jobs/magic-breakfast/data-and-ai-manager/1081562?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "68846cb303883248",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082232",
-    "source_url": "https://www.charityjob.co.uk/jobs/st-mungo-s/outreach-worker-roma-rough-sleeping/1082232?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "ffe7f57ab4776c58",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082249",
-    "source_url": "https://www.charityjob.co.uk/jobs/mind-tower-hamlets-newham-and-redbridge-mindthnr-/director-of-people-and-culture/1082249?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "a061470ac83197e1",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082248",
-    "source_url": "https://www.charityjob.co.uk/jobs/harris-hill-charity-recruitment-specialists/people-advisor/1082248?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "d6dcdca14224aa66",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082247",
-    "source_url": "https://www.charityjob.co.uk/jobs/hestia/peer-support-worker/1082247?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "9ab948fe5816f734",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082246",
-    "source_url": "https://www.charityjob.co.uk/jobs/southbank-centre/senior-retail-general-manager/1082246?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "7da7b06f7ed01a5e",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082244",
-    "source_url": "https://www.charityjob.co.uk/jobs/turn2us/senior-partnerships-officer/1082244?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "c5db7bc281b8f0ab",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082243",
-    "source_url": "https://www.charityjob.co.uk/jobs/collections-trust/museum-data-manager/1082243?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "75d062c42ee2c467",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082241",
-    "source_url": "https://www.charityjob.co.uk/jobs/the-talent-set/head-of-digital-engagement/1082241?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "d8fe07168dff3e7b",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082240",
-    "source_url": "https://www.charityjob.co.uk/jobs/scriptoria-sustainable-development-solutions/full-time-internship-project-management-software-systems-analyst-sustainable-development-paid-6-months-/1082240?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "254de8d87b696c67",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082239",
-    "source_url": "https://www.charityjob.co.uk/jobs/school-food-matters/hertfordshire-project-officer/1082239?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "9f489c85f1f536ac",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082235",
-    "source_url": "https://www.charityjob.co.uk/jobs/school-food-matters/hertfordshire-project-assistant/1082235?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "d1b4927fee114ba8",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082231",
-    "source_url": "https://www.charityjob.co.uk/jobs/the-talent-set/corporate-partnerships-manager/1082231?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "f795237083afdd00",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082224",
-    "source_url": "https://www.charityjob.co.uk/jobs/cure-parkinson-s/scientific-programmes-manager/1082224?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "fbc438465943e787",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082220",
-    "source_url": "https://www.charityjob.co.uk/jobs/age-international/ceo-age-international/1082220?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "bebd80d5fd941c2a",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082216",
-    "source_url": "https://www.charityjob.co.uk/jobs/volunteer-centre-kensington-chelsea/stepping-stones-xp-officer/1082216?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "e538524cea4997b9",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082211",
-    "source_url": "https://www.charityjob.co.uk/jobs/dogs-trust/senior-service-desk-analyst/1082211?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "e0001c184ecfb429",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082226",
-    "source_url": "https://www.charityjob.co.uk/jobs/ashby-jenkins-recruitment/senior-digital-marketing-officer/1082226?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "05619b79675a623a",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082221",
-    "source_url": "https://www.charityjob.co.uk/jobs/refugee-council/safeguarding-risk-incidents-manager/1082221?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "224383ec25d18d05",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082218",
-    "source_url": "https://www.charityjob.co.uk/jobs/prospectus-/director-of-programmes/1082218?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "ca7309106ec32f01",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082203",
-    "source_url": "https://www.charityjob.co.uk/jobs/restless-development/assistant-fundraising-events-coordinator/1082203?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "af66ab10de6ffb3a",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082200",
-    "source_url": "https://www.charityjob.co.uk/jobs/think-do-/in-the-loop-project-manager/1082200?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "a4a53bd776d90d36",
-    "source_id": "work-hub-london",
-    "source_identifier": "6a96aa9bbc442629c71c789b",
-    "source_url": "https://www.jobs.service.gov.uk/jobs/6a96aa9bbc442629c71c789b"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "e996e2650072338c",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082196",
-    "source_url": "https://www.charityjob.co.uk/jobs/the-royal-british-legion/head-of-risk-management-and-insurance/1082196?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "5309533dcd01536f",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082180",
-    "source_url": "https://www.charityjob.co.uk/jobs/international-health-partners/partnership-officer/1082180?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "9f63bc6270bc571c",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082165",
-    "source_url": "https://www.charityjob.co.uk/jobs/mind-in-croydon/therapeutic-service-administrator-part-time-/1082165?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "7e9aa7bda5d0bff7",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082164",
-    "source_url": "https://www.charityjob.co.uk/jobs/international-health-partners/finance-resources-manager/1082164?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "ed2249c5d10b92c9",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082191",
-    "source_url": "https://www.charityjob.co.uk/jobs/the-talent-set/head-of-communications-marketing/1082191?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "81bc2d27e7ba788c",
-    "source_id": "charityjob-london",
-    "source_identifier": "1081561",
-    "source_url": "https://www.charityjob.co.uk/jobs/enable-leisure-culture/management-accountant/1081561?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "961c536f6117a089",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082185",
-    "source_url": "https://www.charityjob.co.uk/jobs/world-jewish-relief/trust-fundraiser/1082185?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "174b4a58fb6a0007",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082183",
-    "source_url": "https://www.charityjob.co.uk/jobs/harris-hill-charity-recruitment-specialists/marketing-manager/1082183?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "c5ec7e53fabc42e4",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082182",
-    "source_url": "https://www.charityjob.co.uk/jobs/the-national-lottery-community-fund/evidence-engagement-manager-rheolwr-ymgysylltu-thystiolaeth/1082182?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "7b48155f4ba40baa",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082179",
-    "source_url": "https://www.charityjob.co.uk/jobs/the-national-lottery-community-fund/funding-officer-swyddog-ariannu-uk-portfolio/1082179?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "a33cc7855a12b606",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082175",
-    "source_url": "https://www.charityjob.co.uk/jobs/national-children-s-bureau/education-programme-lead/1082175?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "29cbfb87ba4b1abd",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082172",
-    "source_url": "https://www.charityjob.co.uk/jobs/public-sector/service-charge-officer-analyst/1082172?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "3636119221a97ba6",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082170",
-    "source_url": "https://www.charityjob.co.uk/jobs/prospectus-/programme-manager-french-speaking-/1082170?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "77f1682d2e2b4744",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082163",
-    "source_url": "https://www.charityjob.co.uk/jobs/international-health-partners/senior-communications-officer/1082163?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "23368bae007f6592",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082162",
-    "source_url": "https://www.charityjob.co.uk/jobs/international-health-partners/content-coordinator/1082162?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "8048db8e6f0fc1b4",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082127",
-    "source_url": "https://www.charityjob.co.uk/jobs/social-care-institute-for-excellence/senior-people-and-culture-partner-part-time-/1082127?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "7845c863ef024d4d",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082125",
-    "source_url": "https://www.charityjob.co.uk/jobs/immigration-law-practitioners-association/training-manager/1082125?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "aad98399391d9098",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082124",
-    "source_url": "https://www.charityjob.co.uk/jobs/futures-for-all/delivery-partner/1082124?tsId=6"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "4f3bd3afa14640a5",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082159",
-    "source_url": "https://www.charityjob.co.uk/jobs/b-lab-uk/governance-and-board-lead/1082159?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "b2aa2321b26f178c",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082144",
-    "source_url": "https://www.charityjob.co.uk/jobs/ashby-jenkins-recruitment/principal-gifts-manager/1082144?tsId=1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "945a7fba38ccb7db",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082139",
-    "source_url": "https://www.charityjob.co.uk/jobs/blue-cross/business-analyst-practice-management-system/1082139?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "1a524bbf23e01971",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082138",
-    "source_url": "https://www.charityjob.co.uk/jobs/hertfordshire-mind-network/hospital-mental-health-outreach-worker/1082138?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "5c2068a2a046a91a",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082129",
-    "source_url": "https://www.charityjob.co.uk/jobs/calouste-gulbenkian-foundation/communications-and-programmes-officer/1082129?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "9c43a99aecdc9969",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082128",
-    "source_url": "https://www.charityjob.co.uk/jobs/hertfordshire-mind-network/mental-health-and-homelessness-outreach-worker/1082128?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
-    "role_id": "51d1304c111f0223",
-    "source_id": "charityjob-london",
-    "source_identifier": "1082126",
-    "source_url": "https://www.charityjob.co.uk/jobs/doing-good-recruitment/clinical-lead-camhs/1082126?tsId=2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-02T20:31:08.108884+00:00",
     "role_id": "7af1a33221c9ef3e",
     "source_id": "charityjob-london",
     "source_identifier": "1080933",
@@ -50019,5 +47599,2417 @@
     "source_id": "reed-london",
     "source_identifier": "57284178",
     "source_url": "https://www.reed.co.uk/jobs/marketing-and-communications-project-officer/57284178"
+  },
+  {
+    "changes": [
+      "official_source_page_changed"
+    ],
+    "content_hash": "8fb30124fbf026e08bb95d6f492e5664930376987dc8b566d6f6296025a6ee7f",
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "source_id": "rothschild-and-co",
+    "source_url": "https://www.rothschildandco.com/en/careers/students-and-graduates/internships/"
+  },
+  {
+    "changes": [
+      "official_source_page_changed"
+    ],
+    "content_hash": "a4da978c7683b96a893ee9b48fe0955bfaadb383175ebe0ef7468e58b10931f0",
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "source_id": "houlihan-lokey",
+    "source_url": "https://hl.com/careers/early-careers/internships-europe/"
+  },
+  {
+    "changes": [
+      "official_source_page_changed"
+    ],
+    "content_hash": "b9776859d5fa89f5ebcc8b9c9829d51d0e46bb36a5a1e9ab284a804bb95ab50d",
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "source_id": "barclays",
+    "source_url": "https://search.jobs.barclays/early-careers-roles"
+  },
+  {
+    "changes": [
+      "official_source_page_changed"
+    ],
+    "content_hash": "5c8ab0633ee8440f3e1a69500279d245cd81d6eb7b025fea10a4c28c80c81461",
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "source_id": "latham-watkins",
+    "source_url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/our-programmes"
+  },
+  {
+    "changes": [
+      "official_source_page_changed"
+    ],
+    "content_hash": "643024b6ef565ede689a70de1f12173062f4b6244bb0c7c5013197be16e74562",
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "source_id": "covington-burling",
+    "source_url": "https://www.cov.com/en/careers/lawyers/london/our-opportunities/vacation-schemes"
+  },
+  {
+    "changes": [
+      "official_source_page_changed"
+    ],
+    "content_hash": "aa239f284addcd748613cfd2e458115cc7d5e6fb219a42b768aaa080c454e390",
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "source_id": "hogan-lovells",
+    "source_url": "https://ukearlycareers.hlc.com/what-we-offer/vacation-scheme"
+  },
+  {
+    "changes": [
+      "official_source_page_changed"
+    ],
+    "content_hash": "f75d28a7d2e50ce4bed15ebf8527adf0a377bc190c22fb6f332e9f0a64096985",
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "source_id": "slaughter-and-may",
+    "source_url": "https://www.slaughterandmay.com/careers/early-careers/apply/"
+  },
+  {
+    "changes": [
+      "official_source_page_changed"
+    ],
+    "content_hash": "844c17a4520c9fa7aa2c87cdb02ef39932c2410027fea433089a5fb5f295af9b",
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "source_id": "hsf-kramer",
+    "source_url": "https://careers.hsfkramer.com/global/en/uk/early-careers/vacation-schemes"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "dac6171b2664419b",
+    "source_id": "blackrock",
+    "source_identifier": "12232",
+    "source_url": "https://careers.blackrock.com/job/london/2027-summer-internship-program-emea/45831/97150826672"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "9ec5948a111c7a4c",
+    "source_id": "blackrock",
+    "source_identifier": "12222",
+    "source_url": "https://careers.blackrock.com/job/london/2027-client-and-product-summer-internship-program-emea/45831/97150826736"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "b48a02b87bef83b9",
+    "source_id": "bank-of-america",
+    "source_identifier": "14519",
+    "source_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14519/global-corporate-banking-2027-summer-analyst-x2013-london-london-united-kingdom"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "73560e57e34b4aeb",
+    "source_id": "bank-of-america",
+    "source_identifier": "14521",
+    "source_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14521/global-capital-markets-2027-summer-analyst-dcm-ecm-leveraged-finance-and-ssg-london-london-united-kingdom"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "8027a5ba9212e153",
+    "source_id": "bank-of-america",
+    "source_identifier": "14522",
+    "source_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14522/global-investment-banking-2027-summer-analyst-london-london-united-kingdom"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "29a2c82722bec6a7",
+    "source_id": "blackstone",
+    "source_identifier": "43186",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Private-Equity-Summer-Analyst--London-_43186"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "982033891fa8fd2b",
+    "source_id": "blackstone",
+    "source_identifier": "43864",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Private-Credit-Strategies-Summer-Analyst--London-_43864"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "e78633864fc72f47",
+    "source_id": "blackstone",
+    "source_identifier": "43862",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Infrastructure-and-Asset-Based-Credit-Summer-Analyst--London-_43862"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "d02a281484ee121d",
+    "source_id": "blackstone",
+    "source_identifier": "43192",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Strategic-Partners-Private-Equity-Secondaries-Summer-Analyst--London-_43192"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "daa5cd3a4b971cf3",
+    "source_id": "blackstone",
+    "source_identifier": "43623",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Strategic-Partners-Real-Estate-Secondaries-Summer-Analyst--London-_43623"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "c08370636a5ef4a6",
+    "source_id": "blackstone",
+    "source_identifier": "43155",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Real-Estate-Partners-Summer-Analyst---Acquisitions--Asset-Management--Capital-Markets-and-Core---London-_43155"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "663e22d23d3b5185",
+    "source_id": "blackstone",
+    "source_identifier": "43613",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Infrastructure-Partners-Summer-Analyst---Private-Equity-Infrastructure-Investment---Private-Equity-Infrastructure-Asset-Management--London-_43613"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "2cf0614b6340b235",
+    "source_id": "blackstone",
+    "source_identifier": "43199",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Real-Estate-Debt-Strategies-Summer-Analyst---Private-Investments---Capital-Markets--London-_43199"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "da22c5b138c4d27b",
+    "source_id": "blackstone",
+    "source_identifier": "43179",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Tactical-Opportunities-Summer-Analyst--London-_43179"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "cfc2ccb19129811e",
+    "source_id": "blackstone",
+    "source_identifier": "43183",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Private-Wealth-Summer-Analyst--London-_43183"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "b1650b5a257af54f",
+    "source_id": "blackstone",
+    "source_identifier": "43188",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Real-Estate-Institutional-Client-Solutions-Summer-Analyst--London-_43188"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "1149ea93489d57cd",
+    "source_id": "goldman-sachs-current-roles",
+    "source_identifier": "170152",
+    "source_url": "https://higher.gs.com/roles/170152"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "25e448039da4ec7b",
+    "source_id": "goldman-sachs-current-roles",
+    "source_identifier": "170160",
+    "source_url": "https://higher.gs.com/roles/170160"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "f38d73f1e4fcf70e",
+    "source_id": "goldman-sachs-current-roles",
+    "source_identifier": "170163",
+    "source_url": "https://higher.gs.com/roles/170163"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "b2a8262ad6d46efb",
+    "source_id": "goldman-sachs-current-roles",
+    "source_identifier": "172894",
+    "source_url": "https://higher.gs.com/roles/172894"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "e59050ea5d6e8ceb",
+    "source_id": "goldman-sachs-current-roles",
+    "source_identifier": "170929",
+    "source_url": "https://higher.gs.com/roles/170929"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "762de6ccadcbe14f",
+    "source_id": "goldman-sachs-current-roles",
+    "source_identifier": "181882",
+    "source_url": "https://higher.gs.com/roles/181882"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "14d4abd23acf4cee",
+    "source_id": "goldman-sachs-current-roles",
+    "source_identifier": "173050",
+    "source_url": "https://higher.gs.com/roles/173050"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "211c99fee9a5463f",
+    "source_id": "goldman-sachs-current-roles",
+    "source_identifier": "170158",
+    "source_url": "https://higher.gs.com/roles/170158"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "e7e06b9b03ad69bc",
+    "source_id": "goldman-sachs-current-roles",
+    "source_identifier": "162040",
+    "source_url": "https://higher.gs.com/roles/162040"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "dba9ca8b2dfba7a2",
+    "source_id": "w4mp",
+    "source_identifier": "100134",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100134"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "c1334af1a1f71f2d",
+    "source_id": "w4mp",
+    "source_identifier": "100133",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100133"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "16a07e7f7ed38b21",
+    "source_id": "w4mp",
+    "source_identifier": "100132",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100132"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "2fb83e326a1dd038",
+    "source_id": "w4mp",
+    "source_identifier": "100131",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100131"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "8aaeb3f98b5a164d",
+    "source_id": "w4mp",
+    "source_identifier": "100129",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100129"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "e43dc30023072057",
+    "source_id": "w4mp",
+    "source_identifier": "100125",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100125"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "76e2332378ce0901",
+    "source_id": "w4mp",
+    "source_identifier": "100124",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100124"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "05070e77bbddb69b",
+    "source_id": "w4mp",
+    "source_identifier": "100123",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100123"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "b990a55f7472bb06",
+    "source_id": "w4mp",
+    "source_identifier": "100122",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100122"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "1f07a142f7c53af0",
+    "source_id": "w4mp",
+    "source_identifier": "100120",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100120"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "88fd343b32f3d374",
+    "source_id": "w4mp",
+    "source_identifier": "100119",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100119"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "872618b2cabb527d",
+    "source_id": "w4mp",
+    "source_identifier": "100117",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100117"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "0e5e81011de4baba",
+    "source_id": "w4mp",
+    "source_identifier": "100116",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100116"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "a0f8b8707c3c85ea",
+    "source_id": "w4mp",
+    "source_identifier": "100115",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100115"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "d3311a3a8b7ef06d",
+    "source_id": "w4mp",
+    "source_identifier": "100114",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100114"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "8bf587a5fee9a5c0",
+    "source_id": "w4mp",
+    "source_identifier": "100113",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100113"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "3d41b8ac5d057015",
+    "source_id": "w4mp",
+    "source_identifier": "100112",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100112"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "5d41e553aff7bed3",
+    "source_id": "w4mp",
+    "source_identifier": "100111",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100111"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "8cf4b1329a774fd4",
+    "source_id": "w4mp",
+    "source_identifier": "100110",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100110"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "fd18f7715d492a14",
+    "source_id": "w4mp",
+    "source_identifier": "100109",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100109"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "2cee9a5f5b0361af",
+    "source_id": "w4mp",
+    "source_identifier": "100108",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100108"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "4c9b3325c8f1a0e3",
+    "source_id": "w4mp",
+    "source_identifier": "100107",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100107"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "d0640008f3f35402",
+    "source_id": "w4mp",
+    "source_identifier": "100106",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100106"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "ee833b109ecd8e25",
+    "source_id": "w4mp",
+    "source_identifier": "100105",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100105"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "d9613960e9efb5aa",
+    "source_id": "w4mp",
+    "source_identifier": "100104",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100104"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "4e0cc6ec600d20d0",
+    "source_id": "w4mp",
+    "source_identifier": "100103",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100103"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "3acc740ece6a7e71",
+    "source_id": "w4mp",
+    "source_identifier": "100102",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100102"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "1afb24a842f6cbbf",
+    "source_id": "w4mp",
+    "source_identifier": "100101",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100101"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "6faa7e3d853ec51a",
+    "source_id": "w4mp",
+    "source_identifier": "100100",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100100"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "80dfd750bee9195b",
+    "source_id": "w4mp",
+    "source_identifier": "100099",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100099"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "7bfcd7568f68172d",
+    "source_id": "w4mp",
+    "source_identifier": "100098",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100098"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "0eaa6c99851d130e",
+    "source_id": "w4mp",
+    "source_identifier": "100097",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100097"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "246ae035f9633a08",
+    "source_id": "w4mp",
+    "source_identifier": "100096",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100096"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "9bd6580b6d1f839f",
+    "source_id": "w4mp",
+    "source_identifier": "100095",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100095"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "c777f13f147f2202",
+    "source_id": "w4mp",
+    "source_identifier": "100094",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100094"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "ba22d198e5ecbc2e",
+    "source_id": "w4mp",
+    "source_identifier": "100093",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100093"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "ae36eaa0a95f0666",
+    "source_id": "w4mp",
+    "source_identifier": "100092",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100092"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "9214253eff868cb0",
+    "source_id": "w4mp",
+    "source_identifier": "100091",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100091"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "9b2bcc8a026f629c",
+    "source_id": "w4mp",
+    "source_identifier": "100090",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100090"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "2e49376d79d5fafb",
+    "source_id": "w4mp",
+    "source_identifier": "100089",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100089"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "4bef92b6b40edd06",
+    "source_id": "w4mp",
+    "source_identifier": "100088",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100088"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "78814c4ce653f234",
+    "source_id": "w4mp",
+    "source_identifier": "100087",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100087"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "f6b77b6cec9f998b",
+    "source_id": "w4mp",
+    "source_identifier": "100086",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100086"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "d4aca38d4ffc1b87",
+    "source_id": "w4mp",
+    "source_identifier": "100084",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100084"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "b6e6251d0e427998",
+    "source_id": "w4mp",
+    "source_identifier": "100083",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100083"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "518537920a7469e5",
+    "source_id": "w4mp",
+    "source_identifier": "100082",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100082"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "aeaa490e0806a3fe",
+    "source_id": "w4mp",
+    "source_identifier": "100081",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100081"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "15896579473d1e9a",
+    "source_id": "w4mp",
+    "source_identifier": "100080",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100080"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "4f92747ea0f0271c",
+    "source_id": "w4mp",
+    "source_identifier": "100079",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100079"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "65924097c6819f0a",
+    "source_id": "w4mp",
+    "source_identifier": "100078",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100078"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "342692972faa821e",
+    "source_id": "w4mp",
+    "source_identifier": "100076",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100076"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "9aa5447fe65cdc9c",
+    "source_id": "w4mp",
+    "source_identifier": "100075",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100075"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "d593c9d6a622c272",
+    "source_id": "w4mp",
+    "source_identifier": "100074",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100074"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "30b9dd7fe6f7e3a7",
+    "source_id": "w4mp",
+    "source_identifier": "100073",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100073"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "d72221e52d67cc24",
+    "source_id": "w4mp",
+    "source_identifier": "100071",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100071"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "eee193d79a6ccf19",
+    "source_id": "w4mp",
+    "source_identifier": "100070",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100070"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "ee92d08f81e07826",
+    "source_id": "w4mp",
+    "source_identifier": "100069",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100069"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "3841504385c40157",
+    "source_id": "w4mp",
+    "source_identifier": "100068",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100068"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "6a4e73989f40f374",
+    "source_id": "w4mp",
+    "source_identifier": "100067",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100067"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "c6e851dec86424f4",
+    "source_id": "w4mp",
+    "source_identifier": "100066",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100066"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "b9aec00e45a97d64",
+    "source_id": "w4mp",
+    "source_identifier": "100064",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100064"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "754269133aefcc8b",
+    "source_id": "w4mp",
+    "source_identifier": "100063",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100063"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "0ee7285cf138e918",
+    "source_id": "w4mp",
+    "source_identifier": "100062",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100062"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "7ff43395dbefeccc",
+    "source_id": "w4mp",
+    "source_identifier": "100061",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100061"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "e746cf036542de8c",
+    "source_id": "w4mp",
+    "source_identifier": "100060",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100060"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "8fd4ffed0c49bc76",
+    "source_id": "w4mp",
+    "source_identifier": "100058",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100058"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "c106a9e0676f2c41",
+    "source_id": "w4mp",
+    "source_identifier": "100057",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100057"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "4fb0e176861edab6",
+    "source_id": "w4mp",
+    "source_identifier": "100056",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100056"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "86f9b1c761061222",
+    "source_id": "w4mp",
+    "source_identifier": "100055",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100055"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "f36279b136bfc50e",
+    "source_id": "w4mp",
+    "source_identifier": "100054",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100054"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "5c229df430290938",
+    "source_id": "w4mp",
+    "source_identifier": "100052",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100052"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "b28a2b26ec2c0da6",
+    "source_id": "w4mp",
+    "source_identifier": "100051",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100051"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "45be64f3b31da236",
+    "source_id": "w4mp",
+    "source_identifier": "100050",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100050"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "027ab2f2b2423c26",
+    "source_id": "w4mp",
+    "source_identifier": "100049",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100049"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "ea0fe1d9b3f546d5",
+    "source_id": "w4mp",
+    "source_identifier": "100047",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100047"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "61958dab1358e50d",
+    "source_id": "w4mp",
+    "source_identifier": "100045",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100045"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "fafa860df3171b28",
+    "source_id": "w4mp",
+    "source_identifier": "100044",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100044"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "4f0efa7df5faab8a",
+    "source_id": "w4mp",
+    "source_identifier": "100041",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100041"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "ed2eb0d6cabdea45",
+    "source_id": "w4mp",
+    "source_identifier": "100040",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100040"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "f07a69b7fb30ae86",
+    "source_id": "w4mp",
+    "source_identifier": "100039",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100039"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "65c09fabae106f99",
+    "source_id": "w4mp",
+    "source_identifier": "100038",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100038"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "2cf2e04b519c3c48",
+    "source_id": "w4mp",
+    "source_identifier": "100035",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100035"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "44043343681db9b0",
+    "source_id": "w4mp",
+    "source_identifier": "100031",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100031"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "ccb675f2b56591c4",
+    "source_id": "w4mp",
+    "source_identifier": "100030",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100030"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "3cdf3dd4acf60187",
+    "source_id": "w4mp",
+    "source_identifier": "100027",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "f1da49a31c267e9e",
+    "source_id": "w4mp",
+    "source_identifier": "100026",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100026"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "32f8cc27f745784a",
+    "source_id": "w4mp",
+    "source_identifier": "100025",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100025"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "d6e8c20013aecd76",
+    "source_id": "w4mp",
+    "source_identifier": "100023",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100023"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "416725b9daa27dab",
+    "source_id": "w4mp",
+    "source_identifier": "100022",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100022"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "2ca64a8e9c67348b",
+    "source_id": "w4mp",
+    "source_identifier": "100016",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100016"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "bfca1bae1b29248c",
+    "source_id": "w4mp",
+    "source_identifier": "100014",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100014"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "86d44753d3a1ac42",
+    "source_id": "w4mp",
+    "source_identifier": "100013",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100013"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "ce3df1339eb334e0",
+    "source_id": "w4mp",
+    "source_identifier": "100011",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100011"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "163c045defe9fe25",
+    "source_id": "w4mp",
+    "source_identifier": "100010",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100010"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "40c89af57fe8cea5",
+    "source_id": "w4mp",
+    "source_identifier": "100009",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100009"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "78381900e0bf2dff",
+    "source_id": "w4mp",
+    "source_identifier": "100008",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100008"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "d79b771d98ed8f70",
+    "source_id": "w4mp",
+    "source_identifier": "100006",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100006"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "338cdafb946a17a7",
+    "source_id": "w4mp",
+    "source_identifier": "100004",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100004"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "90cfcfd058d10220",
+    "source_id": "w4mp",
+    "source_identifier": "100001",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100001"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "7a2fc915ec691006",
+    "source_id": "w4mp",
+    "source_identifier": "99998",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99998"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "4ed3168d6eecad6c",
+    "source_id": "w4mp",
+    "source_identifier": "99997",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99997"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "3b8125a784c2a282",
+    "source_id": "w4mp",
+    "source_identifier": "99991",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99991"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "1da31b18ae787a6e",
+    "source_id": "w4mp",
+    "source_identifier": "99990",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99990"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "928a39fa8189db99",
+    "source_id": "w4mp",
+    "source_identifier": "99984",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99984"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "70e80839b2569252",
+    "source_id": "w4mp",
+    "source_identifier": "99983",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99983"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "1160d720fa172bd8",
+    "source_id": "w4mp",
+    "source_identifier": "99975",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99975"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "98fb7d3813237b2f",
+    "source_id": "w4mp",
+    "source_identifier": "99971",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99971"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "74bdb34a5ba748f2",
+    "source_id": "w4mp",
+    "source_identifier": "99947",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99947"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "cc34a30bc3b7e825",
+    "source_id": "w4mp",
+    "source_identifier": "99942",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99942"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "2a959a160ed70215",
+    "source_id": "w4mp",
+    "source_identifier": "99928",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99928"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "57d86d895e48e37b",
+    "source_id": "w4mp",
+    "source_identifier": "99925",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99925"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "c5e78b7c1ce43f05",
+    "source_id": "w4mp",
+    "source_identifier": "99908",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99908"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "378bfbcf0f1467a8",
+    "source_id": "w4mp",
+    "source_identifier": "99876",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99876"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "c4345f9556d06c76",
+    "source_id": "w4mp",
+    "source_identifier": "99819",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99819"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "f361695716a90fa9",
+    "source_id": "w4mp",
+    "source_identifier": "99814",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99814"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "70bff0dcb073bf4d",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43888",
+    "source_url": "https://higherin.com/jobs/43888/bank-of-america/investment-banking-2027-analyst-off-cycle-internship-financial-institutions-group-fig-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "c13bf76f8ee99d50",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43949",
+    "source_url": "https://higherin.com/jobs/43949/bank-of-america/investment-banking-analyst-off-cycle-internship-2027-multi-industries-gig-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "6320ac0ce5faf15b",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43887",
+    "source_url": "https://higherin.com/jobs/43887/bank-of-america/investment-banking-2027-analyst-off-cycle-internship-uk-ireland-investment-banking-emea-corporate-broking-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "3b04e5255d9652e9",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43885",
+    "source_url": "https://higherin.com/jobs/43885/bank-of-america/investment-banking-2027-off-cycle-analyst-real-estate-gaming-and-leisure-emea-regl-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "dbe2a804268bc626",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43886",
+    "source_url": "https://higherin.com/jobs/43886/bank-of-america/investment-banking-2027-analyst-off-cycle-internship-technology-media-and-telecommunications-tmt-london-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "676948706889774d",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43883",
+    "source_url": "https://higherin.com/jobs/43883/bank-of-america/investment-banking-2027-analyst-off-cycle-internship-consumer-and-retail-core-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "f5341a946cbc4ee3",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43783",
+    "source_url": "https://higherin.com/jobs/43783/ubs/2027-off-cycle-internship-global-banking-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "9465e105acc53351",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43785",
+    "source_url": "https://higherin.com/jobs/43785/ubs/2027-summer-internship-global-banking-ugb-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "24d440bce82831c6",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43786",
+    "source_url": "https://higherin.com/jobs/43786/ubs/2027-summer-internship-global-markets-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "bbd88632f150468b",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43784",
+    "source_url": "https://higherin.com/jobs/43784/ubs/2027-summer-internship-global-banking-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "89b4635d40ad7732",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43988",
+    "source_url": "https://higherin.com/jobs/43988/ubs/2027-off-cycle-internship-investment-bank-quants-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "b8254cd4c99e3361",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43990",
+    "source_url": "https://higherin.com/jobs/43990/ubs/2027-summer-internship-global-wealth-management-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "d3b1876ff6580693",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43989",
+    "source_url": "https://higherin.com/jobs/43989/ubs/2027-off-cycle-internship-group-legal-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "83d8e26bbe123312",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43992",
+    "source_url": "https://higherin.com/jobs/43992/ubs/2027-summer-internship-global-equity-research-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "a5dffc95fac96983",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43993",
+    "source_url": "https://higherin.com/jobs/43993/ubs/2027-summer-internship-internal-audit-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "e2b6b874d954cbc0",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43995",
+    "source_url": "https://higherin.com/jobs/43995/ubs/2027-summer-internship-global-research-holt-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "2699006d769831f1",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43996",
+    "source_url": "https://higherin.com/jobs/43996/ubs/2027-summer-internship-group-finance-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "7ff1b1716096b5fb",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43997",
+    "source_url": "https://higherin.com/jobs/43997/ubs/2027-summer-internship-human-resources-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "97d34685c064ce3a",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43999",
+    "source_url": "https://higherin.com/jobs/43999/ubs/2027-off-cycle-internship-global-banking-pfg-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "93372537c2386e8a",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43950",
+    "source_url": "https://higherin.com/jobs/43950/bank-of-america/global-infrastructure-credit-2027-summer-analyst-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "70854e3d29c74775",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43951",
+    "source_url": "https://higherin.com/jobs/43951/bank-of-america/gcib-credit-2027-summer-analyst-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "d5eb6686071aeb68",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43952",
+    "source_url": "https://higherin.com/jobs/43952/bank-of-america/leasing-credit-global-vendor-finance-and-international-asset-finance-summer-analyst-london-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "1a6f6d3d1afb4c08",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43945",
+    "source_url": "https://higherin.com/jobs/43945/bank-of-america/opportunities-in-global-banking-and-global-markets"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "5fa06895f9e6f4a0",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43948",
+    "source_url": "https://higherin.com/jobs/43948/bank-of-america/gm-credit-2027-summer-analyst-london"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "63a880aa3c9c42d2",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43879",
+    "source_url": "https://higherin.com/jobs/43879/bank-of-america/global-payment-solutions-2027-summer-analyst-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "8205def047e4d07f",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43891",
+    "source_url": "https://higherin.com/jobs/43891/bank-of-america/global-markets-sales-trading-private-side-summer-analyst-rotational-internship-programme-2027-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "5cac75665f9d6ed0",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43896",
+    "source_url": "https://higherin.com/jobs/43896/bank-of-america/global-operations-operations-analyst-summer-2027-bromley"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "e64e9457917f90a7",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43946",
+    "source_url": "https://higherin.com/jobs/43946/bank-of-america/opportunties-in-business-support-functions-internships"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "787f44a70ceb0240",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43914",
+    "source_url": "https://higherin.com/jobs/43914/bank-of-america/global-risk-summer-2027-analyst-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "25bb1c283a3bd3bf",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43947",
+    "source_url": "https://higherin.com/jobs/43947/bank-of-america/opportunities-in-global-technology-internships"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "e7bd2ad2e7472b30",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43897",
+    "source_url": "https://higherin.com/jobs/43897/bank-of-america/global-operations-operations-analyst-summer-2027-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "12389ba2862afc71",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43910",
+    "source_url": "https://higherin.com/jobs/43910/bank-of-america/global-quantitative-data-analytics-summer-2027-analyst-london"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "3c2aa685840da787",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43915",
+    "source_url": "https://higherin.com/jobs/43915/bank-of-america/corporate-audit-summer-2027-analyst-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "ddadfd6310e91169",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43874",
+    "source_url": "https://higherin.com/jobs/43874/bank-of-america/global-capital-markets-2027-summer-analyst-dcm-ecm-leveraged-finance-and-ssg-london"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "767f4c881ad41d43",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43882",
+    "source_url": "https://higherin.com/jobs/43882/bank-of-america/global-research-2027-summer-analyst-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "b3c8b98cf71eb962",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43909",
+    "source_url": "https://higherin.com/jobs/43909/bank-of-america/global-technology-software-engineer-summer-2027-analyst-bromley"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "1911adf7b768d43f",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43881",
+    "source_url": "https://higherin.com/jobs/43881/bank-of-america/global-markets-sales-trading-rotational-programme-2027-summer-analyst-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "924f010aea96f82f",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43877",
+    "source_url": "https://higherin.com/jobs/43877/bank-of-america/corporate-audit-2027-summer-analyst-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "fe82b5db99a94509",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43833",
+    "source_url": "https://higherin.com/jobs/43833/rothschild-co/redburn-sales-summer-internship-2027-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "a16c3e6debc00ece",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43831",
+    "source_url": "https://higherin.com/jobs/43831/rothschild-co/redburn-execution-services-summer-internship-2027-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "f1465d3b7157d3b5",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43832",
+    "source_url": "https://higherin.com/jobs/43832/rothschild-co/redburn-research-summer-internship-2027-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "f4241ed79bcadb5a",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43648",
+    "source_url": "https://higherin.com/jobs/43648/g-research/natural-language-processing-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "451bcac70308018c",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43647",
+    "source_url": "https://higherin.com/jobs/43647/g-research/machine-learning-research-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "2db270b2d8b8e07d",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43646",
+    "source_url": "https://higherin.com/jobs/43646/g-research/quant-research-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "7382fb97009640ce",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43542",
+    "source_url": "https://higherin.com/jobs/43542/blackrock/off-cycle-internship-programme-emea-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "7006b14bcc5e1814",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43649",
+    "source_url": "https://higherin.com/jobs/43649/g-research/data-science-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "47bfe619b7729ec4",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43666",
+    "source_url": "https://higherin.com/jobs/43666/ubs/register-your-interest-group-technology-office-gto-summer-internship-2027-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "69b7030c4f72cae0",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43812",
+    "source_url": "https://higherin.com/jobs/43812/financial-conduct-authority-fca/register-your-interest-data-digital-and-technology-data-science-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "5619e6c906a48e09",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43672",
+    "source_url": "https://higherin.com/jobs/43672/ubs/register-your-interest-global-research-evidence-lab-summer-internship-2027-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "7722a1aad0ff408f",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43673",
+    "source_url": "https://higherin.com/jobs/43673/ubs/register-your-interest-asset-management-summer-internship-2027-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "bf75a333c0e54431",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43665",
+    "source_url": "https://higherin.com/jobs/43665/ubs/register-your-interest-group-internal-consulting-summer-internship-2027-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "c9483b9ff07207d6",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43811",
+    "source_url": "https://higherin.com/jobs/43811/financial-conduct-authority-fca/register-your-interest-accountancy-finance-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "44630a6643ba5d47",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43813",
+    "source_url": "https://higherin.com/jobs/43813/financial-conduct-authority-fca/register-your-interest-people-change-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "de1f0b4afaf15547",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43572",
+    "source_url": "https://higherin.com/jobs/43572/bank-of-america/register-your-interest-enterprise-credit-summer-analyst-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "5c082aca412c59cb",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43564",
+    "source_url": "https://higherin.com/jobs/43564/bank-of-america/register-your-interest-global-banking-markets-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "136262e2ac7a4fd4",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43565",
+    "source_url": "https://higherin.com/jobs/43565/bank-of-america/register-your-interest-business-support-functions-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "a6a530cf5553dd3f",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43399",
+    "source_url": "https://higherin.com/jobs/43399/arcadis/register-your-interest-building-surveyor-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "95be0a68bdbf5564",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43250",
+    "source_url": "https://higherin.com/jobs/43250/centrica/register-your-interest-electrical-engineering-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "d695e8f33481c335",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43603",
+    "source_url": "https://higherin.com/jobs/43603/transport-for-london/register-your-interest-civil-engineering-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "f5eaa9a8b1eabb07",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43396",
+    "source_url": "https://higherin.com/jobs/43396/arcadis/register-your-interest-structural-bridge-engineer-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "35ffd220c91be87a",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43397",
+    "source_url": "https://higherin.com/jobs/43397/arcadis/register-your-interest-civil-engineer-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "46221ab45954bf59",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43398",
+    "source_url": "https://higherin.com/jobs/43398/arcadis/register-your-interest-quantity-surveyor-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "3efd53651d6e0c0b",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "42904",
+    "source_url": "https://higherin.com/jobs/42904/hymans-robertson/register-your-interest-pensions-governance-investment-consulting-summer-internship-programme-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "927be2b9f414d4e4",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43334",
+    "source_url": "https://higherin.com/jobs/43334/nomura/register-your-interest-global-markets-digital-office-summer-internship-2027-quants-strats"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "dff770463b96ef20",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43332",
+    "source_url": "https://higherin.com/jobs/43332/nomura/register-your-interest-investment-banking-summer-internship-2027-coverage-advisory-teams"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "de85291c48c38c2c",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43335",
+    "source_url": "https://higherin.com/jobs/43335/nomura/register-your-interest-global-markets-investment-banking-womens-immersion-programme-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "00096fe07488f979",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43318",
+    "source_url": "https://higherin.com/jobs/43318/network-rail/register-your-interest-electrical-engineering-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "722ae315df600ebb",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43310",
+    "source_url": "https://higherin.com/jobs/43310/network-rail/register-your-interest-civil-engineering-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "6dff1e0ac417cc55",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43315",
+    "source_url": "https://higherin.com/jobs/43315/network-rail/register-your-interest-network-strategy-planning-and-analysis-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "dd94de62f83db63f",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43255",
+    "source_url": "https://higherin.com/jobs/43255/centrica/register-your-interest-business-management-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "58e12d222fff3b70",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "42996",
+    "source_url": "https://higherin.com/jobs/42996/valero/register-your-interest-trading-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "19b3ba3271287e57",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43331",
+    "source_url": "https://higherin.com/jobs/43331/nomura/register-your-interest-investment-banking-summer-internship-2027-client-financing-solutions"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "3a2f71d7e5801464",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43249",
+    "source_url": "https://higherin.com/jobs/43249/centrica/register-your-interest-process-engineering-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "f86cbfdf81242061",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43319",
+    "source_url": "https://higherin.com/jobs/43319/network-rail/register-your-interest-mechanical-engineering-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "300c7c293befed17",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43253",
+    "source_url": "https://higherin.com/jobs/43253/centrica/register-your-interest-people-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "6c3c037b58b9afea",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43313",
+    "source_url": "https://higherin.com/jobs/43313/network-rail/register-your-interest-project-management-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "0466ef19e7817b9d",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43602",
+    "source_url": "https://higherin.com/jobs/43602/transport-for-london/register-your-interest-engineering-technology-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "422d62f823677ea4",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43333",
+    "source_url": "https://higherin.com/jobs/43333/nomura/register-your-interest-global-markets-summer-internship-2027-sales-trading-structuring-research"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "550ccf5499f0b5da",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43017",
+    "source_url": "https://higherin.com/jobs/43017/visa/register-your-interest-consulting-analytics-internship-2027-implementation-services"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "60b4af719ad5ed21",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43016",
+    "source_url": "https://higherin.com/jobs/43016/visa/register-your-interest-consulting-analytics-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "3020e65ddfbc58da",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43322",
+    "source_url": "https://higherin.com/jobs/43322/network-rail/register-your-interest-finance-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "5292a3993e409193",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43206",
+    "source_url": "https://higherin.com/jobs/43206/fidelity-international/register-your-interest-2027-summer-internships"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "5d17304ce00be411",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43377",
+    "source_url": "https://higherin.com/jobs/43377/ey/register-your-interest-tax-summer-internships-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "5ad363bb578e1a3b",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "42903",
+    "source_url": "https://higherin.com/jobs/42903/hymans-robertson/register-your-interest-actuarial-consulting-analytics-summer-internship-programme-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "8f87b1ad05893b70",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43381",
+    "source_url": "https://higherin.com/jobs/43381/ey/register-your-interest-audit-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "4b62cdcc9c6bf8d6",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43325",
+    "source_url": "https://higherin.com/jobs/43325/network-rail/register-your-interest-internship-programme-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "049aee04786befb7",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43388",
+    "source_url": "https://higherin.com/jobs/43388/grant-thornton/register-your-interest-summer-internships-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "c4c4f7c621fc1305",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43266",
+    "source_url": "https://higherin.com/jobs/43266/dla-piper/register-your-interest-law-summer-internship-2027-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "4ec192bc925b33d8",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43561",
+    "source_url": "https://higherin.com/jobs/43561/bdo/register-your-interest-summer-internship-programme-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "7177b326d33c4fa5",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "42997",
+    "source_url": "https://higherin.com/jobs/42997/valero/register-your-interest-public-and-government-affairs-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "8ffeb5acd6c9d811",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43380",
+    "source_url": "https://higherin.com/jobs/43380/ey/register-your-interest-consulting-summer-internships-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "73d9ce53db9dd132",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43015",
+    "source_url": "https://higherin.com/jobs/43015/visa/register-your-interest-government-affairs-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "169320a63c236b4d",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "42860",
+    "source_url": "https://higherin.com/jobs/42860/british-airways/register-your-interest-summer-internships-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-02T21:06:36.171074+00:00",
+    "role_id": "cd4ec4e1e0dd3bf0",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "42909",
+    "source_url": "https://higherin.com/jobs/42909/loreal/register-your-interest-summer-internships-2027"
   }
 ]
