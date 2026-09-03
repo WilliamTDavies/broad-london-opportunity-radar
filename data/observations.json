@@ -1,2630 +1,6 @@
 [
   {
     "changes": [
-      "application_link_changed"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "67188b5cccffa173",
-    "source_id": "adzuna-london",
-    "source_identifier": "5867232046",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5867232046?se=_BUhiomn8RG2mJdvjMVjRA&v=C7C2AC182E0BC746FA80F9FB10983229D279AB6B"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "8d8a5a52959617f7",
-    "source_id": "adzuna-london",
-    "source_identifier": "5850826781",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5850826781?se=_BUhiomn8RG2mJdvjMVjRA&v=28341BCA86DC9EE53C97DA9E86D71A66BBB63046"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "d60f1b6ca389664c",
-    "source_id": "adzuna-london",
-    "source_identifier": "5838013013",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5838013013?se=_BUhiomn8RG2mJdvjMVjRA&v=959C80709B58DA84B5EDC83182E1FC5E1247711F"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "ba08de9fdcbb2a61",
-    "source_id": "adzuna-london",
-    "source_identifier": "5834878599",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5834878599"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "876866331aecbd7a",
-    "source_id": "adzuna-london",
-    "source_identifier": "5862314388",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5862314388"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "9980c56a1d91310d",
-    "source_id": "adzuna-london",
-    "source_identifier": "5844331897",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5844331897"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "71296733062dd6f0",
-    "source_id": "adzuna-london",
-    "source_identifier": "5862290805",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5862290805"
-  },
-  {
-    "changes": [
-      "application_link_changed"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "432d13b2d0253c62",
-    "source_id": "adzuna-london",
-    "source_identifier": "5858364913",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5858364913?se=4rxFjYmn8RG0MpmwlMBpsw&v=59D82F3CA07142DE41CB0CDFF059963826B99B8E"
-  },
-  {
-    "changes": [
-      "application_link_changed"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "1e66e366d2f55bcd",
-    "source_id": "adzuna-london",
-    "source_identifier": "5855316406",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5855316406?se=4rxFjYmn8RG0MpmwlMBpsw&v=21C06A6B5126F2DEA05DA31795D7CE0C52FCC994"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "3dbf04c9b6e6cb82",
-    "source_id": "adzuna-london",
-    "source_identifier": "5862367948",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5862367948"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "d083545e1feb31c0",
-    "source_id": "adzuna-london",
-    "source_identifier": "5861237941",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5861237941"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "47616974b7c28747",
-    "source_id": "adzuna-london",
-    "source_identifier": "5861236930",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5861236930"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "d19e29778474e401",
-    "source_id": "adzuna-london",
-    "source_identifier": "5849700326",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5849700326"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "651c17548c1b6470",
-    "source_id": "adzuna-london",
-    "source_identifier": "5849693190",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5849693190?se=tjOkjomn8RG0MpmwlMBpsw&v=B1FE61D9FF54B98CC54CB9E81AC24A6549BB8556"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "b2076a1357c841e9",
-    "source_id": "adzuna-london",
-    "source_identifier": "5840641226",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5840641226?se=tjOkjomn8RG0MpmwlMBpsw&v=10878473086B084E0F87936222B30C0B993A5FB5"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "14eb2c3019efdbae",
-    "source_id": "adzuna-london",
-    "source_identifier": "5833785106",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5833785106"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "1b47fbe6ee3ac628",
-    "source_id": "adzuna-london",
-    "source_identifier": "5867235792",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5867235792"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "ad66ed1b9e97e0e9",
-    "source_id": "adzuna-london",
-    "source_identifier": "5856821110",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5856821110?se=BJJlj4mn8RGYu4lZODRgdQ&v=D06844F8634156F141D00747E90358C15A3EA55E"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "17d370101887e652",
-    "source_id": "adzuna-london",
-    "source_identifier": "5851158080",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5851158080"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "ec8130da412cdd00",
-    "source_id": "adzuna-london",
-    "source_identifier": "5848440993",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5848440993"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "d03704ea4ab1538a",
-    "source_id": "adzuna-london",
-    "source_identifier": "5838458437",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5838458437"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "d757ba4db1af4102",
-    "source_id": "adzuna-london",
-    "source_identifier": "5829404149",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5829404149"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "21427947d01911b7",
-    "source_id": "adzuna-london",
-    "source_identifier": "5855357503",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5855357503?se=ZowckImn8RGSnZfi-wb_0w&v=9241A5ED83A315CD8242CFA77D3C9A6B3EDAE781"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "b16ea774f68f6915",
-    "source_id": "adzuna-london",
-    "source_identifier": "5830333707",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5830333707"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "e3424bea0bf56114",
-    "source_id": "adzuna-london",
-    "source_identifier": "5863799290",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5863799290?se=5qGFkYmn8RG2mJdvjMVjRA&v=8428C55DA4D2D141ECF36200464C1BA358577444"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "f2cde62b1a2e94a7",
-    "source_id": "adzuna-london",
-    "source_identifier": "5856979681",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5856979681"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "ee7361d3bc1a602d",
-    "source_id": "adzuna-london",
-    "source_identifier": "5853195583",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5853195583"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "616824b2be5dc953",
-    "source_id": "adzuna-london",
-    "source_identifier": "5848408335",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5848408335"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "31c9346cbb02a14c",
-    "source_id": "adzuna-london",
-    "source_identifier": "5848370234",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5848370234"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "6e4d8ef02398f7d5",
-    "source_id": "adzuna-london",
-    "source_identifier": "5840103330",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5840103330?se=5qGFkYmn8RG2mJdvjMVjRA&v=DDFFF953D06914400C6C5D54BB947C3C95AA0B09"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "1dfb9c513fa7a458",
-    "source_id": "adzuna-london",
-    "source_identifier": "5859759357",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5859759357"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "a6d78a401e252899",
-    "source_id": "adzuna-london",
-    "source_identifier": "5837775934",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5837775934"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "cfdaad93deda61fe",
-    "source_id": "adzuna-london",
-    "source_identifier": "5828046700",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5828046700"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "abcc8c515f88b8ea",
-    "source_id": "adzuna-london",
-    "source_identifier": "5858681701",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5858681701"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "b356be3b7292df92",
-    "source_id": "adzuna-london",
-    "source_identifier": "5855368184",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5855368184?se=LnRKlImn8RG2mJdvjMVjRA&v=0E1E993A48EFD5E05D284158181E61B98FD6E528"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "d0f8de326bf390cb",
-    "source_id": "adzuna-london",
-    "source_identifier": "5868631822",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5868631822?se=fMwHlYmn8RG9hJY-sANDtg&v=4F8A306EFDEC8A9F7D095467C8A83C1D9FCE0ED7"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "5f45f3554682929f",
-    "source_id": "adzuna-london",
-    "source_identifier": "5868630955",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5868630955?se=fMwHlYmn8RG9hJY-sANDtg&v=D35B7BA34BA6F75A2B9ADA167398F17CB3B16344"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "180dbaebb3aa6e68",
-    "source_id": "adzuna-london",
-    "source_identifier": "5868457245",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5868457245?se=fMwHlYmn8RG9hJY-sANDtg&v=F4B82551D1B2EA44734EE9F7A842F20CD24E8238"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "2f0eb097ad11d68b",
-    "source_id": "adzuna-london",
-    "source_identifier": "5867644730",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5867644730"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "942e4b19559dc94d",
-    "source_id": "adzuna-london",
-    "source_identifier": "5866800447",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5866800447?se=fMwHlYmn8RG9hJY-sANDtg&v=BCD0EF698D108D0D2287CD5E281FCFB13A4DE11F"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "ca66417fb797abe0",
-    "source_id": "adzuna-london",
-    "source_identifier": "5866798848",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5866798848?se=fMwHlYmn8RG9hJY-sANDtg&v=B197FBC0B304DE00C19D507996E2337ECBE4EEEC"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "67e2bba1a2d1a0d7",
-    "source_id": "adzuna-london",
-    "source_identifier": "5866221314",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5866221314?se=fMwHlYmn8RG9hJY-sANDtg&v=E3DB7A06438B87E246E8119D533AA97FC225B3C1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "ab0edb32331d5d3d",
-    "source_id": "adzuna-london",
-    "source_identifier": "5865273606",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5865273606?se=fMwHlYmn8RG9hJY-sANDtg&v=B202994AB3AA9B31C9621CA584B71BF5645561A1"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "c6bfa88ed5ddcda2",
-    "source_id": "adzuna-london",
-    "source_identifier": "5865273450",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5865273450?se=fMwHlYmn8RG9hJY-sANDtg&v=0AB70A810DFBA568BB2662A1CF34EF4504CF3F72"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "98d61f03536766e6",
-    "source_id": "adzuna-london",
-    "source_identifier": "5864279214",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5864279214"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "c7222bdca4cc8646",
-    "source_id": "adzuna-london",
-    "source_identifier": "5864185863",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5864185863?se=fMwHlYmn8RG9hJY-sANDtg&v=9192617EE70FC8220B9E3C29646031672E167DCC"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "f3d7c2651762f208",
-    "source_id": "adzuna-london",
-    "source_identifier": "5864182479",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5864182479?se=fMwHlYmn8RG9hJY-sANDtg&v=44E47A7857E81E7BC94CFD1029390A8FC16519C2"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "4a1667b720477e4d",
-    "source_id": "adzuna-london",
-    "source_identifier": "5864181889",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5864181889?se=fMwHlYmn8RG9hJY-sANDtg&v=BF0A1D5173B857E3433931154E6BF5D1A13C62C8"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "41d3784559b17cef",
-    "source_id": "adzuna-london",
-    "source_identifier": "5862288677",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5862288677"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "171c8a01115110e5",
-    "source_id": "adzuna-london",
-    "source_identifier": "5861426862",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5861426862?se=fMwHlYmn8RG9hJY-sANDtg&v=A4802D3142151E743BA95FC91F11DAE0D786CBC9"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "8a2a83927a3a72c8",
-    "source_id": "adzuna-london",
-    "source_identifier": "5859995116",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5859995116?se=fMwHlYmn8RG9hJY-sANDtg&v=D614E713740E012EE11AE254A0A8C4D7F943521A"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "49bf709e2518e7bc",
-    "source_id": "adzuna-london",
-    "source_identifier": "5859714351",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5859714351"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "92563ef21f2baa55",
-    "source_id": "adzuna-london",
-    "source_identifier": "5859541874",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5859541874?se=fMwHlYmn8RG9hJY-sANDtg&v=BF764A8D1AE834A6932F71D6EA35385C7E9F0529"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "1fef8f4729ae691a",
-    "source_id": "adzuna-london",
-    "source_identifier": "5859541868",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5859541868?se=fMwHlYmn8RG9hJY-sANDtg&v=9FBA8A7C783B87BFF01708E7598B1A05F0FBEE2A"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "01d3a1ec06f96c68",
-    "source_id": "adzuna-london",
-    "source_identifier": "5858662369",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5858662369"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "8f3dd6d9d99d3d35",
-    "source_id": "adzuna-london",
-    "source_identifier": "5858625046",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5858625046?se=fMwHlYmn8RG9hJY-sANDtg&v=6B6D5565A95971CFAAC69CE4B73E0622330F902F"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "d784acc9f6aa196e",
-    "source_id": "adzuna-london",
-    "source_identifier": "5858624821",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5858624821?se=fMwHlYmn8RG9hJY-sANDtg&v=EB7B7A0B1F748CA70C0F17B06A52F99FC5110B98"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "5997fc340a59c7a5",
-    "source_id": "adzuna-london",
-    "source_identifier": "5858300216",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5858300216?se=fMwHlYmn8RG9hJY-sANDtg&v=38B3530375700E36C217201A7CA0656C4F31B8E9"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "e43f1f4512aff276",
-    "source_id": "adzuna-london",
-    "source_identifier": "5857250603",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5857250603"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "ef5717b178233092",
-    "source_id": "adzuna-london",
-    "source_identifier": "5856434756",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5856434756"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "ef9adbc26a87dc0f",
-    "source_id": "adzuna-london",
-    "source_identifier": "5855471876",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5855471876"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "649505cdf6e2c55a",
-    "source_id": "adzuna-london",
-    "source_identifier": "5855366918",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5855366918?se=fMwHlYmn8RG9hJY-sANDtg&v=4894358F9FBE5BF539B91ED08FCADB971BE0E0DC"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "20f3b5e1a4483663",
-    "source_id": "adzuna-london",
-    "source_identifier": "5855011564",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5855011564"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "062a2ffdf4598373",
-    "source_id": "adzuna-london",
-    "source_identifier": "5851421167",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5851421167"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "83bc9f8dd2aca387",
-    "source_id": "adzuna-london",
-    "source_identifier": "5849961283",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5849961283"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "82d3bf68b31f541b",
-    "source_id": "adzuna-london",
-    "source_identifier": "5847227210",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5847227210"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "932b75d08dbd7600",
-    "source_id": "adzuna-london",
-    "source_identifier": "5845247226",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5845247226"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "9d851939fea96abc",
-    "source_id": "adzuna-london",
-    "source_identifier": "5845104742",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5845104742"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "5a8689284ca6a859",
-    "source_id": "adzuna-london",
-    "source_identifier": "5842730077",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5842730077"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "b64b5ff8eff17daa",
-    "source_id": "adzuna-london",
-    "source_identifier": "5837759443",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5837759443"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "7de1430f205275fb",
-    "source_id": "adzuna-london",
-    "source_identifier": "5837759428",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5837759428"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "b160f070ec65e66c",
-    "source_id": "adzuna-london",
-    "source_identifier": "5837137887",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5837137887"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "374807acd86aa4ea",
-    "source_id": "adzuna-london",
-    "source_identifier": "5836764502",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5836764502"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "2314b9e9106ea9c1",
-    "source_id": "adzuna-london",
-    "source_identifier": "5836223448",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5836223448"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "8aeeb9db19693850",
-    "source_id": "adzuna-london",
-    "source_identifier": "5835797103",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5835797103?se=VjUUlomn8RG0MpmwlMBpsw&v=AC64C9F1D1BA0CB3AF4D2EBAE7FEE15770FC3932"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "c4eaa951daa7ad84",
-    "source_id": "adzuna-london",
-    "source_identifier": "5833784423",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5833784423"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "5f6bea48b6817947",
-    "source_id": "adzuna-london",
-    "source_identifier": "5833782828",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5833782828"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "6012d970ab119358",
-    "source_id": "adzuna-london",
-    "source_identifier": "5831632985",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5831632985"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "6137da8121c08368",
-    "source_id": "adzuna-london",
-    "source_identifier": "5829404262",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5829404262"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "a3f85e3621b9558f",
-    "source_id": "adzuna-london",
-    "source_identifier": "5856969958",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5856969958"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "0491e9b2ddedbbb2",
-    "source_id": "adzuna-london",
-    "source_identifier": "5861241792",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5861241792"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "40efdc884e52ffb6",
-    "source_id": "adzuna-london",
-    "source_identifier": "5859959165",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5859959165"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "cff4486c1cb4fb8c",
-    "source_id": "adzuna-london",
-    "source_identifier": "5859756639",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5859756639"
-  },
-  {
-    "changes": [
-      "application_link_changed"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "2408b4e58f9db13c",
-    "source_id": "adzuna-london",
-    "source_identifier": "5858262308",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5858262308?se=IE_Fl4mn8RGYu4lZODRgdQ&v=A8111A7EB0FDEF455773A9A4C858A4F030469F16"
-  },
-  {
-    "changes": [
-      "application_link_changed"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "bea1751711458036",
-    "source_id": "adzuna-london",
-    "source_identifier": "5855686261",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5855686261?se=IE_Fl4mn8RGYu4lZODRgdQ&v=F70673CC18F685F277EE98D230CA023972B9C69A"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "f2c3a3273fa7563a",
-    "source_id": "adzuna-london",
-    "source_identifier": "5828417723",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5828417723"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "079e29f59148c9d8",
-    "source_id": "adzuna-london",
-    "source_identifier": "5852256564",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5852256564?se=8ECAmImn8RGgf9YircBiEQ&v=2FFD0B40B9D185440248432088DE0EAD7D0CB560"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "70f6ce0de31373b8",
-    "source_id": "adzuna-london",
-    "source_identifier": "5851436631",
-    "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5851436631?se=8ECAmImn8RGgf9YircBiEQ&v=5F0893D2E7273F499FC72613D16649E5BCFE469F"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "7245da023d7a6371",
-    "source_id": "adzuna-london",
-    "source_identifier": "5851151440",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5851151440"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "4da3e77e390a2e0e",
-    "source_id": "adzuna-london",
-    "source_identifier": "5832267745",
-    "source_url": "https://www.adzuna.co.uk/jobs/details/5832267745"
-  },
-  {
-    "changes": [
-      "application_link_changed",
-      "eligibility_wording_changed",
-      "location_changed"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "0df5361d35d2e420",
-    "source_id": "reed-london",
-    "source_identifier": "57183279",
-    "source_url": "https://www.reed.co.uk/jobs/job-coach-supported-internship/57183279"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "25fa3020be62bbd8",
-    "source_id": "reed-london",
-    "source_identifier": "57244816",
-    "source_url": "https://www.reed.co.uk/jobs/pmo-admin/57244816"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "22389d0859b793a8",
-    "source_id": "reed-london",
-    "source_identifier": "57287071",
-    "source_url": "https://www.reed.co.uk/jobs/work-experience-coordinator-als/57287071"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "0d89056a83d81f6d",
-    "source_id": "reed-london",
-    "source_identifier": "57294346",
-    "source_url": "https://www.reed.co.uk/jobs/alumni-relations-officer/57294346"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "93a526c36714ace0",
-    "source_id": "reed-london",
-    "source_identifier": "57152486",
-    "source_url": "https://www.reed.co.uk/jobs/administrator-intern-9-months-ftc/57152486"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "a05dc4c8a027c59b",
-    "source_id": "reed-london",
-    "source_identifier": "57278300",
-    "source_url": "https://www.reed.co.uk/jobs/trainee-financial-advisor/57278300"
-  },
-  {
-    "changes": [
-      "application_link_changed",
-      "eligibility_wording_changed",
-      "location_changed"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "2306ce427c7be6b3",
-    "source_id": "reed-london",
-    "source_identifier": "57227532",
-    "source_url": "https://www.reed.co.uk/jobs/business-development-intern/57227532"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "13f1471560369fcd",
-    "source_id": "reed-london",
-    "source_identifier": "57196886",
-    "source_url": "https://www.reed.co.uk/jobs/executive-administrator/57196886"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "3df7588ee1654399",
-    "source_id": "reed-london",
-    "source_identifier": "57169416",
-    "source_url": "https://www.reed.co.uk/jobs/financial-administrator--route-to-paraplanning-city-of-london/57169416"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "12c9bd3260044a8e",
-    "source_id": "reed-london",
-    "source_identifier": "57223049",
-    "source_url": "https://www.reed.co.uk/jobs/functional-skills-tutor/57223049"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "55e94d9aa67bf67e",
-    "source_id": "reed-london",
-    "source_identifier": "57254671",
-    "source_url": "https://www.reed.co.uk/jobs/junior-insolvency-administrator/57254671"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "4d31db2952b7ee46",
-    "source_id": "reed-london",
-    "source_identifier": "57276103",
-    "source_url": "https://www.reed.co.uk/jobs/it-support-officer/57276103"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "6a49bdb4e468aa59",
-    "source_id": "reed-london",
-    "source_identifier": "57205970",
-    "source_url": "https://www.reed.co.uk/jobs/send-support-professionals/57205970"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "1933e058a05812d0",
-    "source_id": "reed-london",
-    "source_identifier": "57271142",
-    "source_url": "https://www.reed.co.uk/jobs/hr-business-partner/57271142"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "91f67cf814e3612d",
-    "source_id": "reed-london",
-    "source_identifier": "57238830",
-    "source_url": "https://www.reed.co.uk/jobs/franchise-management-marketing-assistant/57238830"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "ef23fa5792cea285",
-    "source_id": "reed-london",
-    "source_identifier": "57216978",
-    "source_url": "https://www.reed.co.uk/jobs/hr-operations-advisor/57216978"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "29333e209683a93e",
-    "source_id": "reed-london",
-    "source_identifier": "57170140",
-    "source_url": "https://www.reed.co.uk/jobs/finance-assistant-ftc--high-growth-vc-backed-tech-scale-up/57170140"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "e2959d4102a84a32",
-    "source_id": "reed-london",
-    "source_identifier": "57258930",
-    "source_url": "https://www.reed.co.uk/jobs/university-placement-coordinator-entertainment/57258930"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "e49a4eceaf0a0db5",
-    "source_id": "reed-london",
-    "source_identifier": "57169028",
-    "source_url": "https://www.reed.co.uk/jobs/pr-analyst-relations-executive-remote-uk/57169028"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "b3c348f0ce48b412",
-    "source_id": "reed-london",
-    "source_identifier": "57269548",
-    "source_url": "https://www.reed.co.uk/jobs/sub-editor-writer-financial-markets-publication/57269548"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "fdaba674ca15a440",
-    "source_id": "reed-london",
-    "source_identifier": "57138953",
-    "source_url": "https://www.reed.co.uk/jobs/send-lecturer--employability-vocational-studies/57138953"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "5f9b96cee0c0f751",
-    "source_id": "reed-london",
-    "source_identifier": "57130778",
-    "source_url": "https://www.reed.co.uk/jobs/document-controller/57130778"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "2979e369beb85be4",
-    "source_id": "reed-london",
-    "source_identifier": "57193153",
-    "source_url": "https://www.reed.co.uk/jobs/assistant-building-surveyor/57193153"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "b5c49c3113ec8187",
-    "source_id": "reed-london",
-    "source_identifier": "57160505",
-    "source_url": "https://www.reed.co.uk/jobs/graduate-building-surveyor/57160505"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "56ef177458c18f9b",
-    "source_id": "reed-london",
-    "source_identifier": "57224225",
-    "source_url": "https://www.reed.co.uk/jobs/data-modeller-graduate-opportunity/57224225"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "10dbc040eb0dc91c",
-    "source_id": "reed-london",
-    "source_identifier": "57239769",
-    "source_url": "https://www.reed.co.uk/jobs/management-trainee-croydon/57239769"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "c3403ac1eac1d206",
-    "source_id": "reed-london",
-    "source_identifier": "57279358",
-    "source_url": "https://www.reed.co.uk/jobs/graduate-assistant/57279358"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "79524b2715209934",
-    "source_id": "reed-london",
-    "source_identifier": "57227165",
-    "source_url": "https://www.reed.co.uk/jobs/graduate-opportunities-in-surrey/57227165"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "78608f0a589a43b8",
-    "source_id": "reed-london",
-    "source_identifier": "57238397",
-    "source_url": "https://www.reed.co.uk/jobs/ad-hoc-send-ta/57238397"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "fc2935f089c4d7d1",
-    "source_id": "reed-london",
-    "source_identifier": "57223706",
-    "source_url": "https://www.reed.co.uk/jobs/customer-service-officer-contact-centre/57223706"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "3ff0e6e207b94b61",
-    "source_id": "reed-london",
-    "source_identifier": "57164955",
-    "source_url": "https://www.reed.co.uk/jobs/bookkeeping-apprenticeship/57164955"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "10b8c4e93cdde01b",
-    "source_id": "reed-london",
-    "source_identifier": "57296722",
-    "source_url": "https://www.reed.co.uk/jobs/graduate-accountant/57296722"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "949cfd317a65f6cc",
-    "source_id": "reed-london",
-    "source_identifier": "57246319",
-    "source_url": "https://www.reed.co.uk/jobs/2026-graduate-school-leaver-trainee-external-auditor/57246319"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "20f3bbb5720e28ec",
-    "source_id": "reed-london",
-    "source_identifier": "57298676",
-    "source_url": "https://www.reed.co.uk/jobs/graduate-media-event-sales-executives-french-german-italian-or-spanish-speaking/57298676"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "7311e48c6dbbda22",
-    "source_id": "reed-london",
-    "source_identifier": "57204364",
-    "source_url": "https://www.reed.co.uk/jobs/teaching-assistant/57204364"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "fa59b127a2864f70",
-    "source_id": "reed-london",
-    "source_identifier": "57175464",
-    "source_url": "https://www.reed.co.uk/jobs/teaching-assistant/57175464"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "f705977120979b59",
-    "source_id": "reed-london",
-    "source_identifier": "57265043",
-    "source_url": "https://www.reed.co.uk/jobs/sales-executive/57265043"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "4da4a07f3edeb069",
-    "source_id": "reed-london",
-    "source_identifier": "57269940",
-    "source_url": "https://www.reed.co.uk/jobs/sales-executive-german-speaker/57269940"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "0ab413978772090c",
-    "source_id": "reed-london",
-    "source_identifier": "57261826",
-    "source_url": "https://www.reed.co.uk/jobs/sales-executive-dutch-speaker/57261826"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "fc4b686281b386ca",
-    "source_id": "reed-london",
-    "source_identifier": "57250261",
-    "source_url": "https://www.reed.co.uk/jobs/sales-executive-french-speaker/57250261"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "2282ad89567d177c",
-    "source_id": "reed-london",
-    "source_identifier": "57221384",
-    "source_url": "https://www.reed.co.uk/jobs/finance-graduate/57221384"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "da76011c6e23d85b",
-    "source_id": "reed-london",
-    "source_identifier": "57276246",
-    "source_url": "https://www.reed.co.uk/jobs/junior-account-manager-spanish-speaker/57276246"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "88274400e0e7f8d8",
-    "source_id": "reed-london",
-    "source_identifier": "57263412",
-    "source_url": "https://www.reed.co.uk/jobs/entry-level-grad-scheme/57263412"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "6eb4208cac2724b3",
-    "source_id": "reed-london",
-    "source_identifier": "57297418",
-    "source_url": "https://www.reed.co.uk/jobs/entry-level-grad-scheme-spanish-speaker/57297418"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "f4070d3722ad8318",
-    "source_id": "reed-london",
-    "source_identifier": "57255464",
-    "source_url": "https://www.reed.co.uk/jobs/junior-account-manager/57255464"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "9391d1529704acb4",
-    "source_id": "reed-london",
-    "source_identifier": "57249896",
-    "source_url": "https://www.reed.co.uk/jobs/entry-level-grad-scheme-french-speaker/57249896"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "920de09b7b4706ae",
-    "source_id": "reed-london",
-    "source_identifier": "57249687",
-    "source_url": "https://www.reed.co.uk/jobs/junior-account-manager-german-speaker/57249687"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "fec18f029675f0ba",
-    "source_id": "reed-london",
-    "source_identifier": "57218763",
-    "source_url": "https://www.reed.co.uk/jobs/junior-account-manager-french-speaker/57218763"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "799ddfdae7da0739",
-    "source_id": "reed-london",
-    "source_identifier": "57218500",
-    "source_url": "https://www.reed.co.uk/jobs/entry-level-grad-scheme-german-speaker/57218500"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "813c908201b10006",
-    "source_id": "reed-london",
-    "source_identifier": "57261788",
-    "source_url": "https://www.reed.co.uk/jobs/entry-level-grad-scheme-dutch-speaker/57261788"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "7065fb8f6fca14af",
-    "source_id": "reed-london",
-    "source_identifier": "57280827",
-    "source_url": "https://www.reed.co.uk/jobs/sales-development-rep/57280827"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "256317a08d8ddf28",
-    "source_id": "reed-london",
-    "source_identifier": "57206446",
-    "source_url": "https://www.reed.co.uk/jobs/junior-account-manager-dutch-speaker/57206446"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "586e4eafa04e1157",
-    "source_id": "reed-london",
-    "source_identifier": "57193080",
-    "source_url": "https://www.reed.co.uk/jobs/internal-recruiter/57193080"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "ed7012d63f5f595b",
-    "source_id": "reed-london",
-    "source_identifier": "57276370",
-    "source_url": "https://www.reed.co.uk/jobs/junior-account-manager/57276370"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "784bc769b05fa231",
-    "source_id": "reed-london",
-    "source_identifier": "57239228",
-    "source_url": "https://www.reed.co.uk/jobs/entry-level-grad-scheme/57239228"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "68e7e4a0bf15ddfa",
-    "source_id": "reed-london",
-    "source_identifier": "57270842",
-    "source_url": "https://www.reed.co.uk/jobs/science-technician/57270842"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "e4b73ec22c54d67b",
-    "source_id": "reed-london",
-    "source_identifier": "57280834",
-    "source_url": "https://www.reed.co.uk/jobs/customer-success-manager/57280834"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "2c98a044f5657792",
-    "source_id": "reed-london",
-    "source_identifier": "57217750",
-    "source_url": "https://www.reed.co.uk/jobs/junior-recruiter/57217750"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "80ca53dc9a0ca52d",
-    "source_id": "reed-london",
-    "source_identifier": "57239267",
-    "source_url": "https://www.reed.co.uk/jobs/junior-recruiter/57239267"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "912f59c544e0f098",
-    "source_id": "reed-london",
-    "source_identifier": "57239532",
-    "source_url": "https://www.reed.co.uk/jobs/sales-executive/57239532"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "b8f1ffb2ac1e27a4",
-    "source_id": "reed-london",
-    "source_identifier": "57298090",
-    "source_url": "https://www.reed.co.uk/jobs/trainee-account-manager-spanish-speaker/57298090"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "4fa85096d876f337",
-    "source_id": "reed-london",
-    "source_identifier": "57297413",
-    "source_url": "https://www.reed.co.uk/jobs/trainee-account-manager-german-speaker/57297413"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "50d5a761ecff5099",
-    "source_id": "reed-london",
-    "source_identifier": "57250267",
-    "source_url": "https://www.reed.co.uk/jobs/trainee-account-manager-french-speaker/57250267"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "3650ab8e4ea08146",
-    "source_id": "reed-london",
-    "source_identifier": "57206533",
-    "source_url": "https://www.reed.co.uk/jobs/trainee-account-manager-dutch-speaker/57206533"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "c9be768b3bd8d737",
-    "source_id": "reed-london",
-    "source_identifier": "57276537",
-    "source_url": "https://www.reed.co.uk/jobs/trainee-account-manager/57276537"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "935721d7073abebc",
-    "source_id": "reed-london",
-    "source_identifier": "57303593",
-    "source_url": "https://www.reed.co.uk/jobs/commercial-graduate-scheme/57303593"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "bef4ac843256ee9a",
-    "source_id": "reed-london",
-    "source_identifier": "57276157",
-    "source_url": "https://www.reed.co.uk/jobs/commercial-graduate-scheme-german-speaker/57276157"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "a586b548e4d59fe4",
-    "source_id": "reed-london",
-    "source_identifier": "57261822",
-    "source_url": "https://www.reed.co.uk/jobs/commercial-graduate-scheme-dutch-speaker/57261822"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "2dd0c2f4f2aac129",
-    "source_id": "reed-london",
-    "source_identifier": "57298132",
-    "source_url": "https://www.reed.co.uk/jobs/commercial-graduate-scheme-spanish-speaker/57298132"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "de858bd9ddc1f458",
-    "source_id": "reed-london",
-    "source_identifier": "57250206",
-    "source_url": "https://www.reed.co.uk/jobs/commercial-graduate-scheme-french-speaker/57250206"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "c48bd9b7f42de609",
-    "source_id": "reed-london",
-    "source_identifier": "57195627",
-    "source_url": "https://www.reed.co.uk/jobs/executive-administrator/57195627"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "0fab56afccd1d005",
-    "source_id": "reed-london",
-    "source_identifier": "57237868",
-    "source_url": "https://www.reed.co.uk/jobs/talent-acquisition-coordinator/57237868"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "c5d8813851e8fb90",
-    "source_id": "reed-london",
-    "source_identifier": "57190944",
-    "source_url": "https://www.reed.co.uk/jobs/hr-assistant/57190944"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "a487d0f4f62dadac",
-    "source_id": "reed-london",
-    "source_identifier": "57295723",
-    "source_url": "https://www.reed.co.uk/jobs/candidate-interview-specialist/57295723"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "10f43bd2cb8aea71",
-    "source_id": "reed-london",
-    "source_identifier": "57003788",
-    "source_url": "https://www.reed.co.uk/jobs/internal-sales-gsa-cargo/57003788"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "63c8722d046572c7",
-    "source_id": "reed-london",
-    "source_identifier": "57209818",
-    "source_url": "https://www.reed.co.uk/jobs/office-administrator/57209818"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "74931eadd58ac3f3",
-    "source_id": "reed-london",
-    "source_identifier": "57279617",
-    "source_url": "https://www.reed.co.uk/jobs/hv-shift-engineer/57279617"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "3e2fd10200ba3546",
-    "source_id": "reed-london",
-    "source_identifier": "57161624",
-    "source_url": "https://www.reed.co.uk/jobs/relationship-manager-sme-commercial/57161624"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "8f6dddd8df8b3090",
-    "source_id": "reed-london",
-    "source_identifier": "57196062",
-    "source_url": "https://www.reed.co.uk/jobs/hr-manager/57196062"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "4f38fe251646bfcf",
-    "source_id": "reed-london",
-    "source_identifier": "57297012",
-    "source_url": "https://www.reed.co.uk/jobs/temporary-internal-recruiter/57297012"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "3e06217cfb59f8f4",
-    "source_id": "reed-london",
-    "source_identifier": "57249263",
-    "source_url": "https://www.reed.co.uk/jobs/relationship-manager/57249263"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "8abe57d3adf2a6ed",
-    "source_id": "reed-london",
-    "source_identifier": "57293838",
-    "source_url": "https://www.reed.co.uk/jobs/renewable-energy-investment-banking-m-a-intern-augusta-co/57293838"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "ddf41150d642c007",
-    "source_id": "reed-london",
-    "source_identifier": "57294148",
-    "source_url": "https://www.reed.co.uk/jobs/senior-associate-hr-business-partner-pimco/57294148"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "e6f3bcc7edb1f35f",
-    "source_id": "reed-london",
-    "source_identifier": "57303453",
-    "source_url": "https://www.reed.co.uk/jobs/markets-quantitative-analysis-full-time-associate-london-2027-citi/57303453"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "3c0417af0adc54ab",
-    "source_id": "reed-london",
-    "source_identifier": "57272769",
-    "source_url": "https://www.reed.co.uk/jobs/multi-skilled-maintenance-operative/57272769"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "544f3545d2f0ef4e",
-    "source_id": "reed-london",
-    "source_identifier": "57283417",
-    "source_url": "https://www.reed.co.uk/jobs/build-to-rent-account-manager/57283417"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "bc3eeb2c34983cd4",
-    "source_id": "reed-london",
-    "source_identifier": "57233521",
-    "source_url": "https://www.reed.co.uk/jobs/highways-inspector/57233521"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "eb5e7f14fcaad695",
-    "source_id": "reed-london",
-    "source_identifier": "57246582",
-    "source_url": "https://www.reed.co.uk/jobs/it-support-engineer/57246582"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "8b25e2a370c5652a",
-    "source_id": "reed-london",
-    "source_identifier": "57218185",
-    "source_url": "https://www.reed.co.uk/jobs/nurse-case-manager/57218185"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "5657bf8850e4ff14",
-    "source_id": "reed-london",
-    "source_identifier": "57163404",
-    "source_url": "https://www.reed.co.uk/jobs/hr-manager-12-month-ftc/57163404"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "e7f053ab2829fff7",
-    "source_id": "reed-london",
-    "source_identifier": "57252115",
-    "source_url": "https://www.reed.co.uk/jobs/hr-manager/57252115"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "fe9c3eaad27fb692",
-    "source_id": "reed-london",
-    "source_identifier": "57249136",
-    "source_url": "https://www.reed.co.uk/jobs/billing-specialist/57249136"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "5ea96b4ec60f6cce",
-    "source_id": "reed-london",
-    "source_identifier": "57159736",
-    "source_url": "https://www.reed.co.uk/jobs/early-careers-assistant-perfect-for-graduates-or-school-leavers/57159736"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "8101856bcc63ec6a",
-    "source_id": "reed-london",
-    "source_identifier": "57154195",
-    "source_url": "https://www.reed.co.uk/jobs/early-careers-advisor-development-coordinator/57154195"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "9d22bca837afa70b",
-    "source_id": "reed-london",
-    "source_identifier": "57180651",
-    "source_url": "https://www.reed.co.uk/jobs/senior-java-engineer-front-office-fixed-income/57180651"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "0227677fedbc055b",
-    "source_id": "reed-london",
-    "source_identifier": "57175910",
-    "source_url": "https://www.reed.co.uk/jobs/java-solution-architect/57175910"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "3a247c7346b2c95f",
-    "source_id": "reed-london",
-    "source_identifier": "57267102",
-    "source_url": "https://www.reed.co.uk/jobs/integration-architect-java-aws-fs-outsideir35/57267102"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "ff750a41cca14e1c",
-    "source_id": "reed-london",
-    "source_identifier": "57249634",
-    "source_url": "https://www.reed.co.uk/jobs/senior-full-stack-developer-java-angular/57249634"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "42f7b60efe175a18",
-    "source_id": "reed-london",
-    "source_identifier": "57248859",
-    "source_url": "https://www.reed.co.uk/jobs/vice-president-senior-vp-java-equities/57248859"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "9fa554582ef3020c",
-    "source_id": "reed-london",
-    "source_identifier": "57237801",
-    "source_url": "https://www.reed.co.uk/jobs/senior-java-developer/57237801"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "4190da68fb0e1ed8",
-    "source_id": "reed-london",
-    "source_identifier": "57252368",
-    "source_url": "https://www.reed.co.uk/jobs/nnq-life-actuary-risk-modelling/57252368"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "94fc7c2101654e41",
-    "source_id": "reed-london",
-    "source_identifier": "57198038",
-    "source_url": "https://www.reed.co.uk/jobs/full-stack-java-developer/57198038"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "9d76c6631d3ed50f",
-    "source_id": "reed-london",
-    "source_identifier": "57227517",
-    "source_url": "https://www.reed.co.uk/jobs/solutions-architect/57227517"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "49d06150195fc310",
-    "source_id": "reed-london",
-    "source_identifier": "57250751",
-    "source_url": "https://www.reed.co.uk/jobs/dv-cleared-software-engineer/57250751"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "e73302715cfe1b6a",
-    "source_id": "reed-london",
-    "source_identifier": "57254084",
-    "source_url": "https://www.reed.co.uk/jobs/sr-java-full-stack-developer-london-uk/57254084"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "6b8801111c1c6485",
-    "source_id": "reed-london",
-    "source_identifier": "57277676",
-    "source_url": "https://www.reed.co.uk/jobs/net-developer/57277676"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "e5799af501940f14",
-    "source_id": "reed-london",
-    "source_identifier": "57294141",
-    "source_url": "https://www.reed.co.uk/jobs/banking-technology-angular-lead-engineer-vice-president-citi/57294141"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "b8cd0cc9e556c63e",
-    "source_id": "reed-london",
-    "source_identifier": "57293639",
-    "source_url": "https://www.reed.co.uk/jobs/payments-engineer-java-fynity/57293639"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "bad05390ba3bdb1c",
-    "source_id": "reed-london",
-    "source_identifier": "57293242",
-    "source_url": "https://www.reed.co.uk/jobs/software-engineer-post-trade-systems-macquarie-group/57293242"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "307d966ffbf12754",
-    "source_id": "reed-london",
-    "source_identifier": "57258403",
-    "source_url": "https://www.reed.co.uk/jobs/student-recruitment-insights-and-forecasting-analyst/57258403"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "e311b483501b8fd5",
-    "source_id": "reed-london",
-    "source_identifier": "57266193",
-    "source_url": "https://www.reed.co.uk/jobs/assistant-director-housing-strategy-insight-and-improvement/57266193"
-  },
-  {
-    "changes": [
-      "observed_unchanged"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "02969e99b1d0ea44",
-    "source_id": "reed-london",
-    "source_identifier": "57257778",
-    "source_url": "https://www.reed.co.uk/jobs/rise-the-norton-rose-fulbright-work-experience-programme/57257778"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "58bed38744aceddb",
-    "source_id": "reed-london",
-    "source_identifier": "57301930",
-    "source_url": "https://www.reed.co.uk/jobs/director-of-programmes/57301930"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "eeca4d7050c8184d",
-    "source_id": "reed-london",
-    "source_identifier": "57290721",
-    "source_url": "https://www.reed.co.uk/jobs/transformation-programme-manager/57290721"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "73a2e19552ad4abc",
-    "source_id": "reed-london",
-    "source_identifier": "57301495",
-    "source_url": "https://www.reed.co.uk/jobs/marketing-transformation-programme-management/57301495"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "c3e185f77935e50e",
-    "source_id": "reed-london",
-    "source_identifier": "57210559",
-    "source_url": "https://www.reed.co.uk/jobs/research-and-insights-consultant-contract/57210559"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "a62ab70a8e5aaa90",
-    "source_id": "reed-london",
-    "source_identifier": "57171913",
-    "source_url": "https://www.reed.co.uk/jobs/programme-manager-autonomous-systems/57171913"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "8f4fc3dd0f51ffd6",
-    "source_id": "reed-london",
-    "source_identifier": "57251731",
-    "source_url": "https://www.reed.co.uk/jobs/head-of-data-centres-programme/57251731"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "ee79f28afa92f45e",
-    "source_id": "reed-london",
-    "source_identifier": "57191498",
-    "source_url": "https://www.reed.co.uk/jobs/bd-crm-manager-litigation-us-law-firm/57191498"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "7e03a2ef0540af03",
-    "source_id": "reed-london",
-    "source_identifier": "57287656",
-    "source_url": "https://www.reed.co.uk/jobs/central-functions-finance-business-partner/57287656"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "9405695e2ba98ddd",
-    "source_id": "reed-london",
-    "source_identifier": "57273391",
-    "source_url": "https://www.reed.co.uk/jobs/director-of-defence-growth-programmes/57273391"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "d567c96d132c08f1",
-    "source_id": "reed-london",
-    "source_identifier": "57278709",
-    "source_url": "https://www.reed.co.uk/jobs/head-of-npd/57278709"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "413e2c3ba01382cc",
-    "source_id": "reed-london",
-    "source_identifier": "57281646",
-    "source_url": "https://www.reed.co.uk/jobs/procurement-category-lead-outsourcing/57281646"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "49efe6456c5b235c",
-    "source_id": "reed-london",
-    "source_identifier": "57281223",
-    "source_url": "https://www.reed.co.uk/jobs/finex-directors-officers-growth-leader/57281223"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "006b991d314cd6a7",
-    "source_id": "reed-london",
-    "source_identifier": "57226572",
-    "source_url": "https://www.reed.co.uk/jobs/finance-analyst/57226572"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "d39573e13805bf18",
-    "source_id": "reed-london",
-    "source_identifier": "57306189",
-    "source_url": "https://www.reed.co.uk/jobs/channel-enablement-project-executive/57306189"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "76652cbacd10875b",
-    "source_id": "reed-london",
-    "source_identifier": "57266063",
-    "source_url": "https://www.reed.co.uk/jobs/senior-treasury-manager/57266063"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "8cf727308b2b5b92",
-    "source_id": "reed-london",
-    "source_identifier": "57280723",
-    "source_url": "https://www.reed.co.uk/jobs/head-of-stakeholder-engagement/57280723"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "e619f7703bd75cb4",
-    "source_id": "reed-london",
-    "source_identifier": "57013467",
-    "source_url": "https://www.reed.co.uk/jobs/graduate-investment-data-analyst-programme-central-london/57013467"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "414b23602404ccb8",
-    "source_id": "reed-london",
-    "source_identifier": "57281227",
-    "source_url": "https://www.reed.co.uk/jobs/business-partner-willis-networks/57281227"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "fb6145d3cc7427cb",
-    "source_id": "reed-london",
-    "source_identifier": "57305624",
-    "source_url": "https://www.reed.co.uk/jobs/performance-improvement-specialist/57305624"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "705b7f3c9234b704",
-    "source_id": "reed-london",
-    "source_identifier": "57205789",
-    "source_url": "https://www.reed.co.uk/jobs/senior-client-relationship-manager/57205789"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "df99bd4c3b51ead3",
-    "source_id": "reed-london",
-    "source_identifier": "57300969",
-    "source_url": "https://www.reed.co.uk/jobs/executive-assistant-chief-executives-office/57300969"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "4324215f2142f7af",
-    "source_id": "reed-london",
-    "source_identifier": "57189705",
-    "source_url": "https://www.reed.co.uk/jobs/commercial-growth-lead/57189705"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "d890f2643078f2bb",
-    "source_id": "reed-london",
-    "source_identifier": "57168983",
-    "source_url": "https://www.reed.co.uk/jobs/communication-engagement-solutions-consultant/57168983"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "4b283893577a5a01",
-    "source_id": "reed-london",
-    "source_identifier": "57168997",
-    "source_url": "https://www.reed.co.uk/jobs/executive-compensation-consultant/57168997"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "e1ffab90fc167cbc",
-    "source_id": "reed-london",
-    "source_identifier": "57305581",
-    "source_url": "https://www.reed.co.uk/jobs/er-specialist/57305581"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "25c7467ce1cbc0a9",
-    "source_id": "reed-london",
-    "source_identifier": "57261541",
-    "source_url": "https://www.reed.co.uk/jobs/client-development-lead-risk-and-analytics/57261541"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "b87346d73077042d",
-    "source_id": "reed-london",
-    "source_identifier": "57284664",
-    "source_url": "https://www.reed.co.uk/jobs/third-party-cyber-oversight-specialist/57284664"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "426c74bda74e208e",
-    "source_id": "reed-london",
-    "source_identifier": "57217939",
-    "source_url": "https://www.reed.co.uk/jobs/social-media-manager/57217939"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "01c204192c6de14a",
-    "source_id": "reed-london",
-    "source_identifier": "57284808",
-    "source_url": "https://www.reed.co.uk/jobs/business-development-manager/57284808"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "0f1821d30b451fb8",
-    "source_id": "reed-london",
-    "source_identifier": "57268860",
-    "source_url": "https://www.reed.co.uk/jobs/executive-reward-and-share-plans-manager/57268860"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "6403368222639ae4",
-    "source_id": "reed-london",
-    "source_identifier": "57128170",
-    "source_url": "https://www.reed.co.uk/jobs/bid-manager/57128170"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "2f0acc560c94065b",
-    "source_id": "reed-london",
-    "source_identifier": "57208827",
-    "source_url": "https://www.reed.co.uk/jobs/service-excellence-analyst/57208827"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "67d9749fa3e27206",
-    "source_id": "reed-london",
-    "source_identifier": "57294344",
-    "source_url": "https://www.reed.co.uk/jobs/careers-consultant/57294344"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "6a788a9ae7f5f076",
-    "source_id": "reed-london",
-    "source_identifier": "57191487",
-    "source_url": "https://www.reed.co.uk/jobs/junior-programme-manager-health-and-social-care/57191487"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "bdf7a5dbc481c8d9",
-    "source_id": "reed-london",
-    "source_identifier": "57210880",
-    "source_url": "https://www.reed.co.uk/jobs/uk-finance-lead/57210880"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "aa8ad4b726c29590",
-    "source_id": "reed-london",
-    "source_identifier": "57210881",
-    "source_url": "https://www.reed.co.uk/jobs/finance-manager/57210881"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "2f3d76577a840c17",
-    "source_id": "reed-london",
-    "source_identifier": "56867223",
-    "source_url": "https://www.reed.co.uk/jobs/finance-benefits-lead/56867223"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "7ea3bd6a023ce4b9",
-    "source_id": "reed-london",
-    "source_identifier": "57233251",
-    "source_url": "https://www.reed.co.uk/jobs/pmo-coordinator/57233251"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "2c3dedb09dfb1d9c",
-    "source_id": "reed-london",
-    "source_identifier": "57284650",
-    "source_url": "https://www.reed.co.uk/jobs/interim-cyber-risk-consultant-sme/57284650"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "a5df5deee159a991",
-    "source_id": "reed-london",
-    "source_identifier": "57273049",
-    "source_url": "https://www.reed.co.uk/jobs/associate-director-change-digital-transformation/57273049"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "dbee163c32fe347a",
-    "source_id": "reed-london",
-    "source_identifier": "57252492",
-    "source_url": "https://www.reed.co.uk/jobs/corporate-health-safety-manager/57252492"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "f5c80ee28f2374e2",
-    "source_id": "reed-london",
-    "source_identifier": "57274182",
-    "source_url": "https://www.reed.co.uk/jobs/senior-lead-organisational-design-operating-model/57274182"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "bb73d9449fbf8c05",
-    "source_id": "reed-london",
-    "source_identifier": "57169041",
-    "source_url": "https://www.reed.co.uk/jobs/large-corporate-director-health-benefits/57169041"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "f637d7e77812d07c",
-    "source_id": "reed-london",
-    "source_identifier": "57278782",
-    "source_url": "https://www.reed.co.uk/jobs/domain-architect-salesforce/57278782"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "bd23dd3233a4b139",
-    "source_id": "reed-london",
-    "source_identifier": "57221944",
-    "source_url": "https://www.reed.co.uk/jobs/interim-financial-controller-italian-speaking/57221944"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "3692c1c69d66ebe2",
-    "source_id": "reed-london",
-    "source_identifier": "57287372",
-    "source_url": "https://www.reed.co.uk/jobs/interim-accountant-local-government/57287372"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "0ebbd8e3b49a3d79",
-    "source_id": "reed-london",
-    "source_identifier": "57280484",
-    "source_url": "https://www.reed.co.uk/jobs/group-health-safety-manager/57280484"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "0feb65aa887dc4e4",
-    "source_id": "reed-london",
-    "source_identifier": "57205256",
-    "source_url": "https://www.reed.co.uk/jobs/psychology-graduates/57205256"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "710a3450e22fe24c",
-    "source_id": "reed-london",
-    "source_identifier": "57232335",
-    "source_url": "https://www.reed.co.uk/jobs/psychology-graduates/57232335"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "b7951f26b5abe29c",
-    "source_id": "reed-london",
-    "source_identifier": "57156944",
-    "source_url": "https://www.reed.co.uk/jobs/psychology-graduates/57156944"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "ce2120d5225994a4",
-    "source_id": "reed-london",
-    "source_identifier": "57258842",
-    "source_url": "https://www.reed.co.uk/jobs/learning-and-development-adviser/57258842"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "265ca3b6a09fddc7",
-    "source_id": "reed-london",
-    "source_identifier": "57272873",
-    "source_url": "https://www.reed.co.uk/jobs/interim-it-general-controls-internal-itgc-auditor/57272873"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "2789ba4a757c431f",
-    "source_id": "reed-london",
-    "source_identifier": "57276510",
-    "source_url": "https://www.reed.co.uk/jobs/casual-weekend-sales-associate-neal-street/57276510"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "6b07130419b3e618",
-    "source_id": "reed-london",
-    "source_identifier": "57294348",
-    "source_url": "https://www.reed.co.uk/jobs/academic-quality-officer/57294348"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "8fc3d6a7b7c9f3f6",
-    "source_id": "reed-london",
-    "source_identifier": "57236919",
-    "source_url": "https://www.reed.co.uk/jobs/business-development-manager-events/57236919"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "5cbe456bf2b65ddf",
-    "source_id": "reed-london",
-    "source_identifier": "57195511",
-    "source_url": "https://www.reed.co.uk/jobs/rewards-new-business-consultant/57195511"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "b7c6adca76e0d59a",
-    "source_id": "reed-london",
-    "source_identifier": "57239952",
-    "source_url": "https://www.reed.co.uk/jobs/business-analyst-support-and-implementations/57239952"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "5c673cf6a07ebe81",
-    "source_id": "reed-london",
-    "source_identifier": "57265943",
-    "source_url": "https://www.reed.co.uk/jobs/partnership-manager-health-housing-energy/57265943"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "923bb42cd0acf67c",
-    "source_id": "reed-london",
-    "source_identifier": "56654149",
-    "source_url": "https://www.reed.co.uk/jobs/crm-product-owner/56654149"
-  },
-  {
-    "changes": [
-      "newly_published"
-    ],
-    "observed_at": "2026-09-03T11:24:10.524139+00:00",
-    "role_id": "fa434b26cfa79cfc",
-    "source_id": "reed-london",
-    "source_identifier": "57159865",
-    "source_url": "https://www.reed.co.uk/jobs/used-car-sales-advisor/57159865"
-  },
-  {
-    "changes": [
       "newly_published"
     ],
     "observed_at": "2026-09-03T11:24:10.524139+00:00",
@@ -50006,5 +47382,2615 @@
     "source_id": "legalcheek-noticeboard",
     "source_identifier": "850",
     "source_url": "https://hub.legalcheek.com/job/850"
+  },
+  {
+    "changes": [
+      "official_source_page_changed"
+    ],
+    "content_hash": "1533fead18bab5a1fdc770077dc6307d194700e9e96cc7bce70ee9c8f756a3e1",
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "source_id": "rothschild-and-co",
+    "source_url": "https://www.rothschildandco.com/en/careers/students-and-graduates/internships/"
+  },
+  {
+    "changes": [
+      "official_source_page_changed"
+    ],
+    "content_hash": "1dd29b3af43ac0807ba52d052c2dcf70c239a7aaf3a1c3efd8abb0aa590db261",
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "source_id": "houlihan-lokey",
+    "source_url": "https://hl.com/careers/early-careers/internships-europe/"
+  },
+  {
+    "changes": [
+      "official_source_page_changed"
+    ],
+    "content_hash": "3abfca75e283bd507b72a2ff59e8bd6e92f4c460052069c19a176fd0277adba7",
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "source_id": "barclays",
+    "source_url": "https://search.jobs.barclays/early-careers-roles"
+  },
+  {
+    "changes": [
+      "official_source_page_changed"
+    ],
+    "content_hash": "2491e9e375221190ef7414f747123f67e94b4ab5e34d7ab6410f31f47775be6d",
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "source_id": "latham-watkins",
+    "source_url": "https://www.lwcareers.com/en/beginning-your-legal-career/united-kingdom/our-programmes"
+  },
+  {
+    "changes": [
+      "official_source_page_changed"
+    ],
+    "content_hash": "bb5bd4ced1353c22606b0746564d059996ada5c174339a2423885e05a80b506b",
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "source_id": "covington-burling",
+    "source_url": "https://www.cov.com/en/careers/lawyers/london/our-opportunities/vacation-schemes"
+  },
+  {
+    "changes": [
+      "official_source_page_changed"
+    ],
+    "content_hash": "534f36d8022ff3a5852606d5ffa3c7c9075a0b5f4d0103978dcdc9610a53db8f",
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "source_id": "hogan-lovells",
+    "source_url": "https://ukearlycareers.hlc.com/what-we-offer/vacation-scheme"
+  },
+  {
+    "changes": [
+      "official_source_page_changed"
+    ],
+    "content_hash": "2692cc8d1c9045d79fa01d6e701455ff7609e03cf1966ba17302acc433377c52",
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "source_id": "ao-shearman",
+    "source_url": "https://careers.aoshearman.com/en/london-vacation-schemes"
+  },
+  {
+    "changes": [
+      "official_source_page_changed"
+    ],
+    "content_hash": "19d83480b06942cbdd1e5acb036dae2a2c57f593df8ca9c4f125ddbf6d74dd7f",
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "source_id": "freshfields",
+    "source_url": "https://www.freshfields.com/en/your-career/united-kingdom/early-careers/vacation-schemes"
+  },
+  {
+    "changes": [
+      "official_source_page_changed"
+    ],
+    "content_hash": "a290d8b8cf075adb6d1b88037d80ac40d5657388716127bc7364e153c6fe323a",
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "source_id": "slaughter-and-may",
+    "source_url": "https://www.slaughterandmay.com/careers/early-careers/apply/"
+  },
+  {
+    "changes": [
+      "official_source_page_changed"
+    ],
+    "content_hash": "7f18628b9106fa28c9f98e3db9465821528dd46dc4e82e79c70b00d65b744593",
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "source_id": "hsf-kramer",
+    "source_url": "https://careers.hsfkramer.com/global/en/uk/early-careers/vacation-schemes"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "dac6171b2664419b",
+    "source_id": "blackrock",
+    "source_identifier": "12232",
+    "source_url": "https://careers.blackrock.com/job/london/2027-summer-internship-program-emea/45831/97150826672"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "9ec5948a111c7a4c",
+    "source_id": "blackrock",
+    "source_identifier": "12222",
+    "source_url": "https://careers.blackrock.com/job/london/2027-client-and-product-summer-internship-program-emea/45831/97150826736"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "b48a02b87bef83b9",
+    "source_id": "bank-of-america",
+    "source_identifier": "14519",
+    "source_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14519/global-corporate-banking-2027-summer-analyst-x2013-london-london-united-kingdom"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "73560e57e34b4aeb",
+    "source_id": "bank-of-america",
+    "source_identifier": "14521",
+    "source_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14521/global-capital-markets-2027-summer-analyst-dcm-ecm-leveraged-finance-and-ssg-london-london-united-kingdom"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "8027a5ba9212e153",
+    "source_id": "bank-of-america",
+    "source_identifier": "14522",
+    "source_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14522/global-investment-banking-2027-summer-analyst-london-london-united-kingdom"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "29a2c82722bec6a7",
+    "source_id": "blackstone",
+    "source_identifier": "43186",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Private-Equity-Summer-Analyst--London-_43186"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "982033891fa8fd2b",
+    "source_id": "blackstone",
+    "source_identifier": "43864",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Private-Credit-Strategies-Summer-Analyst--London-_43864"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "e78633864fc72f47",
+    "source_id": "blackstone",
+    "source_identifier": "43862",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Credit-and-Insurance--Infrastructure-and-Asset-Based-Credit-Summer-Analyst--London-_43862"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "d02a281484ee121d",
+    "source_id": "blackstone",
+    "source_identifier": "43192",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Strategic-Partners-Private-Equity-Secondaries-Summer-Analyst--London-_43192"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "daa5cd3a4b971cf3",
+    "source_id": "blackstone",
+    "source_identifier": "43623",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Strategic-Partners-Real-Estate-Secondaries-Summer-Analyst--London-_43623"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "c08370636a5ef4a6",
+    "source_id": "blackstone",
+    "source_identifier": "43155",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Real-Estate-Partners-Summer-Analyst---Acquisitions--Asset-Management--Capital-Markets-and-Core---London-_43155"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "663e22d23d3b5185",
+    "source_id": "blackstone",
+    "source_identifier": "43613",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Infrastructure-Partners-Summer-Analyst---Private-Equity-Infrastructure-Investment---Private-Equity-Infrastructure-Asset-Management--London-_43613"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "2cf0614b6340b235",
+    "source_id": "blackstone",
+    "source_identifier": "43199",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/XMLNAME-2027-Blackstone-Real-Estate-Debt-Strategies-Summer-Analyst---Private-Investments---Capital-Markets--London-_43199"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "da22c5b138c4d27b",
+    "source_id": "blackstone",
+    "source_identifier": "43179",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Tactical-Opportunities-Summer-Analyst--London-_43179"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "cfc2ccb19129811e",
+    "source_id": "blackstone",
+    "source_identifier": "43183",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/Blackstone_Campus_Careers/job/Berkeley-Square-House-London/XMLNAME-2027-Blackstone-Private-Wealth-Summer-Analyst--London-_43183"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "b1650b5a257af54f",
+    "source_id": "blackstone",
+    "source_identifier": "43188",
+    "source_url": "https://blackstone.wd1.myworkdayjobs.com/en-US/Blackstone_Campus_Careers/job/London/XMLNAME-2027-Blackstone-Real-Estate-Institutional-Client-Solutions-Summer-Analyst--London-_43188"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "1149ea93489d57cd",
+    "source_id": "goldman-sachs-current-roles",
+    "source_identifier": "170152",
+    "source_url": "https://higher.gs.com/roles/170152"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "25e448039da4ec7b",
+    "source_id": "goldman-sachs-current-roles",
+    "source_identifier": "170160",
+    "source_url": "https://higher.gs.com/roles/170160"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "f38d73f1e4fcf70e",
+    "source_id": "goldman-sachs-current-roles",
+    "source_identifier": "170163",
+    "source_url": "https://higher.gs.com/roles/170163"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "b2a8262ad6d46efb",
+    "source_id": "goldman-sachs-current-roles",
+    "source_identifier": "172894",
+    "source_url": "https://higher.gs.com/roles/172894"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "e59050ea5d6e8ceb",
+    "source_id": "goldman-sachs-current-roles",
+    "source_identifier": "170929",
+    "source_url": "https://higher.gs.com/roles/170929"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "762de6ccadcbe14f",
+    "source_id": "goldman-sachs-current-roles",
+    "source_identifier": "181882",
+    "source_url": "https://higher.gs.com/roles/181882"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "14d4abd23acf4cee",
+    "source_id": "goldman-sachs-current-roles",
+    "source_identifier": "173050",
+    "source_url": "https://higher.gs.com/roles/173050"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "211c99fee9a5463f",
+    "source_id": "goldman-sachs-current-roles",
+    "source_identifier": "170158",
+    "source_url": "https://higher.gs.com/roles/170158"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "e7e06b9b03ad69bc",
+    "source_id": "goldman-sachs-current-roles",
+    "source_identifier": "162040",
+    "source_url": "https://higher.gs.com/roles/162040"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "4c3acf33e37c38d5",
+    "source_id": "w4mp",
+    "source_identifier": "100158",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100158"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "20b92f78203004a6",
+    "source_id": "w4mp",
+    "source_identifier": "100157",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100157"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "3b8df72620b352c0",
+    "source_id": "w4mp",
+    "source_identifier": "100156",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100156"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "c3becd975ca10e1b",
+    "source_id": "w4mp",
+    "source_identifier": "100155",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100155"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "8f4e17348c663b8c",
+    "source_id": "w4mp",
+    "source_identifier": "100154",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100154"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "29f65da868f7ce8e",
+    "source_id": "w4mp",
+    "source_identifier": "100153",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100153"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "82b164c9e67f82b3",
+    "source_id": "w4mp",
+    "source_identifier": "100152",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100152"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "b40a07541c44fd90",
+    "source_id": "w4mp",
+    "source_identifier": "100151",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100151"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "23a93e846d809a03",
+    "source_id": "w4mp",
+    "source_identifier": "100150",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100150"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "9aab74baf0fb785b",
+    "source_id": "w4mp",
+    "source_identifier": "100149",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100149"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "a4fac5d77c1d8d32",
+    "source_id": "w4mp",
+    "source_identifier": "100148",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100148"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "e9857cce1800e36b",
+    "source_id": "w4mp",
+    "source_identifier": "100147",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100147"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "505ec2c464df3f1f",
+    "source_id": "w4mp",
+    "source_identifier": "100146",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100146"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "30ffa2b6aa3428b8",
+    "source_id": "w4mp",
+    "source_identifier": "100144",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100144"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "6e77f7fb4ec98a8a",
+    "source_id": "w4mp",
+    "source_identifier": "100143",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100143"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "f9df1247cc441785",
+    "source_id": "w4mp",
+    "source_identifier": "100142",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100142"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "00bf83390f9989ca",
+    "source_id": "w4mp",
+    "source_identifier": "100141",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100141"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "2dfd0d0d1c185846",
+    "source_id": "w4mp",
+    "source_identifier": "100140",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100140"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "9cea0d4a06bbc19d",
+    "source_id": "w4mp",
+    "source_identifier": "100139",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100139"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "4d3ec912d4c2ee41",
+    "source_id": "w4mp",
+    "source_identifier": "100138",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100138"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "227c0cf0c0013b0d",
+    "source_id": "w4mp",
+    "source_identifier": "100137",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100137"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "4cce9d64c7c97551",
+    "source_id": "w4mp",
+    "source_identifier": "100136",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100136"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "dba9ca8b2dfba7a2",
+    "source_id": "w4mp",
+    "source_identifier": "100134",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100134"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "c1334af1a1f71f2d",
+    "source_id": "w4mp",
+    "source_identifier": "100133",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100133"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "16a07e7f7ed38b21",
+    "source_id": "w4mp",
+    "source_identifier": "100132",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100132"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "2fb83e326a1dd038",
+    "source_id": "w4mp",
+    "source_identifier": "100131",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100131"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "8aaeb3f98b5a164d",
+    "source_id": "w4mp",
+    "source_identifier": "100129",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100129"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "e43dc30023072057",
+    "source_id": "w4mp",
+    "source_identifier": "100125",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100125"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "76e2332378ce0901",
+    "source_id": "w4mp",
+    "source_identifier": "100124",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100124"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "05070e77bbddb69b",
+    "source_id": "w4mp",
+    "source_identifier": "100123",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100123"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "b990a55f7472bb06",
+    "source_id": "w4mp",
+    "source_identifier": "100122",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100122"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "1f07a142f7c53af0",
+    "source_id": "w4mp",
+    "source_identifier": "100120",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100120"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "88fd343b32f3d374",
+    "source_id": "w4mp",
+    "source_identifier": "100119",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100119"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "872618b2cabb527d",
+    "source_id": "w4mp",
+    "source_identifier": "100117",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100117"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "0e5e81011de4baba",
+    "source_id": "w4mp",
+    "source_identifier": "100116",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100116"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "a0f8b8707c3c85ea",
+    "source_id": "w4mp",
+    "source_identifier": "100115",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100115"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "d3311a3a8b7ef06d",
+    "source_id": "w4mp",
+    "source_identifier": "100114",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100114"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "8bf587a5fee9a5c0",
+    "source_id": "w4mp",
+    "source_identifier": "100113",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100113"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "3d41b8ac5d057015",
+    "source_id": "w4mp",
+    "source_identifier": "100112",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100112"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "5d41e553aff7bed3",
+    "source_id": "w4mp",
+    "source_identifier": "100111",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100111"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "8cf4b1329a774fd4",
+    "source_id": "w4mp",
+    "source_identifier": "100110",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100110"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "fd18f7715d492a14",
+    "source_id": "w4mp",
+    "source_identifier": "100109",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100109"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "2cee9a5f5b0361af",
+    "source_id": "w4mp",
+    "source_identifier": "100108",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100108"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "4c9b3325c8f1a0e3",
+    "source_id": "w4mp",
+    "source_identifier": "100107",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100107"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "d0640008f3f35402",
+    "source_id": "w4mp",
+    "source_identifier": "100106",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100106"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "ee833b109ecd8e25",
+    "source_id": "w4mp",
+    "source_identifier": "100105",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100105"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "d9613960e9efb5aa",
+    "source_id": "w4mp",
+    "source_identifier": "100104",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100104"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "4e0cc6ec600d20d0",
+    "source_id": "w4mp",
+    "source_identifier": "100103",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100103"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "1afb24a842f6cbbf",
+    "source_id": "w4mp",
+    "source_identifier": "100101",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100101"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "6faa7e3d853ec51a",
+    "source_id": "w4mp",
+    "source_identifier": "100100",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100100"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "80dfd750bee9195b",
+    "source_id": "w4mp",
+    "source_identifier": "100099",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100099"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "7bfcd7568f68172d",
+    "source_id": "w4mp",
+    "source_identifier": "100098",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100098"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "0eaa6c99851d130e",
+    "source_id": "w4mp",
+    "source_identifier": "100097",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100097"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "246ae035f9633a08",
+    "source_id": "w4mp",
+    "source_identifier": "100096",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100096"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "9bd6580b6d1f839f",
+    "source_id": "w4mp",
+    "source_identifier": "100095",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100095"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "c777f13f147f2202",
+    "source_id": "w4mp",
+    "source_identifier": "100094",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100094"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "ba22d198e5ecbc2e",
+    "source_id": "w4mp",
+    "source_identifier": "100093",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100093"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "ae36eaa0a95f0666",
+    "source_id": "w4mp",
+    "source_identifier": "100092",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100092"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "9214253eff868cb0",
+    "source_id": "w4mp",
+    "source_identifier": "100091",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100091"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "9b2bcc8a026f629c",
+    "source_id": "w4mp",
+    "source_identifier": "100090",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100090"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "2e49376d79d5fafb",
+    "source_id": "w4mp",
+    "source_identifier": "100089",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100089"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "4bef92b6b40edd06",
+    "source_id": "w4mp",
+    "source_identifier": "100088",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100088"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "78814c4ce653f234",
+    "source_id": "w4mp",
+    "source_identifier": "100087",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100087"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "f6b77b6cec9f998b",
+    "source_id": "w4mp",
+    "source_identifier": "100086",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100086"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "d4aca38d4ffc1b87",
+    "source_id": "w4mp",
+    "source_identifier": "100084",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100084"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "b6e6251d0e427998",
+    "source_id": "w4mp",
+    "source_identifier": "100083",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100083"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "518537920a7469e5",
+    "source_id": "w4mp",
+    "source_identifier": "100082",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100082"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "aeaa490e0806a3fe",
+    "source_id": "w4mp",
+    "source_identifier": "100081",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100081"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "15896579473d1e9a",
+    "source_id": "w4mp",
+    "source_identifier": "100080",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100080"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "4f92747ea0f0271c",
+    "source_id": "w4mp",
+    "source_identifier": "100079",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100079"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "65924097c6819f0a",
+    "source_id": "w4mp",
+    "source_identifier": "100078",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100078"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "342692972faa821e",
+    "source_id": "w4mp",
+    "source_identifier": "100076",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100076"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "9aa5447fe65cdc9c",
+    "source_id": "w4mp",
+    "source_identifier": "100075",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100075"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "d593c9d6a622c272",
+    "source_id": "w4mp",
+    "source_identifier": "100074",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100074"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "30b9dd7fe6f7e3a7",
+    "source_id": "w4mp",
+    "source_identifier": "100073",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100073"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "d72221e52d67cc24",
+    "source_id": "w4mp",
+    "source_identifier": "100071",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100071"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "eee193d79a6ccf19",
+    "source_id": "w4mp",
+    "source_identifier": "100070",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100070"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "ee92d08f81e07826",
+    "source_id": "w4mp",
+    "source_identifier": "100069",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100069"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "3841504385c40157",
+    "source_id": "w4mp",
+    "source_identifier": "100068",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100068"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "6a4e73989f40f374",
+    "source_id": "w4mp",
+    "source_identifier": "100067",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100067"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "c6e851dec86424f4",
+    "source_id": "w4mp",
+    "source_identifier": "100066",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100066"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "b9aec00e45a97d64",
+    "source_id": "w4mp",
+    "source_identifier": "100064",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100064"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "754269133aefcc8b",
+    "source_id": "w4mp",
+    "source_identifier": "100063",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100063"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "0ee7285cf138e918",
+    "source_id": "w4mp",
+    "source_identifier": "100062",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100062"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "7ff43395dbefeccc",
+    "source_id": "w4mp",
+    "source_identifier": "100061",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100061"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "e746cf036542de8c",
+    "source_id": "w4mp",
+    "source_identifier": "100060",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100060"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "8fd4ffed0c49bc76",
+    "source_id": "w4mp",
+    "source_identifier": "100058",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100058"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "c106a9e0676f2c41",
+    "source_id": "w4mp",
+    "source_identifier": "100057",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100057"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "4fb0e176861edab6",
+    "source_id": "w4mp",
+    "source_identifier": "100056",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100056"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "86f9b1c761061222",
+    "source_id": "w4mp",
+    "source_identifier": "100055",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100055"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "f36279b136bfc50e",
+    "source_id": "w4mp",
+    "source_identifier": "100054",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100054"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "5c229df430290938",
+    "source_id": "w4mp",
+    "source_identifier": "100052",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100052"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "b28a2b26ec2c0da6",
+    "source_id": "w4mp",
+    "source_identifier": "100051",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100051"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "45be64f3b31da236",
+    "source_id": "w4mp",
+    "source_identifier": "100050",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100050"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "027ab2f2b2423c26",
+    "source_id": "w4mp",
+    "source_identifier": "100049",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100049"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "ea0fe1d9b3f546d5",
+    "source_id": "w4mp",
+    "source_identifier": "100047",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100047"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "61958dab1358e50d",
+    "source_id": "w4mp",
+    "source_identifier": "100045",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100045"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "fafa860df3171b28",
+    "source_id": "w4mp",
+    "source_identifier": "100044",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100044"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "4f0efa7df5faab8a",
+    "source_id": "w4mp",
+    "source_identifier": "100041",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100041"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "ed2eb0d6cabdea45",
+    "source_id": "w4mp",
+    "source_identifier": "100040",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100040"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "f07a69b7fb30ae86",
+    "source_id": "w4mp",
+    "source_identifier": "100039",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100039"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "65c09fabae106f99",
+    "source_id": "w4mp",
+    "source_identifier": "100038",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100038"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "2cf2e04b519c3c48",
+    "source_id": "w4mp",
+    "source_identifier": "100035",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100035"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "44043343681db9b0",
+    "source_id": "w4mp",
+    "source_identifier": "100031",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100031"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "ccb675f2b56591c4",
+    "source_id": "w4mp",
+    "source_identifier": "100030",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100030"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "3cdf3dd4acf60187",
+    "source_id": "w4mp",
+    "source_identifier": "100027",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "f1da49a31c267e9e",
+    "source_id": "w4mp",
+    "source_identifier": "100026",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100026"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "32f8cc27f745784a",
+    "source_id": "w4mp",
+    "source_identifier": "100025",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100025"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "d6e8c20013aecd76",
+    "source_id": "w4mp",
+    "source_identifier": "100023",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100023"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "416725b9daa27dab",
+    "source_id": "w4mp",
+    "source_identifier": "100022",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100022"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "2ca64a8e9c67348b",
+    "source_id": "w4mp",
+    "source_identifier": "100016",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100016"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "86d44753d3a1ac42",
+    "source_id": "w4mp",
+    "source_identifier": "100013",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100013"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "ce3df1339eb334e0",
+    "source_id": "w4mp",
+    "source_identifier": "100011",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100011"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "163c045defe9fe25",
+    "source_id": "w4mp",
+    "source_identifier": "100010",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100010"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "40c89af57fe8cea5",
+    "source_id": "w4mp",
+    "source_identifier": "100009",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100009"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "78381900e0bf2dff",
+    "source_id": "w4mp",
+    "source_identifier": "100008",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100008"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "d79b771d98ed8f70",
+    "source_id": "w4mp",
+    "source_identifier": "100006",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100006"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "90cfcfd058d10220",
+    "source_id": "w4mp",
+    "source_identifier": "100001",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=100001"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "7a2fc915ec691006",
+    "source_id": "w4mp",
+    "source_identifier": "99998",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99998"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "4ed3168d6eecad6c",
+    "source_id": "w4mp",
+    "source_identifier": "99997",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99997"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "3b8125a784c2a282",
+    "source_id": "w4mp",
+    "source_identifier": "99991",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99991"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "1da31b18ae787a6e",
+    "source_id": "w4mp",
+    "source_identifier": "99990",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99990"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "70e80839b2569252",
+    "source_id": "w4mp",
+    "source_identifier": "99983",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99983"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "1160d720fa172bd8",
+    "source_id": "w4mp",
+    "source_identifier": "99975",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99975"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "98fb7d3813237b2f",
+    "source_id": "w4mp",
+    "source_identifier": "99971",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99971"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "74bdb34a5ba748f2",
+    "source_id": "w4mp",
+    "source_identifier": "99947",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99947"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "cc34a30bc3b7e825",
+    "source_id": "w4mp",
+    "source_identifier": "99942",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99942"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "2a959a160ed70215",
+    "source_id": "w4mp",
+    "source_identifier": "99928",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99928"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "57d86d895e48e37b",
+    "source_id": "w4mp",
+    "source_identifier": "99925",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99925"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "c5e78b7c1ce43f05",
+    "source_id": "w4mp",
+    "source_identifier": "99908",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99908"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "378bfbcf0f1467a8",
+    "source_id": "w4mp",
+    "source_identifier": "99876",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99876"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "c4345f9556d06c76",
+    "source_id": "w4mp",
+    "source_identifier": "99819",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99819"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "f361695716a90fa9",
+    "source_id": "w4mp",
+    "source_identifier": "99814",
+    "source_url": "https://www.w4mpjobs.org/JobDetails.aspx?jobid=99814"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "6320ac0ce5faf15b",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43887",
+    "source_url": "https://higherin.com/jobs/43887/bank-of-america/investment-banking-2027-analyst-off-cycle-internship-uk-ireland-investment-banking-emea-corporate-broking-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "dbe2a804268bc626",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43886",
+    "source_url": "https://higherin.com/jobs/43886/bank-of-america/investment-banking-2027-analyst-off-cycle-internship-technology-media-and-telecommunications-tmt-london-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "3b04e5255d9652e9",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43885",
+    "source_url": "https://higherin.com/jobs/43885/bank-of-america/investment-banking-2027-off-cycle-analyst-real-estate-gaming-and-leisure-emea-regl-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "c13bf76f8ee99d50",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43949",
+    "source_url": "https://higherin.com/jobs/43949/bank-of-america/investment-banking-analyst-off-cycle-internship-2027-multi-industries-gig-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "676948706889774d",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43883",
+    "source_url": "https://higherin.com/jobs/43883/bank-of-america/investment-banking-2027-analyst-off-cycle-internship-consumer-and-retail-core-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "70bff0dcb073bf4d",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43888",
+    "source_url": "https://higherin.com/jobs/43888/bank-of-america/investment-banking-2027-analyst-off-cycle-internship-financial-institutions-group-fig-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "f5341a946cbc4ee3",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43783",
+    "source_url": "https://higherin.com/jobs/43783/ubs/2027-off-cycle-internship-global-banking-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "9465e105acc53351",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43785",
+    "source_url": "https://higherin.com/jobs/43785/ubs/2027-summer-internship-global-banking-ugb-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "24d440bce82831c6",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43786",
+    "source_url": "https://higherin.com/jobs/43786/ubs/2027-summer-internship-global-markets-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "bbd88632f150468b",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43784",
+    "source_url": "https://higherin.com/jobs/43784/ubs/2027-summer-internship-global-banking-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "2699006d769831f1",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43996",
+    "source_url": "https://higherin.com/jobs/43996/ubs/2027-summer-internship-group-finance-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "97d34685c064ce3a",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43999",
+    "source_url": "https://higherin.com/jobs/43999/ubs/2027-off-cycle-internship-global-banking-pfg-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "a5dffc95fac96983",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43993",
+    "source_url": "https://higherin.com/jobs/43993/ubs/2027-summer-internship-internal-audit-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "7ff1b1716096b5fb",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43997",
+    "source_url": "https://higherin.com/jobs/43997/ubs/2027-summer-internship-human-resources-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "83d8e26bbe123312",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43992",
+    "source_url": "https://higherin.com/jobs/43992/ubs/2027-summer-internship-global-equity-research-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "b8254cd4c99e3361",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43990",
+    "source_url": "https://higherin.com/jobs/43990/ubs/2027-summer-internship-global-wealth-management-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "89b4635d40ad7732",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43988",
+    "source_url": "https://higherin.com/jobs/43988/ubs/2027-off-cycle-internship-investment-bank-quants-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "d3b1876ff6580693",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43989",
+    "source_url": "https://higherin.com/jobs/43989/ubs/2027-off-cycle-internship-group-legal-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "e2b6b874d954cbc0",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43995",
+    "source_url": "https://higherin.com/jobs/43995/ubs/2027-summer-internship-global-research-holt-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "f1a1c96965d0f98b",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "44035",
+    "source_url": "https://higherin.com/jobs/44035/bank-of-america/chief-people-organization-summer-2027-analyst-london"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "5fa06895f9e6f4a0",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43948",
+    "source_url": "https://higherin.com/jobs/43948/bank-of-america/gm-credit-2027-summer-analyst-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "70854e3d29c74775",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43951",
+    "source_url": "https://higherin.com/jobs/43951/bank-of-america/gcib-credit-2027-summer-analyst-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "d5eb6686071aeb68",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43952",
+    "source_url": "https://higherin.com/jobs/43952/bank-of-america/leasing-credit-global-vendor-finance-and-international-asset-finance-summer-analyst-london-2027"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "63a880aa3c9c42d2",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43879",
+    "source_url": "https://higherin.com/jobs/43879/bank-of-america/global-payment-solutions-2027-summer-analyst-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "93372537c2386e8a",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43950",
+    "source_url": "https://higherin.com/jobs/43950/bank-of-america/global-infrastructure-credit-2027-summer-analyst-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "5cac75665f9d6ed0",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43896",
+    "source_url": "https://higherin.com/jobs/43896/bank-of-america/global-operations-operations-analyst-summer-2027-bromley"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "787f44a70ceb0240",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43914",
+    "source_url": "https://higherin.com/jobs/43914/bank-of-america/global-risk-summer-2027-analyst-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "8205def047e4d07f",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43891",
+    "source_url": "https://higherin.com/jobs/43891/bank-of-america/global-markets-sales-trading-private-side-summer-analyst-rotational-internship-programme-2027-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "25bb1c283a3bd3bf",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43947",
+    "source_url": "https://higherin.com/jobs/43947/bank-of-america/opportunities-in-global-technology-internships"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "e7bd2ad2e7472b30",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43897",
+    "source_url": "https://higherin.com/jobs/43897/bank-of-america/global-operations-operations-analyst-summer-2027-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "ddadfd6310e91169",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43874",
+    "source_url": "https://higherin.com/jobs/43874/bank-of-america/global-capital-markets-2027-summer-analyst-dcm-ecm-leveraged-finance-and-ssg-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "1a6f6d3d1afb4c08",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43945",
+    "source_url": "https://higherin.com/jobs/43945/bank-of-america/opportunities-in-global-banking-and-global-markets"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "b3c8b98cf71eb962",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43909",
+    "source_url": "https://higherin.com/jobs/43909/bank-of-america/global-technology-software-engineer-summer-2027-analyst-bromley"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "3c2aa685840da787",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43915",
+    "source_url": "https://higherin.com/jobs/43915/bank-of-america/corporate-audit-summer-2027-analyst-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "12389ba2862afc71",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43910",
+    "source_url": "https://higherin.com/jobs/43910/bank-of-america/global-quantitative-data-analytics-summer-2027-analyst-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "e64e9457917f90a7",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43946",
+    "source_url": "https://higherin.com/jobs/43946/bank-of-america/opportunties-in-business-support-functions-internships"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "767f4c881ad41d43",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43882",
+    "source_url": "https://higherin.com/jobs/43882/bank-of-america/global-research-2027-summer-analyst-london"
+  },
+  {
+    "changes": [
+      "eligibility_wording_changed"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "1911adf7b768d43f",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43881",
+    "source_url": "https://higherin.com/jobs/43881/bank-of-america/global-markets-sales-trading-rotational-programme-2027-summer-analyst-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "924f010aea96f82f",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43877",
+    "source_url": "https://higherin.com/jobs/43877/bank-of-america/corporate-audit-2027-summer-analyst-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "a16c3e6debc00ece",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43831",
+    "source_url": "https://higherin.com/jobs/43831/rothschild-co/redburn-execution-services-summer-internship-2027-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "fe82b5db99a94509",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43833",
+    "source_url": "https://higherin.com/jobs/43833/rothschild-co/redburn-sales-summer-internship-2027-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "f4241ed79bcadb5a",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43648",
+    "source_url": "https://higherin.com/jobs/43648/g-research/natural-language-processing-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "451bcac70308018c",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43647",
+    "source_url": "https://higherin.com/jobs/43647/g-research/machine-learning-research-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "2db270b2d8b8e07d",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43646",
+    "source_url": "https://higherin.com/jobs/43646/g-research/quant-research-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "f1465d3b7157d3b5",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43832",
+    "source_url": "https://higherin.com/jobs/43832/rothschild-co/redburn-research-summer-internship-2027-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "7006b14bcc5e1814",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43649",
+    "source_url": "https://higherin.com/jobs/43649/g-research/data-science-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "7382fb97009640ce",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43542",
+    "source_url": "https://higherin.com/jobs/43542/blackrock/off-cycle-internship-programme-emea-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "47bfe619b7729ec4",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43666",
+    "source_url": "https://higherin.com/jobs/43666/ubs/register-your-interest-group-technology-office-gto-summer-internship-2027-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "5619e6c906a48e09",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43672",
+    "source_url": "https://higherin.com/jobs/43672/ubs/register-your-interest-global-research-evidence-lab-summer-internship-2027-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "7722a1aad0ff408f",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43673",
+    "source_url": "https://higherin.com/jobs/43673/ubs/register-your-interest-asset-management-summer-internship-2027-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "69b7030c4f72cae0",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43812",
+    "source_url": "https://higherin.com/jobs/43812/financial-conduct-authority-fca/register-your-interest-data-digital-and-technology-data-science-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "bf75a333c0e54431",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43665",
+    "source_url": "https://higherin.com/jobs/43665/ubs/register-your-interest-group-internal-consulting-summer-internship-2027-london"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "c9483b9ff07207d6",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43811",
+    "source_url": "https://higherin.com/jobs/43811/financial-conduct-authority-fca/register-your-interest-accountancy-finance-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "de1f0b4afaf15547",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43572",
+    "source_url": "https://higherin.com/jobs/43572/bank-of-america/register-your-interest-enterprise-credit-summer-analyst-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "5c082aca412c59cb",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43564",
+    "source_url": "https://higherin.com/jobs/43564/bank-of-america/register-your-interest-global-banking-markets-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "44630a6643ba5d47",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43813",
+    "source_url": "https://higherin.com/jobs/43813/financial-conduct-authority-fca/register-your-interest-people-change-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "136262e2ac7a4fd4",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43565",
+    "source_url": "https://higherin.com/jobs/43565/bank-of-america/register-your-interest-business-support-functions-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "a6a530cf5553dd3f",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43399",
+    "source_url": "https://higherin.com/jobs/43399/arcadis/register-your-interest-building-surveyor-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "95be0a68bdbf5564",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43250",
+    "source_url": "https://higherin.com/jobs/43250/centrica/register-your-interest-electrical-engineering-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "d695e8f33481c335",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43603",
+    "source_url": "https://higherin.com/jobs/43603/transport-for-london/register-your-interest-civil-engineering-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "46221ab45954bf59",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43398",
+    "source_url": "https://higherin.com/jobs/43398/arcadis/register-your-interest-quantity-surveyor-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "35ffd220c91be87a",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43397",
+    "source_url": "https://higherin.com/jobs/43397/arcadis/register-your-interest-civil-engineer-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "dff770463b96ef20",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43332",
+    "source_url": "https://higherin.com/jobs/43332/nomura/register-your-interest-investment-banking-summer-internship-2027-coverage-advisory-teams"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "de85291c48c38c2c",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43335",
+    "source_url": "https://higherin.com/jobs/43335/nomura/register-your-interest-global-markets-investment-banking-womens-immersion-programme-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "f5eaa9a8b1eabb07",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43396",
+    "source_url": "https://higherin.com/jobs/43396/arcadis/register-your-interest-structural-bridge-engineer-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "927be2b9f414d4e4",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43334",
+    "source_url": "https://higherin.com/jobs/43334/nomura/register-your-interest-global-markets-digital-office-summer-internship-2027-quants-strats"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "3efd53651d6e0c0b",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "42904",
+    "source_url": "https://higherin.com/jobs/42904/hymans-robertson/register-your-interest-pensions-governance-investment-consulting-summer-internship-programme-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "00096fe07488f979",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43318",
+    "source_url": "https://higherin.com/jobs/43318/network-rail/register-your-interest-electrical-engineering-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "dd94de62f83db63f",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43255",
+    "source_url": "https://higherin.com/jobs/43255/centrica/register-your-interest-business-management-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "6dff1e0ac417cc55",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43315",
+    "source_url": "https://higherin.com/jobs/43315/network-rail/register-your-interest-network-strategy-planning-and-analysis-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "722ae315df600ebb",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43310",
+    "source_url": "https://higherin.com/jobs/43310/network-rail/register-your-interest-civil-engineering-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "19b3ba3271287e57",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43331",
+    "source_url": "https://higherin.com/jobs/43331/nomura/register-your-interest-investment-banking-summer-internship-2027-client-financing-solutions"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "58e12d222fff3b70",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "42996",
+    "source_url": "https://higherin.com/jobs/42996/valero/register-your-interest-trading-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "3a2f71d7e5801464",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43249",
+    "source_url": "https://higherin.com/jobs/43249/centrica/register-your-interest-process-engineering-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "f86cbfdf81242061",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43319",
+    "source_url": "https://higherin.com/jobs/43319/network-rail/register-your-interest-mechanical-engineering-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "6c3c037b58b9afea",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43313",
+    "source_url": "https://higherin.com/jobs/43313/network-rail/register-your-interest-project-management-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "300c7c293befed17",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43253",
+    "source_url": "https://higherin.com/jobs/43253/centrica/register-your-interest-people-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "0466ef19e7817b9d",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43602",
+    "source_url": "https://higherin.com/jobs/43602/transport-for-london/register-your-interest-engineering-technology-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "422d62f823677ea4",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43333",
+    "source_url": "https://higherin.com/jobs/43333/nomura/register-your-interest-global-markets-summer-internship-2027-sales-trading-structuring-research"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "550ccf5499f0b5da",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43017",
+    "source_url": "https://higherin.com/jobs/43017/visa/register-your-interest-consulting-analytics-internship-2027-implementation-services"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "60b4af719ad5ed21",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43016",
+    "source_url": "https://higherin.com/jobs/43016/visa/register-your-interest-consulting-analytics-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "3020e65ddfbc58da",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43322",
+    "source_url": "https://higherin.com/jobs/43322/network-rail/register-your-interest-finance-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "5292a3993e409193",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43206",
+    "source_url": "https://higherin.com/jobs/43206/fidelity-international/register-your-interest-2027-summer-internships"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "5ad363bb578e1a3b",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "42903",
+    "source_url": "https://higherin.com/jobs/42903/hymans-robertson/register-your-interest-actuarial-consulting-analytics-summer-internship-programme-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "5d17304ce00be411",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43377",
+    "source_url": "https://higherin.com/jobs/43377/ey/register-your-interest-tax-summer-internships-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "8f87b1ad05893b70",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43381",
+    "source_url": "https://higherin.com/jobs/43381/ey/register-your-interest-audit-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "4b62cdcc9c6bf8d6",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43325",
+    "source_url": "https://higherin.com/jobs/43325/network-rail/register-your-interest-internship-programme-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "049aee04786befb7",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43388",
+    "source_url": "https://higherin.com/jobs/43388/grant-thornton/register-your-interest-summer-internships-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "c4c4f7c621fc1305",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43266",
+    "source_url": "https://higherin.com/jobs/43266/dla-piper/register-your-interest-law-summer-internship-2027-london"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "4ec192bc925b33d8",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43561",
+    "source_url": "https://higherin.com/jobs/43561/bdo/register-your-interest-summer-internship-programme-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "7177b326d33c4fa5",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "42997",
+    "source_url": "https://higherin.com/jobs/42997/valero/register-your-interest-public-and-government-affairs-summer-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "8ffeb5acd6c9d811",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43380",
+    "source_url": "https://higherin.com/jobs/43380/ey/register-your-interest-consulting-summer-internships-2027"
+  },
+  {
+    "changes": [
+      "observed_unchanged"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "73d9ce53db9dd132",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "43015",
+    "source_url": "https://higherin.com/jobs/43015/visa/register-your-interest-government-affairs-internship-2027"
+  },
+  {
+    "changes": [
+      "newly_published"
+    ],
+    "observed_at": "2026-09-03T23:19:06.946236+00:00",
+    "role_id": "169320a63c236b4d",
+    "source_id": "higherin-london-internships",
+    "source_identifier": "42860",
+    "source_url": "https://higherin.com/jobs/42860/british-airways/register-your-interest-summer-internships-2027"
   }
 ]
