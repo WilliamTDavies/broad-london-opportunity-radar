@@ -10,6 +10,8 @@ Live site: https://williamtdavies.github.io/broad-london-opportunity-radar/
 
 The tracker searches beyond a fixed employer list, but publication is deliberately limited to work that can fit around university: short internships and break programmes, or relevant roles with explicit part-time/term-time evidence.
 
+Most old jobs are not removed, this will be updated later.
+
 Listings are split into two layers:
 
 - `Verified`: enough source evidence exists to support the role, location and eligibility match.
