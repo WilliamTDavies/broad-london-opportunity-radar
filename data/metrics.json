@@ -1,13 +1,13 @@
 {
-  "coverage_warning": "25 verified roles and 790 possible roles from 16 role-producing sources; 18 additional official pages are change-monitored but cannot publish roles by themselves. Coverage is selective, not comprehensive; curated records require scheduled official-page re-verification.",
-  "data_updated_at": "2026-10-19T04:51:00.437399+00:00",
+  "coverage_warning": "25 verified roles and 793 possible roles from 16 role-producing sources; 18 additional official pages are change-monitored but cannot publish roles by themselves. Coverage is selective, not comprehensive; curated records require scheduled official-page re-verification.",
+  "data_updated_at": "2026-10-19T13:29:34.578924+00:00",
   "employers_monitored": 34,
   "failed_sources": 4,
   "healthy_sources": 11,
-  "listings_scanned": 7899,
+  "listings_scanned": 7998,
   "monitor_only_sources": 18,
   "open_verified_roles": 25,
-  "possible_roles": 790,
+  "possible_roles": 793,
   "publishing_sources": 16,
   "recent_cycle_unstated": 0,
   "review_queue": 41
