@@ -38,6 +38,12 @@
         "source_url": "https://careers.blackrock.com/job/london/2027-summer-internship-program-emea/45831/97150826672",
         "structured_field": "eligibility_text",
         "text": "We welcome applications from candidates studying any degree subject."
+      },
+      {
+        "rule_id": "source.discovery_only",
+        "source_url": "https://www.adzuna.co.uk/jobs/details/5932453189?utm_medium=api&utm_source=40669807",
+        "structured_field": null,
+        "text": "Eligibility is plausible but must be verified on the employer's application page"
       }
     ],
     "eligibility_rule_ids": [
@@ -53,8 +59,8 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "dac6171b2664419b",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
-    "listing_publisher": null,
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
+    "listing_publisher": "Adzuna",
     "location": "London, England (multi-location EMEA programme)",
     "location_type": "multi_location",
     "manual_override": null,
@@ -148,7 +154,7 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "9ec5948a111c7a4c",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": null,
     "location": "London, England (multi-location EMEA programme)",
     "location_type": "multi_location",
@@ -228,6 +234,12 @@
         "source_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14519/global-corporate-banking-2027-summer-analyst-x2013-london-london-united-kingdom",
         "structured_field": "eligibility_text",
         "text": "Candidates must be pursuing a Bachelor's or Master's degree with a completion time frame between June 2027 and July 2028, be on track for at least a 2:1, and applications are accepted from a diverse range of degree disciplines including arts and humanities."
+      },
+      {
+        "rule_id": "source.discovery_only",
+        "source_url": "https://higherin.com/jobs/46005/bank-of-america/register-your-interest-global-corporate-banking-summer-analyst-2028-london",
+        "structured_field": null,
+        "text": "Eligibility is plausible but must be verified on the employer's application page"
       }
     ],
     "eligibility_rule_ids": [
@@ -244,8 +256,8 @@
       "Candidates must be pursuing a Bachelor's or Master's degree with a completion time frame between June 2027 and July 2028, be on track for at least a 2:1, and applications are accepted from a diverse range of degree disciplines including arts and humanities."
     ],
     "id": "b48a02b87bef83b9",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
-    "listing_publisher": null,
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
+    "listing_publisher": "Higherin",
     "location": "London, United Kingdom",
     "location_type": "onsite",
     "manual_override": null,
@@ -338,7 +350,7 @@
       "Candidates must be pursuing a Bachelor's or Master's degree with a completion time frame between June 2027 and July 2028, be on track for at least a 2:1, and applications are accepted from a diverse range of degree disciplines including arts and humanities."
     ],
     "id": "73560e57e34b4aeb",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": null,
     "location": "London, United Kingdom",
     "location_type": "onsite",
@@ -422,6 +434,12 @@
         "source_url": "https://careers.bankofamerica.com/en-us/students/job-detail/14522/global-investment-banking-2027-summer-analyst-london-london-united-kingdom",
         "structured_field": "eligibility_text",
         "text": "Candidates must be pursuing a Bachelor's or Master's degree with a completion time frame between June 2027 and July 2028, be available from June to August 2027, and be on track for at least a 2:1."
+      },
+      {
+        "rule_id": "source.discovery_only",
+        "source_url": "https://higherin.com/jobs/46006/bank-of-america/register-your-interest-global-investment-banking-summer-analyst-2028-london",
+        "structured_field": null,
+        "text": "Eligibility is plausible but must be verified on the employer's application page"
       }
     ],
     "eligibility_rule_ids": [
@@ -438,8 +456,8 @@
       "Candidates must be pursuing a Bachelor's or Master's degree with a completion time frame between June 2027 and July 2028, be available from June to August 2027, and be on track for at least a 2:1."
     ],
     "id": "8027a5ba9212e153",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
-    "listing_publisher": null,
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
+    "listing_publisher": "Higherin",
     "location": "London, United Kingdom",
     "location_type": "onsite",
     "manual_override": null,
@@ -532,7 +550,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "29a2c82722bec6a7",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": null,
     "location": "London",
     "location_type": "onsite",
@@ -631,7 +649,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "982033891fa8fd2b",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": null,
     "location": "Berkeley Square House, London",
     "location_type": "onsite",
@@ -730,7 +748,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "e78633864fc72f47",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": null,
     "location": "Berkeley Square House, London",
     "location_type": "onsite",
@@ -831,7 +849,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "d02a281484ee121d",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": null,
     "location": "Berkeley Square House, London",
     "location_type": "onsite",
@@ -928,7 +946,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "daa5cd3a4b971cf3",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": null,
     "location": "Berkeley Square House, London",
     "location_type": "onsite",
@@ -1024,7 +1042,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "c08370636a5ef4a6",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": null,
     "location": "London",
     "location_type": "onsite",
@@ -1123,7 +1141,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "663e22d23d3b5185",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": null,
     "location": "London",
     "location_type": "onsite",
@@ -1220,7 +1238,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "2cf0614b6340b235",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": null,
     "location": "London",
     "location_type": "onsite",
@@ -1318,7 +1336,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "da22c5b138c4d27b",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": null,
     "location": "London",
     "location_type": "onsite",
@@ -1415,7 +1433,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "cfc2ccb19129811e",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": null,
     "location": "Berkeley Square House, London",
     "location_type": "onsite",
@@ -1509,7 +1527,7 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "b1650b5a257af54f",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": null,
     "location": "London",
     "location_type": "onsite",
@@ -1611,7 +1629,7 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "1149ea93489d57cd",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": "targetjobs",
     "location": "London, Greater London, England, United Kingdom",
     "location_type": "onsite",
@@ -1711,7 +1729,7 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "25e448039da4ec7b",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": "targetjobs",
     "location": "London, Greater London, England, United Kingdom",
     "location_type": "onsite",
@@ -1812,7 +1830,7 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "f38d73f1e4fcf70e",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": "targetjobs",
     "location": "London, Greater London, England, United Kingdom",
     "location_type": "onsite",
@@ -1914,7 +1932,7 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "b2a8262ad6d46efb",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": "targetjobs",
     "location": "London, Greater London, England, United Kingdom",
     "location_type": "onsite",
@@ -2009,7 +2027,7 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "e59050ea5d6e8ceb",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": null,
     "location": "London, Greater London, England, United Kingdom",
     "location_type": "onsite",
@@ -2109,7 +2127,7 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "762de6ccadcbe14f",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": "targetjobs",
     "location": "London, Greater London, England, United Kingdom",
     "location_type": "onsite",
@@ -2210,7 +2228,7 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "14d4abd23acf4cee",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": "targetjobs",
     "location": "London, Greater London, England, United Kingdom",
     "location_type": "onsite",
@@ -2304,7 +2322,7 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "211c99fee9a5463f",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": null,
     "location": "London, Greater London, England, United Kingdom",
     "location_type": "onsite",
@@ -2408,7 +2426,7 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "e7e06b9b03ad69bc",
-    "last_seen_at": "2026-10-21T21:50:19.140729Z",
+    "last_seen_at": "2026-10-22T04:59:29.805077Z",
     "listing_publisher": "targetjobs",
     "location": "London, Greater London, England, United Kingdom",
     "location_type": "onsite",
