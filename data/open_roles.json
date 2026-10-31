@@ -53,7 +53,7 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "dac6171b2664419b",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
     "listing_publisher": null,
     "location": "London, England (multi-location EMEA programme)",
     "location_type": "multi_location",
@@ -148,7 +148,7 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "9ec5948a111c7a4c",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
     "listing_publisher": null,
     "location": "London, England (multi-location EMEA programme)",
     "location_type": "multi_location",
@@ -250,7 +250,7 @@
       "Candidates must be pursuing a Bachelor's or Master's degree with a completion time frame between June 2027 and July 2028, be on track for at least a 2:1, and applications are accepted from a diverse range of degree disciplines including arts and humanities."
     ],
     "id": "b48a02b87bef83b9",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
     "listing_publisher": "Higherin",
     "location": "London, United Kingdom",
     "location_type": "onsite",
@@ -344,7 +344,7 @@
       "Candidates must be pursuing a Bachelor's or Master's degree with a completion time frame between June 2027 and July 2028, be on track for at least a 2:1, and applications are accepted from a diverse range of degree disciplines including arts and humanities."
     ],
     "id": "73560e57e34b4aeb",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
     "listing_publisher": null,
     "location": "London, United Kingdom",
     "location_type": "onsite",
@@ -450,7 +450,7 @@
       "Candidates must be pursuing a Bachelor's or Master's degree with a completion time frame between June 2027 and July 2028, be available from June to August 2027, and be on track for at least a 2:1."
     ],
     "id": "8027a5ba9212e153",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
     "listing_publisher": "Higherin",
     "location": "London, United Kingdom",
     "location_type": "onsite",
@@ -544,13 +544,13 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "29a2c82722bec6a7",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
     "listing_publisher": null,
     "location": "London",
     "location_type": "onsite",
     "manual_override": null,
     "match_components": {
-      "deadline_urgency": 5,
+      "deadline_urgency": 0,
       "eligibility_strength": 20,
       "evidence_quality": 5,
       "geographic_fit": 10,
@@ -559,7 +559,7 @@
       "skill_alignment": 5,
       "substantive_relevance": 35
     },
-    "match_score": 95,
+    "match_score": 90,
     "named_office_or_mp": null,
     "nationality_assessment": null,
     "nationality_requirements": [],
@@ -643,13 +643,13 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "982033891fa8fd2b",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
     "listing_publisher": null,
     "location": "Berkeley Square House, London",
     "location_type": "onsite",
     "manual_override": null,
     "match_components": {
-      "deadline_urgency": 5,
+      "deadline_urgency": 0,
       "eligibility_strength": 20,
       "evidence_quality": 5,
       "geographic_fit": 10,
@@ -658,7 +658,7 @@
       "skill_alignment": 0,
       "substantive_relevance": 35
     },
-    "match_score": 90,
+    "match_score": 85,
     "named_office_or_mp": null,
     "nationality_assessment": null,
     "nationality_requirements": [],
@@ -742,13 +742,13 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "e78633864fc72f47",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
     "listing_publisher": null,
     "location": "Berkeley Square House, London",
     "location_type": "onsite",
     "manual_override": null,
     "match_components": {
-      "deadline_urgency": 5,
+      "deadline_urgency": 0,
       "eligibility_strength": 20,
       "evidence_quality": 5,
       "geographic_fit": 10,
@@ -757,7 +757,7 @@
       "skill_alignment": 5,
       "substantive_relevance": 35
     },
-    "match_score": 95,
+    "match_score": 90,
     "named_office_or_mp": null,
     "nationality_assessment": null,
     "nationality_requirements": [],
@@ -843,13 +843,13 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "d02a281484ee121d",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
     "listing_publisher": null,
     "location": "Berkeley Square House, London",
     "location_type": "onsite",
     "manual_override": null,
     "match_components": {
-      "deadline_urgency": 5,
+      "deadline_urgency": 0,
       "eligibility_strength": 20,
       "evidence_quality": 5,
       "geographic_fit": 10,
@@ -858,7 +858,7 @@
       "skill_alignment": 0,
       "substantive_relevance": 35
     },
-    "match_score": 90,
+    "match_score": 85,
     "named_office_or_mp": null,
     "nationality_assessment": null,
     "nationality_requirements": [],
@@ -940,13 +940,13 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "daa5cd3a4b971cf3",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
     "listing_publisher": null,
     "location": "Berkeley Square House, London",
     "location_type": "onsite",
     "manual_override": null,
     "match_components": {
-      "deadline_urgency": 5,
+      "deadline_urgency": 0,
       "eligibility_strength": 20,
       "evidence_quality": 5,
       "geographic_fit": 10,
@@ -955,7 +955,7 @@
       "skill_alignment": 0,
       "substantive_relevance": 35
     },
-    "match_score": 90,
+    "match_score": 85,
     "named_office_or_mp": null,
     "nationality_assessment": null,
     "nationality_requirements": [],
@@ -1036,13 +1036,13 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "c08370636a5ef4a6",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
     "listing_publisher": null,
     "location": "London",
     "location_type": "onsite",
     "manual_override": null,
     "match_components": {
-      "deadline_urgency": 5,
+      "deadline_urgency": 0,
       "eligibility_strength": 20,
       "evidence_quality": 5,
       "geographic_fit": 10,
@@ -1051,7 +1051,7 @@
       "skill_alignment": 5,
       "substantive_relevance": 35
     },
-    "match_score": 95,
+    "match_score": 90,
     "named_office_or_mp": null,
     "nationality_assessment": null,
     "nationality_requirements": [],
@@ -1135,13 +1135,13 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "663e22d23d3b5185",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
     "listing_publisher": null,
     "location": "London",
     "location_type": "onsite",
     "manual_override": null,
     "match_components": {
-      "deadline_urgency": 5,
+      "deadline_urgency": 0,
       "eligibility_strength": 20,
       "evidence_quality": 5,
       "geographic_fit": 10,
@@ -1150,7 +1150,7 @@
       "skill_alignment": 5,
       "substantive_relevance": 35
     },
-    "match_score": 95,
+    "match_score": 90,
     "named_office_or_mp": null,
     "nationality_assessment": null,
     "nationality_requirements": [],
@@ -1232,13 +1232,13 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "2cf0614b6340b235",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
     "listing_publisher": null,
     "location": "London",
     "location_type": "onsite",
     "manual_override": null,
     "match_components": {
-      "deadline_urgency": 5,
+      "deadline_urgency": 0,
       "eligibility_strength": 20,
       "evidence_quality": 5,
       "geographic_fit": 10,
@@ -1247,7 +1247,7 @@
       "skill_alignment": 0,
       "substantive_relevance": 35
     },
-    "match_score": 90,
+    "match_score": 85,
     "named_office_or_mp": null,
     "nationality_assessment": null,
     "nationality_requirements": [],
@@ -1330,13 +1330,13 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "da22c5b138c4d27b",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
     "listing_publisher": null,
     "location": "London",
     "location_type": "onsite",
     "manual_override": null,
     "match_components": {
-      "deadline_urgency": 5,
+      "deadline_urgency": 0,
       "eligibility_strength": 20,
       "evidence_quality": 5,
       "geographic_fit": 10,
@@ -1345,7 +1345,7 @@
       "skill_alignment": 0,
       "substantive_relevance": 35
     },
-    "match_score": 90,
+    "match_score": 85,
     "named_office_or_mp": null,
     "nationality_assessment": null,
     "nationality_requirements": [],
@@ -1427,13 +1427,13 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "cfc2ccb19129811e",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
     "listing_publisher": null,
     "location": "Berkeley Square House, London",
     "location_type": "onsite",
     "manual_override": null,
     "match_components": {
-      "deadline_urgency": 5,
+      "deadline_urgency": 0,
       "eligibility_strength": 20,
       "evidence_quality": 5,
       "geographic_fit": 10,
@@ -1442,7 +1442,7 @@
       "skill_alignment": 0,
       "substantive_relevance": 23
     },
-    "match_score": 78,
+    "match_score": 73,
     "named_office_or_mp": null,
     "nationality_assessment": null,
     "nationality_requirements": [],
@@ -1521,13 +1521,13 @@
       "Anticipated graduation date: Summer 2028."
     ],
     "id": "b1650b5a257af54f",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
     "listing_publisher": null,
     "location": "London",
     "location_type": "onsite",
     "manual_override": null,
     "match_components": {
-      "deadline_urgency": 5,
+      "deadline_urgency": 0,
       "eligibility_strength": 20,
       "evidence_quality": 5,
       "geographic_fit": 10,
@@ -1536,7 +1536,7 @@
       "skill_alignment": 5,
       "substantive_relevance": 35
     },
-    "match_score": 95,
+    "match_score": 90,
     "named_office_or_mp": null,
     "nationality_assessment": null,
     "nationality_requirements": [],
@@ -1581,7 +1581,7 @@
       "https://targetjobs.co.uk/jobs/2027-emea-london-compliance-summer-analyst-243083",
       "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LateralHiring/job/170152"
     ],
-    "application_method": null,
+    "application_method": "Apply on the employer site linked from targetjobs",
     "application_url": "https://higher.gs.com/roles/170152",
     "approved_organisation": true,
     "canonical_employer": "Goldman Sachs",
@@ -1603,6 +1603,12 @@
         "source_url": "https://higher.gs.com/roles/170152",
         "structured_field": "eligibility_text",
         "text": "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+      },
+      {
+        "rule_id": "source.discovery_only",
+        "source_url": "https://targetjobs.co.uk/jobs/2027-emea-london-compliance-summer-analyst-243083",
+        "structured_field": null,
+        "text": "Eligibility is plausible but must be verified on the employer's application page"
       }
     ],
     "eligibility_rule_ids": [
@@ -1617,8 +1623,8 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "1149ea93489d57cd",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
-    "listing_publisher": null,
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
+    "listing_publisher": "targetjobs",
     "location": "London, Greater London, England, United Kingdom",
     "location_type": "onsite",
     "manual_override": null,
@@ -1675,7 +1681,7 @@
       "https://targetjobs.co.uk/jobs/2027-emea-london-office-regulatory-relations-summer-analyst-243075",
       "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LateralHiring/job/170160"
     ],
-    "application_method": null,
+    "application_method": "Apply on the employer site linked from targetjobs",
     "application_url": "https://higher.gs.com/roles/170160",
     "approved_organisation": true,
     "canonical_employer": "Goldman Sachs",
@@ -1697,6 +1703,12 @@
         "source_url": "https://higher.gs.com/roles/170160",
         "structured_field": "eligibility_text",
         "text": "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+      },
+      {
+        "rule_id": "source.discovery_only",
+        "source_url": "https://targetjobs.co.uk/jobs/2027-emea-london-office-regulatory-relations-summer-analyst-243075",
+        "structured_field": null,
+        "text": "Eligibility is plausible but must be verified on the employer's application page"
       }
     ],
     "eligibility_rule_ids": [
@@ -1711,8 +1723,8 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "25e448039da4ec7b",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
-    "listing_publisher": null,
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
+    "listing_publisher": "targetjobs",
     "location": "London, Greater London, England, United Kingdom",
     "location_type": "onsite",
     "manual_override": null,
@@ -1770,7 +1782,7 @@
       "https://targetjobs.co.uk/jobs/2027-emea-london-controllers-summer-analyst-243073",
       "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LateralHiring/job/170163"
     ],
-    "application_method": null,
+    "application_method": "Apply on the employer site linked from targetjobs",
     "application_url": "https://higher.gs.com/roles/170163",
     "approved_organisation": true,
     "canonical_employer": "Goldman Sachs",
@@ -1792,6 +1804,12 @@
         "source_url": "https://higher.gs.com/roles/170163",
         "structured_field": "eligibility_text",
         "text": "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+      },
+      {
+        "rule_id": "source.discovery_only",
+        "source_url": "https://targetjobs.co.uk/jobs/2027-emea-london-controllers-summer-analyst-243073",
+        "structured_field": null,
+        "text": "Eligibility is plausible but must be verified on the employer's application page"
       }
     ],
     "eligibility_rule_ids": [
@@ -1806,8 +1824,8 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "f38d73f1e4fcf70e",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
-    "listing_publisher": null,
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
+    "listing_publisher": "targetjobs",
     "location": "London, Greater London, England, United Kingdom",
     "location_type": "onsite",
     "manual_override": null,
@@ -1866,7 +1884,7 @@
       "https://targetjobs.co.uk/jobs/2027-emea-london-risk-summer-analyst-243067",
       "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LateralHiring/job/172894"
     ],
-    "application_method": null,
+    "application_method": "Apply on the employer site linked from targetjobs",
     "application_url": "https://higher.gs.com/roles/172894",
     "approved_organisation": true,
     "canonical_employer": "Goldman Sachs",
@@ -1888,6 +1906,12 @@
         "source_url": "https://higher.gs.com/roles/172894",
         "structured_field": "eligibility_text",
         "text": "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+      },
+      {
+        "rule_id": "source.discovery_only",
+        "source_url": "https://targetjobs.co.uk/jobs/2027-emea-london-risk-summer-analyst-243067",
+        "structured_field": null,
+        "text": "Eligibility is plausible but must be verified on the employer's application page"
       }
     ],
     "eligibility_rule_ids": [
@@ -1902,8 +1926,8 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "b2a8262ad6d46efb",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
-    "listing_publisher": null,
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
+    "listing_publisher": "targetjobs",
     "location": "London, Greater London, England, United Kingdom",
     "location_type": "onsite",
     "manual_override": null,
@@ -1997,7 +2021,7 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "e59050ea5d6e8ceb",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
     "listing_publisher": null,
     "location": "London, Greater London, England, United Kingdom",
     "location_type": "onsite",
@@ -2055,7 +2079,7 @@
       "https://targetjobs.co.uk/jobs/2027-emea-london-internal-audit-summer-analyst-243085",
       "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LateralHiring/job/181882"
     ],
-    "application_method": null,
+    "application_method": "Apply on the employer site linked from targetjobs",
     "application_url": "https://higher.gs.com/roles/181882",
     "approved_organisation": true,
     "canonical_employer": "Goldman Sachs",
@@ -2077,6 +2101,12 @@
         "source_url": "https://higher.gs.com/roles/181882",
         "structured_field": "eligibility_text",
         "text": "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+      },
+      {
+        "rule_id": "source.discovery_only",
+        "source_url": "https://targetjobs.co.uk/jobs/2027-emea-london-internal-audit-summer-analyst-243085",
+        "structured_field": null,
+        "text": "Eligibility is plausible but must be verified on the employer's application page"
       }
     ],
     "eligibility_rule_ids": [
@@ -2091,8 +2121,8 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "762de6ccadcbe14f",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
-    "listing_publisher": null,
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
+    "listing_publisher": "targetjobs",
     "location": "London, Greater London, England, United Kingdom",
     "location_type": "onsite",
     "manual_override": null,
@@ -2150,7 +2180,7 @@
       "https://targetjobs.co.uk/jobs/2027-emea-london-asset-management-private-investing-summer-analyst-243027",
       "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LateralHiring/job/173050"
     ],
-    "application_method": null,
+    "application_method": "Apply on the employer site linked from targetjobs",
     "application_url": "https://higher.gs.com/roles/173050",
     "approved_organisation": true,
     "canonical_employer": "Goldman Sachs",
@@ -2172,6 +2202,12 @@
         "source_url": "https://higher.gs.com/roles/173050",
         "structured_field": "eligibility_text",
         "text": "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+      },
+      {
+        "rule_id": "exclusion.apprenticeship",
+        "source_url": "https://targetjobs.co.uk/jobs/2027-emea-london-asset-management-private-investing-summer-analyst-243027",
+        "structured_field": "description",
+        "text": "We emphasize an apprenticeship culture, enabling junior team members to learn directly from seasoned professionals."
       }
     ],
     "eligibility_rule_ids": [
@@ -2186,8 +2222,8 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "14d4abd23acf4cee",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
-    "listing_publisher": null,
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
+    "listing_publisher": "targetjobs",
     "location": "London, Greater London, England, United Kingdom",
     "location_type": "onsite",
     "manual_override": null,
@@ -2223,7 +2259,9 @@
     "residency_requirements": [],
     "salary": null,
     "secondary_tags": [
-      "Private Equity and Private Markets"
+      "Private Equity and Private Markets",
+      "Wealth Management and Private Banking",
+      "Insurance and Reinsurance"
     ],
     "source_authority": "official_ats",
     "source_health_at_last_check": "healthy",
@@ -2278,7 +2316,7 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "211c99fee9a5463f",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
     "listing_publisher": null,
     "location": "London, Greater London, England, United Kingdom",
     "location_type": "onsite",
@@ -2340,7 +2378,7 @@
       "https://targetjobs.co.uk/jobs/2027-emea-london-transaction-banking-txb-coverage-summer-analyst-243031",
       "https://hdpc.fa.us2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/LateralHiring/job/162040"
     ],
-    "application_method": null,
+    "application_method": "Apply on the employer site linked from targetjobs",
     "application_url": "https://higher.gs.com/roles/162040",
     "approved_organisation": true,
     "canonical_employer": "Goldman Sachs",
@@ -2362,6 +2400,12 @@
         "source_url": "https://higher.gs.com/roles/162040",
         "structured_field": "eligibility_text",
         "text": "The official EMEA programme page states that Summer Analysts are normally in their penultimate or final year."
+      },
+      {
+        "rule_id": "source.discovery_only",
+        "source_url": "https://targetjobs.co.uk/jobs/2027-emea-london-transaction-banking-txb-coverage-summer-analyst-243031",
+        "structured_field": null,
+        "text": "Eligibility is plausible but must be verified on the employer's application page"
       }
     ],
     "eligibility_rule_ids": [
@@ -2376,8 +2420,8 @@
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "e7e06b9b03ad69bc",
-    "last_seen_at": "2026-10-30T22:25:23.923976Z",
-    "listing_publisher": null,
+    "last_seen_at": "2026-10-31T05:54:47.708935Z",
+    "listing_publisher": "targetjobs",
     "location": "London, Greater London, England, United Kingdom",
     "location_type": "onsite",
     "manual_override": null,
