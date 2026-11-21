@@ -34,12 +34,12 @@
     "email_approved": false,
     "employer_alias": null,
     "employer_quality_tier": "approved",
-    "first_seen_at": "2026-11-20T20:31:26.242374Z",
+    "first_seen_at": "2026-11-21T02:23:28.655773Z",
     "geographic_exception_reason": null,
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "c607d22e0d17e2b7",
-    "last_seen_at": "2026-11-20T20:31:26.242374Z",
+    "last_seen_at": "2026-11-21T02:23:28.655773Z",
     "listing_publisher": "Higherin",
     "location": "London",
     "location_type": "onsite",
@@ -120,12 +120,12 @@
     "email_approved": false,
     "employer_alias": null,
     "employer_quality_tier": "approved",
-    "first_seen_at": "2026-11-20T20:31:26.242374Z",
+    "first_seen_at": "2026-11-21T02:23:28.655773Z",
     "geographic_exception_reason": null,
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "f4241ed79bcadb5a",
-    "last_seen_at": "2026-11-20T20:31:26.242374Z",
+    "last_seen_at": "2026-11-21T02:23:28.655773Z",
     "listing_publisher": "Higherin",
     "location": "London",
     "location_type": "onsite",
@@ -170,6 +170,93 @@
     "status": "open",
     "study_year_restrictions": [],
     "title": "Natural Language Processing Internship 2027"
+  },
+  {
+    "all_source_urls": [
+      "https://www.adzuna.co.uk/jobs/land/ad/5972682114?se=WHEUZVLl8RGB-bDIy5dDgQ&utm_medium=api&utm_source=40669807&v=9D9D152FA3B474F4F4B7F9156BD0C1F17C9D27BC",
+      "https://www.adzuna.co.uk/jobs/land/ad/5972682114?se=WHEUZVLl8RGB-bDIy5dDgQ&v=9D9D152FA3B474F4F4B7F9156BD0C1F17C9D27BC"
+    ],
+    "application_method": null,
+    "application_url": "https://www.adzuna.co.uk/jobs/land/ad/5972682114?se=WHEUZVLl8RGB-bDIy5dDgQ&v=9D9D152FA3B474F4F4B7F9156BD0C1F17C9D27BC",
+    "approved_organisation": true,
+    "canonical_employer": "ECM Selection Ltd.",
+    "canonical_url": "https://www.adzuna.co.uk/jobs/land/ad/5972682114?se=WHEUZVLl8RGB-bDIy5dDgQ&v=9D9D152FA3B474F4F4B7F9156BD0C1F17C9D27BC",
+    "clearance_requirements": [],
+    "closed_at": null,
+    "closure_evidence": null,
+    "closure_reason": null,
+    "consecutive_missing_count": 0,
+    "cycle_provenance": "unknown",
+    "date_provenance": "employer_stated",
+    "deadline": null,
+    "degree_restrictions": [],
+    "description_excerpt": "Top grades & eligibility for security clearance needed for this graduate electronics opportunity We are seeking top graduates with availability for a summer 2027 start for this 100% office-based defence electronics role. It's a great chance to convert excellent academic credentials into hands-on experience as part of a high-performing technical consultancy developing bespoke electronics solutions for demanding defence applications. The exact nature of the projects is under-wraps, but you can ex…",
+    "division": null,
+    "eligibility_evidence": [
+      {
+        "rule_id": "source.discovery_only",
+        "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5972682114?se=WHEUZVLl8RGB-bDIy5dDgQ&utm_medium=api&utm_source=40669807&v=9D9D152FA3B474F4F4B7F9156BD0C1F17C9D27BC",
+        "structured_field": null,
+        "text": "Eligibility is plausible but must be verified on the employer's application page"
+      }
+    ],
+    "eligibility_rule_ids": [
+      "source.discovery_only"
+    ],
+    "eligibility_status": "uncertain",
+    "email_approved": false,
+    "employer_alias": null,
+    "employer_quality_tier": "approved",
+    "first_seen_at": "2026-11-21T02:23:28.655773Z",
+    "geographic_exception_reason": null,
+    "geographic_scope": "london",
+    "graduation_year_restrictions": [],
+    "id": "6c9e306da210867b",
+    "last_seen_at": "2026-11-21T02:23:28.655773Z",
+    "listing_publisher": "Adzuna",
+    "location": "South East London, London",
+    "location_type": "onsite",
+    "manual_override": null,
+    "match_components": {
+      "deadline_urgency": 0,
+      "eligibility_strength": 0,
+      "evidence_quality": 0,
+      "geographic_fit": 10,
+      "organisation_quality": 10,
+      "recency": 5,
+      "skill_alignment": 0,
+      "substantive_relevance": 0
+    },
+    "match_score": 25,
+    "named_office_or_mp": null,
+    "nationality_assessment": null,
+    "nationality_requirements": [],
+    "opening_date": null,
+    "organisation_type": "corporate",
+    "paid": true,
+    "paid_status_evidence": "£46,000",
+    "political_affiliation": null,
+    "primary_category": "Other Relevant",
+    "programme_end": null,
+    "programme_start": null,
+    "programme_type": "summer_internship_2027",
+    "publication_review_required": true,
+    "published_date": "2026-11-20",
+    "relevance_reasons": [
+      "Substantive relevance requires manual review"
+    ],
+    "relevance_status": "borderline_relevance",
+    "residency_requirements": [],
+    "salary": "£46,000",
+    "secondary_tags": [],
+    "source_authority": "discovery_only_source",
+    "source_health_at_last_check": "degraded",
+    "source_identifier": "5972682114",
+    "source_registry_id": "adzuna-london",
+    "source_type": "adzuna",
+    "status": "open",
+    "study_year_restrictions": [],
+    "title": "Graduate Defence Electronics Engineer"
   },
   {
     "all_source_urls": [
@@ -1564,14 +1651,14 @@
   },
   {
     "all_source_urls": [
-      "https://www.adzuna.co.uk/jobs/land/ad/5971578855?se=AJ1IHtjk8RGAvJnbPgF_oA&utm_medium=api&utm_source=40669807&v=A9C3BCA9BD653FD0377B09CEC4F44B4B0D060078",
-      "https://www.adzuna.co.uk/jobs/land/ad/5971578855?se=AJ1IHtjk8RGAvJnbPgF_oA&v=A9C3BCA9BD653FD0377B09CEC4F44B4B0D060078"
+      "https://www.adzuna.co.uk/jobs/land/ad/5971578855?se=aFzoaFLl8RGB-bDIy5dDgQ&utm_medium=api&utm_source=40669807&v=A9C3BCA9BD653FD0377B09CEC4F44B4B0D060078",
+      "https://www.adzuna.co.uk/jobs/land/ad/5971578855?se=aFzoaFLl8RGB-bDIy5dDgQ&v=A9C3BCA9BD653FD0377B09CEC4F44B4B0D060078"
     ],
     "application_method": null,
-    "application_url": "https://www.adzuna.co.uk/jobs/land/ad/5971578855?se=AJ1IHtjk8RGAvJnbPgF_oA&v=A9C3BCA9BD653FD0377B09CEC4F44B4B0D060078",
+    "application_url": "https://www.adzuna.co.uk/jobs/land/ad/5971578855?se=aFzoaFLl8RGB-bDIy5dDgQ&v=A9C3BCA9BD653FD0377B09CEC4F44B4B0D060078",
     "approved_organisation": true,
     "canonical_employer": "PIMCO",
-    "canonical_url": "https://www.adzuna.co.uk/jobs/land/ad/5971578855?se=AJ1IHtjk8RGAvJnbPgF_oA&v=A9C3BCA9BD653FD0377B09CEC4F44B4B0D060078",
+    "canonical_url": "https://www.adzuna.co.uk/jobs/land/ad/5971578855?se=aFzoaFLl8RGB-bDIy5dDgQ&v=A9C3BCA9BD653FD0377B09CEC4F44B4B0D060078",
     "clearance_requirements": [],
     "closed_at": null,
     "closure_evidence": null,
@@ -1586,7 +1673,7 @@
     "eligibility_evidence": [
       {
         "rule_id": "source.discovery_only",
-        "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5971578855?se=AJ1IHtjk8RGAvJnbPgF_oA&utm_medium=api&utm_source=40669807&v=A9C3BCA9BD653FD0377B09CEC4F44B4B0D060078",
+        "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5971578855?se=aFzoaFLl8RGB-bDIy5dDgQ&utm_medium=api&utm_source=40669807&v=A9C3BCA9BD653FD0377B09CEC4F44B4B0D060078",
         "structured_field": null,
         "text": "Eligibility is plausible but must be verified on the employer's application page"
       }
@@ -1598,12 +1685,12 @@
     "email_approved": false,
     "employer_alias": null,
     "employer_quality_tier": "approved",
-    "first_seen_at": "2026-11-20T11:50:52.405684Z",
+    "first_seen_at": "2026-11-21T02:23:28.655773Z",
     "geographic_exception_reason": null,
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "19bb1a7538f86d01",
-    "last_seen_at": "2026-11-20T11:50:52.405684Z",
+    "last_seen_at": "2026-11-21T02:23:28.655773Z",
     "listing_publisher": "Adzuna",
     "location": "London, UK",
     "location_type": "onsite",
@@ -1787,12 +1874,12 @@
     "email_approved": false,
     "employer_alias": null,
     "employer_quality_tier": "approved",
-    "first_seen_at": "2026-11-20T11:50:52.405684Z",
+    "first_seen_at": "2026-11-21T02:23:28.655773Z",
     "geographic_exception_reason": null,
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "9994890fc9154eb4",
-    "last_seen_at": "2026-11-20T11:50:52.405684Z",
+    "last_seen_at": "2026-11-21T02:23:28.655773Z",
     "listing_publisher": "Adzuna",
     "location": "London, UK",
     "location_type": "onsite",
@@ -1874,12 +1961,12 @@
     "email_approved": false,
     "employer_alias": null,
     "employer_quality_tier": "approved",
-    "first_seen_at": "2026-11-20T11:50:52.405684Z",
+    "first_seen_at": "2026-11-21T02:23:28.655773Z",
     "geographic_exception_reason": null,
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "3a55f0c477b5a1f9",
-    "last_seen_at": "2026-11-20T11:50:52.405684Z",
+    "last_seen_at": "2026-11-21T02:23:28.655773Z",
     "listing_publisher": "Adzuna",
     "location": "London, UK",
     "location_type": "onsite",
@@ -1927,93 +2014,6 @@
     "status": "open",
     "study_year_restrictions": [],
     "title": "Private Debt Off-Cycle Internship (Winter & Summer 2027)"
-  },
-  {
-    "all_source_urls": [
-      "https://www.adzuna.co.uk/jobs/land/ad/5970399802?se=LEszG8Lj8RGGg4oV2F6DGg&utm_medium=api&utm_source=40669807&v=97A225A9CB4AFB42CACF5E70DBE70ED0E4024DFA",
-      "https://www.adzuna.co.uk/jobs/land/ad/5970399802?se=LEszG8Lj8RGGg4oV2F6DGg&v=97A225A9CB4AFB42CACF5E70DBE70ED0E4024DFA"
-    ],
-    "application_method": null,
-    "application_url": "https://www.adzuna.co.uk/jobs/land/ad/5970399802?se=LEszG8Lj8RGGg4oV2F6DGg&v=97A225A9CB4AFB42CACF5E70DBE70ED0E4024DFA",
-    "approved_organisation": true,
-    "canonical_employer": "ECM Selection Limited",
-    "canonical_url": "https://www.adzuna.co.uk/jobs/land/ad/5970399802?se=LEszG8Lj8RGGg4oV2F6DGg&v=97A225A9CB4AFB42CACF5E70DBE70ED0E4024DFA",
-    "clearance_requirements": [],
-    "closed_at": null,
-    "closure_evidence": null,
-    "closure_reason": null,
-    "consecutive_missing_count": 0,
-    "cycle_provenance": "unknown",
-    "date_provenance": "employer_stated",
-    "deadline": null,
-    "degree_restrictions": [],
-    "description_excerpt": "Top grades & eligibility for security clearance needed for this graduate electronics opportunity We are seeking top graduates with availability for a summer 2027 start for this 100% office-based defence electronics role. It's a great chance to convert excellent academic credentials into hands-on experience as part of a high-performing technical consultancy developing bespoke electronics solutions for demanding defence applications. The exact nature of the projects is under-wraps, but you can ex…",
-    "division": null,
-    "eligibility_evidence": [
-      {
-        "rule_id": "source.discovery_only",
-        "source_url": "https://www.adzuna.co.uk/jobs/land/ad/5970399802?se=LEszG8Lj8RGGg4oV2F6DGg&utm_medium=api&utm_source=40669807&v=97A225A9CB4AFB42CACF5E70DBE70ED0E4024DFA",
-        "structured_field": null,
-        "text": "Eligibility is plausible but must be verified on the employer's application page"
-      }
-    ],
-    "eligibility_rule_ids": [
-      "source.discovery_only"
-    ],
-    "eligibility_status": "uncertain",
-    "email_approved": false,
-    "employer_alias": null,
-    "employer_quality_tier": "approved",
-    "first_seen_at": "2026-11-19T02:38:04.478502Z",
-    "geographic_exception_reason": null,
-    "geographic_scope": "london",
-    "graduation_year_restrictions": [],
-    "id": "9a893ddfda64cbe3",
-    "last_seen_at": "2026-11-19T02:38:04.478502Z",
-    "listing_publisher": "Adzuna",
-    "location": "South East London, London",
-    "location_type": "onsite",
-    "manual_override": null,
-    "match_components": {
-      "deadline_urgency": 0,
-      "eligibility_strength": 0,
-      "evidence_quality": 0,
-      "geographic_fit": 10,
-      "organisation_quality": 10,
-      "recency": 5,
-      "skill_alignment": 0,
-      "substantive_relevance": 0
-    },
-    "match_score": 25,
-    "named_office_or_mp": null,
-    "nationality_assessment": null,
-    "nationality_requirements": [],
-    "opening_date": null,
-    "organisation_type": "corporate",
-    "paid": true,
-    "paid_status_evidence": "£44,000-£46,000",
-    "political_affiliation": null,
-    "primary_category": "Other Relevant",
-    "programme_end": null,
-    "programme_start": null,
-    "programme_type": "summer_internship_2027",
-    "publication_review_required": true,
-    "published_date": "2026-11-18",
-    "relevance_reasons": [
-      "Substantive relevance requires manual review"
-    ],
-    "relevance_status": "borderline_relevance",
-    "residency_requirements": [],
-    "salary": "£44,000-£46,000",
-    "secondary_tags": [],
-    "source_authority": "discovery_only_source",
-    "source_health_at_last_check": "degraded",
-    "source_identifier": "5970399802",
-    "source_registry_id": "adzuna-london",
-    "source_type": "adzuna",
-    "status": "open",
-    "study_year_restrictions": [],
-    "title": "Graduate Defence Electronics Engineer"
   },
   {
     "all_source_urls": [
@@ -2377,12 +2377,9 @@
   {
     "all_source_urls": [
       "https://www.adzuna.co.uk/jobs/details/5955456777?utm_medium=api&utm_source=40669807",
-      "https://www.adzuna.co.uk/jobs/details/5955456777",
-      "https://targetjobs.co.uk/jobs/2027-summer-internships-commercial-259179",
-      "https://job-boards.greenhouse.io/hasbro/jobs/4479105009?utm_source=targetjobs&utm_medium=targetjobs_platform&utm_campaign=targetjobs_open&utm_content=930646471",
-      "https://job-boards.greenhouse.io/hasbro/jobs/4479105009"
+      "https://www.adzuna.co.uk/jobs/details/5955456777"
     ],
-    "application_method": "Apply on the employer site linked from targetjobs",
+    "application_method": null,
     "application_url": "https://www.adzuna.co.uk/jobs/details/5955456777",
     "approved_organisation": true,
     "canonical_employer": "Hasbro",
@@ -2404,12 +2401,6 @@
         "source_url": "https://www.adzuna.co.uk/jobs/details/5955456777?utm_medium=api&utm_source=40669807",
         "structured_field": null,
         "text": "Eligibility is plausible but must be verified on the employer's application page"
-      },
-      {
-        "rule_id": "source.discovery_only",
-        "source_url": "https://targetjobs.co.uk/jobs/2027-summer-internships-commercial-259179",
-        "structured_field": null,
-        "text": "Eligibility is plausible but must be verified on the employer's application page"
       }
     ],
     "eligibility_rule_ids": [
@@ -2419,12 +2410,12 @@
     "email_approved": false,
     "employer_alias": null,
     "employer_quality_tier": "approved",
-    "first_seen_at": "2026-11-20T11:50:52.405684Z",
+    "first_seen_at": "2026-11-21T02:23:28.655773Z",
     "geographic_exception_reason": null,
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "99c3a182e04ecbb2",
-    "last_seen_at": "2026-11-20T20:31:26.242374Z",
+    "last_seen_at": "2026-11-21T02:23:28.655773Z",
     "listing_publisher": "Adzuna",
     "location": "London, UK",
     "location_type": "onsite",
@@ -2460,9 +2451,7 @@
     "relevance_status": "borderline_relevance",
     "residency_requirements": [],
     "salary": "£33,435",
-    "secondary_tags": [
-      "Business Development"
-    ],
+    "secondary_tags": [],
     "source_authority": "discovery_only_source",
     "source_health_at_last_check": "degraded",
     "source_identifier": "5955456777",
@@ -2475,12 +2464,9 @@
   {
     "all_source_urls": [
       "https://www.adzuna.co.uk/jobs/details/5955441712?utm_medium=api&utm_source=40669807",
-      "https://www.adzuna.co.uk/jobs/details/5955441712",
-      "https://targetjobs.co.uk/jobs/2027-summer-internships-finance-259091",
-      "https://job-boards.greenhouse.io/hasbro/jobs/4476505009?utm_source=targetjobs&utm_medium=targetjobs_platform&utm_campaign=targetjobs_open&utm_content=926626535",
-      "https://job-boards.greenhouse.io/hasbro/jobs/4476505009"
+      "https://www.adzuna.co.uk/jobs/details/5955441712"
     ],
-    "application_method": "Apply on the employer site linked from targetjobs",
+    "application_method": null,
     "application_url": "https://www.adzuna.co.uk/jobs/details/5955441712",
     "approved_organisation": true,
     "canonical_employer": "Hasbro",
@@ -2502,12 +2488,6 @@
         "source_url": "https://www.adzuna.co.uk/jobs/details/5955441712?utm_medium=api&utm_source=40669807",
         "structured_field": null,
         "text": "Eligibility is plausible but must be verified on the employer's application page"
-      },
-      {
-        "rule_id": "source.discovery_only",
-        "source_url": "https://targetjobs.co.uk/jobs/2027-summer-internships-finance-259091",
-        "structured_field": null,
-        "text": "Eligibility is plausible but must be verified on the employer's application page"
       }
     ],
     "eligibility_rule_ids": [
@@ -2517,12 +2497,12 @@
     "email_approved": false,
     "employer_alias": null,
     "employer_quality_tier": "approved",
-    "first_seen_at": "2026-11-20T11:50:52.405684Z",
+    "first_seen_at": "2026-11-21T02:23:28.655773Z",
     "geographic_exception_reason": null,
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "ce74dea571c6a27f",
-    "last_seen_at": "2026-11-20T20:31:26.242374Z",
+    "last_seen_at": "2026-11-21T02:23:28.655773Z",
     "listing_publisher": "Adzuna",
     "location": "London, UK",
     "location_type": "onsite",
@@ -2558,10 +2538,7 @@
     "relevance_status": "borderline_relevance",
     "residency_requirements": [],
     "salary": "£35,047",
-    "secondary_tags": [
-      "Investment Banking",
-      "Compliance and Financial Crime"
-    ],
+    "secondary_tags": [],
     "source_authority": "discovery_only_source",
     "source_health_at_last_check": "degraded",
     "source_identifier": "5955441712",
@@ -2574,12 +2551,9 @@
   {
     "all_source_urls": [
       "https://www.adzuna.co.uk/jobs/details/5955436253?utm_medium=api&utm_source=40669807",
-      "https://www.adzuna.co.uk/jobs/details/5955436253",
-      "https://targetjobs.co.uk/jobs/2027-summer-internships-marketing-259089",
-      "https://job-boards.greenhouse.io/hasbro/jobs/4476558009?utm_source=targetjobs&utm_medium=targetjobs_platform&utm_campaign=targetjobs_open&utm_content=926626533",
-      "https://job-boards.greenhouse.io/hasbro/jobs/4476558009"
+      "https://www.adzuna.co.uk/jobs/details/5955436253"
     ],
-    "application_method": "Apply on the employer site linked from targetjobs",
+    "application_method": null,
     "application_url": "https://www.adzuna.co.uk/jobs/details/5955436253",
     "approved_organisation": true,
     "canonical_employer": "Hasbro",
@@ -2601,12 +2575,6 @@
         "source_url": "https://www.adzuna.co.uk/jobs/details/5955436253?utm_medium=api&utm_source=40669807",
         "structured_field": null,
         "text": "Eligibility is plausible but must be verified on the employer's application page"
-      },
-      {
-        "rule_id": "source.discovery_only",
-        "source_url": "https://targetjobs.co.uk/jobs/2027-summer-internships-marketing-259089",
-        "structured_field": null,
-        "text": "Eligibility is plausible but must be verified on the employer's application page"
       }
     ],
     "eligibility_rule_ids": [
@@ -2616,12 +2584,12 @@
     "email_approved": false,
     "employer_alias": null,
     "employer_quality_tier": "approved",
-    "first_seen_at": "2026-11-20T11:50:52.405684Z",
+    "first_seen_at": "2026-11-21T02:23:28.655773Z",
     "geographic_exception_reason": null,
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "79b5470995997397",
-    "last_seen_at": "2026-11-20T20:31:26.242374Z",
+    "last_seen_at": "2026-11-21T02:23:28.655773Z",
     "listing_publisher": "Adzuna",
     "location": "London, UK",
     "location_type": "onsite",
@@ -3353,12 +3321,12 @@
     "email_approved": false,
     "employer_alias": null,
     "employer_quality_tier": "approved",
-    "first_seen_at": "2026-11-20T11:50:52.405684Z",
+    "first_seen_at": "2026-11-21T02:23:28.655773Z",
     "geographic_exception_reason": null,
     "geographic_scope": "london",
     "graduation_year_restrictions": [],
     "id": "17896de9c39dad58",
-    "last_seen_at": "2026-11-20T11:50:52.405684Z",
+    "last_seen_at": "2026-11-21T02:23:28.655773Z",
     "listing_publisher": "Adzuna",
     "location": "London, UK",
     "location_type": "onsite",
